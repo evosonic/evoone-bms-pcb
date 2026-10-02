@@ -685,7 +685,7 @@
       },
       {
         "netclass": "PWR 20A",
-        "pattern": "DCBMS"
+        "pattern": "/DCBMS"
       },
       {
         "netclass": "PWR 15A",
@@ -697,15 +697,15 @@
       },
       {
         "netclass": "PWR 10A",
-        "pattern": "POS2"
+        "pattern": "/POS2"
       },
       {
         "netclass": "PWR 10A",
-        "pattern": "POS1"
+        "pattern": "/POS1"
       },
       {
         "netclass": "PWR 10A",
-        "pattern": "OUTSBC"
+        "pattern": "/OUTSBC"
       },
       {
         "netclass": "PWR 10A",
@@ -717,11 +717,11 @@
       },
       {
         "netclass": "PWR 10A",
-        "pattern": "GDINPUT"
+        "pattern": "/GDINPUT"
       },
       {
         "netclass": "PWR 10A",
-        "pattern": "DCINPUT"
+        "pattern": "/DCINPUT"
       },
       {
         "netclass": "PWR 10A",
@@ -729,11 +729,11 @@
       },
       {
         "netclass": "PWR 7A",
-        "pattern": "OUTEXT"
+        "pattern": "/OUTEXT"
       },
       {
         "netclass": "PWR 7A",
-        "pattern": "OUTDAQ"
+        "pattern": "/OUTDAQ"
       },
       {
         "netclass": "PWR 7A",
@@ -757,15 +757,15 @@
       },
       {
         "netclass": "PWR 5A",
-        "pattern": "DCSENSED"
+        "pattern": "/DCSENSED"
       },
       {
         "netclass": "PWR 5A",
-        "pattern": "DCCHARGER"
+        "pattern": "/DCCHARGER"
       },
       {
         "netclass": "PWR 3A",
-        "pattern": "DCBMS"
+        "pattern": "/DCBMS"
       },
       {
         "netclass": "PWR 3A",
@@ -781,23 +781,23 @@
       },
       {
         "netclass": "PWR 12A",
-        "pattern": "DCSENSED"
+        "pattern": "/DCSENSED"
       },
       {
         "netclass": "PWR 12A",
-        "pattern": "DCPATH"
+        "pattern": "/DCPATH"
       },
       {
         "netclass": "PWR 12A",
-        "pattern": "DCFILTERED"
+        "pattern": "/DCFILTERED"
       },
       {
         "netclass": "PWR 12A",
-        "pattern": "DCBMS"
+        "pattern": "/DCBMS"
       },
       {
         "netclass": "PWR 12A",
-        "pattern": "DCINPUT"
+        "pattern": "/DCINPUT"
       },
       {
         "netclass": "PWR 12A",
