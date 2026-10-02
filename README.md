@@ -98,8 +98,16 @@ fitted (lower right of S06):
 | MODE (7) | R86 to GND: power-save mode (W16 review) | R87 back to VCC2/ILIMCOMP: forced PWM, as built before |
 | BIAS (40) | R88 to DCBMS, as built before | R89 to +12V, still under review |
 
-These links aren't on the board yet: run Update PCB from Schematic, then
-place and route R86–R89.
+Overvoltage lockout on the load switches U6, U7 and U9 (TPS22811, S07): a 1 MΩ
+0.1% resistor (R90, R91, R92) from +12V to nEN/OVLO (pin 2), with the
+existing pull-downs R51, R52 and R70 changed from 100K 1% to 102K 0.1%. Each
+switch turns off above 12.96 V (12.70–13.22 V over the ±2% pin threshold) and
+turns back on below about 11.8 V. To revert, leave R90–R92 unfitted.
+Undervoltage lockout (11.4 V) is deferred: EN/UVLO (pin 1) is also the MCU
+enable, and a tight threshold there needs a FET.
+
+These parts aren't on the board yet: run Update PCB from Schematic, then
+place and route R86–R92.
 
 Still to confirm against what was fitted: C2 (100 µF on the schematic,
 82 µF `35SVPF82M` ordered) and C47 (4.7 nF on the schematic, 1.8 nF ordered).
