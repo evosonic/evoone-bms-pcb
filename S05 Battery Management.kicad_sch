@@ -6445,10 +6445,9 @@
 		)
 		(uuid "fe4b3594-6da6-4344-855d-c4a6d8d925f3")
 	)
-	(global_label "DCPATH"
+	(hierarchical_label "DCPATH"
 		(shape passive)
 		(at 245.11 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6456,21 +6455,10 @@
 			(justify left)
 		)
 		(uuid "0f2b265a-d43f-4831-8a95-8c638e8c074e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "CLOCK2"
+	(hierarchical_label "CLOCK2"
 		(shape passive)
 		(at 232.41 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6478,21 +6466,10 @@
 			(justify right)
 		)
 		(uuid "0ff4a797-eaa8-415b-bff6-15ce9515088b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SCL2"
+	(hierarchical_label "SCL2"
 		(shape passive)
 		(at 361.95 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6500,21 +6477,10 @@
 			(justify left)
 		)
 		(uuid "213135a5-0850-4655-9d9d-6cf2e86bcf23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.95 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DSDA1"
+	(hierarchical_label "DSDA1"
 		(shape passive)
 		(at 361.95 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6522,21 +6488,10 @@
 			(justify left)
 		)
 		(uuid "2ec927f3-05cc-4c09-9056-2e6747885679")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SAFE2"
+	(hierarchical_label "SAFE2"
 		(shape passive)
 		(at 359.41 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6544,21 +6499,10 @@
 			(justify left)
 		)
 		(uuid "30a21a27-a77c-4f87-b70c-bfee0e43bb13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.41 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "POS1"
+	(hierarchical_label "POS1"
 		(shape passive)
 		(at 26.67 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6566,21 +6510,10 @@
 			(justify right)
 		)
 		(uuid "4373f199-6f82-4c37-a37d-6e0314bd33fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCPATH"
+	(hierarchical_label "DCPATH"
 		(shape passive)
 		(at 246.38 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6588,21 +6521,10 @@
 			(justify left)
 		)
 		(uuid "5a100e61-9495-4b7c-be97-faecd344ddb7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCCHARGER"
+	(hierarchical_label "DCCHARGER"
 		(shape passive)
 		(at 27.94 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6610,21 +6532,10 @@
 			(justify right)
 		)
 		(uuid "5fa1c37d-3efd-48e6-997b-607076f609f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SAFE1"
+	(hierarchical_label "SAFE1"
 		(shape passive)
 		(at 232.41 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6632,21 +6543,10 @@
 			(justify right)
 		)
 		(uuid "74cc07eb-7c71-4c45-b535-93b542922044")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SAFE1"
+	(hierarchical_label "SAFE1"
 		(shape passive)
 		(at 359.41 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6654,21 +6554,10 @@
 			(justify left)
 		)
 		(uuid "80505357-573b-40db-8dba-be0088fda080")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCCHARGER"
+	(hierarchical_label "DCCHARGER"
 		(shape passive)
 		(at 26.67 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6676,21 +6565,10 @@
 			(justify right)
 		)
 		(uuid "ad310265-421b-4dfd-8c83-3c87e1b17233")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.67 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SAFE2"
+	(hierarchical_label "SAFE2"
 		(shape passive)
 		(at 232.41 184.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6698,21 +6576,10 @@
 			(justify right)
 		)
 		(uuid "aedb5e51-06e2-4070-a06c-5c18154d4dcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SCL1"
+	(hierarchical_label "SCL1"
 		(shape passive)
 		(at 361.95 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6720,21 +6587,10 @@
 			(justify left)
 		)
 		(uuid "b75096d6-c156-46d8-ab1b-fe6defa8a2c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "POS2"
+	(hierarchical_label "POS2"
 		(shape passive)
 		(at 26.67 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6742,21 +6598,10 @@
 			(justify right)
 		)
 		(uuid "bc68a402-3d88-4abf-a92e-c4b4f064ef49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.67 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DSDA2"
+	(hierarchical_label "DSDA2"
 		(shape passive)
 		(at 361.95 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6764,21 +6609,10 @@
 			(justify left)
 		)
 		(uuid "cc7d8374-f46c-43eb-a9e3-10f9c10cf2f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.95 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "CLOCK1"
+	(hierarchical_label "CLOCK1"
 		(shape passive)
 		(at 232.41 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6786,21 +6620,10 @@
 			(justify right)
 		)
 		(uuid "d8aaee3e-5018-4e7d-a315-6984d73d914c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DATA2"
+	(hierarchical_label "DATA2"
 		(shape passive)
 		(at 232.41 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6808,21 +6631,10 @@
 			(justify right)
 		)
 		(uuid "efcc666c-5b2a-47b2-a65c-ea099f058e7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DATA1"
+	(hierarchical_label "DATA1"
 		(shape passive)
 		(at 232.41 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6830,16 +6642,6 @@
 			(justify right)
 		)
 		(uuid "ffd0fae5-3ef3-46ae-b8f4-297860fa460e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Lattech Systems:Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8")

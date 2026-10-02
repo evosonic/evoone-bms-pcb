@@ -6864,10 +6864,9 @@
 		)
 		(uuid "ffd1c155-688d-4263-8839-8b08002d54a1")
 	)
-	(global_label "OUTSBC"
+	(hierarchical_label "OUTSBC"
 		(shape passive)
 		(at 194.31 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6875,21 +6874,10 @@
 			(justify left)
 		)
 		(uuid "02aa0a52-a87a-4e8a-b6d9-fc0a39d89854")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "OUTEXT"
+	(hierarchical_label "OUTEXT"
 		(shape passive)
 		(at 363.22 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6897,21 +6885,10 @@
 			(justify left)
 		)
 		(uuid "12eb0e87-f35e-4f6a-8d7b-9a31b27f863f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.22 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "IAMPEXT"
+	(hierarchical_label "IAMPEXT"
 		(shape passive)
 		(at 356.87 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6919,21 +6896,10 @@
 			(justify left)
 		)
 		(uuid "184905de-b037-4de6-8810-16dbca9ddb33")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.87 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "IAMPDAQ"
+	(hierarchical_label "IAMPDAQ"
 		(shape passive)
 		(at 185.42 247.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6941,21 +6907,10 @@
 			(justify left)
 		)
 		(uuid "5cffeb96-f0ea-4e1e-906b-6cda407e45c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "IAMPSBC"
+	(hierarchical_label "IAMPSBC"
 		(shape passive)
 		(at 187.96 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6963,21 +6918,10 @@
 			(justify left)
 		)
 		(uuid "610c8eca-9411-4db7-b4ec-07a7e0f52725")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "ENDAQ"
+	(hierarchical_label "ENDAQ"
 		(shape passive)
 		(at 38.1 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6985,21 +6929,10 @@
 			(justify right)
 		)
 		(uuid "67122d37-ad8c-463f-bd14-69367a3db060")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "OUTDAQ"
+	(hierarchical_label "OUTDAQ"
 		(shape passive)
 		(at 194.31 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7007,21 +6940,10 @@
 			(justify left)
 		)
 		(uuid "aad41e18-a457-4c3b-aebc-dd5e0626b553")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "IAMPREG"
+	(hierarchical_label "IAMPREG"
 		(shape passive)
 		(at 342.9 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7029,21 +6951,10 @@
 			(justify left)
 		)
 		(uuid "d76fddd2-7408-4aad-b7b2-0cb7ad9b118c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.9 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "ENEXT"
+	(hierarchical_label "ENEXT"
 		(shape passive)
 		(at 209.55 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7051,21 +6962,10 @@
 			(justify right)
 		)
 		(uuid "e36ef7a5-09d8-4e0e-9336-fc9c1883ad3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.55 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "ENSBC"
+	(hierarchical_label "ENSBC"
 		(shape passive)
 		(at 40.64 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7073,21 +6973,10 @@
 			(justify right)
 		)
 		(uuid "e497a7dd-9f91-436e-881f-0840133358cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "CDC"
+	(hierarchical_label "CDC"
 		(shape passive)
 		(at 251.46 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7095,16 +6984,6 @@
 			(justify right)
 		)
 		(uuid "e5a4048a-efd9-42ab-9bbb-afd791a1733d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.46 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Lattech Systems:IC TLV9002IDSG Op-Amp WSON-8")

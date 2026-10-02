@@ -35,8 +35,11 @@ one sheet symbol per sheet, and each sheet is its own file. Open it from
 The LTC1960 dual battery charger/selector is a single IC (U1) split across
 sheets S03–S05.
 
-Nets that cross sheets use global labels; labels used on only one sheet are
-local.
+Nets that cross sheets leave each sheet through a hierarchical label and a
+pin on its sheet symbol. On the root sheet, each pin carries a global label
+with the net name, so net names (and the net classes and board nets that
+use them) don't take a sheet-path prefix. Labels used on only one sheet are
+local, and power nets use power symbols.
 
 ## Connectors
 

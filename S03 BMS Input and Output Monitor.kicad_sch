@@ -7341,10 +7341,9 @@
 		)
 		(uuid "ff4596cf-4e3b-4fb7-975d-7a464715a7b3")
 	)
-	(global_label "DCSENSED"
+	(hierarchical_label "DCSENSED"
 		(shape passive)
 		(at 342.9 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7352,21 +7351,10 @@
 			(justify left)
 		)
 		(uuid "052f0262-9405-40d1-8706-aae930404382")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "CLOCK"
+	(hierarchical_label "CLOCK"
 		(shape passive)
 		(at 81.28 217.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7374,21 +7362,10 @@
 			(justify right)
 		)
 		(uuid "06dba28e-1664-458f-9c7f-7d4c8847e047")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "nCS"
+	(hierarchical_label "nCS"
 		(shape passive)
 		(at 81.28 220.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7396,21 +7373,10 @@
 			(justify right)
 		)
 		(uuid "1534e574-e031-4c5a-a0d2-0e23f01b9580")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "MISO"
+	(hierarchical_label "MISO"
 		(shape passive)
 		(at 81.28 210.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7418,21 +7384,10 @@
 			(justify right)
 		)
 		(uuid "2f3f2243-39fd-4828-9554-ab1eaf33e37c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCFILTERED"
+	(hierarchical_label "DCFILTERED"
 		(shape passive)
 		(at 55.88 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7440,21 +7395,10 @@
 			(justify right)
 		)
 		(uuid "33d813e2-72e0-45d8-ab91-a0bcf59d8086")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCBMS"
+	(hierarchical_label "DCBMS"
 		(shape passive)
 		(at 304.8 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7462,21 +7406,10 @@
 			(justify left)
 		)
 		(uuid "4f80e511-aaab-4b74-9fd7-e64a8566fa14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCPATH"
+	(hierarchical_label "DCPATH"
 		(shape passive)
 		(at 81.28 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7484,21 +7417,10 @@
 			(justify right)
 		)
 		(uuid "b15deaba-454a-463b-89e8-8945895fa6c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCPATH"
+	(hierarchical_label "DCPATH"
 		(shape passive)
 		(at 342.9 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7506,21 +7428,10 @@
 			(justify left)
 		)
 		(uuid "bd8313e8-afcb-4686-8fe5-4a8fe2ede3b5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "MOSI"
+	(hierarchical_label "MOSI"
 		(shape passive)
 		(at 81.28 207.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7528,16 +7439,6 @@
 			(justify right)
 		)
 		(uuid "f37dd6a9-631d-49b1-8b81-a12f04267148")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")

@@ -6557,10 +6557,9 @@
 		)
 		(uuid "fffe3903-7397-4596-b14e-1001627cad53")
 	)
-	(global_label "ENEXT"
+	(hierarchical_label "ENEXT"
 		(shape passive)
 		(at 248.92 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6568,16 +6567,6 @@
 			(justify left)
 		)
 		(uuid "05c4fe77-00f5-457b-982b-aa38bc592d1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "REGTEMP"
 		(at 247.65 147.32 180)
@@ -6589,10 +6578,9 @@
 		)
 		(uuid "0662b430-4d5b-4a59-bdf4-d9e551461c1c")
 	)
-	(global_label "OUTSBC"
+	(hierarchical_label "OUTSBC"
 		(shape passive)
 		(at 284.48 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6600,21 +6588,10 @@
 			(justify right)
 		)
 		(uuid "07315fb3-aa7a-4d9b-acb7-c9c3454ebd75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "CLOCK2"
+	(hierarchical_label "CLOCK2"
 		(shape passive)
 		(at 114.3 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6622,21 +6599,10 @@
 			(justify left)
 		)
 		(uuid "08e2b485-6d74-4c9b-8173-1ff66fafe443")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "OUTDAQ"
+	(hierarchical_label "OUTDAQ"
 		(shape passive)
 		(at 289.56 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6644,21 +6610,10 @@
 			(justify right)
 		)
 		(uuid "19ae0597-69dc-4be9-acb8-63c47cf2ad28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DATA2"
+	(hierarchical_label "DATA2"
 		(shape passive)
 		(at 114.3 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6666,21 +6621,10 @@
 			(justify left)
 		)
 		(uuid "2af55d79-7f46-418f-b479-9b82ae45a684")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SCL1"
+	(hierarchical_label "SCL1"
 		(shape passive)
 		(at 147.32 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6688,21 +6632,10 @@
 			(justify right)
 		)
 		(uuid "3bc9523a-d332-4af5-9d7b-c1458ed48699")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "IAMPREG"
+	(hierarchical_label "IAMPREG"
 		(shape passive)
 		(at 147.32 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6710,21 +6643,10 @@
 			(justify right)
 		)
 		(uuid "3d281df1-9829-49cc-b850-7395282dad5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SCL2"
+	(hierarchical_label "SCL2"
 		(shape passive)
 		(at 147.32 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6732,21 +6654,10 @@
 			(justify right)
 		)
 		(uuid "421e41d4-694d-4cb5-bfe8-4206a37d8bb7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "nCS"
+	(hierarchical_label "nCS"
 		(shape passive)
 		(at 248.92 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6754,21 +6665,10 @@
 			(justify left)
 		)
 		(uuid "4a12090a-179f-44cc-b27d-411e34a9d4e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCBMS"
+	(hierarchical_label "DCBMS"
 		(shape passive)
 		(at 248.92 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6776,21 +6676,10 @@
 			(justify left)
 		)
 		(uuid "4af41eee-e551-4b8e-98d6-fa54d577b8e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "REGEN"
+	(hierarchical_label "REGEN"
 		(shape passive)
 		(at 248.92 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6798,21 +6687,10 @@
 			(justify left)
 		)
 		(uuid "4ba34c75-5445-4aae-857b-bb784b405667")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "IAMPSBC"
+	(hierarchical_label "IAMPSBC"
 		(shape passive)
 		(at 147.32 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6820,21 +6698,10 @@
 			(justify right)
 		)
 		(uuid "4cec8b34-22f7-4486-893e-d4ee65075e0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "OUTEXT"
+	(hierarchical_label "OUTEXT"
 		(shape passive)
 		(at 289.56 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6842,21 +6709,10 @@
 			(justify right)
 		)
 		(uuid "575892f6-5d5a-4248-ad68-c09dee4dd79d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "CLOCK1"
+	(hierarchical_label "CLOCK1"
 		(shape passive)
 		(at 55.88 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6864,16 +6720,6 @@
 			(justify right)
 		)
 		(uuid "5d6af871-7f98-4bb2-a6ff-1cc40c1de7d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(label "BMSTEMP"
 		(at 247.65 139.7 180)
@@ -6885,10 +6731,9 @@
 		)
 		(uuid "5fc209f1-08e2-4de1-9300-9e79d25bfb12")
 	)
-	(global_label "IAMPDAQ"
+	(hierarchical_label "IAMPDAQ"
 		(shape passive)
 		(at 147.32 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6896,21 +6741,10 @@
 			(justify right)
 		)
 		(uuid "6bb80ad0-d848-453d-becb-b2cb598badb6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "MOSI"
+	(hierarchical_label "MOSI"
 		(shape passive)
 		(at 248.92 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6918,21 +6752,10 @@
 			(justify left)
 		)
 		(uuid "75ca5efe-8b06-40a5-b02b-cf726f0b99ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "ENDAQ"
+	(hierarchical_label "ENDAQ"
 		(shape passive)
 		(at 248.92 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6940,21 +6763,10 @@
 			(justify left)
 		)
 		(uuid "76d54816-8208-43fe-b175-afd02ffdb3b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DSDA2"
+	(hierarchical_label "DSDA2"
 		(shape passive)
 		(at 147.32 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6962,21 +6774,10 @@
 			(justify right)
 		)
 		(uuid "99b823f6-d1e2-41b4-806d-5cdecb9fcf2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "ENSBC"
+	(hierarchical_label "ENSBC"
 		(shape passive)
 		(at 248.92 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6984,21 +6785,10 @@
 			(justify left)
 		)
 		(uuid "a1018684-eeb2-48d1-83d8-db57aea919f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SAFE1"
+	(hierarchical_label "SAFE1"
 		(shape passive)
 		(at 55.88 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7006,21 +6796,10 @@
 			(justify right)
 		)
 		(uuid "a3f32831-0590-449d-b7e7-5d04920ae0e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "GDINPUT"
+	(hierarchical_label "GDINPUT"
 		(shape passive)
 		(at 121.92 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7028,21 +6807,10 @@
 			(justify left)
 		)
 		(uuid "a8eb47bd-74ed-40a8-91c0-b3ef24b5bddf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DATA1"
+	(hierarchical_label "DATA1"
 		(shape passive)
 		(at 55.88 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7050,21 +6818,10 @@
 			(justify right)
 		)
 		(uuid "ab06f61a-4df6-4a90-8da8-280907e02bf3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "CLOCK"
+	(hierarchical_label "CLOCK"
 		(shape passive)
 		(at 248.92 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7072,21 +6829,10 @@
 			(justify left)
 		)
 		(uuid "ad54737a-7ac5-4b3e-a5e0-4dccce1143f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SAFE2"
+	(hierarchical_label "SAFE2"
 		(shape passive)
 		(at 147.32 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7094,21 +6840,10 @@
 			(justify right)
 		)
 		(uuid "b74cf0f6-c9b2-42fa-87be-e2abad73e4e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "MISO"
+	(hierarchical_label "MISO"
 		(shape passive)
 		(at 248.92 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7116,21 +6851,10 @@
 			(justify left)
 		)
 		(uuid "ca740f4b-8569-4174-b5d1-563a17dd3f7a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SAFE2"
+	(hierarchical_label "SAFE2"
 		(shape passive)
 		(at 114.3 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7138,21 +6862,10 @@
 			(justify left)
 		)
 		(uuid "d7fb1790-0678-48a2-afad-82d92e1a2322")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DSDA1"
+	(hierarchical_label "DSDA1"
 		(shape passive)
 		(at 147.32 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7160,21 +6873,10 @@
 			(justify right)
 		)
 		(uuid "d9052ed2-bc3d-408e-9366-50958b140870")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "POS1"
+	(hierarchical_label "POS1"
 		(shape passive)
 		(at 114.3 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7182,16 +6884,6 @@
 			(justify left)
 		)
 		(uuid "ebab87c8-d424-4b8e-8fff-7328ab5037b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ID"
 		(at 247.65 166.37 180)
@@ -7203,10 +6895,9 @@
 		)
 		(uuid "ec885b50-90a3-41a1-a748-118239f795c4")
 	)
-	(global_label "POS2"
+	(hierarchical_label "POS2"
 		(shape passive)
 		(at 114.3 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7214,21 +6905,10 @@
 			(justify left)
 		)
 		(uuid "ee302d2e-3f5c-4cf6-ad52-9c5212ce0b78")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "SAFE1"
+	(hierarchical_label "SAFE1"
 		(shape passive)
 		(at 147.32 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7236,21 +6916,10 @@
 			(justify right)
 		)
 		(uuid "f55442c5-6837-46b6-a4cd-7f202bcfab1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCINPUT"
+	(hierarchical_label "DCINPUT"
 		(shape passive)
 		(at 121.92 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7258,21 +6927,10 @@
 			(justify left)
 		)
 		(uuid "fb85fd3e-8598-4cd6-8c47-447014f34437")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "IAMPEXT"
+	(hierarchical_label "IAMPEXT"
 		(shape passive)
 		(at 147.32 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7280,16 +6938,6 @@
 			(justify right)
 		)
 		(uuid "fc49d6f3-c510-4916-a0ad-38db2d35e102")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")

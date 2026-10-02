@@ -6578,10 +6578,9 @@
 		)
 		(uuid "fce2b908-cf70-451f-8d19-97fa48a17f93")
 	)
-	(global_label "DCCHARGER"
+	(hierarchical_label "DCCHARGER"
 		(shape passive)
 		(at 334.01 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6589,21 +6588,10 @@
 			(justify left)
 		)
 		(uuid "8c61606f-19d0-452f-b20e-a03d1f878307")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
-	(global_label "DCSENSED"
+	(hierarchical_label "DCSENSED"
 		(shape passive)
 		(at 53.34 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6611,16 +6599,6 @@
 			(justify right)
 		)
 		(uuid "9089f9fd-1460-40db-9e7f-ee8b65b2b2bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
