@@ -11413,7 +11413,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 222.25 166.1922 90)
 			(hide yes)
 			(show_name no)
@@ -11586,7 +11586,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "IAUCN04S7L028"
 			(at 172.72 82.3722 0)
 			(hide yes)
 			(show_name no)
@@ -11829,7 +11829,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "0.68uH"
 			(at 215.9 73.4822 0)
 			(hide yes)
 			(show_name no)
@@ -11981,7 +11981,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "470pF"
 			(at 224.79 91.2622 90)
 			(hide yes)
 			(show_name no)
@@ -12155,7 +12155,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "22uF"
 			(at 86.36 147.1422 0)
 			(hide yes)
 			(show_name no)
@@ -12330,7 +12330,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "NEQ"
 			(at 202.946 72.4662 0)
 			(hide yes)
 			(show_name no)
@@ -12482,7 +12482,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "22uF"
 			(at 97.79 150.9522 0)
 			(hide yes)
 			(show_name no)
@@ -12656,7 +12656,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "75K"
 			(at 76.454 127.5842 90)
 			(hide yes)
 			(show_name no)
@@ -12808,7 +12808,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "180pF"
 			(at 87.63 210.1342 90)
 			(hide yes)
 			(show_name no)
@@ -12982,7 +12982,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.22K"
 			(at 78.994 222.8342 90)
 			(hide yes)
 			(show_name no)
@@ -13134,7 +13134,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "27K"
 			(at 122.174 210.1342 90)
 			(hide yes)
 			(show_name no)
@@ -13286,7 +13286,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10uF"
 			(at 72.39 65.3542 90)
 			(hide yes)
 			(show_name no)
@@ -13459,7 +13459,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "LM51772RHAR"
 			(at 180.34 130.6322 0)
 			(hide yes)
 			(show_name no)
@@ -13727,7 +13727,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "0.005R"
 			(at 356.362 58.4962 0)
 			(hide yes)
 			(show_name no)
@@ -13879,7 +13879,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "68nF"
 			(at 77.47 216.9922 90)
 			(hide yes)
 			(show_name no)
@@ -14053,7 +14053,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "61.9K"
 			(at 108.204 65.3542 90)
 			(hide yes)
 			(show_name no)
@@ -14205,7 +14205,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10R"
 			(at 203.454 86.9442 90)
 			(hide yes)
 			(show_name no)
@@ -14431,7 +14431,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "IAUCN04S7L019"
 			(at 237.49 83.6422 0)
 			(hide yes)
 			(show_name no)
@@ -14674,7 +14674,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 139.446 179.1462 0)
 			(hide yes)
 			(show_name no)
@@ -14825,7 +14825,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "2.2R"
 			(at 181.864 74.2442 90)
 			(hide yes)
 			(show_name no)
@@ -14977,7 +14977,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "5.1K"
 			(at 61.214 210.1342 90)
 			(hide yes)
 			(show_name no)
@@ -15129,7 +15129,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 106.172 154.7622 0)
 			(hide yes)
 			(show_name no)
@@ -15451,7 +15451,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "62K"
 			(at 289.814 62.8142 90)
 			(hide yes)
 			(show_name no)
@@ -15603,7 +15603,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "470pF"
 			(at 180.34 91.2622 90)
 			(hide yes)
 			(show_name no)
@@ -15777,7 +15777,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "180uF"
 			(at 331.47 66.6242 90)
 			(hide yes)
 			(show_name no)
@@ -15951,7 +15951,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "2.2R"
 			(at 226.314 74.2442 90)
 			(hide yes)
 			(show_name no)
@@ -16103,7 +16103,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "IAUCN04S7L019"
 			(at 147.32 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -16272,7 +16272,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "5.62K"
 			(at 289.814 80.5942 90)
 			(hide yes)
 			(show_name no)
@@ -16424,7 +16424,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "13K"
 			(at 76.454 141.5542 90)
 			(hide yes)
 			(show_name no)
@@ -16650,7 +16650,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1.9K"
 			(at 51.054 210.1342 90)
 			(hide yes)
 			(show_name no)
@@ -16802,7 +16802,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10R"
 			(at 195.834 86.9442 90)
 			(hide yes)
 			(show_name no)
@@ -16954,7 +16954,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "180uF"
 			(at 302.26 66.6242 90)
 			(hide yes)
 			(show_name no)
@@ -17128,7 +17128,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "180uF"
 			(at 316.23 66.6242 90)
 			(hide yes)
 			(show_name no)
@@ -17302,7 +17302,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "22uF"
 			(at 345.44 66.6242 90)
 			(hide yes)
 			(show_name no)
@@ -17476,7 +17476,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "120uF"
 			(at 88.9 65.3542 90)
 			(hide yes)
 			(show_name no)
@@ -17649,7 +17649,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "CSD17304Q3"
 			(at 262.89 46.8122 0)
 			(hide yes)
 			(show_name no)
@@ -17818,7 +17818,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 222.25 181.4322 90)
 			(hide yes)
 			(show_name no)
@@ -17992,7 +17992,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "NEQ"
 			(at 356.362 53.4162 0)
 			(hide yes)
 			(show_name no)
@@ -18218,7 +18218,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "2.7K"
 			(at 105.664 210.1342 90)
 			(hide yes)
 			(show_name no)
@@ -18370,7 +18370,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "0.0015R"
 			(at 202.946 77.5462 0)
 			(hide yes)
 			(show_name no)
@@ -18522,7 +18522,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "5.62K"
 			(at 108.204 79.3242 90)
 			(hide yes)
 			(show_name no)
@@ -18674,7 +18674,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "40.2K"
 			(at 70.104 210.1342 90)
 			(hide yes)
 			(show_name no)
@@ -18826,7 +18826,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "15nF"
 			(at 96.52 210.1342 90)
 			(hide yes)
 			(show_name no)
@@ -19000,7 +19000,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "6.49K"
 			(at 113.284 210.1342 90)
 			(hide yes)
 			(show_name no)
@@ -19226,7 +19226,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "110pF"
 			(at 198.12 103.9622 0)
 			(hide yes)
 			(show_name no)

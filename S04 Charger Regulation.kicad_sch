@@ -7195,7 +7195,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100pF"
 			(at 220.98 175.8442 90)
 			(hide yes)
 			(show_name no)
@@ -7591,7 +7591,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100R"
 			(at 246.634 127.5842 90)
 			(hide yes)
 			(show_name no)
@@ -7817,7 +7817,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7uF"
 			(at 148.59 168.2242 90)
 			(hide yes)
 			(show_name no)
@@ -8139,7 +8139,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMT4011LFG"
 			(at 113.03 86.1822 0)
 			(hide yes)
 			(show_name no)
@@ -8385,7 +8385,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7uH"
 			(at 178.562 86.4362 0)
 			(hide yes)
 			(show_name no)
@@ -8537,7 +8537,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10uF"
 			(at 295.91 94.5642 90)
 			(hide yes)
 			(show_name no)
@@ -8711,7 +8711,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10uF"
 			(at 76.2 93.2942 90)
 			(hide yes)
 			(show_name no)
@@ -8959,7 +8959,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1uF"
 			(at 269.24 94.5642 90)
 			(hide yes)
 			(show_name no)
@@ -9207,7 +9207,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 246.38 140.2842 90)
 			(hide yes)
 			(show_name no)
@@ -9381,7 +9381,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMT4011LFG"
 			(at 120.65 120.4722 0)
 			(hide yes)
 			(show_name no)
@@ -9627,7 +9627,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10uF"
 			(at 283.21 94.5642 90)
 			(hide yes)
 			(show_name no)
@@ -9801,7 +9801,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "3.6K"
 			(at 231.394 165.6842 90)
 			(hide yes)
 			(show_name no)
@@ -10026,7 +10026,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "LTC1960"
 			(at 204.47 139.5222 0)
 			(hide yes)
 			(show_name no)
@@ -10288,7 +10288,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "0.015R"
 			(at 232.156 91.5162 0)
 			(hide yes)
 			(show_name no)
@@ -10440,7 +10440,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10uF"
 			(at 308.61 94.5642 90)
 			(hide yes)
 			(show_name no)
@@ -10614,7 +10614,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "220nF"
 			(at 246.38 175.8442 90)
 			(hide yes)
 			(show_name no)
@@ -10863,7 +10863,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 158.75 168.2242 90)
 			(hide yes)
 			(show_name no)
@@ -11111,7 +11111,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "SS0540 40V"
 			(at 142.24 94.5642 90)
 			(hide yes)
 			(show_name no)
@@ -11263,7 +11263,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "220nF"
 			(at 158.75 93.2942 90)
 			(hide yes)
 			(show_name no)
@@ -11437,7 +11437,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10uF"
 			(at 87.63 93.2942 90)
 			(hide yes)
 			(show_name no)
@@ -11611,7 +11611,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 231.14 175.8442 90)
 			(hide yes)
 			(show_name no)
@@ -11859,7 +11859,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "NEQ"
 			(at 232.156 86.4362 0)
 			(hide yes)
 			(show_name no)
@@ -12012,7 +12012,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "RB520SM-40FH"
 			(at 144.272 125.5522 0)
 			(hide yes)
 			(show_name no)
@@ -12165,7 +12165,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 210.82 175.8442 90)
 			(hide yes)
 			(show_name no)

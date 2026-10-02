@@ -8683,7 +8683,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMP3018SFV"
 			(at 168.91 149.6822 0)
 			(hide yes)
 			(show_name no)
@@ -8855,7 +8855,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMT4011LFG"
 			(at 129.54 58.2422 0)
 			(hide yes)
 			(show_name no)
@@ -9026,7 +9026,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DT1240V3-04LP"
 			(at 336.55 170.0022 0)
 			(hide yes)
 			(show_name no)
@@ -9186,7 +9186,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10R"
 			(at 267.716 88.9762 0)
 			(hide yes)
 			(show_name no)
@@ -9337,7 +9337,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DT1240V3-04LP"
 			(at 336.55 74.7522 0)
 			(hide yes)
 			(show_name no)
@@ -9497,7 +9497,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10R"
 			(at 267.716 92.7862 0)
 			(hide yes)
 			(show_name no)
@@ -9797,7 +9797,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10R"
 			(at 267.716 180.4162 0)
 			(hide yes)
 			(show_name no)
@@ -10023,7 +10023,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMT4011LFG"
 			(at 83.82 58.2422 0)
 			(hide yes)
 			(show_name no)
@@ -10195,7 +10195,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMP3018SFV"
 			(at 205.74 58.2422 0)
 			(hide yes)
 			(show_name no)
@@ -10367,7 +10367,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMT4011LFG"
 			(at 128.27 149.6822 0)
 			(hide yes)
 			(show_name no)
@@ -10539,7 +10539,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1K"
 			(at 51.054 108.5342 90)
 			(hide yes)
 			(show_name no)
@@ -10764,7 +10764,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "LTC1960"
 			(at 176.53 88.7222 0)
 			(hide yes)
 			(show_name no)
@@ -11025,7 +11025,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "LTC1960"
 			(at 175.26 180.1622 0)
 			(hide yes)
 			(show_name no)
@@ -11287,7 +11287,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "BAT54A"
 			(at 45.212 119.9642 90)
 			(hide yes)
 			(show_name no)
@@ -11442,7 +11442,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMT4011LFG"
 			(at 82.55 149.6822 0)
 			(hide yes)
 			(show_name no)
@@ -11614,7 +11614,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMP3018SFV"
 			(at 170.18 58.2422 0)
 			(hide yes)
 			(show_name no)
@@ -11860,7 +11860,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMP3018SFV"
 			(at 204.47 149.6822 0)
 			(hide yes)
 			(show_name no)
@@ -12032,7 +12032,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10R"
 			(at 267.716 184.2262 0)
 			(hide yes)
 			(show_name no)

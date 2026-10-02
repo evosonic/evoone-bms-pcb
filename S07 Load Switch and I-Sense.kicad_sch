@@ -7543,7 +7543,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "TLV9002IDSG"
 			(at 320.04 224.6122 0)
 			(hide yes)
 			(show_name no)
@@ -7715,7 +7715,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "B340A"
 			(at 180.34 50.1142 90)
 			(hide yes)
 			(show_name no)
@@ -7941,7 +7941,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "QTLP600C-4"
 			(at 323.85 67.8942 90)
 			(hide yes)
 			(show_name no)
@@ -8092,7 +8092,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7nF"
 			(at 251.46 86.1822 90)
 			(hide yes)
 			(show_name no)
@@ -8413,7 +8413,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "TLV9002IDSG"
 			(at 271.78 224.6122 0)
 			(hide yes)
 			(show_name no)
@@ -8733,7 +8733,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10K"
 			(at 101.854 139.0142 90)
 			(hide yes)
 			(show_name no)
@@ -8886,7 +8886,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 75.184 80.5942 90)
 			(hide yes)
 			(show_name no)
@@ -9037,7 +9037,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "TPS22811"
 			(at 293.37 39.1922 0)
 			(hide yes)
 			(show_name no)
@@ -9212,7 +9212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "QTLP600C-4"
 			(at 152.4 196.1642 90)
 			(hide yes)
 			(show_name no)
@@ -9362,7 +9362,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "TPS22811"
 			(at 124.46 40.4622 0)
 			(hide yes)
 			(show_name no)
@@ -9537,7 +9537,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "B340A"
 			(at 349.25 48.8442 90)
 			(hide yes)
 			(show_name no)
@@ -9689,7 +9689,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 235.204 79.3242 90)
 			(hide yes)
 			(show_name no)
@@ -10063,7 +10063,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1uF"
 			(at 55.88 80.5942 90)
 			(hide yes)
 			(show_name no)
@@ -10312,7 +10312,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 72.644 207.5942 90)
 			(hide yes)
 			(show_name no)
@@ -10464,7 +10464,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "21.5K"
 			(at 120.396 266.7762 0)
 			(hide yes)
 			(show_name no)
@@ -10616,7 +10616,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100R"
 			(at 148.336 251.5362 0)
 			(hide yes)
 			(show_name no)
@@ -10768,7 +10768,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1uF"
 			(at 53.34 207.5942 90)
 			(hide yes)
 			(show_name no)
@@ -10942,7 +10942,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMN65D8LFB-7"
 			(at 323.85 84.9122 0)
 			(hide yes)
 			(show_name no)
@@ -11097,7 +11097,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1K"
 			(at 92.964 139.0142 90)
 			(hide yes)
 			(show_name no)
@@ -11323,7 +11323,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1uF"
 			(at 224.79 79.3242 90)
 			(hide yes)
 			(show_name no)
@@ -11571,7 +11571,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100R"
 			(at 322.326 179.1462 0)
 			(hide yes)
 			(show_name no)
@@ -11723,7 +11723,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10K"
 			(at 270.764 137.7442 90)
 			(hide yes)
 			(show_name no)
@@ -11950,7 +11950,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10K"
 			(at 294.386 194.3862 0)
 			(hide yes)
 			(show_name no)
@@ -12250,7 +12250,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "B340A"
 			(at 177.8 177.1142 90)
 			(hide yes)
 			(show_name no)
@@ -12401,7 +12401,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "TLV9002IDSG"
 			(at 132.08 241.1222 0)
 			(hide yes)
 			(show_name no)
@@ -12573,7 +12573,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100R"
 			(at 150.876 124.5362 0)
 			(hide yes)
 			(show_name no)
@@ -12800,7 +12800,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 244.094 79.3242 90)
 			(hide yes)
 			(show_name no)
@@ -12952,7 +12952,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1M"
 			(at 129.794 48.8442 90)
 			(hide yes)
 			(show_name no)
@@ -13104,7 +13104,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 141.224 186.0042 90)
 			(hide yes)
 			(show_name no)
@@ -13256,7 +13256,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1uF"
 			(at 171.45 50.1142 90)
 			(hide yes)
 			(show_name no)
@@ -13430,7 +13430,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMN65D8LFB-7"
 			(at 154.94 86.1822 0)
 			(hide yes)
 			(show_name no)
@@ -13585,7 +13585,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "2.2K"
 			(at 324.104 57.7342 90)
 			(hide yes)
 			(show_name no)
@@ -13811,7 +13811,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 276.86 230.4542 90)
 			(hide yes)
 			(show_name no)
@@ -13985,7 +13985,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100R"
 			(at 319.786 123.2662 0)
 			(hide yes)
 			(show_name no)
@@ -14137,7 +14137,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "130K"
 			(at 298.704 57.7342 90)
 			(hide yes)
 			(show_name no)
@@ -14363,7 +14363,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10K"
 			(at 99.314 266.0142 90)
 			(hide yes)
 			(show_name no)
@@ -14663,7 +14663,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10uF"
 			(at 354.33 230.4542 90)
 			(hide yes)
 			(show_name no)
@@ -14837,7 +14837,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1K"
 			(at 261.874 137.7442 90)
 			(hide yes)
 			(show_name no)
@@ -14989,7 +14989,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 63.754 207.5942 90)
 			(hide yes)
 			(show_name no)
@@ -15288,7 +15288,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "TLV9002IDSG"
 			(at 134.62 114.1222 0)
 			(hide yes)
 			(show_name no)
@@ -15460,7 +15460,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "2.2K"
 			(at 155.194 59.0042 90)
 			(hide yes)
 			(show_name no)
@@ -15612,7 +15612,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 143.764 59.0042 90)
 			(hide yes)
 			(show_name no)
@@ -15764,7 +15764,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1uF"
 			(at 168.91 177.1142 90)
 			(hide yes)
 			(show_name no)
@@ -15938,7 +15938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "21.5K"
 			(at 291.846 138.5062 0)
 			(hide yes)
 			(show_name no)
@@ -16090,7 +16090,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1M"
 			(at 127.254 175.8442 90)
 			(hide yes)
 			(show_name no)
@@ -16242,7 +16242,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 66.294 80.5942 90)
 			(hide yes)
 			(show_name no)
@@ -16394,7 +16394,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "130K"
 			(at 127.254 186.0042 90)
 			(hide yes)
 			(show_name no)
@@ -16546,7 +16546,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "130K"
 			(at 129.794 59.0042 90)
 			(hide yes)
 			(show_name no)
@@ -16771,7 +16771,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "TPS22811"
 			(at 121.92 167.4622 0)
 			(hide yes)
 			(show_name no)
@@ -16946,7 +16946,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 325.12 230.4542 90)
 			(hide yes)
 			(show_name no)
@@ -17119,7 +17119,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "TLV9002IDSG"
 			(at 306.07 168.7322 0)
 			(hide yes)
 			(show_name no)
@@ -17291,7 +17291,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7nF"
 			(at 82.55 87.4522 90)
 			(hide yes)
 			(show_name no)
@@ -17538,7 +17538,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "TLV9002IDSG"
 			(at 303.53 112.8522 0)
 			(hide yes)
 			(show_name no)
@@ -17858,7 +17858,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "21.5K"
 			(at 122.936 139.7762 0)
 			(hide yes)
 			(show_name no)
@@ -18084,7 +18084,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10K"
 			(at 273.304 193.6242 90)
 			(hide yes)
 			(show_name no)
@@ -18236,7 +18236,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMN65D8LFB-7"
 			(at 152.4 213.1822 0)
 			(hide yes)
 			(show_name no)
@@ -18391,7 +18391,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1K"
 			(at 90.424 266.0142 90)
 			(hide yes)
 			(show_name no)
@@ -18691,7 +18691,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1uF"
 			(at 340.36 48.8442 90)
 			(hide yes)
 			(show_name no)
@@ -18865,7 +18865,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7nF"
 			(at 80.01 214.4522 90)
 			(hide yes)
 			(show_name no)
@@ -19187,7 +19187,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1M"
 			(at 298.704 47.5742 90)
 			(hide yes)
 			(show_name no)
@@ -19413,7 +19413,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 312.674 57.7342 90)
 			(hide yes)
 			(show_name no)
@@ -19565,7 +19565,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "QTLP600C-4"
 			(at 154.94 69.1642 90)
 			(hide yes)
 			(show_name no)
@@ -19716,7 +19716,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "2.2K"
 			(at 152.654 186.0042 90)
 			(hide yes)
 			(show_name no)

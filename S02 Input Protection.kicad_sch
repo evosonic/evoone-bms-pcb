@@ -5065,7 +5065,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "BNX024H01L"
 			(at 271.78 97.6122 0)
 			(hide yes)
 			(show_name no)
@@ -5225,7 +5225,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "620K"
 			(at 124.714 147.9042 90)
 			(hide yes)
 			(show_name no)
@@ -5377,7 +5377,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7nF"
 			(at 199.39 177.6222 90)
 			(hide yes)
 			(show_name no)
@@ -5551,7 +5551,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "12K"
 			(at 124.714 165.6842 90)
 			(hide yes)
 			(show_name no)
@@ -5703,7 +5703,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10R"
 			(at 200.914 125.0442 90)
 			(hide yes)
 			(show_name no)
@@ -5854,7 +5854,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "LTC4365"
 			(at 186.69 149.6822 0)
 			(hide yes)
 			(show_name no)
@@ -6026,7 +6026,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "QTLP600C-4"
 			(at 295.91 119.9642 90)
 			(hide yes)
 			(show_name no)
@@ -6177,7 +6177,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1.5SMB27CA"
 			(at 107.95 130.1242 90)
 			(hide yes)
 			(show_name no)
@@ -6328,7 +6328,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMT4011LFG"
 			(at 219.71 98.8822 0)
 			(hide yes)
 			(show_name no)
@@ -6500,7 +6500,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10K"
 			(at 296.164 107.2642 90)
 			(hide yes)
 			(show_name no)
@@ -6726,7 +6726,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "5.1K"
 			(at 200.914 159.3342 90)
 			(hide yes)
 			(show_name no)
@@ -6878,7 +6878,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100K"
 			(at 139.954 140.2842 90)
 			(hide yes)
 			(show_name no)
@@ -7031,7 +7031,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "DMT4011LFG"
 			(at 167.64 98.8822 0)
 			(hide yes)
 			(show_name no)
@@ -7203,7 +7203,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10R"
 			(at 184.404 125.0442 90)
 			(hide yes)
 			(show_name no)

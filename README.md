@@ -3,8 +3,8 @@
 KiCad project for the EvoOne battery management board, EVO2513 revision 0.5.0.
 
 The design was converted to KiCad from the Altium sources supplied by Lattech.
-Some symbol fields still carry Altium-era values (e.g. `${ALTIUM_VALUE}`) left
-over from the import.
+Symbols keep their imported Altium fields (`ALTIUM_VALUE`, `MANUFACTURER`,
+`MANUFACTURER_PN`, …); the Value field holds the part value directly.
 
 ## Board
 

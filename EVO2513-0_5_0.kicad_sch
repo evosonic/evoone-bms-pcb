@@ -6862,7 +6862,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 134.4422 0)
 			(hide yes)
 			(show_name no)
@@ -6976,7 +6976,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 130.6322 0)
 			(hide yes)
 			(show_name no)
@@ -7090,7 +7090,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 130.6322 0)
 			(hide yes)
 			(show_name no)
@@ -7203,7 +7203,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10144517-043802LF"
 			(at 210.82 100.1522 0)
 			(hide yes)
 			(show_name no)
@@ -7469,7 +7469,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1053101204"
 			(at 307.34 163.6522 0)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +7626,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1053091102"
 			(at 335.28 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -7852,7 +7852,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 161.1122 0)
 			(hide yes)
 			(show_name no)
@@ -7966,7 +7966,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 157.3022 0)
 			(hide yes)
 			(show_name no)
@@ -8080,7 +8080,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 161.1122 0)
 			(hide yes)
 			(show_name no)
@@ -8194,7 +8194,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 241.3 164.9222 0)
 			(hide yes)
 			(show_name no)
@@ -8307,7 +8307,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "78614150960"
 			(at 40.64 262.7122 0)
 			(hide yes)
 			(show_name no)
@@ -8421,7 +8421,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 30.48 237.3122 0)
 			(hide yes)
 			(show_name no)
@@ -8534,7 +8534,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1053091102"
 			(at 335.28 95.0722 0)
 			(hide yes)
 			(show_name no)
@@ -8686,7 +8686,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 138.2522 0)
 			(hide yes)
 			(show_name no)
@@ -8800,7 +8800,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 138.2522 0)
 			(hide yes)
 			(show_name no)
@@ -9136,7 +9136,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 145.8722 0)
 			(hide yes)
 			(show_name no)
@@ -9250,7 +9250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 157.3022 0)
 			(hide yes)
 			(show_name no)
@@ -9511,7 +9511,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "78614150960"
 			(at 83.82 262.7122 0)
 			(hide yes)
 			(show_name no)
@@ -9625,7 +9625,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10K"
 			(at 230.124 168.2242 90)
 			(hide yes)
 			(show_name no)
@@ -9851,7 +9851,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 153.4922 0)
 			(hide yes)
 			(show_name no)
@@ -9965,7 +9965,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 123.0122 0)
 			(hide yes)
 			(show_name no)
@@ -10079,7 +10079,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 153.4922 0)
 			(hide yes)
 			(show_name no)
@@ -10193,7 +10193,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 100.1522 0)
 			(hide yes)
 			(show_name no)
@@ -10381,7 +10381,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 165.1 103.9622 0)
 			(hide yes)
 			(show_name no)
@@ -10494,7 +10494,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "78614150960"
 			(at 127 262.7122 0)
 			(hide yes)
 			(show_name no)
@@ -10608,7 +10608,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -10722,7 +10722,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 149.6822 0)
 			(hide yes)
 			(show_name no)
@@ -10836,7 +10836,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10k"
 			(at 267.462 168.2242 90)
 			(hide yes)
 			(show_name no)
@@ -10988,7 +10988,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 164.9222 0)
 			(hide yes)
 			(show_name no)
@@ -11176,7 +11176,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -11437,7 +11437,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1053101114"
 			(at 97.79 140.7922 0)
 			(hide yes)
 			(show_name no)
@@ -11772,7 +11772,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1053102204"
 			(at 97.79 87.4522 0)
 			(hide yes)
 			(show_name no)
@@ -11930,7 +11930,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10k"
 			(at 257.302 168.2242 90)
 			(hide yes)
 			(show_name no)
@@ -12156,7 +12156,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 115.3922 0)
 			(hide yes)
 			(show_name no)
@@ -12480,7 +12480,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 167.64 134.4422 0)
 			(hide yes)
 			(show_name no)
@@ -12593,7 +12593,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "78614150960"
 			(at 62.23 262.7122 0)
 			(hide yes)
 			(show_name no)
@@ -12916,7 +12916,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "78614150960"
 			(at 17.78 262.7122 0)
 			(hide yes)
 			(show_name no)
@@ -13178,7 +13178,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 149.6822 0)
 			(hide yes)
 			(show_name no)
@@ -13292,7 +13292,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 232.41 145.8722 0)
 			(hide yes)
 			(show_name no)
@@ -13405,7 +13405,7 @@
 				)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "78614150960"
 			(at 105.41 262.7122 0)
 			(hide yes)
 			(show_name no)
@@ -13593,7 +13593,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "POGO-1"
 			(at 17.78 237.3122 0)
 			(hide yes)
 			(show_name no)
