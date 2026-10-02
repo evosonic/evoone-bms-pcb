@@ -79,6 +79,14 @@ Each fix is a separate commit on top of the initial import.
 | The "Lattech Systems" symbol library wasn't available, so symbols existed only as copies embedded in the schematics, some in several slightly different versions | Exported the symbols to project libraries under their original library names, and made every schematic use one definition per symbol |
 | Chip resistor and capacitor footprints had poor pads (0402s used 0.635 mm circular pads) and caused tombstoning | Replaced all 139 with KiCad standard IPC-7351 nominal footprints (`Resistor_SMD`, `Capacitor_SMD`) in place: same position, rotation and nets, zones refilled |
 | PCB footprints were linked to the imported symbols by mismatched internal IDs, and nets used Altium names | Ran Update PCB from Schematic: no errors, placement and copper unchanged, all 147 nets match the schematic |
+| KiCad design rules were defaults (0.2 mm clearance and track, 0.3 mm min hole), not the Altium rules | Set to the rules in the Altium `.PcbDoc`: 0.15 mm clearance, track and annular ring, 0.15 mm min hole, 0.3 mm hole-to-hole, and `EVO2513-0_5_0.kicad_dru` for the 0.3 mm BON pad-to-pad rule |
+| FL1's ground land had no pad number, so its 38 GND vias showed as shorts | Numbered pad 4 (GND) on the board and in the project footprint library |
+| The two mounting holes had no reference designator | Named H1 and H2, board-only, excluded from BOM and position files |
+| 14 zero-length track segments | Removed |
+| FL1's courtyard had a centre cross drawn on F.CrtYd, so KiCad saw an open (malformed) courtyard | Moved the cross to F.Fab on the board and in the project footprint library |
+| Two vias sat in 0402 pads (R13 pad 2, R54 pad 2), connected on F.Cu only, and could wick solder | Removed |
+| 9 tracks ran within 0.15 mm of the new R/C pad corners, B.Cu tracks passed 0.10 mm from J2 pins 9/10, and the ENEXT track 0.21 mm from J3's peg hole | Rerouted; 15 small R/C parts and 3 GND vias moved 0.1 mm |
+| Net class patterns named Altium's auto-generated nets, so 13 power nets were in the Default class | Patterns point at the current net names |
 
 Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
 `ALTIUM_FOOTPRINT`, `MANUFACTURER`, `MANUFACTURER_PN`, …) for reference.
@@ -90,10 +98,16 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
 - The mounting spacers use two near-identical footprints: M1 uses
   `Mech Spacer Wurth 78614150960 Through M3`, and M2–M6 use the upper-case
   variant.
-- The board's DRC reports many pre-existing violations (clearance, hole
-  clearance, drill size, text size) from the imported design rules. With the
-  standard R/C footprints, 11 courtyard overlaps now show where parts sit
-  closer than IPC courtyards allow, e.g. TH1/TH2.
+- DRC still reports: 80 hole-clearance hits, each Molex connector's own NPTH
+  locating peg 0.18 mm from its pin pads (J1, J2, J4–J6; Altium had no
+  hole-clearance rule); 199 silkscreen texts at 0.6 mm,
+  below KiCad's 0.8 mm minimum; 16 board-edge clearance hits from the
+  layer-order markers, which cross the edge on purpose; and 11 courtyard
+  overlaps where parts sit closer than IPC courtyards allow, e.g. TH1/TH2.
+- The design relies on via-in-pad: over 700 vias sit in pads (FET tabs, QFN
+  exposed pads, FL1, the 2512 shunts, and 0402/0603 capacitors). Order the
+  board with vias filled and capped; open vias would wick solder from the
+  small pads.
 - `kicad-cli` only loads the first top-level sheet, so command-line ERC, BOM
   and DRC schematic-parity checks don't cover the whole design. Use the GUI.
 

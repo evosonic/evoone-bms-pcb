@@ -1,0 +1,7 @@
+(version 1)
+
+# From the Altium design rule "BON Pogo-1": 0.30 mm clearance between the pads of the
+# pogo-pin test points (both scopes in Altium are BON pads).
+(rule "BON Pogo-1"
+	(condition "A.memberOfFootprint('BON*') && B.memberOfFootprint('BON*')")
+	(constraint clearance (min 0.3mm)))

@@ -181,7 +181,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "F.Fab")
 		(uuid "c719b3db-247b-475a-ab60-b0734e9de423")
 	)
 	(fp_line
@@ -191,7 +191,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.CrtYd")
+		(layer "F.Fab")
 		(uuid "5908db21-8c19-4bce-a7a0-9817625521ff")
 	)
 	(fp_line
@@ -334,7 +334,7 @@
 			)
 		)
 	)
-	(pad "" smd custom
+	(pad "4" smd custom
 		(at 5.8 0 90)
 		(size 0.000001 0.000001)
 		(layers "F.Cu")
