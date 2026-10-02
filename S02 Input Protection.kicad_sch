@@ -1,0 +1,7341 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "81978104-e8bc-47be-8170-e9f309d72ae3")
+	(paper "A3")
+	(lib_symbols
+		(symbol "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_SIGNAL_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54) (xy 0 -5.08) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Capacitor 4.7nF 50V X7R 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor 4.7nF 50V X7R 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Cap{space}0402{space}H0-6{space}R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor 4.7nF 50V X7R 0402_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.016) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Filter BNX024H01L 4.7uF 50V SMD12x9"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Filter BNX024H01L 4.7uF 50V SMD12x9"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*FILTER{space}BNX0xxH01*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Filter BNX024H01L 4.7uF 50V SMD12x9_1_0"
+				(bezier
+					(pts
+						(xy 7.62 1.27) (xy 8.89 2.54) (xy 10.16 0) (xy 11.43 1.27)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 7.62 0) (xy 8.89 1.27) (xy 10.16 -1.27) (xy 11.43 0)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 7.62 -1.27) (xy 8.89 0) (xy 10.16 -2.54) (xy 11.43 -1.27)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 1.016) (xy 10.16 1.524)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -1.524) (xy 10.16 -1.016)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 17.78 3.81)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 0.5)
+					)
+				)
+				(text "=FootPrint"
+					(at 10.16 -7.62 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(text "=Value"
+					(at 10.16 -10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "CB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "PSG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "CG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:IC LTC4365 Over Under Rev Volt Prot 8-Pin DFN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "IC LTC4365 Over Under Rev Volt Prot 8-Pin DFN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*DFN{space}B2.0{space}x{space}3.0{space}x{space}0.75{space}P0.5{space}8-Pin{space}EP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IC LTC4365 Over Under Rev Volt Prot 8-Pin DFN_1_0"
+				(rectangle
+					(start 8.89 3.81)
+					(end -8.89 -19.05)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(text "=FootPrint"
+					(at -1.27 -17.78 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(text "=Value"
+					(at -1.27 -20.32 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -11.43 0)
+					(length 2.54)
+					(name "OV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "UV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "nFAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "nSHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -15.24 180)
+					(length 2.54)
+					(name "EP-GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:LED QTLP600C-4 Green Cathode Marked 0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LED QTLP600C-4 Green Cathode Marked 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*LED{space}0603{space}H0-7{space}(C)*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED QTLP600C-4 Green Cathode Marked 0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.016) (xy -1.27 -1.016) (xy 1.27 0) (xy -1.27 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 1.778 2.54)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.016) (xy 1.27 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Resistor 100K 1% 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor 100K 1% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor 100K 1% 0402_1_0"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Resistor 10K 1% 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor 10K 1% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor 10K 1% 0402_1_0"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Resistor 10R 1% 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor 10R 1% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor 10R 1% 0402_1_0"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Resistor 12K 1% 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor 12K 1% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor 12K 1% 0402_1_0"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Resistor 5.1K 1% 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor 5.1K 1% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor 5.1K 1% 0402_1_0"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Resistor 620K 1% 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor 619K 1% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor 620K 1% 0402_1_0"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:TVS 1.5SMB27CA 10V SMB"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TVS 1.5SMB27CA 10V SMB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Diode{space}DO-214AA{space}SMB{space}Not-Pol*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TVS 1.5SMB27CA 10V SMB_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.016) (xy -2.54 -1.016) (xy 0 0) (xy -2.54 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.016) (xy 2.54 1.016) (xy 0 0) (xy 2.54 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Power{space}DI3333-8{space}B3.3{space}x{space}3.3{space}P0.65{space}Tab{space}8-Pin*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8_1_0"
+				(polyline
+					(pts
+						(xy 6.604 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 -3.81) (xy 8.382 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 -6.604) (xy 10.414 -6.604)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -6.096) (xy 7.62 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 -6.35) (xy 7.366 -6.35)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -4.318) (xy 8.382 -3.302) (xy 9.398 -3.81) (xy 8.382 -4.318)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -5.08)
+					(radius 2.54)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -6.096) (xy 8.89 -5.08)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -7.62) (xy 8.89 -11.43) (xy 5.08 -11.43)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -5.588) (xy 8.636 -5.588) (xy 8.89 -6.096) (xy 9.144 -5.588)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -6.35) (xy 8.636 -6.35)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.398 -4.318) (xy 9.398 -3.302)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -6.096) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.414 -6.35) (xy 9.906 -6.35)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.668 -3.81) (xy 9.398 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.176 -3.81) (xy 12.7 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 15.24 3.81)
+					(end 2.54 -19.05)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(text "N-Channel"
+					(at 8.89 2.54 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(text "=FootPrint"
+					(at 8.89 -17.78 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(text "=Value"
+					(at 8.89 -20.32 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -11.43 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -3.81 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "EP_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Power{space}DI3333-8{space}B3.3{space}x{space}3.3{space}P0.65{space}Tab{space}8-Pin*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8_1_1_0"
+				(rectangle
+					(start 2.54 3.81)
+					(end 15.24 -19.05)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 -3.81) (xy 8.382 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 -6.604) (xy 10.414 -6.604)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -6.096) (xy 7.62 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 -6.35) (xy 7.366 -6.35)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -4.318) (xy 8.382 -3.302) (xy 9.398 -3.81) (xy 8.382 -4.318)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -5.08)
+					(radius 2.54)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -6.096) (xy 8.89 -5.08)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -7.62) (xy 8.89 -11.43) (xy 5.08 -11.43)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -5.588) (xy 8.636 -5.588) (xy 8.89 -6.096) (xy 9.144 -5.588)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -6.35) (xy 8.636 -6.35)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.398 -4.318) (xy 9.398 -3.302)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -6.096) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.414 -6.35) (xy 9.906 -6.35)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.668 -3.81) (xy 9.398 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.176 -3.81) (xy 12.7 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "N-Channel"
+					(at 8.89 2.54 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(text "=FootPrint"
+					(at 8.89 -17.78 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(text "=Value"
+					(at 8.89 -20.32 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -11.43 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -3.81 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "EP_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 240.03 295.7322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0260eac7-90b1-43ca-b08e-424cef74810a")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 67.31 295.7322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "037282be-0bea-43e6-890f-e29c0178e475")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 1.27 164.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03f15558-2a00-45e5-9a19-d6996e96aa31")
+	)
+	(text "Denotes Layout instructions"
+		(exclude_from_sim no)
+		(at 179.07 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "04f3d490-ff81-4983-ad4b-eef43eadec1e")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 326.39 16.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b08ba5b-d4da-45f1-9a8b-58a63c94fe99")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 1.27 36.6522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b6eee3c-2237-47b6-aa09-284de8d4a22a")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 392.43 121.7422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14d8a0f6-7e15-46a4-8d28-5b2162d4140a")
+	)
+	(text "F"
+		(exclude_from_sim no)
+		(at 1.27 251.2822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "167aecbd-d415-42f9-90d5-517906c428ee")
+	)
+	(text "${PRODUCT_NAME}"
+		(exclude_from_sim no)
+		(at 356.87 267.7922 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "2379d417-ee56-42a2-8c61-b1a32df3e269")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 153.67 16.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "288e3e20-b05a-497b-b83b-e4ae539d4140")
+	)
+	(text "${DOCUMENTNUMBER}"
+		(exclude_from_sim no)
+		(at 298.45 291.9222 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "2bad4a64-e4ff-4e59-bd14-6ef0e3f70e3c")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 67.31 16.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2bc67a4d-1547-4eaa-bae1-c6c56e159602")
+	)
+	(text "Denotes text on the Identification layer on the PCB"
+		(exclude_from_sim no)
+		(at 179.07 290.6522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2c4c0e6a-e598-4172-8662-02b72ac330c3")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 110.49 16.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32b26689-b456-4231-b416-b137d441162a")
+	)
+	(text "REVISION:"
+		(exclude_from_sim no)
+		(at 304.8 275.4122 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "45ddd218-3fbb-4152-a1a3-382970868395")
+	)
+	(text "${BOARD_NUMBER}"
+		(exclude_from_sim no)
+		(at 365.76 289.3822 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "5ceaf991-c9ab-4388-8629-27c0e77f80b6")
+	)
+	(text "PRODUCT NAME:"
+		(exclude_from_sim no)
+		(at 325.12 262.7122 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "6c67bcc7-cd56-4db9-86c4-f236c64ff1e7")
+	)
+	(text "F"
+		(exclude_from_sim no)
+		(at 392.43 251.2822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ccef6f3-b67b-4001-9f39-497b405a45a2")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 240.03 16.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "710d71ca-22af-4485-87ec-460bda8a9836")
+	)
+	(text "E"
+		(exclude_from_sim no)
+		(at 1.27 208.1022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a13c413-6670-4edc-b585-2833ec9c7ad8")
+	)
+	(text "E"
+		(exclude_from_sim no)
+		(at 392.43 208.1022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "866bb9ab-7c72-4941-973a-986a5691f960")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 110.49 295.7322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91741926-0880-4272-8298-cf6ad23a09c1")
+	)
+	(text "DATE:"
+		(exclude_from_sim no)
+		(at 304.8 263.9822 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "97bc5eca-5098-418e-aae0-1314f0804a59")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 1.27 78.5622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ba3abd6-77e2-4115-b4b5-99a5b34fd0ad")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 196.85 16.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8135050-ef38-42d4-ae28-508ba5ca6b94")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 196.85 295.7322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abc0d7c9-03cd-4c97-8da6-4db509981dd0")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 392.43 36.6522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad2f6292-3ad7-4db3-928f-14b6c8049e60")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 304.8 269.0622 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "af9055a2-af09-4c21-94de-0a9825924817")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 153.67 295.7322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b960888e-99cf-48d6-be13-851e6450d6a2")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 283.21 295.7322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9857b16-d2da-4a7b-b126-5fc4b47d991d")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 392.43 78.5622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc2539e0-0dfe-4873-9b65-77a5538fc1b5")
+	)
+	(text "MODULE:"
+		(exclude_from_sim no)
+		(at 325.12 275.4122 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "c123867a-5f4f-452e-ade2-b14ac6f2f745")
+	)
+	(text "OF"
+		(exclude_from_sim no)
+		(at 304.8 291.9222 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "c81e0e3f-1677-433c-94d4-4851f8117b21")
+	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 1.27 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce68ccbc-ae18-407e-af0f-1a1abf839bb7")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 311.15 291.9222 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "ce998500-d6c5-4845-acf7-234f6278c85b")
+	)
+	(text "${COPY(DOCUMENTNAME,5,LENGTH(DOCUMENTNAME)-11)}"
+		(exclude_from_sim no)
+		(at 356.87 280.4922 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "d1c04f4c-5542-42df-ba00-9add69e22fc4")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 24.13 16.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7ffb0c5-0ed8-4eaf-b228-713330b1c02c")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 1.27 121.7422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8182b3b-0d6e-4e54-b35e-a08cffe7641b")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 283.21 16.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da69d300-4043-4cb3-bab4-7e615a6c37fc")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 326.39 295.7322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "decb184f-aeb3-44df-ad2e-d6bcacaa4f7a")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 369.57 295.7322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e061df21-2484-4595-99ee-1cdf60f3c79f")
+	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 392.43 284.3022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3b1a855-c4bb-480c-946e-36e0e1b35026")
+	)
+	(text "SHEET NUMBER"
+		(exclude_from_sim no)
+		(at 304.8 286.8422 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "e400e547-f1ba-410b-989a-fb738eb22e9d")
+	)
+	(text "PCB NUMBER:"
+		(exclude_from_sim no)
+		(at 325.12 289.3822 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "e4d477b4-f111-4a9d-a52e-b61b7557aa7c")
+	)
+	(text "${SCH_REVISION}"
+		(exclude_from_sim no)
+		(at 304.8 280.4922 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "ea9023ac-6083-4109-83a9-3e017abd5f56")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 392.43 164.9222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ecce8f9f-5f8e-4efe-a6a9-b7aea84d2848")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 24.13 295.7322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee2c7e39-7520-44f3-bd47-7671a13fbe8c")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 369.57 16.3322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f731875a-25ed-4fd2-b983-fa9684277998")
+	)
+	(text_box "Text"
+		(exclude_from_sim no)
+		(at 176.53 281.7622 0)
+		(size -12.7 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 152 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4b270db4-46df-4123-b60e-da5bca72755c")
+	)
+	(text_box "Text"
+		(exclude_from_sim no)
+		(at 176.53 289.3822 0)
+		(size -12.7 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 153 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4bebe973-2773-4a21-bb56-7df5de3d8bec")
+	)
+	(junction
+		(at 185.42 103.9622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043a7b2b-4b1b-4544-aa5e-04afdba97c54")
+	)
+	(junction
+		(at 189.23 166.1922)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0863a0c4-b555-4459-b8ed-4fb145c4a400")
+	)
+	(junction
+		(at 109.22 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1713a79d-cf75-416e-a6ba-4a3b2ec8b8d8")
+	)
+	(junction
+		(at 160.02 107.7722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d33f702-f687-40a9-b099-607b88d8ec44")
+	)
+	(junction
+		(at 140.97 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e499c0f-a85d-4d63-abd1-8a0b24dc16d8")
+	)
+	(junction
+		(at 109.22 185.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2883f3f8-02e7-498e-826e-6a81a9fb481b")
+	)
+	(junction
+		(at 234.95 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "405781d2-0eb8-4d70-a600-d857c535501d")
+	)
+	(junction
+		(at 185.42 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46836696-1b2d-4c43-9472-c0a2a2358bdb")
+	)
+	(junction
+		(at 125.73 185.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "557ae94c-aecf-4c2c-be79-e9b8094225bd")
+	)
+	(junction
+		(at 201.93 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c484137-4044-497c-97b1-201f8a4d998a")
+	)
+	(junction
+		(at 201.93 103.9622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e283686-48b6-4482-ba53-c54cb01916f1")
+	)
+	(junction
+		(at 201.93 154.7622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ea5b966-5e19-42bc-a7e7-8b79bdffa392")
+	)
+	(junction
+		(at 201.93 185.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bdf8390-f447-4e1b-8cba-528d38c6e4e5")
+	)
+	(junction
+		(at 227.33 103.9622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8cf7571-7036-487e-8fc1-27b690a62be1")
+	)
+	(junction
+		(at 125.73 162.3822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b53d1181-14d7-4233-a535-b6b4b4d3056c")
+	)
+	(junction
+		(at 160.02 111.5822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8635a0c-2a9e-4ad1-b9c1-fa1263fc2d7b")
+	)
+	(junction
+		(at 125.73 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c01d4aaf-ac88-41e6-a1ad-6da5ad352a82")
+	)
+	(junction
+		(at 297.18 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3be2035-9f7b-429b-9c7b-6d5221898be1")
+	)
+	(junction
+		(at 189.23 185.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c58427a2-60e0-47da-99d1-0f62f8f94af2")
+	)
+	(junction
+		(at 297.18 138.2522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9709eb9-4a1b-44b2-b020-93bfa40184d0")
+	)
+	(junction
+		(at 227.33 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1b5b9f7-b042-45d7-bd92-a09f617b217f")
+	)
+	(junction
+		(at 160.02 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d23c7276-b05b-4d66-bfb6-b9ae4cfaa2b1")
+	)
+	(junction
+		(at 160.02 103.9622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7f713a6-b430-4cf5-8ef0-4f30baf98633")
+	)
+	(junction
+		(at 140.97 154.7622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eecd5f6c-8658-48c7-8bd9-4b34fd700938")
+	)
+	(junction
+		(at 153.67 100.1522)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f08867d0-f733-4517-b3a2-637b41e328ec")
+	)
+	(junction
+		(at 227.33 111.5822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0aa47d7-a414-423d-8dc9-f3f8d80058fd")
+	)
+	(junction
+		(at 227.33 107.7722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22764bb-e79b-406e-bff5-129ee2b55224")
+	)
+	(junction
+		(at 201.93 139.5222)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6ca6764-088a-40aa-b186-2571977944f3")
+	)
+	(no_connect
+		(at 185.42 158.5722)
+		(uuid "9528093d-a8b7-48c6-915d-c0142808a645")
+	)
+	(wire
+		(pts
+			(xy 185.42 103.9622) (xy 185.42 107.7722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007a295e-3e7d-430e-9e4e-841a0f62b8f3")
+	)
+	(wire
+		(pts
+			(xy 125.73 148.4122) (xy 125.73 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0095efc9-5ea2-448f-8359-5746f11c600b")
+	)
+	(wire
+		(pts
+			(xy 140.97 140.7922) (xy 140.97 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0320ae89-557f-471f-b27f-57ac7c77ae73")
+	)
+	(wire
+		(pts
+			(xy 162.56 103.9622) (xy 160.02 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087e4e3a-b4c6-44ee-b024-a172f40a5e06")
+	)
+	(wire
+		(pts
+			(xy 201.93 103.9622) (xy 201.93 107.7722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4143a3-104f-4c01-a952-b8ed557a78a7")
+	)
+	(polyline
+		(pts
+			(xy 347.98 15.0622) (xy 347.98 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "0c5b5ac4-a7d7-45f0-b0fd-7a4a16e5f154")
+	)
+	(polyline
+		(pts
+			(xy 261.62 294.4622) (xy 261.62 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "0df0c826-1a4e-4487-9f50-d7058a72f970")
+	)
+	(wire
+		(pts
+			(xy 227.33 111.5822) (xy 227.33 115.3922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f06ebb-8c5b-4d4a-bb1f-4f8976c87e16")
+	)
+	(wire
+		(pts
+			(xy 162.56 158.5722) (xy 140.97 158.5722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14df5ac5-0fda-4075-a2f9-2111981e23c6")
+	)
+	(wire
+		(pts
+			(xy 185.42 111.5822) (xy 185.42 125.5522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9ade2e-0148-41df-9632-2612a1da7306")
+	)
+	(polyline
+		(pts
+			(xy 322.58 284.3022) (xy 288.29 284.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "1e3b06f9-4af9-45a1-a9df-4473da33152a")
+	)
+	(polyline
+		(pts
+			(xy 261.62 15.0622) (xy 261.62 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "1f4e4627-7cd8-4900-8744-b69c2c8089c1")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.7722) (xy 160.02 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd5687d-d818-450c-9877-bc23346d68f4")
+	)
+	(polyline
+		(pts
+			(xy 45.72 15.0622) (xy 45.72 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "21206b0f-9aa4-47c2-b3ca-58b9c55d14cc")
+	)
+	(wire
+		(pts
+			(xy 259.08 105.2322) (xy 255.27 105.2322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22459fd3-f6b8-49bf-9e51-7fb99a79071d")
+	)
+	(wire
+		(pts
+			(xy 180.34 103.9622) (xy 185.42 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23212ba7-5cf6-4cb2-aa4a-a953b31b2eef")
+	)
+	(polyline
+		(pts
+			(xy 2.54 294.4622) (xy 391.16 294.4622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "294c006e-9d9d-4d33-8c0c-55b2aa904b5a")
+	)
+	(polyline
+		(pts
+			(xy 304.8 294.4622) (xy 304.8 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2c0934f3-afe5-4072-8c04-4d669d513d87")
+	)
+	(wire
+		(pts
+			(xy 125.73 185.2422) (xy 109.22 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5f8b6e-3ad2-41d7-91a0-1d3a284aeeb0")
+	)
+	(wire
+		(pts
+			(xy 227.33 103.9622) (xy 227.33 107.7722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303539cb-b177-476b-a8f6-c0d29bce1052")
+	)
+	(wire
+		(pts
+			(xy 201.93 100.1522) (xy 201.93 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f4af57-8425-4130-8763-a9eb54feecdf")
+	)
+	(wire
+		(pts
+			(xy 284.48 138.2522) (xy 297.18 138.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31509b20-d49a-4fcc-b192-a19d6f47c498")
+	)
+	(wire
+		(pts
+			(xy 160.02 115.3922) (xy 162.56 115.3922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321cc35d-76b1-4bab-8d27-a15e1f3894b0")
+	)
+	(wire
+		(pts
+			(xy 140.97 154.7622) (xy 140.97 148.4122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328dadd9-2e0a-4670-91d8-2296c1e3032e")
+	)
+	(wire
+		(pts
+			(xy 297.18 138.2522) (xy 297.18 128.0922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35238585-55b1-4370-aaae-e6f2ee2f1c24")
+	)
+	(polyline
+		(pts
+			(xy 2.54 272.8722) (xy 0 272.8722)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "35ef5497-e9c0-4426-be9d-ee60002ac9f5")
+	)
+	(wire
+		(pts
+			(xy 125.73 173.8122) (xy 125.73 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c6c66b-51f7-4761-972c-f692939fbf69")
+	)
+	(polyline
+		(pts
+			(xy 347.98 294.4622) (xy 347.98 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "38332300-861d-406e-8d72-06e05b6cd745")
+	)
+	(wire
+		(pts
+			(xy 162.56 162.3822) (xy 125.73 162.3822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38caafb9-d4f7-4f2b-9aa4-da5c3070b3ad")
+	)
+	(wire
+		(pts
+			(xy 109.22 185.2422) (xy 92.71 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c5d496-1803-4667-b472-7d8caf09f7dc")
+	)
+	(polyline
+		(pts
+			(xy 322.58 272.8722) (xy 391.16 272.8722)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3a24ce8a-738f-4c53-b94d-bdfc6d60bcf1")
+	)
+	(wire
+		(pts
+			(xy 162.56 107.7722) (xy 160.02 107.7722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d89283f-eb6c-4644-8556-841072714fb9")
+	)
+	(wire
+		(pts
+			(xy 160.02 111.5822) (xy 160.02 115.3922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e43c234-48aa-41e5-be62-daf9cfb792fa")
+	)
+	(polyline
+		(pts
+			(xy 2.54 229.6922) (xy 0 229.6922)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3ec65d3b-7aef-41e6-995d-1435703ec8e0")
+	)
+	(wire
+		(pts
+			(xy 92.71 110.3122) (xy 69.85 110.3122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd8afaf-7ed4-4de5-a550-3cf07b1e00d7")
+	)
+	(wire
+		(pts
+			(xy 185.42 154.7622) (xy 201.93 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4329e151-8443-4070-afe6-379559b7352a")
+	)
+	(wire
+		(pts
+			(xy 153.67 150.9522) (xy 153.67 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fbb24d-6c3c-4559-8830-9361d7fd4053")
+	)
+	(polyline
+		(pts
+			(xy 391.16 260.1722) (xy 231.14 260.1722)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "457d33b7-0aef-4aa8-b326-0f38ae66b74f")
+	)
+	(wire
+		(pts
+			(xy 185.42 107.7722) (xy 180.34 107.7722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aae4a6-1cff-48a8-b80f-050e101d5939")
+	)
+	(polyline
+		(pts
+			(xy 288.29 289.3822) (xy 322.58 289.3822)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "49d9d339-73bb-4513-a5bb-c9baed3c2f1a")
+	)
+	(polyline
+		(pts
+			(xy 2.54 56.9722) (xy 0 56.9722)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4ff53c5c-8f01-4969-992a-4d0ca546c85b")
+	)
+	(polyline
+		(pts
+			(xy 322.58 266.5222) (xy 288.29 266.5222)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "52370c0e-f123-4793-ac89-0a0ff3e601a2")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.1522) (xy 162.56 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5358f4d5-554f-42bb-ad95-62960cd75909")
+	)
+	(wire
+		(pts
+			(xy 140.97 158.5722) (xy 140.97 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a4f2b4-7423-4682-835e-0f8bbc7b1ba6")
+	)
+	(wire
+		(pts
+			(xy 224.79 103.9622) (xy 227.33 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d48b0d-af71-4244-94e9-76b2d30d9bf4")
+	)
+	(polyline
+		(pts
+			(xy 2.54 143.3322) (xy 0 143.3322)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5daa7e04-a8a7-4c2d-ad68-90b9581c44fd")
+	)
+	(polyline
+		(pts
+			(xy 391.16 17.6022) (xy 2.54 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5f5d88d4-43ae-4dfc-b96f-56e316bc5652")
+	)
+	(wire
+		(pts
+			(xy 224.79 107.7722) (xy 227.33 107.7722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fef9d23-9d68-4a03-a8f5-c2a1453b9f49")
+	)
+	(polyline
+		(pts
+			(xy 2.54 17.6022) (xy 0 15.0622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "60fb5913-f4a9-44ce-983c-211d1fbbd43a")
+	)
+	(polyline
+		(pts
+			(xy 88.9 15.0622) (xy 88.9 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "61a04970-78b9-439f-b552-fb539e2de21c")
+	)
+	(wire
+		(pts
+			(xy 201.93 111.5822) (xy 201.93 125.5522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62299b8b-67cd-4e3e-9282-20b7b45df8a3")
+	)
+	(polyline
+		(pts
+			(xy 393.7 186.5122) (xy 391.16 186.5122)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "638395f0-8017-4b48-930a-34e5c88ddacd")
+	)
+	(wire
+		(pts
+			(xy 160.02 103.9622) (xy 160.02 107.7722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fd0ab7-2eac-4536-909b-b54c2f55dfe5")
+	)
+	(wire
+		(pts
+			(xy 180.34 111.5822) (xy 185.42 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66af530d-280d-4fd1-9d78-e8c87c76c32b")
+	)
+	(wire
+		(pts
+			(xy 140.97 154.7622) (xy 162.56 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678c112d-d5c5-4c2a-9d91-9e61d2ef979c")
+	)
+	(polyline
+		(pts
+			(xy 231.14 260.1722) (xy 231.14 294.4622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "698d88a1-1f68-4546-ad1f-80a0791d4ecc")
+	)
+	(polyline
+		(pts
+			(xy 391.16 294.4622) (xy 391.16 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6d287b25-c77e-4cc1-a9bd-86aac9943e97")
+	)
+	(wire
+		(pts
+			(xy 69.85 100.1522) (xy 109.22 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8db0d3-e9bb-46da-b497-2d1580ae571f")
+	)
+	(polyline
+		(pts
+			(xy 322.58 272.8722) (xy 288.29 272.8722)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6fa20578-7145-43b2-9455-107ff5ed29ea")
+	)
+	(wire
+		(pts
+			(xy 279.4 100.1522) (xy 297.18 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff3e824-f6ad-400a-b26f-d13b8617351a")
+	)
+	(polyline
+		(pts
+			(xy 322.58 260.1722) (xy 322.58 294.4622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7013f48b-780b-4a41-ab8d-d05d1c2ab4d8")
+	)
+	(wire
+		(pts
+			(xy 162.56 150.9522) (xy 153.67 150.9522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70aa2af8-ff7b-4008-9bec-52b128b28a89")
+	)
+	(wire
+		(pts
+			(xy 297.18 100.1522) (xy 297.18 107.7722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729e698e-248e-4330-a6c6-ce7bdab798b0")
+	)
+	(wire
+		(pts
+			(xy 201.93 159.8422) (xy 201.93 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a028061-fb3e-4140-8c53-d3619127f735")
+	)
+	(polyline
+		(pts
+			(xy 393.7 229.6922) (xy 391.16 229.6922)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7b2d32cc-3a0f-446d-84c3-db946f7ec2f8")
+	)
+	(wire
+		(pts
+			(xy 125.73 162.3822) (xy 125.73 156.0322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b395e68-3e16-4a21-b8f6-8f2abc7a52f1")
+	)
+	(wire
+		(pts
+			(xy 153.67 100.1522) (xy 160.02 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7daa914b-618e-470b-a000-b8b7271acf7b")
+	)
+	(wire
+		(pts
+			(xy 201.93 107.7722) (xy 207.01 107.7722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ede8d82-a5e6-462a-9761-81b5ff70cfb5")
+	)
+	(wire
+		(pts
+			(xy 185.42 166.1922) (xy 189.23 166.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dbf054-6555-4535-a19e-80fff12e2386")
+	)
+	(wire
+		(pts
+			(xy 162.56 111.5822) (xy 160.02 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82fc48e7-a153-42e9-bb41-f33492d4ab25")
+	)
+	(wire
+		(pts
+			(xy 297.18 120.4722) (xy 297.18 115.3922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876f9861-cd04-4fff-ab7d-f34d6f604237")
+	)
+	(polyline
+		(pts
+			(xy 88.9 294.4622) (xy 88.9 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8a433248-2c11-47f2-812b-67d4b39826fc")
+	)
+	(polyline
+		(pts
+			(xy 2.54 17.6022) (xy 2.54 294.4622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8a703430-07d2-4788-b337-927d4aaf0176")
+	)
+	(polyline
+		(pts
+			(xy 288.29 277.9522) (xy 322.58 277.9522)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8c6fb185-6d36-4377-8eaa-c978adc65894")
+	)
+	(wire
+		(pts
+			(xy 224.79 111.5822) (xy 227.33 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c74db14-d0eb-4c78-82e5-a858ef90ced6")
+	)
+	(polyline
+		(pts
+			(xy 391.16 294.4622) (xy 393.7 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8eff05ef-6296-49e5-a2e0-bd32188bd3b1")
+	)
+	(wire
+		(pts
+			(xy 259.08 100.1522) (xy 234.95 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94777a4e-ae02-47f7-aa7f-5d6b35a04eb7")
+	)
+	(polyline
+		(pts
+			(xy 393.7 100.1522) (xy 391.16 100.1522)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "968c8abd-ea55-48ba-8467-864ad8ee64df")
+	)
+	(wire
+		(pts
+			(xy 234.95 150.9522) (xy 234.95 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fa6e77-4247-46ec-9e56-5334290a26b7")
+	)
+	(wire
+		(pts
+			(xy 297.18 100.1522) (xy 320.04 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9823d2f5-23ab-4875-b63f-7494b9055acd")
+	)
+	(wire
+		(pts
+			(xy 255.27 105.2322) (xy 255.27 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ab7833-e31e-42ed-9713-ca9e732073fc")
+	)
+	(polyline
+		(pts
+			(xy 175.26 294.4622) (xy 175.26 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "993e6865-4d66-4c50-a002-7e942f2f69bc")
+	)
+	(wire
+		(pts
+			(xy 207.01 111.5822) (xy 201.93 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9ae29f-d29a-41e1-b055-4fb8604cf6f2")
+	)
+	(wire
+		(pts
+			(xy 227.33 100.1522) (xy 227.33 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5ea9b4-5e0e-40e5-b5c3-45f3c740de1d")
+	)
+	(wire
+		(pts
+			(xy 201.93 185.2422) (xy 189.23 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8928e2-73cf-4b66-ac0a-c9510ef9099f")
+	)
+	(wire
+		(pts
+			(xy 189.23 185.2422) (xy 125.73 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e925eb7-437c-4a95-851b-6589ada4ad78")
+	)
+	(polyline
+		(pts
+			(xy 2.54 186.5122) (xy 0 186.5122)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a17223b6-17d3-49e2-b85e-f0d3c6b954bf")
+	)
+	(polyline
+		(pts
+			(xy 2.54 294.4622) (xy 0 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a21b7d92-88c9-4767-9057-3e3a1b0cf26b")
+	)
+	(wire
+		(pts
+			(xy 160.02 103.9622) (xy 160.02 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e9f4f2-9820-4233-9988-566edae69ce9")
+	)
+	(polyline
+		(pts
+			(xy 304.8 15.0622) (xy 304.8 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a4b8241f-65e1-461f-809a-d026be7a8d2e")
+	)
+	(polyline
+		(pts
+			(xy 218.44 294.4622) (xy 218.44 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a599cc53-d5a0-4fc8-8e18-2931e2709618")
+	)
+	(wire
+		(pts
+			(xy 185.42 150.9522) (xy 234.95 150.9522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f77e79-bc06-4f37-8a0d-ad4b7bea30b2")
+	)
+	(wire
+		(pts
+			(xy 227.33 107.7722) (xy 227.33 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89afc9d-df0f-40b0-89d5-98f7bd1dfcd6")
+	)
+	(wire
+		(pts
+			(xy 185.42 139.5222) (xy 185.42 133.1722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa34e2a5-9d89-40a7-aca4-28265a1d558c")
+	)
+	(wire
+		(pts
+			(xy 207.01 103.9622) (xy 201.93 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed3a018-019c-498c-b262-f6b4fb58f6a1")
+	)
+	(wire
+		(pts
+			(xy 189.23 162.3822) (xy 189.23 166.1922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b72814-87e0-4a12-a78d-17b15f3d1c01")
+	)
+	(wire
+		(pts
+			(xy 125.73 100.1522) (xy 140.97 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84047d0-f94e-447b-a821-67c1c34848c1")
+	)
+	(wire
+		(pts
+			(xy 180.34 100.1522) (xy 185.42 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a88a0f-84e2-4804-882f-d03b294193eb")
+	)
+	(wire
+		(pts
+			(xy 201.93 178.8922) (xy 201.93 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba73c6d8-6c3e-4a1e-be85-3364bf698c0e")
+	)
+	(polyline
+		(pts
+			(xy 393.7 274.1422) (xy 391.16 274.1422)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "bdb045c7-b1cb-4318-90dd-0a3d2f0ff77a")
+	)
+	(polyline
+		(pts
+			(xy 45.72 294.4622) (xy 45.72 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c2fe90ab-a968-4134-9814-79c5ca9551c3")
+	)
+	(wire
+		(pts
+			(xy 201.93 133.1722) (xy 201.93 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5293ac1-9494-4e5b-97c1-926f1997bfce")
+	)
+	(polyline
+		(pts
+			(xy 288.29 260.1722) (xy 288.29 294.4622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c6f26bc7-bea5-4ddb-a268-7ba918d73487")
+	)
+	(wire
+		(pts
+			(xy 284.48 105.2322) (xy 284.48 138.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab03d4e-45e9-4b08-94c3-21cc96432224")
+	)
+	(wire
+		(pts
+			(xy 125.73 166.1922) (xy 125.73 162.3822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb5cf4f-29d2-4bed-b5ae-ff6480772444")
+	)
+	(wire
+		(pts
+			(xy 185.42 100.1522) (xy 185.42 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdc1bb0-dd41-44fe-bb11-7429e08c5c33")
+	)
+	(polyline
+		(pts
+			(xy 132.08 15.0622) (xy 132.08 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d1edd88d-bf5f-40d0-8ca1-4b4e54599c5d")
+	)
+	(wire
+		(pts
+			(xy 201.93 139.5222) (xy 185.42 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21ba38e-a28f-4858-96b8-a7c19dc551aa")
+	)
+	(polyline
+		(pts
+			(xy 132.08 294.4622) (xy 132.08 297.0022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d4b1a79d-e627-4c2d-a48f-f8a62531ae30")
+	)
+	(polyline
+		(pts
+			(xy 2.54 100.1522) (xy 0 100.1522)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d57d0b86-c7c1-494e-9cde-1da2648af0d6")
+	)
+	(wire
+		(pts
+			(xy 207.01 100.1522) (xy 201.93 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fbf9ac-09c6-4124-844e-fcee17ec36d3")
+	)
+	(polyline
+		(pts
+			(xy 393.7 143.3322) (xy 391.16 143.3322)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d877b42f-c79b-4bbd-8f3a-dc6e0cf8d061")
+	)
+	(wire
+		(pts
+			(xy 109.22 100.1522) (xy 125.73 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90c72d8-cfca-45fa-8538-65b978b23d65")
+	)
+	(polyline
+		(pts
+			(xy 391.16 17.6022) (xy 393.7 15.0622)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "dadc04b2-4863-4897-8b69-984a35a08d6b")
+	)
+	(wire
+		(pts
+			(xy 189.23 166.1922) (xy 189.23 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae8a3cd-cb35-4fc1-8bc3-089b0b5b590f")
+	)
+	(wire
+		(pts
+			(xy 227.33 115.3922) (xy 224.79 115.3922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db39e117-c41f-445f-989f-700df01e508b")
+	)
+	(wire
+		(pts
+			(xy 279.4 105.2322) (xy 284.48 105.2322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb11451-106f-4deb-9bf1-926d76ccc63d")
+	)
+	(wire
+		(pts
+			(xy 201.93 167.4622) (xy 201.93 171.2722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2bb6f0-3f16-486a-a4f8-b62d03ad8cf3")
+	)
+	(wire
+		(pts
+			(xy 140.97 100.1522) (xy 153.67 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0abe651-abb2-45df-8beb-cbd937f83fa4")
+	)
+	(polyline
+		(pts
+			(xy 218.44 15.0622) (xy 218.44 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e37512ff-b9e8-4063-8a0c-e3014ccf5b81")
+	)
+	(wire
+		(pts
+			(xy 92.71 185.2422) (xy 92.71 110.3122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6679da5-5807-4990-bf80-ba53452092af")
+	)
+	(wire
+		(pts
+			(xy 109.22 100.1522) (xy 109.22 130.6322)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66a506e-489a-450d-a3eb-9b5a5dc6aec5")
+	)
+	(wire
+		(pts
+			(xy 201.93 154.7622) (xy 201.93 139.5222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e737b9cf-d179-4509-9759-3bd812cbc5bc")
+	)
+	(wire
+		(pts
+			(xy 234.95 100.1522) (xy 227.33 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb59a53a-48e0-45a8-b1b5-854b1073e313")
+	)
+	(wire
+		(pts
+			(xy 185.42 162.3822) (xy 189.23 162.3822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb91b1d9-5a17-4b50-a2c8-0b2f99d23b97")
+	)
+	(polyline
+		(pts
+			(xy 175.26 15.0622) (xy 175.26 17.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f151e2c5-4e42-4b10-ae14-c39544d9b16f")
+	)
+	(polyline
+		(pts
+			(xy 322.58 284.3022) (xy 391.16 284.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f5654dea-fa29-466b-805c-be2c8ed4eedb")
+	)
+	(wire
+		(pts
+			(xy 255.27 185.2422) (xy 201.93 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f910797b-b68e-4ca5-a472-23176341130b")
+	)
+	(wire
+		(pts
+			(xy 201.93 100.1522) (xy 185.42 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa08aa74-a84a-4de2-bfd6-585970647fc3")
+	)
+	(wire
+		(pts
+			(xy 224.79 100.1522) (xy 227.33 100.1522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd33b940-c14d-4963-ab1c-9ed18a0af810")
+	)
+	(wire
+		(pts
+			(xy 109.22 185.2422) (xy 109.22 138.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5d4b9d-1fcd-4dea-90ba-0b210e9ba2e3")
+	)
+	(polyline
+		(pts
+			(xy 393.7 56.9722) (xy 391.16 56.9722)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "fd9206e2-40a2-4b10-b99f-f46a43001b65")
+	)
+	(wire
+		(pts
+			(xy 297.18 140.7922) (xy 297.18 138.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe150c3-ee94-4c35-ae6d-db08f6426b31")
+	)
+	(label "GDINPUT"
+		(at 71.12 110.3122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc22873c-a3e1-4c88-9bc1-39147f22b6c9")
+	)
+	(label "DCFILTERED"
+		(at 318.77 100.1522 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0f78d5b-6111-4f43-88df-8db7a911d9cb")
+	)
+	(label "DCINPUT"
+		(at 71.12 100.1522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1535307-8120-4422-a81c-dc4484405dc2")
+	)
+	(symbol
+		(lib_id "Lattech Systems:Filter BNX024H01L 4.7uF 50V SMD12x9")
+		(at 259.08 100.1522 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0823dafe-3526-4fbd-89d0-08a9152e8958")
+		(property "Reference" "FL1"
+			(at 269.24 95.0722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 271.78 97.6122 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:FILTER BNX0xxH01"
+			(at 259.08 100.1522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 100.1522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filter BNX024H01L 4.7uF 50V SMD12x9"
+			(at 259.08 100.1522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 258.572 73.1012 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 252.903 71.8312 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FOOTPRINT" "BNX0xxH01"
+			(at 267.97 91.2622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "BNX024H01L"
+			(at 266.7 87.4522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 258.572 93.8022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "BNX024H01L"
+			(at 258.572 93.8022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "d6c6f7ca-cf43-4bc3-a9ad-660234018966")
+		)
+		(pin "4"
+			(uuid "4844193d-47f1-4c8d-9c9e-837de2f6aa8e")
+		)
+		(pin "1"
+			(uuid "2f84e376-b2a5-4013-b6d1-b2c26c731fb6")
+		)
+		(pin "3"
+			(uuid "e4a2c9b2-a26f-4c91-91e8-070391624ec7")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Resistor 620K 1% 0402")
+		(at 125.73 152.2222 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16682dc1-4737-4d60-8c88-b846043bd37c")
+		(property "Reference" "R1"
+			(at 126.746 152.2222 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 124.714 147.9042 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+			(at 125.73 152.2222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 152.2222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 619K 1% 0402"
+			(at 125.73 152.2222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 124.714 147.9042 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 124.714 147.9042 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 124.714 147.9042 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" ""
+			(at 124.714 147.9042 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "620K"
+			(at 126.746 154.7622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "FOOTPRINT" "0402"
+			(at 126.746 156.7942 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "8b4a6152-0950-430f-8ed4-edc23e4aa8a8")
+		)
+		(pin "1"
+			(uuid "54451bb7-e4e7-434b-b5af-7c356d8b3cbe")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Capacitor 4.7nF 50V X7R 0402")
+		(at 201.93 175.0822 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1683632b-7e90-42c2-9dc6-ac0692f357d2")
+		(property "Reference" "C1"
+			(at 203.2 174.8282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 199.39 177.6222 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0402 H0-6 R"
+			(at 201.93 175.0822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 175.0822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor 4.7nF 50V X7R 0402"
+			(at 201.93 175.0822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 201.422 172.5422 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 201.422 172.5422 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 197.612 171.2722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" ""
+			(at 197.612 171.2722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "4.7nF"
+			(at 203.2 177.3682 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "FOOTPRINT" "0402"
+			(at 203.2 179.4002 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MATERIAL" "X7R"
+			(at 203.2 181.4322 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 203.2 183.9722 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "3ae37314-d384-42e6-9dc2-cdc9d7485fc4")
+		)
+		(pin "1"
+			(uuid "c6e0d542-c889-4740-a520-f41d29aa73fa")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Resistor 12K 1% 0402")
+		(at 125.73 170.0022 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e193128-b041-4dad-9229-adecddbe4d3d")
+		(property "Reference" "R2"
+			(at 126.746 170.0022 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 124.714 165.6842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+			(at 125.73 170.0022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 170.0022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 12K 1% 0402"
+			(at 125.73 170.0022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 124.714 165.6842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 124.714 165.6842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 124.714 165.6842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 124.714 165.6842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "12K"
+			(at 126.746 172.5422 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "FOOTPRINT" "0402"
+			(at 126.746 174.5742 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e22caa0a-58c7-4bf0-a275-2cb84a9c076e")
+		)
+		(pin "2"
+			(uuid "2a1913e6-c574-4af0-9137-3d04b7b855fb")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Resistor 10R 1% 0402")
+		(at 201.93 129.3622 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b85886a-4b1c-4381-9742-cc96cc32100c")
+		(property "Reference" "R5"
+			(at 202.946 129.3622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 200.914 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+			(at 201.93 129.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 129.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 10R 1% 0402"
+			(at 201.93 129.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 200.914 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 200.914 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 200.914 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" ""
+			(at 200.914 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "10R"
+			(at 202.946 131.9022 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "FOOTPRINT" "0402"
+			(at 202.946 133.9342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "403c2039-9769-4817-9f0d-77654d70391b")
+		)
+		(pin "1"
+			(uuid "5495d204-6ee0-4976-8443-ba08cae42eea")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:IC LTC4365 Over Under Rev Volt Prot 8-Pin DFN")
+		(at 173.99 150.9522 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31851214-0a3d-4bd2-9bc7-19a4295f4cbf")
+		(property "Reference" "U2"
+			(at 173.99 145.8722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 186.69 149.6822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:DFN B2.0 x 3.0 x 0.75 P0.5 8-Pin EP"
+			(at 173.99 150.9522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 150.9522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC LTC4365 Over Under Rev Volt Prot 8-Pin DFN"
+			(at 173.99 150.9522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 173.482 127.7112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 171.063 126.4412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FOOTPRINT" "8-Pin DFN"
+			(at 163.83 150.6982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "LTC4365"
+			(at 164.338 148.1582 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Analog Devices"
+			(at 173.482 144.6022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "LTC4365IDDB"
+			(at 173.482 144.6022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "00633834-6d57-4772-8de0-ef26b35c8444")
+		)
+		(pin "1"
+			(uuid "8ae0ce88-a13b-4a46-8793-bb6f20409fb5")
+		)
+		(pin "5"
+			(uuid "edc99cc8-561a-43dd-b1be-7b814eb4bf80")
+		)
+		(pin "7"
+			(uuid "c8e4f8bf-862a-4456-a2c4-e917cdf11f3d")
+		)
+		(pin "4"
+			(uuid "d4224ea6-af96-4024-9221-00dedb86d111")
+		)
+		(pin "2"
+			(uuid "92d37cd1-4eaa-4152-b420-455c711b1b7b")
+		)
+		(pin "6"
+			(uuid "b7bec469-5ba6-4ba3-8a68-8ed727644562")
+		)
+		(pin "8"
+			(uuid "f88b1103-5689-4b3b-84f3-cb57ee10aad4")
+		)
+		(pin "9"
+			(uuid "3e8dae09-40d7-4856-b199-ed5b6d6cc884")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:LED QTLP600C-4 Green Cathode Marked 0603")
+		(at 297.18 124.2822 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6727e9d1-1db7-464f-bde1-732e54336c25")
+		(property "Reference" "LED1"
+			(at 299.72 124.0282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 295.91 119.9642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:LED 0603 H0-7 (C)"
+			(at 297.18 124.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 124.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED QTLP600C-4 Green Cathode Marked 0603"
+			(at 297.18 124.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 295.91 119.9642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Everlight"
+			(at 295.91 119.9642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "QTLP600C-4"
+			(at 295.91 119.9642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NOTE" "GREEN"
+			(at 299.72 126.5682 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "QTLP600C-4"
+			(at 299.72 129.1082 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FOOTPRINT" "0603"
+			(at 299.72 131.1402 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "21ed5dfb-4846-4920-9814-1b4aaa487547")
+		)
+		(pin "2"
+			(uuid "b63b01b1-148c-4f4d-8bcd-8eeaf86db22e")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:TVS 1.5SMB27CA 10V SMB")
+		(at 109.22 134.4422 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8da20bcb-a5f8-42d5-89b2-ced188486784")
+		(property "Reference" "D1"
+			(at 110.49 134.4422 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 107.95 130.1242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Diode DO-214AA SMB Not-Pol"
+			(at 109.22 134.4422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 134.4422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS 1.5SMB27CA 10V SMB"
+			(at 109.22 134.4422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 107.95 130.1242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "NOTE" ""
+			(at 107.95 130.1242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "LittelFuse"
+			(at 107.95 130.1242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "1.5SMB27CA"
+			(at 107.95 130.1242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1.5SMB27CA"
+			(at 110.49 136.7282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FOOTPRINT" "DO-214AA"
+			(at 110.49 138.7602 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "bcb123a2-c91d-4910-a381-4968243503a4")
+		)
+		(pin "1"
+			(uuid "4e910dfa-1b7a-4086-ac9d-d6063912b386")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8")
+		(at 207.01 100.1522 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97523ed9-c309-4ad4-892b-c32ff0b3ac55")
+		(property "Reference" "Q3"
+			(at 215.9 95.0722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 219.71 98.8822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin"
+			(at 207.01 100.1522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 100.1522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8"
+			(at 207.01 100.1522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 206.502 76.9112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 204.083 75.6412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "FOOTPRINT" "Power DI3333-8"
+			(at 196.85 99.8982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "DMT4011LFG"
+			(at 197.358 97.3582 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Inc"
+			(at 206.502 93.8022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "DMT4011LFG"
+			(at 206.502 93.8022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "07bb9905-34a4-4091-800d-f70996180705")
+		)
+		(pin "3"
+			(uuid "2b65f4a3-0e6e-47bb-937d-b57c17319a35")
+		)
+		(pin "1"
+			(uuid "10fd1e05-4bc7-4bcb-a4c9-628fd4fc2a79")
+		)
+		(pin "5"
+			(uuid "0758d6cd-ccfb-4bf4-a710-55dbe81f36d3")
+		)
+		(pin "7"
+			(uuid "7a3782b3-5f6e-472f-9c41-90756b5c6e25")
+		)
+		(pin "4"
+			(uuid "053c221b-4dcd-4ccb-8684-9b510fd5d1dc")
+		)
+		(pin "6"
+			(uuid "ebcd96e1-186b-488d-8908-c150e359ce33")
+		)
+		(pin "8"
+			(uuid "5032f726-471d-4a54-bf58-57e33635ea36")
+		)
+		(pin "9"
+			(uuid "1a48e154-b475-44ef-8e93-580c2fbb41a4")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Resistor 10K 1% 0402")
+		(at 297.18 111.5822 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9de00906-8297-49bd-b53f-1c82b3eb3eb2")
+		(property "Reference" "R7"
+			(at 298.196 111.5822 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 296.164 107.2642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+			(at 297.18 111.5822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 111.5822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 10K 1% 0402"
+			(at 297.18 111.5822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 296.164 107.2642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 296.164 107.2642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 296.164 107.2642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 296.164 107.2642 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "10K"
+			(at 298.196 114.1222 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "FOOTPRINT" "0402"
+			(at 298.196 116.1542 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "6f1cf5e9-0c05-47fe-a399-d7c816601484")
+		)
+		(pin "1"
+			(uuid "baed8ddc-628b-4339-a2fc-6056646625c4")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
+		(at 297.18 140.7922 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abd15895-927e-41d5-b242-06dc396caa2c")
+		(property "Reference" "#PWR?"
+			(at 297.18 140.7922 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 297.18 147.1422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 140.7922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 140.7922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 140.7922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "64dbd471-bdf8-414f-a92e-b9673be96e4c")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Resistor 5.1K 1% 0402")
+		(at 201.93 163.6522 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0894d02-f81f-4fff-a3d6-f02892c38d61")
+		(property "Reference" "R6"
+			(at 202.946 163.6522 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 200.914 159.3342 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+			(at 201.93 163.6522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 163.6522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 5.1K 1% 0402"
+			(at 201.93 163.6522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 200.914 159.3342 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 200.914 159.3342 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 200.914 159.3342 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 200.914 159.3342 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "5.1K"
+			(at 202.946 166.1922 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "FOOTPRINT" "0402"
+			(at 202.946 168.2242 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "8d97002c-607b-42aa-911f-879c2fcec631")
+		)
+		(pin "1"
+			(uuid "f0de23d6-2fae-44bd-a7cb-522448685a77")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Resistor 100K 1% 0402")
+		(at 140.97 144.6022 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7825e07-5b63-4e11-97b7-13ad884ee4ed")
+		(property "Reference" "R3"
+			(at 141.986 144.6022 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 139.954 140.2842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+			(at 140.97 144.6022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 144.6022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 100K 1% 0402"
+			(at 140.97 144.6022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 139.954 140.2842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 139.954 140.2842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 139.954 140.2842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 139.954 140.2842 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100K"
+			(at 141.986 147.1422 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "FOOTPRINT" "0402"
+			(at 141.986 149.1742 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "8a0b1449-e8f2-4105-b7d5-caa605f1d938")
+		)
+		(pin "1"
+			(uuid "400e283c-e1a6-4de6-a6ea-850176f48caa")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8_1")
+		(lib_id "Lattech Systems:Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8")
+		(at 180.34 100.1522 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c90f52c7-7def-4c2b-ba97-93ed81f1a733")
+		(property "Reference" "Q1"
+			(at 171.45 95.0722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 167.64 98.8822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin"
+			(at 180.34 100.1522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 100.1522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8"
+			(at 180.34 100.1522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 179.832 76.9112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 177.413 75.6412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "FOOTPRINT" "Power DI3333-8"
+			(at 190.5 99.8982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "DMT4011LFG"
+			(at 189.992 97.3582 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Inc"
+			(at 179.832 93.8022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "DMT4011LFG"
+			(at 179.832 93.8022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "3"
+			(uuid "1786857c-1de2-46ca-bcea-2c6cd68c226e")
+		)
+		(pin "1"
+			(uuid "2b9ca2c1-ce5d-4f9e-a9ac-c4072aae8739")
+		)
+		(pin "5"
+			(uuid "2042a766-50fd-4e63-9776-02ac674aa189")
+		)
+		(pin "7"
+			(uuid "75c5ed55-d151-4899-bb4b-7e3464789c74")
+		)
+		(pin "4"
+			(uuid "8b0bab78-101b-414b-a517-c90fc994ee63")
+		)
+		(pin "2"
+			(uuid "da8dcc82-7771-44f9-8d32-a9730c8e67c5")
+		)
+		(pin "6"
+			(uuid "8e97502c-e468-48d9-ac7c-6ed7d15b8454")
+		)
+		(pin "8"
+			(uuid "97b0cb36-468d-457b-a6f4-e7c4dcd1214c")
+		)
+		(pin "9"
+			(uuid "7960fc6b-3f51-433b-87cc-cfcbbd925f4d")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Resistor 10R 1% 0402")
+		(at 185.42 129.3622 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df7d269e-473b-4244-994c-582e57d6fd2b")
+		(property "Reference" "R4"
+			(at 186.436 129.3622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 184.404 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+			(at 185.42 129.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 129.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 10R 1% 0402"
+			(at 185.42 129.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 184.404 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 184.404 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 184.404 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" ""
+			(at 184.404 125.0442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "10R"
+			(at 186.436 131.9022 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "FOOTPRINT" "0402"
+			(at 186.436 133.9342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "2b518c81-7b9f-498f-8497-4e224a53363d")
+		)
+		(pin "1"
+			(uuid "704f68b4-2cb3-4169-986b-833228c6d1b2")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "2")
+		)
+	)
+)

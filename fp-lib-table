@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "EVO2513-0_5_0-import-fps") (type "KiCad") (uri "${KIPRJMOD}/EVO2513-0_5_0-import-fps.pretty") (options "kicad_import_cache=1") (descr ""))
+)
