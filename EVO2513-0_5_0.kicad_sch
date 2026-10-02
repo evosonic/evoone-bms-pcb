@@ -5,6 +5,121 @@
 	(uuid "7e7bd56c-034a-4c53-8a0c-97ddd4087a8a")
 	(paper "A3")
 	(lib_symbols
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -3675,7 +3790,7 @@
 	)
 	(text "9"
 		(exclude_from_sim no)
-		(at 369.57 295.7322 0)
+		(at 369.57 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3685,7 +3800,7 @@
 	)
 	(text "Denotes Layout instructions"
 		(exclude_from_sim no)
-		(at 179.07 284.3022 0)
+		(at 179.07 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3698,7 +3813,7 @@
 	)
 	(text "7"
 		(exclude_from_sim no)
-		(at 283.21 16.3322 0)
+		(at 283.21 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3708,7 +3823,7 @@
 	)
 	(text "PCB NUMBER:"
 		(exclude_from_sim no)
-		(at 325.12 289.3822 0)
+		(at 325.12 289.56 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3719,7 +3834,7 @@
 	)
 	(text "B"
 		(exclude_from_sim no)
-		(at 392.43 78.5622 0)
+		(at 392.43 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3729,7 +3844,7 @@
 	)
 	(text "${BOARD_NUMBER}"
 		(exclude_from_sim no)
-		(at 365.76 289.3822 0)
+		(at 365.76 289.56 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3739,7 +3854,7 @@
 	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 153.67 295.7322 0)
+		(at 153.67 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3749,7 +3864,7 @@
 	)
 	(text "REVISION:"
 		(exclude_from_sim no)
-		(at 304.8 275.4122 0)
+		(at 304.8 275.59 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3759,7 +3874,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 392.43 284.3022 0)
+		(at 392.43 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3769,7 +3884,7 @@
 	)
 	(text "F"
 		(exclude_from_sim no)
-		(at 392.43 251.2822 0)
+		(at 392.43 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3779,7 +3894,7 @@
 	)
 	(text "C"
 		(exclude_from_sim no)
-		(at 392.43 121.7422 0)
+		(at 392.43 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3789,7 +3904,7 @@
 	)
 	(text "${DOCUMENTNUMBER}"
 		(exclude_from_sim no)
-		(at 298.45 291.9222 0)
+		(at 298.45 292.1 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -3799,7 +3914,7 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 110.49 16.3322 0)
+		(at 110.49 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3809,7 +3924,7 @@
 	)
 	(text "F"
 		(exclude_from_sim no)
-		(at 1.27 251.2822 0)
+		(at 1.27 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3819,7 +3934,7 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 24.13 16.3322 0)
+		(at 24.13 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3829,7 +3944,7 @@
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 196.85 16.3322 0)
+		(at 196.85 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3839,7 +3954,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 392.43 164.9222 0)
+		(at 392.43 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3849,7 +3964,7 @@
 	)
 	(text "A"
 		(exclude_from_sim no)
-		(at 392.43 36.6522 0)
+		(at 392.43 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3859,7 +3974,7 @@
 	)
 	(text "6"
 		(exclude_from_sim no)
-		(at 240.03 16.3322 0)
+		(at 240.03 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3869,7 +3984,7 @@
 	)
 	(text "PRODUCT NAME:"
 		(exclude_from_sim no)
-		(at 325.12 262.7122 0)
+		(at 325.12 262.89 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3880,7 +3995,7 @@
 	)
 	(text "${PRODUCT_NAME}"
 		(exclude_from_sim no)
-		(at 356.87 267.7922 0)
+		(at 356.87 267.97 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3890,7 +4005,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 1.27 284.3022 0)
+		(at 1.27 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3900,7 +4015,7 @@
 	)
 	(text "B"
 		(exclude_from_sim no)
-		(at 1.27 78.5622 0)
+		(at 1.27 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3910,7 +4025,7 @@
 	)
 	(text "SHEET NUMBER"
 		(exclude_from_sim no)
-		(at 304.8 286.8422 0)
+		(at 304.8 287.02 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3920,7 +4035,7 @@
 	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 67.31 295.7322 0)
+		(at 67.31 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3930,7 +4045,7 @@
 	)
 	(text "${SCH_REVISION}"
 		(exclude_from_sim no)
-		(at 304.8 280.4922 0)
+		(at 304.8 280.67 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3940,7 +4055,7 @@
 	)
 	(text "6"
 		(exclude_from_sim no)
-		(at 240.03 295.7322 0)
+		(at 240.03 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3950,7 +4065,7 @@
 	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 153.67 16.3322 0)
+		(at 153.67 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3960,7 +4075,7 @@
 	)
 	(text "MODULE:"
 		(exclude_from_sim no)
-		(at 325.12 275.4122 0)
+		(at 325.12 275.59 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3971,7 +4086,7 @@
 	)
 	(text "9"
 		(exclude_from_sim no)
-		(at 369.57 16.3322 0)
+		(at 369.57 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3981,7 +4096,7 @@
 	)
 	(text "DATE:"
 		(exclude_from_sim no)
-		(at 304.8 263.9822 0)
+		(at 304.8 264.16 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3991,7 +4106,7 @@
 	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 67.31 16.3322 0)
+		(at 67.31 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3999,9 +4114,9 @@
 		)
 		(uuid "96a34458-56c4-47e0-9ac0-cada54a9d12e")
 	)
-	(text "${COPY(DOCUMENTNAME,5,LENGTH(DOCUMENTNAME)-11)}"
+	(text "External Connectors"
 		(exclude_from_sim no)
-		(at 356.87 280.4922 0)
+		(at 356.87 280.67 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -4011,7 +4126,7 @@
 	)
 	(text "A"
 		(exclude_from_sim no)
-		(at 1.27 36.6522 0)
+		(at 1.27 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4021,7 +4136,7 @@
 	)
 	(text "E"
 		(exclude_from_sim no)
-		(at 392.43 208.1022 0)
+		(at 392.43 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4031,7 +4146,7 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 110.49 295.7322 0)
+		(at 110.49 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4041,7 +4156,7 @@
 	)
 	(text "${CURRENT_DATE}"
 		(exclude_from_sim no)
-		(at 304.8 269.0622 0)
+		(at 304.8 269.24 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -4051,7 +4166,7 @@
 	)
 	(text "7"
 		(exclude_from_sim no)
-		(at 283.21 295.7322 0)
+		(at 283.21 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4061,7 +4176,7 @@
 	)
 	(text "${##}"
 		(exclude_from_sim no)
-		(at 311.15 291.9222 0)
+		(at 311.15 292.1 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4071,7 +4186,7 @@
 	)
 	(text "8"
 		(exclude_from_sim no)
-		(at 326.39 295.7322 0)
+		(at 326.39 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4081,7 +4196,7 @@
 	)
 	(text "E"
 		(exclude_from_sim no)
-		(at 1.27 208.1022 0)
+		(at 1.27 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4091,7 +4206,7 @@
 	)
 	(text "Denotes text on the Identification layer on the PCB"
 		(exclude_from_sim no)
-		(at 179.07 290.6522 0)
+		(at 179.07 290.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4104,7 +4219,7 @@
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 196.85 295.7322 0)
+		(at 196.85 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4114,7 +4229,7 @@
 	)
 	(text "C"
 		(exclude_from_sim no)
-		(at 1.27 121.7422 0)
+		(at 1.27 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4124,7 +4239,7 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 24.13 295.7322 0)
+		(at 24.13 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4134,7 +4249,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 1.27 164.9222 0)
+		(at 1.27 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4144,7 +4259,7 @@
 	)
 	(text "OF"
 		(exclude_from_sim no)
-		(at 304.8 291.9222 0)
+		(at 304.8 292.1 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -4154,7 +4269,7 @@
 	)
 	(text "8"
 		(exclude_from_sim no)
-		(at 326.39 16.3322 0)
+		(at 326.39 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4164,7 +4279,7 @@
 	)
 	(text_box "Mating to: 10144518-043802LF"
 		(exclude_from_sim no)
-		(at 223.52 191.5922 0)
+		(at 223.52 191.77 0)
 		(size -49.53 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4186,7 +4301,7 @@
 	)
 	(text_box "Text"
 		(exclude_from_sim no)
-		(at 176.53 281.7622 0)
+		(at 176.53 281.94 0)
 		(size -12.7 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4208,7 +4323,7 @@
 	)
 	(text_box "Text"
 		(exclude_from_sim no)
-		(at 176.53 289.3822 0)
+		(at 176.53 289.56 0)
 		(size -12.7 3.048)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4228,296 +4343,296 @@
 		(uuid "b10a3b3d-0b01-43d7-9316-22f2269cdf9c")
 	)
 	(junction
-		(at 167.64 158.5722)
+		(at 167.64 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03fc5cbf-5574-4449-98d1-90698761ab49")
 	)
 	(junction
-		(at 167.64 166.1922)
+		(at 167.64 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08fa1ba2-1daf-471b-98b0-06e5edbd8d26")
 	)
 	(junction
-		(at 336.55 164.9222)
+		(at 336.55 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "099cb71d-d22d-417a-a11f-c540335b7bde")
 	)
 	(junction
-		(at 167.64 131.9022)
+		(at 167.64 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b3a3592-0a08-4e33-80c6-39f824780bb3")
 	)
 	(junction
-		(at 182.88 143.3322)
+		(at 182.88 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "163623a6-bf13-4e21-aab4-c79f3d968be5")
 	)
 	(junction
-		(at 241.3 166.1922)
+		(at 241.3 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19d8a9b3-b633-4c42-8a0a-379d51810bfa")
 	)
 	(junction
-		(at 68.58 161.1122)
+		(at 68.58 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d678a63-c908-4e1b-ae4f-9a416a324ca0")
 	)
 	(junction
-		(at 232.41 128.0922)
+		(at 232.41 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22893ec6-7151-4134-a6ed-f1e240147196")
 	)
 	(junction
-		(at 167.64 162.3822)
+		(at 167.64 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "319e160f-a713-49a7-a6c1-2000ec3bbbd2")
 	)
 	(junction
-		(at 232.41 150.9522)
+		(at 232.41 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "437c4b96-4b48-4957-9c17-cd4be96e0342")
 	)
 	(junction
-		(at 179.07 105.2322)
+		(at 179.07 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59db06dc-dcb4-4741-a225-63b7fa531a6d")
 	)
 	(junction
-		(at 219.71 105.2322)
+		(at 219.71 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae7e0bf-ab56-4a98-8c98-dea6f6b2a118")
 	)
 	(junction
-		(at 232.41 139.5222)
+		(at 232.41 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ceb8505-4a0e-4a6f-ab67-7743048053a9")
 	)
 	(junction
-		(at 167.64 135.7122)
+		(at 167.64 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dbebbeb-fdca-4162-9d59-5f1b4477e341")
 	)
 	(junction
-		(at 232.41 116.6622)
+		(at 232.41 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "632f7d8f-6a2e-4059-8617-4711fb4e076a")
 	)
 	(junction
-		(at 232.41 124.2822)
+		(at 232.41 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "689e2b1d-3646-43e5-8370-4c36459cf98b")
 	)
 	(junction
-		(at 165.1 105.2322)
+		(at 165.1 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68d49fe1-570e-459e-bea7-84e02ece158b")
 	)
 	(junction
-		(at 231.14 166.1922)
+		(at 231.14 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bdc0de4-87a4-4338-b44f-9d4e8016101d")
 	)
 	(junction
-		(at 182.88 101.4222)
+		(at 182.88 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7afcec1b-d3b8-40de-91c8-d620fc1154a9")
 	)
 	(junction
-		(at 232.41 131.9022)
+		(at 232.41 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7becfedd-78c6-45a1-8175-0c60a601105e")
 	)
 	(junction
-		(at 214.63 143.3322)
+		(at 214.63 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e1fbdf0-6f80-44c9-97ef-481e5bbb164b")
 	)
 	(junction
-		(at 219.71 109.0422)
+		(at 219.71 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83e78526-9f74-4f18-a73b-aa91caaef836")
 	)
 	(junction
-		(at 102.87 88.7222)
+		(at 102.87 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87506632-c373-4fd0-9499-136abdf0db5c")
 	)
 	(junction
-		(at 101.6 149.6822)
+		(at 101.6 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "885a31f8-81e9-4dc5-8e48-4cc7b8c3e6fa")
 	)
 	(junction
-		(at 167.64 128.0922)
+		(at 167.64 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88eb8153-8bdf-4e81-806f-71edc5088802")
 	)
 	(junction
-		(at 68.58 153.4922)
+		(at 68.58 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b675173-1efc-4614-b4a1-40d36dbdde6f")
 	)
 	(junction
-		(at 182.88 124.2822)
+		(at 182.88 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9065ab6f-9162-4a06-b1aa-163f0bed18a8")
 	)
 	(junction
-		(at 167.64 150.9522)
+		(at 167.64 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92185219-29ed-4e2d-99e2-7c3ba90af5c8")
 	)
 	(junction
-		(at 167.64 154.7622)
+		(at 167.64 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9690d754-5380-443f-a167-d4761e540b8a")
 	)
 	(junction
-		(at 303.53 164.9222)
+		(at 303.53 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b7328bb-0cde-451c-9b83-244775267e3f")
 	)
 	(junction
-		(at 219.71 101.4222)
+		(at 219.71 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d295825-cb5d-4fec-b3ce-0c8e745fb622")
 	)
 	(junction
-		(at 232.41 154.7622)
+		(at 232.41 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9da43a4a-e430-4c39-8846-458d79328e67")
 	)
 	(junction
-		(at 232.41 158.5722)
+		(at 232.41 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ebb2d0f-f4b6-467c-b9a7-d946a3e8dcde")
 	)
 	(junction
-		(at 182.88 170.0022)
+		(at 182.88 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a35098bf-37dd-4ceb-807a-bff8ff71e3d2")
 	)
 	(junction
-		(at 102.87 84.9122)
+		(at 102.87 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a41d71a5-2371-448f-811c-907fd0328ddc")
 	)
 	(junction
-		(at 101.6 157.3022)
+		(at 101.6 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc09a689-ae51-4821-8080-42eb4658e955")
 	)
 	(junction
-		(at 167.64 147.1422)
+		(at 167.64 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c28ae620-e652-4dae-b783-020d1f5d32a6")
 	)
 	(junction
-		(at 232.41 135.7122)
+		(at 232.41 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c73cb527-734a-463c-af1c-4874a0462e6e")
 	)
 	(junction
-		(at 167.64 139.5222)
+		(at 167.64 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb15dc30-2db4-4677-a33b-6ca8c48b7b2f")
 	)
 	(junction
-		(at 68.58 157.3022)
+		(at 68.58 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0c49e01-7a1e-4c1c-87b7-440953556f1c")
 	)
 	(junction
-		(at 179.07 112.8522)
+		(at 179.07 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d717e30a-64b7-4fe5-8f9e-6b181532928f")
 	)
 	(junction
-		(at 179.07 109.0422)
+		(at 179.07 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd4db62f-32fd-41c9-a2aa-ea51f64561ab")
 	)
 	(junction
-		(at 232.41 162.3822)
+		(at 232.41 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9c255ee-57c5-48bb-b4e3-a66c77560322")
 	)
 	(junction
-		(at 232.41 101.4222)
+		(at 232.41 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef4ddcf2-4714-475b-8649-37ae35fb9f57")
 	)
 	(junction
-		(at 214.63 170.0022)
+		(at 214.63 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2de0aba-8c91-4afd-8fd9-7a4c5e0c7b37")
 	)
 	(junction
-		(at 214.63 120.4722)
+		(at 214.63 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7b6e35a-c666-44a5-b324-aa01220be9c4")
 	)
 	(junction
-		(at 182.88 120.4722)
+		(at 182.88 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faae33e1-4678-4b98-80f1-20e72b86afdc")
 	)
 	(junction
-		(at 232.41 147.1422)
+		(at 232.41 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb9a5b57-cadb-47aa-b894-4b45116acdd8")
 	)
 	(wire
 		(pts
-			(xy 72.39 161.1122) (xy 68.58 161.1122)
+			(xy 72.39 161.29) (xy 68.58 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4527,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 97.6122) (xy 185.42 97.6122)
+			(xy 182.88 97.79) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4537,7 +4652,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 158.5722) (xy 147.32 158.5722)
+			(xy 167.64 158.75) (xy 147.32 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4547,7 +4662,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 166.1922) (xy 231.14 166.1922)
+			(xy 210.82 166.37) (xy 231.14 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4557,7 +4672,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 131.9022) (xy 147.32 131.9022)
+			(xy 167.64 132.08) (xy 147.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4567,7 +4682,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 166.1922) (xy 241.3 166.1922)
+			(xy 231.14 166.37) (xy 241.3 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4577,7 +4692,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 128.0922) (xy 210.82 128.0922)
+			(xy 232.41 128.27) (xy 210.82 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4587,7 +4702,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9 294.4622) (xy 88.9 297.0022)
+			(xy 88.9 294.64) (xy 88.9 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -4598,7 +4713,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 112.8522) (xy 179.07 112.8522)
+			(xy 185.42 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4608,7 +4723,7 @@
 	)
 	(polyline
 		(pts
-			(xy 261.62 15.0622) (xy 261.62 17.6022)
+			(xy 261.62 15.24) (xy 261.62 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -4619,7 +4734,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 284.3022) (xy 288.29 284.3022)
+			(xy 322.58 284.48) (xy 288.29 284.48)
 		)
 		(stroke
 			(width 0.254)
@@ -4630,7 +4745,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 294.4622) (xy 0 297.0022)
+			(xy 2.54 294.64) (xy 0 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -4641,7 +4756,7 @@
 	)
 	(polyline
 		(pts
-			(xy 288.29 289.3822) (xy 322.58 289.3822)
+			(xy 288.29 289.56) (xy 322.58 289.56)
 		)
 		(stroke
 			(width 0.254)
@@ -4652,7 +4767,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 161.1122) (xy 68.58 157.3022)
+			(xy 68.58 161.29) (xy 68.58 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4662,7 +4777,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 162.3822) (xy 210.82 162.3822)
+			(xy 232.41 162.56) (xy 210.82 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4672,7 +4787,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 239.8522) (xy 30.48 238.5822)
+			(xy 30.48 240.03) (xy 30.48 238.76)
 		)
 		(stroke
 			(width 0)
@@ -4682,7 +4797,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 56.9722) (xy 0 56.9722)
+			(xy 2.54 57.15) (xy 0 57.15)
 		)
 		(stroke
 			(width 0.254)
@@ -4693,7 +4808,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 284.3022) (xy 391.16 284.3022)
+			(xy 322.58 284.48) (xy 391.16 284.48)
 		)
 		(stroke
 			(width 0.254)
@@ -4704,7 +4819,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 294.4622) (xy 175.26 297.0022)
+			(xy 175.26 294.64) (xy 175.26 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -4715,7 +4830,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 166.1922) (xy 147.32 166.1922)
+			(xy 167.64 166.37) (xy 147.32 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4725,7 +4840,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 294.4622) (xy 218.44 297.0022)
+			(xy 218.44 294.64) (xy 218.44 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -4736,7 +4851,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 109.0422) (xy 179.07 109.0422)
+			(xy 185.42 109.22) (xy 179.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4746,7 +4861,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 153.4922) (xy 101.6 149.6822)
+			(xy 101.6 153.67) (xy 101.6 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4756,7 +4871,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 84.9122) (xy 102.87 73.4822)
+			(xy 102.87 85.09) (xy 102.87 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4766,7 +4881,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 105.2322) (xy 219.71 101.4222)
+			(xy 219.71 105.41) (xy 219.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4776,7 +4891,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 168.7322) (xy 259.08 147.1422)
+			(xy 259.08 168.91) (xy 259.08 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4786,7 +4901,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.6822) (xy 68.58 153.4922)
+			(xy 68.58 149.86) (xy 68.58 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4796,7 +4911,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 139.5222) (xy 232.41 139.5222)
+			(xy 269.24 139.7) (xy 232.41 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4806,7 +4921,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 101.4222) (xy 185.42 101.4222)
+			(xy 182.88 101.6) (xy 185.42 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4816,7 +4931,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 161.1122) (xy 332.74 161.1122)
+			(xy 336.55 161.29) (xy 332.74 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +4941,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 143.3322) (xy 214.63 143.3322)
+			(xy 210.82 143.51) (xy 214.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4836,7 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 124.2822) (xy 182.88 124.2822)
+			(xy 185.42 124.46) (xy 182.88 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4846,7 +4961,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 272.8722) (xy 288.29 272.8722)
+			(xy 322.58 273.05) (xy 288.29 273.05)
 		)
 		(stroke
 			(width 0.254)
@@ -4857,7 +4972,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 131.9022) (xy 167.64 131.9022)
+			(xy 185.42 132.08) (xy 167.64 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4867,7 +4982,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 150.9522) (xy 167.64 150.9522)
+			(xy 185.42 151.13) (xy 167.64 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4877,7 +4992,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 105.2322) (xy 165.1 105.2322)
+			(xy 160.02 105.41) (xy 165.1 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4887,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 139.5222) (xy 210.82 139.5222)
+			(xy 232.41 139.7) (xy 210.82 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4897,7 +5012,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 102.6922) (xy 160.02 105.2322)
+			(xy 160.02 102.87) (xy 160.02 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4907,7 +5022,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 229.6922) (xy 0 229.6922)
+			(xy 2.54 229.87) (xy 0 229.87)
 		)
 		(stroke
 			(width 0.254)
@@ -4918,7 +5033,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 15.0622) (xy 132.08 17.6022)
+			(xy 132.08 15.24) (xy 132.08 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -4929,7 +5044,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 178.8922) (xy 182.88 170.0022)
+			(xy 182.88 179.07) (xy 182.88 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4939,7 +5054,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 120.4722) (xy 214.63 97.6122)
+			(xy 214.63 120.65) (xy 214.63 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4949,7 +5064,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 164.9222) (xy 284.48 164.9222)
+			(xy 303.53 165.1) (xy 284.48 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4959,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 139.5222) (xy 167.64 139.5222)
+			(xy 185.42 139.7) (xy 167.64 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4969,7 +5084,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 150.9522) (xy 147.32 150.9522)
+			(xy 167.64 151.13) (xy 147.32 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4979,7 +5094,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 148.4122) (xy 276.86 150.9522)
+			(xy 276.86 148.59) (xy 276.86 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4989,7 +5104,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 101.4222) (xy 219.71 101.4222)
+			(xy 210.82 101.6) (xy 219.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4999,7 +5114,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 142.0622) (xy 55.88 142.0622)
+			(xy 72.39 142.24) (xy 55.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5009,7 +5124,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 170.0022) (xy 214.63 170.0022)
+			(xy 210.82 170.18) (xy 214.63 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5019,7 +5134,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 138.2522) (xy 97.79 138.2522)
+			(xy 114.3 138.43) (xy 97.79 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5029,7 +5144,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 100.1522) (xy 0 100.1522)
+			(xy 2.54 100.33) (xy 0 100.33)
 		)
 		(stroke
 			(width 0.254)
@@ -5040,7 +5155,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 154.7622) (xy 232.41 154.7622)
+			(xy 248.92 154.94) (xy 232.41 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5050,7 +5165,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 161.1122) (xy 101.6 161.1122)
+			(xy 97.79 161.29) (xy 101.6 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +5175,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 138.2522) (xy 55.88 138.2522)
+			(xy 72.39 138.43) (xy 55.88 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5070,7 +5185,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 17.6022) (xy 0 15.0622)
+			(xy 2.54 17.78) (xy 0 15.24)
 		)
 		(stroke
 			(width 0.254)
@@ -5081,7 +5196,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 260.1722) (xy 231.14 260.1722)
+			(xy 391.16 260.35) (xy 231.14 260.35)
 		)
 		(stroke
 			(width 0.254)
@@ -5092,7 +5207,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 149.6822) (xy 68.58 149.6822)
+			(xy 72.39 149.86) (xy 68.58 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5102,7 +5217,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 120.4722) (xy 185.42 120.4722)
+			(xy 182.88 120.65) (xy 185.42 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5112,7 +5227,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 88.7222) (xy 102.87 100.1522)
+			(xy 102.87 88.9) (xy 102.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5122,7 +5237,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 178.8922) (xy 231.14 176.3522)
+			(xy 231.14 179.07) (xy 231.14 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5132,7 +5247,7 @@
 	)
 	(polyline
 		(pts
-			(xy 261.62 294.4622) (xy 261.62 297.0022)
+			(xy 261.62 294.64) (xy 261.62 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -5143,7 +5258,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 147.1422) (xy 232.41 147.1422)
+			(xy 259.08 147.32) (xy 232.41 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5153,7 +5268,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 147.1422) (xy 210.82 147.1422)
+			(xy 232.41 147.32) (xy 210.82 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5163,7 +5278,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 124.2822) (xy 210.82 124.2822)
+			(xy 232.41 124.46) (xy 210.82 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5173,7 +5288,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 143.3322) (xy 391.16 143.3322)
+			(xy 393.7 143.51) (xy 391.16 143.51)
 		)
 		(stroke
 			(width 0.254)
@@ -5184,7 +5299,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 100.1522) (xy 68.58 88.7222)
+			(xy 68.58 100.33) (xy 68.58 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5194,7 +5309,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 157.3022) (xy 101.6 157.3022)
+			(xy 97.79 157.48) (xy 101.6 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5204,7 +5319,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 274.1422) (xy 391.16 274.1422)
+			(xy 393.7 274.32) (xy 391.16 274.32)
 		)
 		(stroke
 			(width 0.254)
@@ -5215,7 +5330,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 73.4822) (xy 68.58 84.9122)
+			(xy 68.58 73.66) (xy 68.58 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5225,7 +5340,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 135.7122) (xy 147.32 135.7122)
+			(xy 167.64 135.89) (xy 147.32 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5235,7 +5350,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 150.9522) (xy 232.41 150.9522)
+			(xy 276.86 151.13) (xy 232.41 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5245,7 +5360,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 154.7622) (xy 147.32 154.7622)
+			(xy 167.64 154.94) (xy 147.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5255,7 +5370,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 131.9022) (xy 210.82 131.9022)
+			(xy 232.41 132.08) (xy 210.82 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5265,7 +5380,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 294.4622) (xy 393.7 297.0022)
+			(xy 391.16 294.64) (xy 393.7 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -5276,7 +5391,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 161.1122) (xy 303.53 164.9222)
+			(xy 303.53 161.29) (xy 303.53 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5286,7 +5401,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 229.6922) (xy 391.16 229.6922)
+			(xy 393.7 229.87) (xy 391.16 229.87)
 		)
 		(stroke
 			(width 0.254)
@@ -5297,7 +5412,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 167.4622) (xy 336.55 164.9222)
+			(xy 336.55 167.64) (xy 336.55 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5307,7 +5422,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 101.4222) (xy 248.92 101.4222)
+			(xy 232.41 101.6) (xy 248.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5317,7 +5432,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 153.4922) (xy 68.58 157.3022)
+			(xy 68.58 153.67) (xy 68.58 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5327,7 +5442,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 154.7622) (xy 210.82 154.7622)
+			(xy 232.41 154.94) (xy 210.82 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5337,7 +5452,7 @@
 	)
 	(polyline
 		(pts
-			(xy 288.29 277.9522) (xy 322.58 277.9522)
+			(xy 288.29 278.13) (xy 322.58 278.13)
 		)
 		(stroke
 			(width 0.254)
@@ -5348,7 +5463,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 170.0022) (xy 182.88 170.0022)
+			(xy 185.42 170.18) (xy 182.88 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5358,7 +5473,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 15.0622) (xy 218.44 17.6022)
+			(xy 218.44 15.24) (xy 218.44 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -5369,7 +5484,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 166.1922) (xy 231.14 168.7322)
+			(xy 231.14 166.37) (xy 231.14 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5379,7 +5494,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 272.8722) (xy 0 272.8722)
+			(xy 2.54 273.05) (xy 0 273.05)
 		)
 		(stroke
 			(width 0.254)
@@ -5390,7 +5505,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 116.6622) (xy 185.42 116.6622)
+			(xy 179.07 116.84) (xy 185.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5400,7 +5515,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.0422) (xy 219.71 109.0422)
+			(xy 210.82 109.22) (xy 219.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5410,7 +5525,7 @@
 	)
 	(polyline
 		(pts
-			(xy 347.98 294.4622) (xy 347.98 297.0022)
+			(xy 347.98 294.64) (xy 347.98 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -5421,7 +5536,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 96.3422) (xy 312.42 96.3422)
+			(xy 308.61 96.52) (xy 312.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5431,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 105.2322) (xy 179.07 105.2322)
+			(xy 165.1 105.41) (xy 179.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5441,7 +5556,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 124.2822) (xy 182.88 120.4722)
+			(xy 182.88 124.46) (xy 182.88 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5451,7 +5566,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 153.4922) (xy 68.58 153.4922)
+			(xy 72.39 153.67) (xy 68.58 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5461,7 +5576,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.1522) (xy 68.58 100.1522)
+			(xy 102.87 100.33) (xy 68.58 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5471,7 +5586,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 166.1922) (xy 248.92 166.1922)
+			(xy 241.3 166.37) (xy 247.65 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5481,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 112.8522) (xy 219.71 112.8522)
+			(xy 210.82 113.03) (xy 219.71 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5491,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.4722) (xy 214.63 120.4722)
+			(xy 210.82 120.65) (xy 214.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5501,7 +5616,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 147.1422) (xy 147.32 147.1422)
+			(xy 167.64 147.32) (xy 147.32 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5511,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 142.0622) (xy 97.79 142.0622)
+			(xy 114.3 142.24) (xy 97.79 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5521,7 +5636,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 84.9122) (xy 102.87 84.9122)
+			(xy 97.79 85.09) (xy 102.87 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5531,7 +5646,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 112.8522) (xy 219.71 109.0422)
+			(xy 219.71 113.03) (xy 219.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5541,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 178.8922) (xy 214.63 170.0022)
+			(xy 214.63 179.07) (xy 214.63 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5551,7 +5666,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 17.6022) (xy 2.54 294.4622)
+			(xy 2.54 17.78) (xy 2.54 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -5562,7 +5677,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 15.0622) (xy 175.26 17.6022)
+			(xy 175.26 15.24) (xy 175.26 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -5573,7 +5688,7 @@
 	)
 	(polyline
 		(pts
-			(xy 288.29 260.1722) (xy 288.29 294.4622)
+			(xy 288.29 260.35) (xy 288.29 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -5584,7 +5699,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 186.5122) (xy 0 186.5122)
+			(xy 2.54 186.69) (xy 0 186.69)
 		)
 		(stroke
 			(width 0.254)
@@ -5595,7 +5710,7 @@
 	)
 	(polyline
 		(pts
-			(xy 231.14 260.1722) (xy 231.14 294.4622)
+			(xy 231.14 260.35) (xy 231.14 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -5606,7 +5721,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 143.3322) (xy 182.88 124.2822)
+			(xy 182.88 143.51) (xy 182.88 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5616,7 +5731,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 161.1122) (xy 68.58 166.1922)
+			(xy 68.58 161.29) (xy 68.58 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5626,7 +5741,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 272.8722) (xy 391.16 272.8722)
+			(xy 322.58 273.05) (xy 391.16 273.05)
 		)
 		(stroke
 			(width 0.254)
@@ -5637,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 128.0922) (xy 312.42 128.0922)
+			(xy 308.61 128.27) (xy 312.42 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5647,7 +5762,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 124.2822) (xy 232.41 124.2822)
+			(xy 248.92 124.46) (xy 232.41 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5657,7 +5772,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 128.0922) (xy 167.64 128.0922)
+			(xy 185.42 128.27) (xy 167.64 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 84.9122) (xy 72.39 84.9122)
+			(xy 68.58 85.09) (xy 72.39 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5677,7 +5792,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 143.3322) (xy 185.42 143.3322)
+			(xy 182.88 143.51) (xy 185.42 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5687,7 +5802,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 145.8722) (xy 97.79 145.8722)
+			(xy 114.3 146.05) (xy 97.79 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5697,7 +5812,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 17.6022) (xy 2.54 17.6022)
+			(xy 391.16 17.78) (xy 2.54 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -5708,7 +5823,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 102.6922) (xy 308.61 96.3422)
+			(xy 308.61 102.87) (xy 308.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5718,7 +5833,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 158.5722) (xy 210.82 158.5722)
+			(xy 232.41 158.75) (xy 210.82 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5728,7 +5843,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 153.4922) (xy 101.6 153.4922)
+			(xy 97.79 153.67) (xy 101.6 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5738,7 +5853,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 170.0022) (xy 182.88 143.3322)
+			(xy 182.88 170.18) (xy 182.88 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5748,7 +5863,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 178.8922) (xy 259.08 176.3522)
+			(xy 259.08 179.07) (xy 259.08 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5758,7 +5873,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 164.9222) (xy 336.55 161.1122)
+			(xy 336.55 165.1) (xy 336.55 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5768,7 +5883,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 161.1122) (xy 303.53 161.1122)
+			(xy 307.34 161.29) (xy 303.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5778,7 +5893,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 97.6122) (xy 210.82 97.6122)
+			(xy 214.63 97.79) (xy 210.82 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5788,7 +5903,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 56.9722) (xy 391.16 56.9722)
+			(xy 393.7 57.15) (xy 391.16 57.15)
 		)
 		(stroke
 			(width 0.254)
@@ -5799,7 +5914,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 162.3822) (xy 147.32 162.3822)
+			(xy 167.64 162.56) (xy 147.32 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5809,7 +5924,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 73.4822) (xy 68.58 73.4822)
+			(xy 102.87 73.66) (xy 68.58 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5819,7 +5934,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 158.5722) (xy 167.64 158.5722)
+			(xy 185.42 158.75) (xy 167.64 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5829,7 +5944,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 112.8522) (xy 179.07 116.6622)
+			(xy 179.07 113.03) (xy 179.07 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5839,7 +5954,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 143.3322) (xy 0 143.3322)
+			(xy 2.54 143.51) (xy 0 143.51)
 		)
 		(stroke
 			(width 0.254)
@@ -5850,7 +5965,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 88.7222) (xy 102.87 88.7222)
+			(xy 121.92 88.9) (xy 102.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5860,7 +5975,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 170.0022) (xy 214.63 143.3322)
+			(xy 214.63 170.18) (xy 214.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5870,7 +5985,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 17.6022) (xy 393.7 15.0622)
+			(xy 391.16 17.78) (xy 393.7 15.24)
 		)
 		(stroke
 			(width 0.254)
@@ -5881,7 +5996,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 186.5122) (xy 391.16 186.5122)
+			(xy 393.7 186.69) (xy 391.16 186.69)
 		)
 		(stroke
 			(width 0.254)
@@ -5892,7 +6007,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 109.0422) (xy 179.07 112.8522)
+			(xy 179.07 109.22) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5902,7 +6017,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 168.7322) (xy 269.24 139.5222)
+			(xy 269.24 168.91) (xy 269.24 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5912,7 +6027,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 294.4622) (xy 391.16 17.6022)
+			(xy 391.16 294.64) (xy 391.16 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -5923,7 +6038,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 143.3322) (xy 214.63 120.4722)
+			(xy 214.63 143.51) (xy 214.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5933,7 +6048,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 164.9222) (xy 332.74 164.9222)
+			(xy 336.55 165.1) (xy 332.74 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5943,7 +6058,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 116.6622) (xy 210.82 116.6622)
+			(xy 232.41 116.84) (xy 210.82 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5953,7 +6068,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9 15.0622) (xy 88.9 17.6022)
+			(xy 88.9 15.24) (xy 88.9 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -5964,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 101.4222) (xy 182.88 97.6122)
+			(xy 182.88 101.6) (xy 182.88 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5974,7 +6089,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 266.5222) (xy 288.29 266.5222)
+			(xy 322.58 266.7) (xy 288.29 266.7)
 		)
 		(stroke
 			(width 0.254)
@@ -5985,7 +6100,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 128.0922) (xy 147.32 128.0922)
+			(xy 167.64 128.27) (xy 147.32 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5995,7 +6110,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 101.4222) (xy 232.41 101.4222)
+			(xy 219.71 101.6) (xy 232.41 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6005,7 +6120,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 109.0422) (xy 219.71 105.2322)
+			(xy 219.71 109.22) (xy 219.71 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6015,7 +6130,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 178.8922) (xy 269.24 176.3522)
+			(xy 269.24 179.07) (xy 269.24 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6025,7 +6140,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 145.8722) (xy 55.88 145.8722)
+			(xy 72.39 146.05) (xy 55.88 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6035,7 +6150,7 @@
 	)
 	(polyline
 		(pts
-			(xy 304.8 294.4622) (xy 304.8 297.0022)
+			(xy 304.8 294.64) (xy 304.8 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -6046,7 +6161,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 157.3022) (xy 114.3 157.3022)
+			(xy 101.6 157.48) (xy 114.3 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6056,7 +6171,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 139.5222) (xy 147.32 139.5222)
+			(xy 167.64 139.7) (xy 147.32 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6066,7 +6181,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 260.1722) (xy 322.58 294.4622)
+			(xy 322.58 260.35) (xy 322.58 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -6077,7 +6192,7 @@
 	)
 	(polyline
 		(pts
-			(xy 304.8 15.0622) (xy 304.8 17.6022)
+			(xy 304.8 15.24) (xy 304.8 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -6088,7 +6203,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 100.1522) (xy 391.16 100.1522)
+			(xy 393.7 100.33) (xy 391.16 100.33)
 		)
 		(stroke
 			(width 0.254)
@@ -6099,7 +6214,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 124.2822) (xy 289.56 124.2822)
+			(xy 312.42 124.46) (xy 289.56 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6109,7 +6224,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 105.2322) (xy 179.07 109.0422)
+			(xy 179.07 105.41) (xy 179.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6119,7 +6234,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 149.6822) (xy 114.3 149.6822)
+			(xy 101.6 149.86) (xy 114.3 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6129,7 +6244,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 166.1922) (xy 167.64 166.1922)
+			(xy 185.42 166.37) (xy 167.64 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6139,7 +6254,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 105.2322) (xy 219.71 105.2322)
+			(xy 210.82 105.41) (xy 219.71 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6149,7 +6264,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 135.7122) (xy 232.41 135.7122)
+			(xy 248.92 135.89) (xy 232.41 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6159,7 +6274,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 88.7222) (xy 102.87 88.7222)
+			(xy 97.79 88.9) (xy 102.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6169,7 +6284,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 92.5322) (xy 289.56 92.5322)
+			(xy 312.42 92.71) (xy 289.56 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6179,7 +6294,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 105.2322) (xy 179.07 105.2322)
+			(xy 185.42 105.41) (xy 179.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6189,7 +6304,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 150.9522) (xy 210.82 150.9522)
+			(xy 232.41 151.13) (xy 210.82 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6199,7 +6314,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 294.4622) (xy 132.08 297.0022)
+			(xy 132.08 294.64) (xy 132.08 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -6210,7 +6325,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 162.3822) (xy 232.41 162.3822)
+			(xy 248.92 162.56) (xy 232.41 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6220,7 +6335,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 294.4622) (xy 391.16 294.4622)
+			(xy 2.54 294.64) (xy 391.16 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -6231,7 +6346,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 88.7222) (xy 72.39 88.7222)
+			(xy 68.58 88.9) (xy 72.39 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6241,7 +6356,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 154.7622) (xy 167.64 154.7622)
+			(xy 185.42 154.94) (xy 167.64 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6251,7 +6366,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 164.9222) (xy 303.53 164.9222)
+			(xy 307.34 165.1) (xy 303.53 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6261,7 +6376,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 162.3822) (xy 167.64 162.3822)
+			(xy 185.42 162.56) (xy 167.64 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6271,7 +6386,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 128.0922) (xy 232.41 128.0922)
+			(xy 248.92 128.27) (xy 232.41 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6281,7 +6396,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 157.3022) (xy 72.39 157.3022)
+			(xy 68.58 157.48) (xy 72.39 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6291,7 +6406,7 @@
 	)
 	(polyline
 		(pts
-			(xy 347.98 15.0622) (xy 347.98 17.6022)
+			(xy 347.98 15.24) (xy 347.98 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -6302,7 +6417,7 @@
 	)
 	(polyline
 		(pts
-			(xy 45.72 15.0622) (xy 45.72 17.6022)
+			(xy 45.72 15.24) (xy 45.72 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -6313,7 +6428,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 161.1122) (xy 101.6 157.3022)
+			(xy 101.6 161.29) (xy 101.6 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6323,7 +6438,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 116.6622) (xy 232.41 116.6622)
+			(xy 248.92 116.84) (xy 232.41 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6333,7 +6448,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 135.7122) (xy 210.82 135.7122)
+			(xy 232.41 135.89) (xy 210.82 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6343,7 +6458,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 120.4722) (xy 182.88 101.4222)
+			(xy 182.88 120.65) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6353,7 +6468,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 239.8522) (xy 17.78 238.5822)
+			(xy 17.78 240.03) (xy 17.78 238.76)
 		)
 		(stroke
 			(width 0)
@@ -6363,7 +6478,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 131.9022) (xy 232.41 131.9022)
+			(xy 248.92 132.08) (xy 232.41 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6373,7 +6488,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 158.5722) (xy 232.41 158.5722)
+			(xy 248.92 158.75) (xy 232.41 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6383,7 +6498,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 84.9122) (xy 121.92 84.9122)
+			(xy 102.87 85.09) (xy 121.92 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6393,7 +6508,7 @@
 	)
 	(polyline
 		(pts
-			(xy 45.72 294.4622) (xy 45.72 297.0022)
+			(xy 45.72 294.64) (xy 45.72 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -6404,7 +6519,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 134.4422) (xy 308.61 128.0922)
+			(xy 308.61 134.62) (xy 308.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6414,7 +6529,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 147.1422) (xy 167.64 147.1422)
+			(xy 185.42 147.32) (xy 167.64 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6424,7 +6539,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 149.6822) (xy 101.6 149.6822)
+			(xy 97.79 149.86) (xy 101.6 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6434,7 +6549,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 135.7122) (xy 167.64 135.7122)
+			(xy 185.42 135.89) (xy 167.64 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6444,7 +6559,7 @@
 	)
 	(global_label "ENEXT"
 		(shape passive)
-		(at 248.92 162.3822 0)
+		(at 248.92 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6454,7 +6569,7 @@
 		)
 		(uuid "05c4fe77-00f5-457b-982b-aa38bc592d1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 162.3822 0)
+			(at 248.92 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6580,7 @@
 		)
 	)
 	(label "REGTEMP"
-		(at 247.65 147.1422 180)
+		(at 247.65 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6476,7 +6591,7 @@
 	)
 	(global_label "OUTSBC"
 		(shape passive)
-		(at 284.48 164.9222 180)
+		(at 284.48 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6486,7 +6601,7 @@
 		)
 		(uuid "07315fb3-aa7a-4d9b-acb7-c9c3454ebd75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.48 164.9222 0)
+			(at 284.48 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +6613,7 @@
 	)
 	(global_label "CLOCK2"
 		(shape passive)
-		(at 114.3 145.8722 0)
+		(at 114.3 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6508,7 +6623,7 @@
 		)
 		(uuid "08e2b485-6d74-4c9b-8173-1ff66fafe443")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 145.8722 0)
+			(at 114.3 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6635,7 @@
 	)
 	(global_label "OUTDAQ"
 		(shape passive)
-		(at 289.56 124.2822 180)
+		(at 289.56 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6530,7 +6645,7 @@
 		)
 		(uuid "19ae0597-69dc-4be9-acb8-63c47cf2ad28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 124.2822 0)
+			(at 289.56 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6657,7 @@
 	)
 	(global_label "DATA2"
 		(shape passive)
-		(at 114.3 142.0622 0)
+		(at 114.3 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6552,7 +6667,7 @@
 		)
 		(uuid "2af55d79-7f46-418f-b479-9b82ae45a684")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 142.0622 0)
+			(at 114.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6679,7 @@
 	)
 	(global_label "SCL1"
 		(shape passive)
-		(at 147.32 150.9522 180)
+		(at 147.32 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6574,7 +6689,7 @@
 		)
 		(uuid "3bc9523a-d332-4af5-9d7b-c1458ed48699")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 150.9522 0)
+			(at 147.32 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +6701,7 @@
 	)
 	(global_label "IAMPREG"
 		(shape passive)
-		(at 147.32 139.5222 180)
+		(at 147.32 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6596,7 +6711,7 @@
 		)
 		(uuid "3d281df1-9829-49cc-b850-7395282dad5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 139.5222 0)
+			(at 147.32 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,7 +6723,7 @@
 	)
 	(global_label "SCL2"
 		(shape passive)
-		(at 147.32 162.3822 180)
+		(at 147.32 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6618,7 +6733,7 @@
 		)
 		(uuid "421e41d4-694d-4cb5-bfe8-4206a37d8bb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 162.3822 0)
+			(at 147.32 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,7 +6745,7 @@
 	)
 	(global_label "nCS"
 		(shape passive)
-		(at 248.92 135.7122 0)
+		(at 248.92 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6640,7 +6755,7 @@
 		)
 		(uuid "4a12090a-179f-44cc-b27d-411e34a9d4e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 135.7122 0)
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +6767,7 @@
 	)
 	(global_label "DCBMS"
 		(shape passive)
-		(at 248.92 101.4222 0)
+		(at 248.92 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6662,7 +6777,7 @@
 		)
 		(uuid "4af41eee-e551-4b8e-98d6-fa54d577b8e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 101.4222 0)
+			(at 248.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +6789,7 @@
 	)
 	(global_label "REGEN"
 		(shape passive)
-		(at 248.92 116.6622 0)
+		(at 248.92 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6684,7 +6799,7 @@
 		)
 		(uuid "4ba34c75-5445-4aae-857b-bb784b405667")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 116.6622 0)
+			(at 248.92 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6811,7 @@
 	)
 	(global_label "IAMPSBC"
 		(shape passive)
-		(at 147.32 128.0922 180)
+		(at 147.32 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6706,7 +6821,7 @@
 		)
 		(uuid "4cec8b34-22f7-4486-893e-d4ee65075e0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 128.0922 0)
+			(at 147.32 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +6833,7 @@
 	)
 	(global_label "OUTEXT"
 		(shape passive)
-		(at 289.56 92.5322 180)
+		(at 289.56 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6728,7 +6843,7 @@
 		)
 		(uuid "575892f6-5d5a-4248-ad68-c09dee4dd79d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 92.5322 0)
+			(at 289.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6855,7 @@
 	)
 	(global_label "CLOCK1"
 		(shape passive)
-		(at 55.88 145.8722 180)
+		(at 55.88 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6750,7 +6865,7 @@
 		)
 		(uuid "5d6af871-7f98-4bb2-a6ff-1cc40c1de7d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 145.8722 0)
+			(at 55.88 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6876,7 @@
 		)
 	)
 	(label "BMSTEMP"
-		(at 247.65 139.5222 180)
+		(at 247.65 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6772,7 +6887,7 @@
 	)
 	(global_label "IAMPDAQ"
 		(shape passive)
-		(at 147.32 131.9022 180)
+		(at 147.32 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6782,7 +6897,7 @@
 		)
 		(uuid "6bb80ad0-d848-453d-becb-b2cb598badb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 131.9022 0)
+			(at 147.32 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6909,7 @@
 	)
 	(global_label "MOSI"
 		(shape passive)
-		(at 248.92 128.0922 0)
+		(at 248.92 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6804,7 +6919,7 @@
 		)
 		(uuid "75ca5efe-8b06-40a5-b02b-cf726f0b99ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 128.0922 0)
+			(at 248.92 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,7 +6931,7 @@
 	)
 	(global_label "ENDAQ"
 		(shape passive)
-		(at 248.92 158.5722 0)
+		(at 248.92 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6826,7 +6941,7 @@
 		)
 		(uuid "76d54816-8208-43fe-b175-afd02ffdb3b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 158.5722 0)
+			(at 248.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6953,7 @@
 	)
 	(global_label "DSDA2"
 		(shape passive)
-		(at 147.32 158.5722 180)
+		(at 147.32 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6848,7 +6963,7 @@
 		)
 		(uuid "99b823f6-d1e2-41b4-806d-5cdecb9fcf2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 158.5722 0)
+			(at 147.32 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +6975,7 @@
 	)
 	(global_label "ENSBC"
 		(shape passive)
-		(at 248.92 154.7622 0)
+		(at 248.92 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6870,7 +6985,7 @@
 		)
 		(uuid "a1018684-eeb2-48d1-83d8-db57aea919f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 154.7622 0)
+			(at 248.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6997,7 @@
 	)
 	(global_label "SAFE1"
 		(shape passive)
-		(at 55.88 138.2522 180)
+		(at 55.88 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6892,7 +7007,7 @@
 		)
 		(uuid "a3f32831-0590-449d-b7e7-5d04920ae0e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 138.2522 0)
+			(at 55.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +7019,7 @@
 	)
 	(global_label "GDINPUT"
 		(shape passive)
-		(at 121.92 84.9122 0)
+		(at 121.92 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6914,7 +7029,7 @@
 		)
 		(uuid "a8eb47bd-74ed-40a8-91c0-b3ef24b5bddf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 84.9122 0)
+			(at 121.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +7041,7 @@
 	)
 	(global_label "DATA1"
 		(shape passive)
-		(at 55.88 142.0622 180)
+		(at 55.88 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6936,7 +7051,7 @@
 		)
 		(uuid "ab06f61a-4df6-4a90-8da8-280907e02bf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 142.0622 0)
+			(at 55.88 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +7063,7 @@
 	)
 	(global_label "CLOCK"
 		(shape passive)
-		(at 248.92 124.2822 0)
+		(at 248.92 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6958,7 +7073,7 @@
 		)
 		(uuid "ad54737a-7ac5-4b3e-a5e0-4dccce1143f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 124.2822 0)
+			(at 248.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +7085,7 @@
 	)
 	(global_label "SAFE2"
 		(shape passive)
-		(at 147.32 166.1922 180)
+		(at 147.32 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6980,7 +7095,7 @@
 		)
 		(uuid "b74cf0f6-c9b2-42fa-87be-e2abad73e4e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 166.1922 0)
+			(at 147.32 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +7107,7 @@
 	)
 	(global_label "MISO"
 		(shape passive)
-		(at 248.92 131.9022 0)
+		(at 248.92 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7002,7 +7117,7 @@
 		)
 		(uuid "ca740f4b-8569-4174-b5d1-563a17dd3f7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 131.9022 0)
+			(at 248.92 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7129,7 @@
 	)
 	(global_label "SAFE2"
 		(shape passive)
-		(at 114.3 138.2522 0)
+		(at 114.3 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7024,7 +7139,7 @@
 		)
 		(uuid "d7fb1790-0678-48a2-afad-82d92e1a2322")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 138.2522 0)
+			(at 114.3 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7151,7 @@
 	)
 	(global_label "DSDA1"
 		(shape passive)
-		(at 147.32 147.1422 180)
+		(at 147.32 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7046,7 +7161,7 @@
 		)
 		(uuid "d9052ed2-bc3d-408e-9366-50958b140870")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 147.1422 0)
+			(at 147.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7173,7 @@
 	)
 	(global_label "POS1"
 		(shape passive)
-		(at 114.3 149.6822 0)
+		(at 114.3 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7068,7 +7183,7 @@
 		)
 		(uuid "ebab87c8-d424-4b8e-8fff-7328ab5037b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 149.6822 0)
+			(at 114.3 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7194,7 @@
 		)
 	)
 	(label "ID"
-		(at 247.65 166.1922 180)
+		(at 247.65 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7090,7 +7205,7 @@
 	)
 	(global_label "POS2"
 		(shape passive)
-		(at 114.3 157.3022 0)
+		(at 114.3 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7100,7 +7215,7 @@
 		)
 		(uuid "ee302d2e-3f5c-4cf6-ad52-9c5212ce0b78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 157.3022 0)
+			(at 114.3 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7227,7 @@
 	)
 	(global_label "SAFE1"
 		(shape passive)
-		(at 147.32 154.7622 180)
+		(at 147.32 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7122,7 +7237,7 @@
 		)
 		(uuid "f55442c5-6837-46b6-a4cd-7f202bcfab1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 154.7622 0)
+			(at 147.32 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7249,7 @@
 	)
 	(global_label "DCINPUT"
 		(shape passive)
-		(at 121.92 88.7222 0)
+		(at 121.92 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7144,7 +7259,7 @@
 		)
 		(uuid "fb85fd3e-8598-4cd6-8c47-447014f34437")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 88.7222 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +7271,7 @@
 	)
 	(global_label "IAMPEXT"
 		(shape passive)
-		(at 147.32 135.7122 180)
+		(at 147.32 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7166,7 +7281,7 @@
 		)
 		(uuid "fc49d6f3-c510-4916-a0ad-38db2d35e102")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 135.7122 0)
+			(at 147.32 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7293,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 135.7122 0)
+		(at 232.41 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7188,7 +7303,7 @@
 		(dnp no)
 		(uuid "014c9cc1-cbcd-4c0b-b52e-b49c71d27b60")
 		(property "Reference" "BON19"
-			(at 229.87 135.7122 0)
+			(at 229.87 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7199,7 +7314,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 134.4422 0)
+			(at 232.41 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,7 +7325,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 135.7122 0)
+			(at 232.41 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7221,7 +7336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 135.7122 0)
+			(at 232.41 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7232,7 +7347,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 135.7122 0)
+			(at 232.41 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7243,7 +7358,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 132.6642 0)
+			(at 231.14 132.842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +7370,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 132.6642 0)
+			(at 231.14 132.842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7267,7 +7382,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 134.4422 0)
+			(at 233.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7292,7 +7407,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 131.9022 0)
+		(at 232.41 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7302,7 +7417,7 @@
 		(dnp no)
 		(uuid "017988a2-535d-4a08-97a5-cd6fd6365c46")
 		(property "Reference" "BON18"
-			(at 229.87 131.9022 0)
+			(at 229.87 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7313,7 +7428,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 130.6322 0)
+			(at 232.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7324,7 +7439,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 131.9022 0)
+			(at 232.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7335,7 +7450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 131.9022 0)
+			(at 232.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,7 +7461,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 131.9022 0)
+			(at 232.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7357,7 +7472,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 128.8542 0)
+			(at 231.14 129.032 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,7 +7484,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 128.8542 0)
+			(at 231.14 129.032 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7381,7 +7496,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 130.6322 0)
+			(at 233.68 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7406,7 +7521,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 131.9022 0)
+		(at 167.64 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7416,7 +7531,7 @@
 		(dnp no)
 		(uuid "039cc1f1-33d1-4e0d-b444-f8d1f9d2d3e9")
 		(property "Reference" "BON5"
-			(at 170.18 131.9022 0)
+			(at 170.18 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7427,7 +7542,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 130.6322 0)
+			(at 167.64 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7438,7 +7553,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 131.9022 0)
+			(at 167.64 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7449,7 +7564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 131.9022 0)
+			(at 167.64 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7460,7 +7575,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 131.9022 0)
+			(at 167.64 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7471,7 +7586,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 128.8542 0)
+			(at 166.37 129.032 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7483,7 +7598,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 128.8542 0)
+			(at 166.37 129.032 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7495,7 +7610,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 130.6322 0)
+			(at 168.91 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7520,7 +7635,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Connector Amphenol BergStak 10144517-043802LF 40-Pin Receptical")
-		(at 198.12 97.6122 0)
+		(at 198.12 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7530,7 +7645,7 @@
 		(dnp no)
 		(uuid "0eb4a196-59d6-4559-9411-3dbd051d7654")
 		(property "Reference" "J3"
-			(at 198.12 92.5322 0)
+			(at 198.12 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7540,7 +7655,7 @@
 			)
 		)
 		(property "Value" "10144517-043802LF"
-			(at 210.82 100.1522 0)
+			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7551,7 +7666,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:Connector Amphenol BergStak 10144517-043802LF 40-Pin Receptical"
-			(at 198.12 97.6122 0)
+			(at 198.12 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7562,7 +7677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 97.6122 0)
+			(at 198.12 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7573,7 +7688,7 @@
 			)
 		)
 		(property "Description" "Connector Amphenol BergStak 10144517-043802LF 40-Pin Receptical 0.8mm"
-			(at 198.12 97.6122 0)
+			(at 198.12 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7584,7 +7699,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 184.912 93.8022 0)
+			(at 184.912 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7596,7 +7711,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 184.912 93.8022 0)
+			(at 184.912 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7608,7 +7723,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0.8mm BergStak"
-			(at 198.12 172.542 0)
+			(at 198.12 172.7198 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7616,7 +7731,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10144517-043802LF"
-			(at 208.28 123.0122 0)
+			(at 208.28 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7627,7 +7742,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 184.912 93.8022 0)
+			(at 184.912 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7639,7 +7754,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "10144517-042802LF"
-			(at 184.912 93.8022 0)
+			(at 184.912 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7781,7 +7896,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Connector Molex 1053101204 2x2-Way 2.5mm Pitch THP")
-		(at 320.04 161.1122 0)
+		(at 320.04 161.29 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7792,7 +7907,7 @@
 		(dnp no)
 		(uuid "13a7a122-b92d-454d-80cd-c4cb380f798b")
 		(property "Reference" "J1"
-			(at 320.04 156.0322 0)
+			(at 320.04 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7802,7 +7917,7 @@
 			)
 		)
 		(property "Value" "1053101204"
-			(at 307.34 163.6522 0)
+			(at 307.34 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7813,7 +7928,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:Connector Molex 105310xx04 4POS 2.5mm THP"
-			(at 320.04 161.1122 0)
+			(at 320.04 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7824,7 +7939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 161.1122 0)
+			(at 320.04 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7835,7 +7950,7 @@
 			)
 		)
 		(property "Description" "Connector Molex 1053101204 2x2-Way 2.5mm Pitch THP"
-			(at 320.04 161.1122 0)
+			(at 320.04 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7846,7 +7961,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 319.532 153.1112 0)
+			(at 319.532 153.289 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +7973,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 312.265 151.8412 0)
+			(at 312.265 152.019 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7870,7 +7985,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
-			(at 320.04 167.462 0)
+			(at 320.04 167.6398 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7878,7 +7993,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1053101204"
-			(at 309.88 186.5122 0)
+			(at 309.88 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7889,7 +8004,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 310.642 154.7622 0)
+			(at 310.642 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7901,7 +8016,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "1053101204"
-			(at 310.642 154.7622 0)
+			(at 310.642 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,7 +8050,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Connector Molex 1053091102 2-Way 2.5mm Pitch THP")
-		(at 322.58 124.2822 0)
+		(at 322.58 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7945,7 +8060,7 @@
 		(dnp no)
 		(uuid "14bbf7fd-b816-47fb-9176-7089db5a634b")
 		(property "Reference" "J6"
-			(at 322.58 119.2022 0)
+			(at 322.58 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7955,7 +8070,7 @@
 			)
 		)
 		(property "Value" "1053091102"
-			(at 335.28 126.8222 0)
+			(at 335.28 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7966,7 +8081,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:CONNECTOR MOLEX 1053091102 2POS 2.5MM THP"
-			(at 322.58 124.2822 0)
+			(at 322.58 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7977,7 +8092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 124.2822 0)
+			(at 322.58 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7988,7 +8103,7 @@
 			)
 		)
 		(property "Description" "Connector Molex 1053091102 2-Way 2.5mm Pitch THP"
-			(at 322.58 124.2822 0)
+			(at 322.58 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7999,7 +8114,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 322.072 116.2812 0)
+			(at 322.072 116.459 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8011,7 +8126,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 314.805 115.0112 0)
+			(at 314.805 115.189 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8023,7 +8138,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
-			(at 322.58 130.632 0)
+			(at 322.58 130.8098 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8031,7 +8146,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1053091102"
-			(at 332.74 149.6822 0)
+			(at 332.74 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8042,7 +8157,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 313.182 117.9322 0)
+			(at 313.182 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8054,7 +8169,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "1053091102"
-			(at 313.182 117.9322 0)
+			(at 313.182 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8082,7 +8197,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 214.63 178.8922 0)
+		(at 214.63 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8092,7 +8207,7 @@
 		(dnp no)
 		(uuid "17b2f7a4-d51a-4abb-95db-3fd2e37c690b")
 		(property "Reference" "#PWR012"
-			(at 214.63 178.8922 0)
+			(at 214.63 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8103,7 +8218,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 185.2422 0)
+			(at 214.63 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8113,7 +8228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 178.8922 0)
+			(at 214.63 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8123,7 +8238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 178.8922 0)
+			(at 214.63 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8133,7 +8248,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 178.8922 0)
+			(at 214.63 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8156,7 +8271,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 162.3822 0)
+		(at 167.64 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8166,7 +8281,7 @@
 		(dnp no)
 		(uuid "26a86de5-c629-4c0b-b00f-9e8468835280")
 		(property "Reference" "BON12"
-			(at 170.18 162.3822 0)
+			(at 170.18 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8177,7 +8292,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 161.1122 0)
+			(at 167.64 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8188,7 +8303,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 162.3822 0)
+			(at 167.64 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8199,7 +8314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 162.3822 0)
+			(at 167.64 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8210,7 +8325,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 162.3822 0)
+			(at 167.64 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8221,7 +8336,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 159.3342 0)
+			(at 166.37 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8233,7 +8348,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 159.3342 0)
+			(at 166.37 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8245,7 +8360,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 161.1122 0)
+			(at 168.91 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8270,7 +8385,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 158.5722 0)
+		(at 232.41 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8280,7 +8395,7 @@
 		(dnp no)
 		(uuid "28be6ffc-81d6-485b-baff-03d4db3242e7")
 		(property "Reference" "BON24"
-			(at 229.87 158.5722 0)
+			(at 229.87 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8291,7 +8406,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 157.3022 0)
+			(at 232.41 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8302,7 +8417,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 158.5722 0)
+			(at 232.41 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8313,7 +8428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 158.5722 0)
+			(at 232.41 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8324,7 +8439,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 158.5722 0)
+			(at 232.41 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8335,7 +8450,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 155.5242 0)
+			(at 231.14 155.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +8462,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 155.5242 0)
+			(at 231.14 155.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8359,7 +8474,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 157.3022 0)
+			(at 233.68 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,7 +8499,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 162.3822 0)
+		(at 232.41 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8394,7 +8509,7 @@
 		(dnp no)
 		(uuid "2b4f74ec-3977-49cd-9c88-9e22f9824a86")
 		(property "Reference" "BON25"
-			(at 229.87 162.3822 0)
+			(at 229.87 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8405,7 +8520,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 161.1122 0)
+			(at 232.41 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8416,7 +8531,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 162.3822 0)
+			(at 232.41 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8427,7 +8542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 162.3822 0)
+			(at 232.41 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,7 +8553,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 162.3822 0)
+			(at 232.41 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8449,7 +8564,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 159.3342 0)
+			(at 231.14 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8461,7 +8576,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 159.3342 0)
+			(at 231.14 159.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8473,7 +8588,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 161.1122 0)
+			(at 233.68 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8498,7 +8613,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 241.3 166.1922 0)
+		(at 241.3 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8508,7 +8623,7 @@
 		(dnp no)
 		(uuid "2d70cc39-9de4-4e1e-8eeb-695e0c6e8f28")
 		(property "Reference" "BON26"
-			(at 238.76 166.1922 0)
+			(at 238.76 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8519,7 +8634,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 241.3 164.9222 0)
+			(at 241.3 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8530,7 +8645,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 241.3 166.1922 0)
+			(at 241.3 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8541,7 +8656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 166.1922 0)
+			(at 241.3 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8552,7 +8667,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 241.3 166.1922 0)
+			(at 241.3 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8563,7 +8678,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 240.03 163.1442 0)
+			(at 240.03 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8575,7 +8690,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 240.03 163.1442 0)
+			(at 240.03 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8587,7 +8702,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 242.57 164.9222 0)
+			(at 242.57 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8612,7 +8727,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Mech Spacer Wurth 78614150960 Through M3 15mm")
-		(at 40.64 267.7922 0)
+		(at 40.64 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8622,7 +8737,7 @@
 		(dnp no)
 		(uuid "3024fb4d-ae5b-4684-93b3-7a894a9a9c1f")
 		(property "Reference" "M2"
-			(at 40.64 256.3622 0)
+			(at 40.64 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8632,7 +8747,7 @@
 			)
 		)
 		(property "Value" "78614150960"
-			(at 40.64 262.7122 0)
+			(at 40.64 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,7 +8758,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
-			(at 40.64 267.7922 0)
+			(at 40.64 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8654,7 +8769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 267.7922 0)
+			(at 40.64 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8665,7 +8780,7 @@
 			)
 		)
 		(property "Description" "Mech Spacer Wurth 78614150960 Through M3 15mm"
-			(at 40.64 267.7922 0)
+			(at 40.64 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,7 +8791,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 38.804 262.8392 0)
+			(at 38.804 263.017 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8688,7 +8803,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 40.64 261.442 0)
+			(at 40.64 261.6198 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8696,7 +8811,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
-			(at 41.91 266.5222 0)
+			(at 41.91 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8721,7 +8836,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 30.48 238.5822 0)
+		(at 30.48 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8731,7 +8846,7 @@
 		(dnp no)
 		(uuid "38c59352-afe7-418f-926f-b87b8524eeda")
 		(property "Reference" "BON2"
-			(at 33.02 238.5822 0)
+			(at 33.02 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8742,7 +8857,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 30.48 237.3122 0)
+			(at 30.48 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8753,7 +8868,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 30.48 238.5822 0)
+			(at 30.48 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8764,7 +8879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 238.5822 0)
+			(at 30.48 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8775,7 +8890,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 30.48 238.5822 0)
+			(at 30.48 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8786,7 +8901,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 29.21 235.5342 0)
+			(at 29.21 235.712 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8798,7 +8913,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 29.21 235.5342 0)
+			(at 29.21 235.712 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8810,7 +8925,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 31.75 237.3122 0)
+			(at 31.75 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8835,7 +8950,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Connector Molex 1053091102 2-Way 2.5mm Pitch THP")
-		(at 322.58 92.5322 0)
+		(at 322.58 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8845,7 +8960,7 @@
 		(dnp no)
 		(uuid "3a2a7f2c-0269-474f-a060-e4f79596cdd2")
 		(property "Reference" "J5"
-			(at 322.58 87.4522 0)
+			(at 322.58 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8855,7 +8970,7 @@
 			)
 		)
 		(property "Value" "1053091102"
-			(at 335.28 95.0722 0)
+			(at 335.28 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8866,7 +8981,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:CONNECTOR MOLEX 1053091102 2POS 2.5MM THP"
-			(at 322.58 92.5322 0)
+			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8877,7 +8992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 92.5322 0)
+			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8888,7 +9003,7 @@
 			)
 		)
 		(property "Description" "Connector Molex 1053091102 2-Way 2.5mm Pitch THP"
-			(at 322.58 92.5322 0)
+			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8899,7 +9014,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 322.072 84.5312 0)
+			(at 322.072 84.709 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,7 +9026,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 314.805 83.2612 0)
+			(at 314.805 83.439 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8923,7 +9038,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
-			(at 322.58 98.882 0)
+			(at 322.58 99.0598 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8931,7 +9046,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1053091102"
-			(at 332.74 117.9322 0)
+			(at 332.74 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8942,7 +9057,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 313.182 86.1822 0)
+			(at 313.182 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8954,7 +9069,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "1053091102"
-			(at 313.182 86.1822 0)
+			(at 313.182 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8982,7 +9097,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 139.5222 0)
+		(at 232.41 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8992,7 +9107,7 @@
 		(dnp no)
 		(uuid "3abc232e-8ea1-4115-9615-be7d8e1eaa6a")
 		(property "Reference" "BON20"
-			(at 229.87 139.5222 0)
+			(at 229.87 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9003,7 +9118,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 138.2522 0)
+			(at 232.41 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,7 +9129,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 139.5222 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9025,7 +9140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 139.5222 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9036,7 +9151,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 139.5222 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9047,7 +9162,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 136.4742 0)
+			(at 231.14 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9059,7 +9174,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 136.4742 0)
+			(at 231.14 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9071,7 +9186,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 138.2522 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9096,7 +9211,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 139.5222 0)
+		(at 167.64 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9106,7 +9221,7 @@
 		(dnp no)
 		(uuid "3d6e6f15-95a2-4d1d-96d8-7a1001587efe")
 		(property "Reference" "BON7"
-			(at 170.18 139.5222 0)
+			(at 170.18 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9117,7 +9232,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 138.2522 0)
+			(at 167.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9128,7 +9243,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 139.5222 0)
+			(at 167.64 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9139,7 +9254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 139.5222 0)
+			(at 167.64 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9150,7 +9265,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 139.5222 0)
+			(at 167.64 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9161,7 +9276,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 136.4742 0)
+			(at 166.37 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9173,7 +9288,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 136.4742 0)
+			(at 166.37 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9185,7 +9300,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 138.2522 0)
+			(at 168.91 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9210,7 +9325,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 308.61 102.6922 0)
+		(at 308.61 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9220,7 +9335,7 @@
 		(dnp no)
 		(uuid "3edcf310-73e7-4652-8dbb-a62d744fb46b")
 		(property "Reference" "#PWR017"
-			(at 308.61 102.6922 0)
+			(at 308.61 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9231,7 +9346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.61 109.0422 0)
+			(at 308.61 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9241,7 +9356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 102.6922 0)
+			(at 308.61 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9251,7 +9366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 102.6922 0)
+			(at 308.61 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9261,7 +9376,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 308.61 102.6922 0)
+			(at 308.61 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9284,7 +9399,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 83.82 267.7922 0)
+		(at 83.82 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9294,7 +9409,7 @@
 		(dnp no)
 		(uuid "41c5037b-e15a-4232-a918-4732d0201510")
 		(property "Reference" "#PWR07"
-			(at 83.82 267.7922 0)
+			(at 83.82 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9305,7 +9420,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 274.1422 0)
+			(at 83.82 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9315,7 +9430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 267.7922 0)
+			(at 83.82 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9325,7 +9440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 267.7922 0)
+			(at 83.82 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9335,7 +9450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 267.7922 0)
+			(at 83.82 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9358,7 +9473,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 40.64 267.7922 0)
+		(at 40.64 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9368,7 +9483,7 @@
 		(dnp no)
 		(uuid "4aea1042-f378-4add-a2ca-7c337152b893")
 		(property "Reference" "#PWR04"
-			(at 40.64 267.7922 0)
+			(at 40.64 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,7 +9494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 274.1422 0)
+			(at 40.64 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9389,7 +9504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 267.7922 0)
+			(at 40.64 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9399,7 +9514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 267.7922 0)
+			(at 40.64 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9409,7 +9524,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 267.7922 0)
+			(at 40.64 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9432,7 +9547,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 147.1422 0)
+		(at 167.64 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9442,7 +9557,7 @@
 		(dnp no)
 		(uuid "4ea05032-4131-469c-973c-e006d57d1e67")
 		(property "Reference" "BON8"
-			(at 170.18 147.1422 0)
+			(at 170.18 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9453,7 +9568,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 145.8722 0)
+			(at 167.64 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,7 +9579,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 147.1422 0)
+			(at 167.64 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9475,7 +9590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 147.1422 0)
+			(at 167.64 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9486,7 +9601,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 147.1422 0)
+			(at 167.64 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9497,7 +9612,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 144.0942 0)
+			(at 166.37 144.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9509,7 +9624,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 144.0942 0)
+			(at 166.37 144.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9521,7 +9636,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 145.8722 0)
+			(at 168.91 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,7 +9661,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 158.5722 0)
+		(at 167.64 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9556,7 +9671,7 @@
 		(dnp no)
 		(uuid "520aaa6d-6e46-4e74-84f1-6a3bf0c25efe")
 		(property "Reference" "BON11"
-			(at 170.18 158.5722 0)
+			(at 170.18 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9567,7 +9682,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 157.3022 0)
+			(at 167.64 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9578,7 +9693,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 158.5722 0)
+			(at 167.64 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9589,7 +9704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 158.5722 0)
+			(at 167.64 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9600,7 +9715,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 158.5722 0)
+			(at 167.64 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9611,7 +9726,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 155.5242 0)
+			(at 166.37 155.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9623,7 +9738,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 155.5242 0)
+			(at 166.37 155.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9635,7 +9750,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 157.3022 0)
+			(at 168.91 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9660,7 +9775,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:+3V3MCU_BAR")
-		(at 276.86 148.4122 180)
+		(at 276.86 148.59 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9670,7 +9785,7 @@
 		(dnp no)
 		(uuid "528e7c81-2bbd-4e8f-a1e4-aadb6a1eb28b")
 		(property "Reference" "#PWR016"
-			(at 276.86 148.4122 0)
+			(at 276.86 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9681,7 +9796,7 @@
 			)
 		)
 		(property "Value" "+3V3MCU"
-			(at 276.86 144.6022 0)
+			(at 276.86 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9691,7 +9806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 148.4122 0)
+			(at 276.86 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9701,7 +9816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 148.4122 0)
+			(at 276.86 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9711,7 +9826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 148.4122 0)
+			(at 276.86 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9734,7 +9849,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 269.24 178.8922 0)
+		(at 269.24 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9744,7 +9859,7 @@
 		(dnp no)
 		(uuid "52b62ae5-e7c6-4df4-9a71-de2171554453")
 		(property "Reference" "#PWR015"
-			(at 269.24 178.8922 0)
+			(at 269.24 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9755,7 +9870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 185.2422 0)
+			(at 269.24 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9765,7 +9880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 178.8922 0)
+			(at 269.24 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9775,7 +9890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 178.8922 0)
+			(at 269.24 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9785,7 +9900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 178.8922 0)
+			(at 269.24 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9808,7 +9923,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Mech Spacer Wurth 78614150960 Through M3 15mm")
-		(at 83.82 267.7922 0)
+		(at 83.82 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9818,7 +9933,7 @@
 		(dnp no)
 		(uuid "558417dc-3daf-4b3b-9db6-c18a707cc455")
 		(property "Reference" "M4"
-			(at 83.82 256.3622 0)
+			(at 83.82 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9828,7 +9943,7 @@
 			)
 		)
 		(property "Value" "78614150960"
-			(at 83.82 262.7122 0)
+			(at 83.82 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9839,7 +9954,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
-			(at 83.82 267.7922 0)
+			(at 83.82 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9850,7 +9965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 267.7922 0)
+			(at 83.82 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9861,7 +9976,7 @@
 			)
 		)
 		(property "Description" "Mech Spacer Wurth 78614150960 Through M3 15mm"
-			(at 83.82 267.7922 0)
+			(at 83.82 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9872,7 +9987,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 81.984 262.8392 0)
+			(at 81.984 263.017 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9884,7 +9999,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 83.82 261.442 0)
+			(at 83.82 261.6198 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9892,7 +10007,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
-			(at 85.09 266.5222 0)
+			(at 85.09 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9917,7 +10032,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Resistor 10K 1% 0402")
-		(at 231.14 172.5422 90)
+		(at 231.14 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9927,7 +10042,7 @@
 		(dnp no)
 		(uuid "594a8869-ed51-495f-a7be-bc659e301369")
 		(property "Reference" "R28"
-			(at 232.156 172.5422 90)
+			(at 232.156 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9938,7 +10053,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 230.124 168.2242 90)
+			(at 230.124 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9950,7 +10065,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 231.14 172.5422 0)
+			(at 231.14 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9961,7 +10076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 172.5422 0)
+			(at 231.14 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9972,7 +10087,7 @@
 			)
 		)
 		(property "Description" "Resistor 10K 1% 0402"
-			(at 231.14 172.5422 0)
+			(at 231.14 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9983,7 +10098,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 230.124 168.2242 90)
+			(at 230.124 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9995,7 +10110,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 230.124 168.2242 90)
+			(at 230.124 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10007,7 +10122,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 230.124 168.2242 90)
+			(at 230.124 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10019,7 +10134,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 230.124 168.2242 90)
+			(at 230.124 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10031,7 +10146,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 232.156 175.0822 90)
+			(at 232.156 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10042,7 +10157,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 232.156 177.1142 90)
+			(at 232.156 177.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10069,7 +10184,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:+12V_BAR")
-		(at 160.02 102.6922 180)
+		(at 160.02 102.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10079,7 +10194,7 @@
 		(dnp no)
 		(uuid "5c0e69db-fbf7-4e98-b770-cdbd18737bb9")
 		(property "Reference" "#PWR010"
-			(at 160.02 102.6922 0)
+			(at 160.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10090,7 +10205,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 160.02 98.8822 0)
+			(at 160.02 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10100,7 +10215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 102.6922 0)
+			(at 160.02 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10110,7 +10225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 102.6922 0)
+			(at 160.02 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10120,7 +10235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 102.6922 0)
+			(at 160.02 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10143,7 +10258,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 154.7622 0)
+		(at 167.64 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10153,7 +10268,7 @@
 		(dnp no)
 		(uuid "65db1c66-7a0e-485b-a3b5-4d6dbaf79541")
 		(property "Reference" "BON10"
-			(at 170.18 154.7622 0)
+			(at 170.18 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10164,7 +10279,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 153.4922 0)
+			(at 167.64 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10175,7 +10290,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 154.7622 0)
+			(at 167.64 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10186,7 +10301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 154.7622 0)
+			(at 167.64 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10197,7 +10312,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 154.7622 0)
+			(at 167.64 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10208,7 +10323,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 151.7142 0)
+			(at 166.37 151.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10220,7 +10335,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 151.7142 0)
+			(at 166.37 151.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10232,7 +10347,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 153.4922 0)
+			(at 168.91 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10257,7 +10372,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 124.2822 0)
+		(at 232.41 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10267,7 +10382,7 @@
 		(dnp no)
 		(uuid "6752f89e-0049-49e9-abc0-17107bea94de")
 		(property "Reference" "BON16"
-			(at 229.87 124.2822 0)
+			(at 229.87 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10278,7 +10393,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 123.0122 0)
+			(at 232.41 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10289,7 +10404,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 124.2822 0)
+			(at 232.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10300,7 +10415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 124.2822 0)
+			(at 232.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10311,7 +10426,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 124.2822 0)
+			(at 232.41 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10322,7 +10437,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 121.2342 0)
+			(at 231.14 121.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10334,7 +10449,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 121.2342 0)
+			(at 231.14 121.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10346,7 +10461,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 123.0122 0)
+			(at 233.68 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10371,7 +10486,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 154.7622 0)
+		(at 232.41 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10381,7 +10496,7 @@
 		(dnp no)
 		(uuid "67cb7c9f-29ed-4575-b6a2-f11cd9e1a036")
 		(property "Reference" "BON23"
-			(at 229.87 154.7622 0)
+			(at 229.87 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10392,7 +10507,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 153.4922 0)
+			(at 232.41 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10403,7 +10518,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 154.7622 0)
+			(at 232.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10414,7 +10529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 154.7622 0)
+			(at 232.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10425,7 +10540,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 154.7622 0)
+			(at 232.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10436,7 +10551,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 151.7142 0)
+			(at 231.14 151.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10448,7 +10563,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 151.7142 0)
+			(at 231.14 151.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10460,7 +10575,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 153.4922 0)
+			(at 233.68 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10485,7 +10600,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 101.4222 0)
+		(at 232.41 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10495,7 +10610,7 @@
 		(dnp no)
 		(uuid "69131672-b145-4a07-84c8-80bdb463e184")
 		(property "Reference" "BON14"
-			(at 229.87 101.4222 0)
+			(at 229.87 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10506,7 +10621,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 100.1522 0)
+			(at 232.41 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10517,7 +10632,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 101.4222 0)
+			(at 232.41 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10528,7 +10643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 101.4222 0)
+			(at 232.41 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10539,7 +10654,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 101.4222 0)
+			(at 232.41 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10550,7 +10665,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 98.3742 0)
+			(at 231.14 98.552 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10562,7 +10677,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 98.3742 0)
+			(at 231.14 98.552 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10574,7 +10689,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 100.1522 0)
+			(at 233.68 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10599,7 +10714,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 62.23 267.7922 0)
+		(at 62.23 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10609,7 +10724,7 @@
 		(dnp no)
 		(uuid "6c7d6ab5-35ca-4649-b72a-7d42b7f49029")
 		(property "Reference" "#PWR05"
-			(at 62.23 267.7922 0)
+			(at 62.23 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10620,7 +10735,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 274.1422 0)
+			(at 62.23 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10630,7 +10745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 267.7922 0)
+			(at 62.23 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10640,7 +10755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 267.7922 0)
+			(at 62.23 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10650,7 +10765,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 267.7922 0)
+			(at 62.23 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10673,7 +10788,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 165.1 105.2322 0)
+		(at 165.1 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10683,7 +10798,7 @@
 		(dnp no)
 		(uuid "74ffc95b-957a-47dd-94e9-79d5f99aadf6")
 		(property "Reference" "BON3"
-			(at 167.64 105.2322 0)
+			(at 167.64 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10694,7 +10809,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 165.1 103.9622 0)
+			(at 165.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10705,7 +10820,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 165.1 105.2322 0)
+			(at 165.1 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10716,7 +10831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 105.2322 0)
+			(at 165.1 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10727,7 +10842,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 165.1 105.2322 0)
+			(at 165.1 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10738,7 +10853,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 163.83 102.1842 0)
+			(at 163.83 102.362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10750,7 +10865,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 163.83 102.1842 0)
+			(at 163.83 102.362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,7 +10877,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 166.37 103.9622 0)
+			(at 166.37 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10787,7 +10902,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Mech Spacer Wurth 78614150960 Through M3 15mm")
-		(at 127 267.7922 0)
+		(at 127 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10797,7 +10912,7 @@
 		(dnp no)
 		(uuid "7882e300-938c-4e44-b0c4-e069e2a18bd2")
 		(property "Reference" "M6"
-			(at 127 256.3622 0)
+			(at 127 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10807,7 +10922,7 @@
 			)
 		)
 		(property "Value" "78614150960"
-			(at 127 262.7122 0)
+			(at 127 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10818,7 +10933,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
-			(at 127 267.7922 0)
+			(at 127 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10829,7 +10944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 267.7922 0)
+			(at 127 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10840,7 +10955,7 @@
 			)
 		)
 		(property "Description" "Mech Spacer Wurth 78614150960 Through M3 15mm"
-			(at 127 267.7922 0)
+			(at 127 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10851,7 +10966,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 125.164 262.8392 0)
+			(at 125.164 263.017 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10863,7 +10978,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 127 261.442 0)
+			(at 127 261.6198 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10871,7 +10986,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
-			(at 128.27 266.5222 0)
+			(at 128.27 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10896,7 +11011,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 128.0922 0)
+		(at 167.64 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10906,7 +11021,7 @@
 		(dnp no)
 		(uuid "7b75a139-4ad5-4e0b-90fe-c3cf55725477")
 		(property "Reference" "BON4"
-			(at 170.18 128.0922 0)
+			(at 170.18 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10917,7 +11032,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 126.8222 0)
+			(at 167.64 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10928,7 +11043,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 128.0922 0)
+			(at 167.64 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10939,7 +11054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 128.0922 0)
+			(at 167.64 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,7 +11065,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 128.0922 0)
+			(at 167.64 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10961,7 +11076,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 125.0442 0)
+			(at 166.37 125.222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10973,7 +11088,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 125.0442 0)
+			(at 166.37 125.222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10985,7 +11100,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 126.8222 0)
+			(at 168.91 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11010,7 +11125,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 150.9522 0)
+		(at 167.64 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11020,7 +11135,7 @@
 		(dnp no)
 		(uuid "7ce31dca-167f-413a-b57d-9d7ebac130b3")
 		(property "Reference" "BON9"
-			(at 170.18 150.9522 0)
+			(at 170.18 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11031,7 +11146,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 149.6822 0)
+			(at 167.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11042,7 +11157,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 150.9522 0)
+			(at 167.64 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11053,7 +11168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 150.9522 0)
+			(at 167.64 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11064,7 +11179,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 150.9522 0)
+			(at 167.64 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11075,7 +11190,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 147.9042 0)
+			(at 166.37 148.082 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11087,7 +11202,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 147.9042 0)
+			(at 166.37 148.082 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11099,7 +11214,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 149.6822 0)
+			(at 168.91 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11124,7 +11239,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:NTC Thermistor 10k 0603")
-		(at 269.24 172.5422 90)
+		(at 269.24 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11134,7 +11249,7 @@
 		(dnp no)
 		(uuid "818ddf50-844d-4e9a-a209-df85d5c5c4d7")
 		(property "Reference" "TH1"
-			(at 271.018 172.5422 90)
+			(at 271.018 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11145,7 +11260,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 267.462 168.2242 90)
+			(at 267.462 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11157,7 +11272,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 269.24 172.5422 0)
+			(at 269.24 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11168,7 +11283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 172.5422 0)
+			(at 269.24 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11179,7 +11294,7 @@
 			)
 		)
 		(property "Description" "NTC Thermistor 10k 0603"
-			(at 269.24 172.5422 0)
+			(at 269.24 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11190,7 +11305,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 267.462 168.2242 90)
+			(at 267.462 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11202,7 +11317,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 267.462 168.2242 90)
+			(at 267.462 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11214,7 +11329,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 267.462 168.2242 90)
+			(at 267.462 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11226,7 +11341,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "NCU18XH103E6SRB"
-			(at 267.462 168.2242 90)
+			(at 267.462 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11238,7 +11353,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k"
-			(at 271.018 175.0822 90)
+			(at 271.018 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11249,7 +11364,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 271.018 177.1142 90)
+			(at 271.018 177.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11276,7 +11391,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 166.1922 0)
+		(at 167.64 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11286,7 +11401,7 @@
 		(dnp no)
 		(uuid "86711255-4819-42c4-a398-a432e40fdcdd")
 		(property "Reference" "BON13"
-			(at 170.18 166.1922 0)
+			(at 170.18 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11297,7 +11412,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 164.9222 0)
+			(at 167.64 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11308,7 +11423,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 166.1922 0)
+			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11319,7 +11434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 166.1922 0)
+			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11330,7 +11445,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 166.1922 0)
+			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11341,7 +11456,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 163.1442 0)
+			(at 166.37 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11353,7 +11468,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 163.1442 0)
+			(at 166.37 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11365,7 +11480,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 164.9222 0)
+			(at 168.91 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11390,7 +11505,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 231.14 178.8922 0)
+		(at 231.14 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11400,7 +11515,7 @@
 		(dnp no)
 		(uuid "89a81590-6f54-467d-916b-ac9e74dca862")
 		(property "Reference" "#PWR013"
-			(at 231.14 178.8922 0)
+			(at 231.14 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11411,7 +11526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 185.2422 0)
+			(at 231.14 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11421,7 +11536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 178.8922 0)
+			(at 231.14 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11431,7 +11546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 178.8922 0)
+			(at 231.14 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11441,7 +11556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 178.8922 0)
+			(at 231.14 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11464,7 +11579,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 128.0922 0)
+		(at 232.41 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11474,7 +11589,7 @@
 		(dnp no)
 		(uuid "960b9f31-8392-4181-8bcc-3d94311d11b5")
 		(property "Reference" "BON17"
-			(at 229.87 128.0922 0)
+			(at 229.87 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11485,7 +11600,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 126.8222 0)
+			(at 232.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11496,7 +11611,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 128.0922 0)
+			(at 232.41 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 128.0922 0)
+			(at 232.41 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11518,7 +11633,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 128.0922 0)
+			(at 232.41 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11529,7 +11644,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 125.0442 0)
+			(at 231.14 125.222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11541,7 +11656,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 125.0442 0)
+			(at 231.14 125.222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11553,7 +11668,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 126.8222 0)
+			(at 233.68 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11578,7 +11693,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 17.78 267.7922 0)
+		(at 17.78 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11588,7 +11703,7 @@
 		(dnp no)
 		(uuid "99281fd6-4116-4df7-8635-cb7319672641")
 		(property "Reference" "#PWR02"
-			(at 17.78 267.7922 0)
+			(at 17.78 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11599,7 +11714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 274.1422 0)
+			(at 17.78 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11609,7 +11724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 267.7922 0)
+			(at 17.78 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11619,7 +11734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 267.7922 0)
+			(at 17.78 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11629,7 +11744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 17.78 267.7922 0)
+			(at 17.78 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11652,7 +11767,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 68.58 166.1922 0)
+		(at 68.58 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11662,7 +11777,7 @@
 		(dnp no)
 		(uuid "9b4607f9-5a6e-4f79-b2d5-3ece7af2d511")
 		(property "Reference" "#PWR06"
-			(at 68.58 166.1922 0)
+			(at 68.58 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,7 +11788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 172.5422 0)
+			(at 68.58 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11683,7 +11798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 166.1922 0)
+			(at 68.58 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11693,7 +11808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 166.1922 0)
+			(at 68.58 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11703,7 +11818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 166.1922 0)
+			(at 68.58 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11726,7 +11841,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Connector Molex 1053101114 14-Way 2.5mm Pitch THP Vert")
-		(at 85.09 138.2522 0)
+		(at 85.09 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11736,7 +11851,7 @@
 		(dnp no)
 		(uuid "9cfc11a5-3b79-4b9f-b111-8c71af6a391e")
 		(property "Reference" "J2"
-			(at 85.09 133.1722 0)
+			(at 85.09 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11746,7 +11861,7 @@
 			)
 		)
 		(property "Value" "1053101114"
-			(at 97.79 140.7922 0)
+			(at 97.79 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11757,7 +11872,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:CONNECTOR MOLEX 1053101114 2.5MM THP"
-			(at 85.09 138.2522 0)
+			(at 85.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11768,7 +11883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 138.2522 0)
+			(at 85.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11779,7 +11894,7 @@
 			)
 		)
 		(property "Description" "Connector Molex 1053101114 14-Way 2.5mm Pitch THP Vert"
-			(at 85.09 138.2522 0)
+			(at 85.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11790,7 +11905,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 84.582 130.2512 0)
+			(at 84.582 130.429 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11802,7 +11917,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 77.315 128.9812 0)
+			(at 77.315 129.159 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11814,7 +11929,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "2.5mm THP Vert"
-			(at 85.09 163.652 0)
+			(at 85.09 163.8298 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11822,7 +11937,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1053101114"
-			(at 95.25 163.6522 0)
+			(at 95.25 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11833,7 +11948,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 75.692 131.9022 0)
+			(at 75.692 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11845,7 +11960,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "1053101114"
-			(at 75.692 131.9022 0)
+			(at 75.692 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11909,7 +12024,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 182.88 178.8922 0)
+		(at 182.88 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11919,7 +12034,7 @@
 		(dnp no)
 		(uuid "a0ae63ed-73c7-4ddd-9607-a7564f6ff18f")
 		(property "Reference" "#PWR011"
-			(at 182.88 178.8922 0)
+			(at 182.88 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11930,7 +12045,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 185.2422 0)
+			(at 182.88 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11940,7 +12055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 178.8922 0)
+			(at 182.88 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11950,7 +12065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 178.8922 0)
+			(at 182.88 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11960,7 +12075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 178.8922 0)
+			(at 182.88 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11983,7 +12098,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 259.08 178.8922 0)
+		(at 259.08 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11993,7 +12108,7 @@
 		(dnp no)
 		(uuid "a1993691-dff3-4f5e-bb4b-b2bb084315cd")
 		(property "Reference" "#PWR014"
-			(at 259.08 178.8922 0)
+			(at 259.08 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +12119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 185.2422 0)
+			(at 259.08 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12014,7 +12129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 178.8922 0)
+			(at 259.08 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12024,7 +12139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 178.8922 0)
+			(at 259.08 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12034,7 +12149,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 178.8922 0)
+			(at 259.08 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12057,7 +12172,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Connector Molex 1053102204 2x2-Way 2.5mm Pitch THP")
-		(at 85.09 84.9122 0)
+		(at 85.09 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12067,7 +12182,7 @@
 		(dnp no)
 		(uuid "a285a98f-3639-4c68-8dcc-b528f6e5541f")
 		(property "Reference" "J4"
-			(at 85.09 79.8322 0)
+			(at 85.09 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12077,7 +12192,7 @@
 			)
 		)
 		(property "Value" "1053102204"
-			(at 97.79 87.4522 0)
+			(at 97.79 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12088,7 +12203,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:Connector Molex 105310xx04 4POS 2.5mm THP"
-			(at 85.09 84.9122 0)
+			(at 85.09 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12099,7 +12214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 84.9122 0)
+			(at 85.09 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12110,7 +12225,7 @@
 			)
 		)
 		(property "Description" "Connector Molex 1053102204 2x2-Way 2.5mm Pitch THP"
-			(at 85.09 84.9122 0)
+			(at 85.09 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12121,7 +12236,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 84.582 76.9112 0)
+			(at 84.582 77.089 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12133,7 +12248,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 77.315 75.6412 0)
+			(at 77.315 75.819 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12145,7 +12260,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
-			(at 85.09 91.262 0)
+			(at 85.09 91.4398 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12153,7 +12268,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1053102204"
-			(at 95.25 110.3122 0)
+			(at 95.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12164,7 +12279,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 75.692 78.5622 0)
+			(at 75.692 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12176,7 +12291,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "1053102204"
-			(at 75.692 78.5622 0)
+			(at 75.692 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12210,7 +12325,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:NTC Thermistor 10k 0603")
-		(at 259.08 172.5422 90)
+		(at 259.08 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12220,7 +12335,7 @@
 		(dnp no)
 		(uuid "a5a01afd-bf79-4622-9bc8-78f3c0055894")
 		(property "Reference" "TH2"
-			(at 260.858 172.5422 90)
+			(at 260.858 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12231,7 +12346,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 257.302 168.2242 90)
+			(at 257.302 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12243,7 +12358,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 259.08 172.5422 0)
+			(at 259.08 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12254,7 +12369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 172.5422 0)
+			(at 259.08 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12265,7 +12380,7 @@
 			)
 		)
 		(property "Description" "NTC Thermistor 10k 0603"
-			(at 259.08 172.5422 0)
+			(at 259.08 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12276,7 +12391,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 257.302 168.2242 90)
+			(at 257.302 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12288,7 +12403,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 257.302 168.2242 90)
+			(at 257.302 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12300,7 +12415,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 257.302 168.2242 90)
+			(at 257.302 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12312,7 +12427,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "NCU18XH103E6SRB"
-			(at 257.302 168.2242 90)
+			(at 257.302 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12324,7 +12439,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k"
-			(at 260.858 175.0822 90)
+			(at 260.858 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12335,7 +12450,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 260.858 177.1142 90)
+			(at 260.858 177.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12362,7 +12477,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 308.61 134.4422 0)
+		(at 308.61 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12372,7 +12487,7 @@
 		(dnp no)
 		(uuid "a76943d7-81e4-4d0a-b45d-486a39b3006a")
 		(property "Reference" "#PWR018"
-			(at 308.61 134.4422 0)
+			(at 308.61 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12383,7 +12498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.61 140.7922 0)
+			(at 308.61 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12393,7 +12508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 134.4422 0)
+			(at 308.61 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12403,7 +12518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 134.4422 0)
+			(at 308.61 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12413,7 +12528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 308.61 134.4422 0)
+			(at 308.61 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12436,7 +12551,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 116.6622 0)
+		(at 232.41 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12446,7 +12561,7 @@
 		(dnp no)
 		(uuid "a9a4560c-b779-441c-90ea-fefbe78f4415")
 		(property "Reference" "BON15"
-			(at 229.87 116.6622 0)
+			(at 229.87 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12457,7 +12572,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 115.3922 0)
+			(at 232.41 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12468,7 +12583,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 116.6622 0)
+			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12479,7 +12594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 116.6622 0)
+			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12490,7 +12605,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 116.6622 0)
+			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12501,7 +12616,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 113.6142 0)
+			(at 231.14 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12513,7 +12628,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 113.6142 0)
+			(at 231.14 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12525,7 +12640,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 115.3922 0)
+			(at 233.68 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12550,7 +12665,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 17.78 239.8522 0)
+		(at 17.78 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12560,7 +12675,7 @@
 		(dnp no)
 		(uuid "ad58673c-ea9c-45e2-842b-68a2236a2522")
 		(property "Reference" "#PWR01"
-			(at 17.78 239.8522 0)
+			(at 17.78 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12571,7 +12686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 246.2022 0)
+			(at 17.78 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12581,7 +12696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 239.8522 0)
+			(at 17.78 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12591,7 +12706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 239.8522 0)
+			(at 17.78 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12601,7 +12716,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 17.78 239.8522 0)
+			(at 17.78 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12624,7 +12739,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Fiducial")
-		(at 15.24 285.5722 0)
+		(at 15.24 285.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12634,7 +12749,7 @@
 		(dnp no)
 		(uuid "b58e16a2-57fc-460e-9f42-5d546586e514")
 		(property "Reference" "Fiducial2"
-			(at 16.51 285.5722 0)
+			(at 16.51 285.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12645,7 +12760,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 15.24 285.5722 0)
+			(at 15.24 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12657,7 +12772,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:Fiducial-50"
-			(at 15.24 285.5722 0)
+			(at 15.24 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12668,7 +12783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 285.5722 0)
+			(at 15.24 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12679,7 +12794,7 @@
 			)
 		)
 		(property "Description" "Fiducial 50mil"
-			(at 15.24 285.5722 0)
+			(at 15.24 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12690,7 +12805,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 14.732 284.0482 0)
+			(at 14.732 284.226 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12702,7 +12817,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "5.3"
-			(at 9.533 282.7782 0)
+			(at 9.533 282.956 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12714,7 +12829,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" ""
-			(at 15.24 291.9222 0)
+			(at 15.24 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12726,7 +12841,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 26.67 277.9522 0)
+			(at 26.67 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12738,7 +12853,7 @@
 			)
 		)
 		(property "ITEM_QTY" "1"
-			(at 15.24 289.3822 0)
+			(at 15.24 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12760,7 +12875,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 167.64 135.7122 0)
+		(at 167.64 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12770,7 +12885,7 @@
 		(dnp no)
 		(uuid "bf009ed6-ccf9-46fb-bd7a-b94b39c8e3cd")
 		(property "Reference" "BON6"
-			(at 170.18 135.7122 0)
+			(at 170.18 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12781,7 +12896,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 167.64 134.4422 0)
+			(at 167.64 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12792,7 +12907,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 167.64 135.7122 0)
+			(at 167.64 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12803,7 +12918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 135.7122 0)
+			(at 167.64 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12814,7 +12929,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 167.64 135.7122 0)
+			(at 167.64 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12825,7 +12940,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 166.37 132.6642 0)
+			(at 166.37 132.842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12837,7 +12952,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 166.37 132.6642 0)
+			(at 166.37 132.842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12849,7 +12964,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 168.91 134.4422 0)
+			(at 168.91 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12874,7 +12989,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Mech Spacer Wurth 78614150960 Through M3 15mm")
-		(at 62.23 267.7922 0)
+		(at 62.23 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12884,7 +12999,7 @@
 		(dnp no)
 		(uuid "bff2600e-913a-4be7-8a8b-99d2d7a54f11")
 		(property "Reference" "M3"
-			(at 62.23 256.3622 0)
+			(at 62.23 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12894,7 +13009,7 @@
 			)
 		)
 		(property "Value" "78614150960"
-			(at 62.23 262.7122 0)
+			(at 62.23 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12905,7 +13020,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
-			(at 62.23 267.7922 0)
+			(at 62.23 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12916,7 +13031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 267.7922 0)
+			(at 62.23 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12927,7 +13042,7 @@
 			)
 		)
 		(property "Description" "Mech Spacer Wurth 78614150960 Through M3 15mm"
-			(at 62.23 267.7922 0)
+			(at 62.23 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12938,7 +13053,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 60.394 262.8392 0)
+			(at 60.394 263.017 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12950,7 +13065,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 62.23 261.442 0)
+			(at 62.23 261.6198 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12958,7 +13073,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
-			(at 63.5 266.5222 0)
+			(at 63.5 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12983,7 +13098,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Fiducial")
-		(at 15.24 283.0322 0)
+		(at 15.24 283.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12993,7 +13108,7 @@
 		(dnp no)
 		(uuid "c04ead15-732b-46c9-aea2-28ac28155997")
 		(property "Reference" "Fiducial1"
-			(at 16.51 283.0322 0)
+			(at 16.51 283.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13004,7 +13119,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 15.24 283.0322 0)
+			(at 15.24 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13016,7 +13131,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:Fiducial-50"
-			(at 15.24 283.0322 0)
+			(at 15.24 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13027,7 +13142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 283.0322 0)
+			(at 15.24 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13038,7 +13153,7 @@
 			)
 		)
 		(property "Description" "Fiducial 50mil"
-			(at 15.24 283.0322 0)
+			(at 15.24 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13049,7 +13164,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 14.732 281.5082 0)
+			(at 14.732 281.686 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13061,7 +13176,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "5.3"
-			(at 9.533 280.2382 0)
+			(at 9.533 280.416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13073,7 +13188,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" ""
-			(at 15.24 289.3822 0)
+			(at 15.24 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13085,7 +13200,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 26.67 275.4122 0)
+			(at 26.67 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13097,7 +13212,7 @@
 			)
 		)
 		(property "ITEM_QTY" "1"
-			(at 15.24 286.8422 0)
+			(at 15.24 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13119,7 +13234,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 127 267.7922 0)
+		(at 127 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13129,7 +13244,7 @@
 		(dnp no)
 		(uuid "ca02d69f-48d5-4f2f-9cce-00784455a1d5")
 		(property "Reference" "#PWR09"
-			(at 127 267.7922 0)
+			(at 127 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13140,7 +13255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 274.1422 0)
+			(at 127 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13150,7 +13265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 267.7922 0)
+			(at 127 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13160,7 +13275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 267.7922 0)
+			(at 127 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13170,7 +13285,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 267.7922 0)
+			(at 127 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13193,7 +13308,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Mech Spacer Wurth 78614150960 Through M3 15mm")
-		(at 17.78 267.7922 0)
+		(at 17.78 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13203,7 +13318,7 @@
 		(dnp no)
 		(uuid "cab7a913-e3b1-40ac-8870-fb555f6a30a7")
 		(property "Reference" "M1"
-			(at 17.78 256.3622 0)
+			(at 17.78 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13213,7 +13328,7 @@
 			)
 		)
 		(property "Value" "78614150960"
-			(at 17.78 262.7122 0)
+			(at 17.78 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13224,7 +13339,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:Mech Spacer Wurth 78614150960 Through M3"
-			(at 17.78 267.7922 0)
+			(at 17.78 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13235,7 +13350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 267.7922 0)
+			(at 17.78 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13246,7 +13361,7 @@
 			)
 		)
 		(property "Description" "Mech Spacer Wurth 78614150960 Through M3 15mm"
-			(at 17.78 267.7922 0)
+			(at 17.78 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13257,7 +13372,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 15.944 262.8392 0)
+			(at 15.944 263.017 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13269,7 +13384,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
-			(at 19.05 266.5222 0)
+			(at 19.05 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13281,7 +13396,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 17.78 261.442 0)
+			(at 17.78 261.6198 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13302,7 +13417,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 105.41 267.7922 0)
+		(at 105.41 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13312,7 +13427,7 @@
 		(dnp no)
 		(uuid "cb1b6bdf-2699-4f90-a07d-42496ed20049")
 		(property "Reference" "#PWR08"
-			(at 105.41 267.7922 0)
+			(at 105.41 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13323,7 +13438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 274.1422 0)
+			(at 105.41 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13333,7 +13448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 267.7922 0)
+			(at 105.41 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13343,7 +13458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 267.7922 0)
+			(at 105.41 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13353,7 +13468,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 267.7922 0)
+			(at 105.41 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13376,7 +13491,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 336.55 167.4622 0)
+		(at 336.55 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13386,7 +13501,7 @@
 		(dnp no)
 		(uuid "dbf829fe-03df-4092-bff8-cc625a0c5bbc")
 		(property "Reference" "#PWR019"
-			(at 336.55 167.4622 0)
+			(at 336.55 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13397,7 +13512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 336.55 173.8122 0)
+			(at 336.55 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13407,7 +13522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 167.4622 0)
+			(at 336.55 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13417,7 +13532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 167.4622 0)
+			(at 336.55 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13427,7 +13542,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 336.55 167.4622 0)
+			(at 336.55 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13450,7 +13565,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 150.9522 0)
+		(at 232.41 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13460,7 +13575,7 @@
 		(dnp no)
 		(uuid "deeead7d-18f6-40b8-951a-b1eb5d282203")
 		(property "Reference" "BON22"
-			(at 229.87 150.9522 0)
+			(at 229.87 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13471,7 +13586,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 149.6822 0)
+			(at 232.41 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13482,7 +13597,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 150.9522 0)
+			(at 232.41 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13493,7 +13608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 150.9522 0)
+			(at 232.41 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,7 +13619,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 150.9522 0)
+			(at 232.41 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13515,7 +13630,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 147.9042 0)
+			(at 231.14 148.082 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13527,7 +13642,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 147.9042 0)
+			(at 231.14 148.082 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13539,7 +13654,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 149.6822 0)
+			(at 233.68 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13564,7 +13679,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 147.1422 0)
+		(at 232.41 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13574,7 +13689,7 @@
 		(dnp no)
 		(uuid "e1b934c0-4860-4b82-a7f0-ad9fcb7adc9b")
 		(property "Reference" "BON21"
-			(at 229.87 147.1422 0)
+			(at 229.87 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13585,7 +13700,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 145.8722 0)
+			(at 232.41 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13596,7 +13711,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 147.1422 0)
+			(at 232.41 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13607,7 +13722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 147.1422 0)
+			(at 232.41 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13618,7 +13733,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 147.1422 0)
+			(at 232.41 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13629,7 +13744,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 144.0942 0)
+			(at 231.14 144.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13641,7 +13756,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 144.0942 0)
+			(at 231.14 144.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13653,7 +13768,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 145.8722 0)
+			(at 233.68 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13678,7 +13793,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Mech Spacer Wurth 78614150960 Through M3 15mm")
-		(at 105.41 267.7922 0)
+		(at 105.41 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13688,7 +13803,7 @@
 		(dnp no)
 		(uuid "eacca96c-f5ed-48bc-af60-c85c36d52e65")
 		(property "Reference" "M5"
-			(at 105.41 256.3622 0)
+			(at 105.41 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13698,7 +13813,7 @@
 			)
 		)
 		(property "Value" "78614150960"
-			(at 105.41 262.7122 0)
+			(at 105.41 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13709,7 +13824,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
-			(at 105.41 267.7922 0)
+			(at 105.41 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13720,7 +13835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 267.7922 0)
+			(at 105.41 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13731,7 +13846,7 @@
 			)
 		)
 		(property "Description" "Mech Spacer Wurth 78614150960 Through M3 15mm"
-			(at 105.41 267.7922 0)
+			(at 105.41 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13742,7 +13857,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 103.574 262.8392 0)
+			(at 103.574 263.017 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13754,7 +13869,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 105.41 261.442 0)
+			(at 105.41 261.6198 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13762,7 +13877,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
-			(at 106.68 266.5222 0)
+			(at 106.68 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13787,7 +13902,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 30.48 239.8522 0)
+		(at 30.48 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13797,7 +13912,7 @@
 		(dnp no)
 		(uuid "eb54853e-050a-497a-b2c7-91505c4b1a47")
 		(property "Reference" "#PWR03"
-			(at 30.48 239.8522 0)
+			(at 30.48 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13808,7 +13923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 246.2022 0)
+			(at 30.48 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13818,7 +13933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 239.8522 0)
+			(at 30.48 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13828,7 +13943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 239.8522 0)
+			(at 30.48 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13838,7 +13953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 239.8522 0)
+			(at 30.48 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13861,7 +13976,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 17.78 238.5822 0)
+		(at 17.78 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13871,7 +13986,7 @@
 		(dnp no)
 		(uuid "fa8660d0-6898-4312-8433-f23f11f214e2")
 		(property "Reference" "BON1"
-			(at 20.32 238.5822 0)
+			(at 20.32 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13882,7 +13997,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 17.78 237.3122 0)
+			(at 17.78 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13893,7 +14008,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 17.78 238.5822 0)
+			(at 17.78 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13904,7 +14019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 238.5822 0)
+			(at 17.78 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13915,7 +14030,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 17.78 238.5822 0)
+			(at 17.78 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13926,7 +14041,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 16.51 235.5342 0)
+			(at 16.51 235.712 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13938,7 +14053,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 16.51 235.5342 0)
+			(at 16.51 235.712 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13950,7 +14065,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 19.05 237.3122 0)
+			(at 19.05 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13968,6 +14083,210 @@
 			(project "EVO2513-0_5_0"
 				(path "/49489d81-6ed3-4223-b712-58477545f8f8"
 					(reference "BON1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 17.78 240.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c46cc01b-e133-42b7-aa19-2eea80bfa1b3")
+		(property "Reference" "#FLG01"
+			(at 19.685 240.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 21.59 240.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 240.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 240.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 17.78 240.03 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba666846-eb3b-47f3-be4f-1521af8727bb")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/49489d81-6ed3-4223-b712-58477545f8f8"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 160.02 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96cea750-c673-41d8-bcf1-b2c2f719c156")
+		(property "Reference" "#FLG02"
+			(at 161.925 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 163.83 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 160.02 102.87 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "502cc080-825d-4a43-b502-b5d8dd338ecb")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/49489d81-6ed3-4223-b712-58477545f8f8"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 276.86 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e6ca28d-a898-4c19-ab37-f26298efe8c5")
+		(property "Reference" "#FLG03"
+			(at 278.765 148.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 280.67 148.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 148.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 148.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 276.86 148.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a03b38f-95f4-40d2-bf1e-343a85b7cced")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/49489d81-6ed3-4223-b712-58477545f8f8"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

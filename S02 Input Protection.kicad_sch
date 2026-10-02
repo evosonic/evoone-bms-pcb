@@ -2418,7 +2418,7 @@
 	)
 	(text "6"
 		(exclude_from_sim no)
-		(at 240.03 295.7322 0)
+		(at 240.03 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2428,7 +2428,7 @@
 	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 67.31 295.7322 0)
+		(at 67.31 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2438,7 +2438,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 1.27 164.9222 0)
+		(at 1.27 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2448,7 +2448,7 @@
 	)
 	(text "Denotes Layout instructions"
 		(exclude_from_sim no)
-		(at 179.07 284.3022 0)
+		(at 179.07 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2461,7 +2461,7 @@
 	)
 	(text "8"
 		(exclude_from_sim no)
-		(at 326.39 16.3322 0)
+		(at 326.39 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2471,7 +2471,7 @@
 	)
 	(text "A"
 		(exclude_from_sim no)
-		(at 1.27 36.6522 0)
+		(at 1.27 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2481,7 +2481,7 @@
 	)
 	(text "C"
 		(exclude_from_sim no)
-		(at 392.43 121.7422 0)
+		(at 392.43 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2491,7 +2491,7 @@
 	)
 	(text "F"
 		(exclude_from_sim no)
-		(at 1.27 251.2822 0)
+		(at 1.27 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2501,7 +2501,7 @@
 	)
 	(text "${PRODUCT_NAME}"
 		(exclude_from_sim no)
-		(at 356.87 267.7922 0)
+		(at 356.87 267.97 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -2511,7 +2511,7 @@
 	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 153.67 16.3322 0)
+		(at 153.67 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2521,7 +2521,7 @@
 	)
 	(text "${DOCUMENTNUMBER}"
 		(exclude_from_sim no)
-		(at 298.45 291.9222 0)
+		(at 298.45 292.1 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -2531,7 +2531,7 @@
 	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 67.31 16.3322 0)
+		(at 67.31 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2541,7 +2541,7 @@
 	)
 	(text "Denotes text on the Identification layer on the PCB"
 		(exclude_from_sim no)
-		(at 179.07 290.6522 0)
+		(at 179.07 290.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2554,7 +2554,7 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 110.49 16.3322 0)
+		(at 110.49 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2564,7 +2564,7 @@
 	)
 	(text "REVISION:"
 		(exclude_from_sim no)
-		(at 304.8 275.4122 0)
+		(at 304.8 275.59 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2574,7 +2574,7 @@
 	)
 	(text "${BOARD_NUMBER}"
 		(exclude_from_sim no)
-		(at 365.76 289.3822 0)
+		(at 365.76 289.56 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -2584,7 +2584,7 @@
 	)
 	(text "PRODUCT NAME:"
 		(exclude_from_sim no)
-		(at 325.12 262.7122 0)
+		(at 325.12 262.89 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2595,7 +2595,7 @@
 	)
 	(text "F"
 		(exclude_from_sim no)
-		(at 392.43 251.2822 0)
+		(at 392.43 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,7 +2605,7 @@
 	)
 	(text "6"
 		(exclude_from_sim no)
-		(at 240.03 16.3322 0)
+		(at 240.03 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2615,7 +2615,7 @@
 	)
 	(text "E"
 		(exclude_from_sim no)
-		(at 1.27 208.1022 0)
+		(at 1.27 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2625,7 +2625,7 @@
 	)
 	(text "E"
 		(exclude_from_sim no)
-		(at 392.43 208.1022 0)
+		(at 392.43 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2635,7 +2635,7 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 110.49 295.7322 0)
+		(at 110.49 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2645,7 +2645,7 @@
 	)
 	(text "DATE:"
 		(exclude_from_sim no)
-		(at 304.8 263.9822 0)
+		(at 304.8 264.16 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2655,7 +2655,7 @@
 	)
 	(text "B"
 		(exclude_from_sim no)
-		(at 1.27 78.5622 0)
+		(at 1.27 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2665,7 +2665,7 @@
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 196.85 16.3322 0)
+		(at 196.85 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2675,7 +2675,7 @@
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 196.85 295.7322 0)
+		(at 196.85 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 	)
 	(text "A"
 		(exclude_from_sim no)
-		(at 392.43 36.6522 0)
+		(at 392.43 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2695,7 +2695,7 @@
 	)
 	(text "${CURRENT_DATE}"
 		(exclude_from_sim no)
-		(at 304.8 269.0622 0)
+		(at 304.8 269.24 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2705,7 +2705,7 @@
 	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 153.67 295.7322 0)
+		(at 153.67 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2715,7 +2715,7 @@
 	)
 	(text "7"
 		(exclude_from_sim no)
-		(at 283.21 295.7322 0)
+		(at 283.21 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2725,7 +2725,7 @@
 	)
 	(text "B"
 		(exclude_from_sim no)
-		(at 392.43 78.5622 0)
+		(at 392.43 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2735,7 +2735,7 @@
 	)
 	(text "MODULE:"
 		(exclude_from_sim no)
-		(at 325.12 275.4122 0)
+		(at 325.12 275.59 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2746,7 +2746,7 @@
 	)
 	(text "OF"
 		(exclude_from_sim no)
-		(at 304.8 291.9222 0)
+		(at 304.8 292.1 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2756,7 +2756,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 1.27 284.3022 0)
+		(at 1.27 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2766,7 +2766,7 @@
 	)
 	(text "${##}"
 		(exclude_from_sim no)
-		(at 311.15 291.9222 0)
+		(at 311.15 292.1 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -2774,9 +2774,9 @@
 		)
 		(uuid "ce998500-d6c5-4845-acf7-234f6278c85b")
 	)
-	(text "${COPY(DOCUMENTNAME,5,LENGTH(DOCUMENTNAME)-11)}"
+	(text "Input Protection"
 		(exclude_from_sim no)
-		(at 356.87 280.4922 0)
+		(at 356.87 280.67 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -2786,7 +2786,7 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 24.13 16.3322 0)
+		(at 24.13 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2796,7 +2796,7 @@
 	)
 	(text "C"
 		(exclude_from_sim no)
-		(at 1.27 121.7422 0)
+		(at 1.27 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2806,7 +2806,7 @@
 	)
 	(text "7"
 		(exclude_from_sim no)
-		(at 283.21 16.3322 0)
+		(at 283.21 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 	)
 	(text "8"
 		(exclude_from_sim no)
-		(at 326.39 295.7322 0)
+		(at 326.39 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2826,7 +2826,7 @@
 	)
 	(text "9"
 		(exclude_from_sim no)
-		(at 369.57 295.7322 0)
+		(at 369.57 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2836,7 +2836,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 392.43 284.3022 0)
+		(at 392.43 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2846,7 +2846,7 @@
 	)
 	(text "SHEET NUMBER"
 		(exclude_from_sim no)
-		(at 304.8 286.8422 0)
+		(at 304.8 287.02 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2856,7 +2856,7 @@
 	)
 	(text "PCB NUMBER:"
 		(exclude_from_sim no)
-		(at 325.12 289.3822 0)
+		(at 325.12 289.56 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2867,7 +2867,7 @@
 	)
 	(text "${SCH_REVISION}"
 		(exclude_from_sim no)
-		(at 304.8 280.4922 0)
+		(at 304.8 280.67 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2877,7 +2877,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 392.43 164.9222 0)
+		(at 392.43 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2887,7 +2887,7 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 24.13 295.7322 0)
+		(at 24.13 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2897,7 +2897,7 @@
 	)
 	(text "9"
 		(exclude_from_sim no)
-		(at 369.57 16.3322 0)
+		(at 369.57 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2907,7 +2907,7 @@
 	)
 	(text_box "Text"
 		(exclude_from_sim no)
-		(at 176.53 281.7622 0)
+		(at 176.53 281.94 0)
 		(size -12.7 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2929,7 +2929,7 @@
 	)
 	(text_box "Text"
 		(exclude_from_sim no)
-		(at 176.53 289.3822 0)
+		(at 176.53 289.56 0)
 		(size -12.7 3.048)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2949,180 +2949,180 @@
 		(uuid "4bebe973-2773-4a21-bb56-7df5de3d8bec")
 	)
 	(junction
-		(at 185.42 103.9622)
+		(at 185.42 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "043a7b2b-4b1b-4544-aa5e-04afdba97c54")
 	)
 	(junction
-		(at 189.23 166.1922)
+		(at 189.23 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0863a0c4-b555-4459-b8ed-4fb145c4a400")
 	)
 	(junction
-		(at 109.22 100.1522)
+		(at 109.22 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1713a79d-cf75-416e-a6ba-4a3b2ec8b8d8")
 	)
 	(junction
-		(at 160.02 107.7722)
+		(at 160.02 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d33f702-f687-40a9-b099-607b88d8ec44")
 	)
 	(junction
-		(at 140.97 100.1522)
+		(at 140.97 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e499c0f-a85d-4d63-abd1-8a0b24dc16d8")
 	)
 	(junction
-		(at 109.22 185.2422)
+		(at 109.22 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2883f3f8-02e7-498e-826e-6a81a9fb481b")
 	)
 	(junction
-		(at 234.95 100.1522)
+		(at 234.95 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "405781d2-0eb8-4d70-a600-d857c535501d")
 	)
 	(junction
-		(at 185.42 100.1522)
+		(at 185.42 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46836696-1b2d-4c43-9472-c0a2a2358bdb")
 	)
 	(junction
-		(at 125.73 185.2422)
+		(at 125.73 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "557ae94c-aecf-4c2c-be79-e9b8094225bd")
 	)
 	(junction
-		(at 201.93 100.1522)
+		(at 201.93 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c484137-4044-497c-97b1-201f8a4d998a")
 	)
 	(junction
-		(at 201.93 103.9622)
+		(at 201.93 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e283686-48b6-4482-ba53-c54cb01916f1")
 	)
 	(junction
-		(at 201.93 154.7622)
+		(at 201.93 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ea5b966-5e19-42bc-a7e7-8b79bdffa392")
 	)
 	(junction
-		(at 201.93 185.2422)
+		(at 201.93 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bdf8390-f447-4e1b-8cba-528d38c6e4e5")
 	)
 	(junction
-		(at 227.33 103.9622)
+		(at 227.33 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8cf7571-7036-487e-8fc1-27b690a62be1")
 	)
 	(junction
-		(at 125.73 162.3822)
+		(at 125.73 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b53d1181-14d7-4233-a535-b6b4b4d3056c")
 	)
 	(junction
-		(at 160.02 111.5822)
+		(at 160.02 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8635a0c-2a9e-4ad1-b9c1-fa1263fc2d7b")
 	)
 	(junction
-		(at 125.73 100.1522)
+		(at 125.73 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c01d4aaf-ac88-41e6-a1ad-6da5ad352a82")
 	)
 	(junction
-		(at 297.18 100.1522)
+		(at 297.18 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3be2035-9f7b-429b-9c7b-6d5221898be1")
 	)
 	(junction
-		(at 189.23 185.2422)
+		(at 189.23 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c58427a2-60e0-47da-99d1-0f62f8f94af2")
 	)
 	(junction
-		(at 297.18 138.2522)
+		(at 297.18 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9709eb9-4a1b-44b2-b020-93bfa40184d0")
 	)
 	(junction
-		(at 227.33 100.1522)
+		(at 227.33 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1b5b9f7-b042-45d7-bd92-a09f617b217f")
 	)
 	(junction
-		(at 160.02 100.1522)
+		(at 160.02 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d23c7276-b05b-4d66-bfb6-b9ae4cfaa2b1")
 	)
 	(junction
-		(at 160.02 103.9622)
+		(at 160.02 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7f713a6-b430-4cf5-8ef0-4f30baf98633")
 	)
 	(junction
-		(at 140.97 154.7622)
+		(at 140.97 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eecd5f6c-8658-48c7-8bd9-4b34fd700938")
 	)
 	(junction
-		(at 153.67 100.1522)
+		(at 153.67 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f08867d0-f733-4517-b3a2-637b41e328ec")
 	)
 	(junction
-		(at 227.33 111.5822)
+		(at 227.33 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0aa47d7-a414-423d-8dc9-f3f8d80058fd")
 	)
 	(junction
-		(at 227.33 107.7722)
+		(at 227.33 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f22764bb-e79b-406e-bff5-129ee2b55224")
 	)
 	(junction
-		(at 201.93 139.5222)
+		(at 201.93 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6ca6764-088a-40aa-b186-2571977944f3")
 	)
 	(no_connect
-		(at 185.42 158.5722)
+		(at 185.42 158.75)
 		(uuid "9528093d-a8b7-48c6-915d-c0142808a645")
 	)
 	(wire
 		(pts
-			(xy 185.42 103.9622) (xy 185.42 107.7722)
+			(xy 185.42 104.14) (xy 185.42 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3132,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 148.4122) (xy 125.73 100.1522)
+			(xy 125.73 148.59) (xy 125.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3142,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 140.7922) (xy 140.97 100.1522)
+			(xy 140.97 140.97) (xy 140.97 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3152,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 103.9622) (xy 160.02 103.9622)
+			(xy 162.56 104.14) (xy 160.02 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3162,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 103.9622) (xy 201.93 107.7722)
+			(xy 201.93 104.14) (xy 201.93 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3172,7 +3172,7 @@
 	)
 	(polyline
 		(pts
-			(xy 347.98 15.0622) (xy 347.98 17.6022)
+			(xy 347.98 15.24) (xy 347.98 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -3183,7 +3183,7 @@
 	)
 	(polyline
 		(pts
-			(xy 261.62 294.4622) (xy 261.62 297.0022)
+			(xy 261.62 294.64) (xy 261.62 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -3194,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 111.5822) (xy 227.33 115.3922)
+			(xy 227.33 111.76) (xy 227.33 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3204,7 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 158.5722) (xy 140.97 158.5722)
+			(xy 162.56 158.75) (xy 140.97 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 111.5822) (xy 185.42 125.5522)
+			(xy 185.42 111.76) (xy 185.42 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3224,7 +3224,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 284.3022) (xy 288.29 284.3022)
+			(xy 322.58 284.48) (xy 288.29 284.48)
 		)
 		(stroke
 			(width 0.254)
@@ -3235,7 +3235,7 @@
 	)
 	(polyline
 		(pts
-			(xy 261.62 15.0622) (xy 261.62 17.6022)
+			(xy 261.62 15.24) (xy 261.62 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -3246,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 107.7722) (xy 160.02 111.5822)
+			(xy 160.02 107.95) (xy 160.02 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3256,7 +3256,7 @@
 	)
 	(polyline
 		(pts
-			(xy 45.72 15.0622) (xy 45.72 17.6022)
+			(xy 45.72 15.24) (xy 45.72 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -3267,7 +3267,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 105.2322) (xy 255.27 105.2322)
+			(xy 259.08 105.41) (xy 255.27 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3277,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 103.9622) (xy 185.42 103.9622)
+			(xy 180.34 104.14) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3287,7 +3287,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 294.4622) (xy 391.16 294.4622)
+			(xy 2.54 294.64) (xy 391.16 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -3298,7 +3298,7 @@
 	)
 	(polyline
 		(pts
-			(xy 304.8 294.4622) (xy 304.8 297.0022)
+			(xy 304.8 294.64) (xy 304.8 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -3309,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 185.2422) (xy 109.22 185.2422)
+			(xy 125.73 185.42) (xy 109.22 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3319,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 103.9622) (xy 227.33 107.7722)
+			(xy 227.33 104.14) (xy 227.33 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 100.1522) (xy 201.93 103.9622)
+			(xy 201.93 100.33) (xy 201.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 138.2522) (xy 297.18 138.2522)
+			(xy 284.48 138.43) (xy 297.18 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 115.3922) (xy 162.56 115.3922)
+			(xy 160.02 115.57) (xy 162.56 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 154.7622) (xy 140.97 148.4122)
+			(xy 140.97 154.94) (xy 140.97 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3369,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 138.2522) (xy 297.18 128.0922)
+			(xy 297.18 138.43) (xy 297.18 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3379,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 272.8722) (xy 0 272.8722)
+			(xy 2.54 273.05) (xy 0 273.05)
 		)
 		(stroke
 			(width 0.254)
@@ -3390,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 173.8122) (xy 125.73 185.2422)
+			(xy 125.73 173.99) (xy 125.73 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3400,7 +3400,7 @@
 	)
 	(polyline
 		(pts
-			(xy 347.98 294.4622) (xy 347.98 297.0022)
+			(xy 347.98 294.64) (xy 347.98 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -3411,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 162.3822) (xy 125.73 162.3822)
+			(xy 162.56 162.56) (xy 125.73 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3421,7 +3421,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 185.2422) (xy 92.71 185.2422)
+			(xy 109.22 185.42) (xy 92.71 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3431,7 +3431,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 272.8722) (xy 391.16 272.8722)
+			(xy 322.58 273.05) (xy 391.16 273.05)
 		)
 		(stroke
 			(width 0.254)
@@ -3442,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 107.7722) (xy 160.02 107.7722)
+			(xy 162.56 107.95) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3452,7 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 111.5822) (xy 160.02 115.3922)
+			(xy 160.02 111.76) (xy 160.02 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3462,7 +3462,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 229.6922) (xy 0 229.6922)
+			(xy 2.54 229.87) (xy 0 229.87)
 		)
 		(stroke
 			(width 0.254)
@@ -3473,7 +3473,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 110.3122) (xy 69.85 110.3122)
+			(xy 92.71 110.49) (xy 69.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3483,7 +3483,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 154.7622) (xy 201.93 154.7622)
+			(xy 185.42 154.94) (xy 201.93 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3493,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 150.9522) (xy 153.67 100.1522)
+			(xy 153.67 151.13) (xy 153.67 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3503,7 +3503,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 260.1722) (xy 231.14 260.1722)
+			(xy 391.16 260.35) (xy 231.14 260.35)
 		)
 		(stroke
 			(width 0.254)
@@ -3514,7 +3514,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 107.7722) (xy 180.34 107.7722)
+			(xy 185.42 107.95) (xy 180.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3524,7 +3524,7 @@
 	)
 	(polyline
 		(pts
-			(xy 288.29 289.3822) (xy 322.58 289.3822)
+			(xy 288.29 289.56) (xy 322.58 289.56)
 		)
 		(stroke
 			(width 0.254)
@@ -3535,7 +3535,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 56.9722) (xy 0 56.9722)
+			(xy 2.54 57.15) (xy 0 57.15)
 		)
 		(stroke
 			(width 0.254)
@@ -3546,7 +3546,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 266.5222) (xy 288.29 266.5222)
+			(xy 322.58 266.7) (xy 288.29 266.7)
 		)
 		(stroke
 			(width 0.254)
@@ -3557,7 +3557,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 100.1522) (xy 162.56 100.1522)
+			(xy 160.02 100.33) (xy 162.56 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3567,7 +3567,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 158.5722) (xy 140.97 154.7622)
+			(xy 140.97 158.75) (xy 140.97 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3577,7 +3577,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 103.9622) (xy 227.33 103.9622)
+			(xy 224.79 104.14) (xy 227.33 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3587,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 143.3322) (xy 0 143.3322)
+			(xy 2.54 143.51) (xy 0 143.51)
 		)
 		(stroke
 			(width 0.254)
@@ -3598,7 +3598,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 17.6022) (xy 2.54 17.6022)
+			(xy 391.16 17.78) (xy 2.54 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -3609,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 107.7722) (xy 227.33 107.7722)
+			(xy 224.79 107.95) (xy 227.33 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3619,7 +3619,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 17.6022) (xy 0 15.0622)
+			(xy 2.54 17.78) (xy 0 15.24)
 		)
 		(stroke
 			(width 0.254)
@@ -3630,7 +3630,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9 15.0622) (xy 88.9 17.6022)
+			(xy 88.9 15.24) (xy 88.9 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -3641,7 +3641,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 111.5822) (xy 201.93 125.5522)
+			(xy 201.93 111.76) (xy 201.93 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3651,7 +3651,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 186.5122) (xy 391.16 186.5122)
+			(xy 393.7 186.69) (xy 391.16 186.69)
 		)
 		(stroke
 			(width 0.254)
@@ -3662,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 103.9622) (xy 160.02 107.7722)
+			(xy 160.02 104.14) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3672,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 111.5822) (xy 185.42 111.5822)
+			(xy 180.34 111.76) (xy 185.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3682,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 154.7622) (xy 162.56 154.7622)
+			(xy 140.97 154.94) (xy 162.56 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3692,7 +3692,7 @@
 	)
 	(polyline
 		(pts
-			(xy 231.14 260.1722) (xy 231.14 294.4622)
+			(xy 231.14 260.35) (xy 231.14 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -3703,7 +3703,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 294.4622) (xy 391.16 17.6022)
+			(xy 391.16 294.64) (xy 391.16 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -3714,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 100.1522) (xy 109.22 100.1522)
+			(xy 69.85 100.33) (xy 109.22 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3724,7 +3724,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 272.8722) (xy 288.29 272.8722)
+			(xy 322.58 273.05) (xy 288.29 273.05)
 		)
 		(stroke
 			(width 0.254)
@@ -3735,7 +3735,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 100.1522) (xy 297.18 100.1522)
+			(xy 279.4 100.33) (xy 297.18 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3745,7 +3745,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 260.1722) (xy 322.58 294.4622)
+			(xy 322.58 260.35) (xy 322.58 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -3756,7 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 150.9522) (xy 153.67 150.9522)
+			(xy 162.56 151.13) (xy 153.67 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3766,7 +3766,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 100.1522) (xy 297.18 107.7722)
+			(xy 297.18 100.33) (xy 297.18 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3776,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 159.8422) (xy 201.93 154.7622)
+			(xy 201.93 160.02) (xy 201.93 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3786,7 +3786,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 229.6922) (xy 391.16 229.6922)
+			(xy 393.7 229.87) (xy 391.16 229.87)
 		)
 		(stroke
 			(width 0.254)
@@ -3797,7 +3797,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 162.3822) (xy 125.73 156.0322)
+			(xy 125.73 162.56) (xy 125.73 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3807,7 +3807,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.1522) (xy 160.02 100.1522)
+			(xy 153.67 100.33) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3817,7 +3817,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 107.7722) (xy 207.01 107.7722)
+			(xy 201.93 107.95) (xy 207.01 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3827,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 166.1922) (xy 189.23 166.1922)
+			(xy 185.42 166.37) (xy 189.23 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3837,7 +3837,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 111.5822) (xy 160.02 111.5822)
+			(xy 162.56 111.76) (xy 160.02 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3847,7 +3847,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 120.4722) (xy 297.18 115.3922)
+			(xy 297.18 120.65) (xy 297.18 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3857,7 +3857,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9 294.4622) (xy 88.9 297.0022)
+			(xy 88.9 294.64) (xy 88.9 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -3868,7 +3868,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 17.6022) (xy 2.54 294.4622)
+			(xy 2.54 17.78) (xy 2.54 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -3879,7 +3879,7 @@
 	)
 	(polyline
 		(pts
-			(xy 288.29 277.9522) (xy 322.58 277.9522)
+			(xy 288.29 278.13) (xy 322.58 278.13)
 		)
 		(stroke
 			(width 0.254)
@@ -3890,7 +3890,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 111.5822) (xy 227.33 111.5822)
+			(xy 224.79 111.76) (xy 227.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3900,7 +3900,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 294.4622) (xy 393.7 297.0022)
+			(xy 391.16 294.64) (xy 393.7 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -3911,7 +3911,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 100.1522) (xy 234.95 100.1522)
+			(xy 259.08 100.33) (xy 234.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3921,7 +3921,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 100.1522) (xy 391.16 100.1522)
+			(xy 393.7 100.33) (xy 391.16 100.33)
 		)
 		(stroke
 			(width 0.254)
@@ -3932,7 +3932,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 150.9522) (xy 234.95 100.1522)
+			(xy 234.95 151.13) (xy 234.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3942,7 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 100.1522) (xy 320.04 100.1522)
+			(xy 297.18 100.33) (xy 320.04 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3952,7 +3952,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 105.2322) (xy 255.27 185.2422)
+			(xy 255.27 105.41) (xy 255.27 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3962,7 +3962,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 294.4622) (xy 175.26 297.0022)
+			(xy 175.26 294.64) (xy 175.26 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -3973,7 +3973,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 111.5822) (xy 201.93 111.5822)
+			(xy 207.01 111.76) (xy 201.93 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3983,7 +3983,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 100.1522) (xy 227.33 103.9622)
+			(xy 227.33 100.33) (xy 227.33 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3993,7 +3993,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 185.2422) (xy 189.23 185.2422)
+			(xy 201.93 185.42) (xy 189.23 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4003,7 +4003,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 185.2422) (xy 125.73 185.2422)
+			(xy 189.23 185.42) (xy 125.73 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4013,7 +4013,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 186.5122) (xy 0 186.5122)
+			(xy 2.54 186.69) (xy 0 186.69)
 		)
 		(stroke
 			(width 0.254)
@@ -4024,7 +4024,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 294.4622) (xy 0 297.0022)
+			(xy 2.54 294.64) (xy 0 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -4035,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 103.9622) (xy 160.02 100.1522)
+			(xy 160.02 104.14) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4045,7 +4045,7 @@
 	)
 	(polyline
 		(pts
-			(xy 304.8 15.0622) (xy 304.8 17.6022)
+			(xy 304.8 15.24) (xy 304.8 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -4056,7 +4056,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 294.4622) (xy 218.44 297.0022)
+			(xy 218.44 294.64) (xy 218.44 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -4067,7 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 150.9522) (xy 234.95 150.9522)
+			(xy 185.42 151.13) (xy 234.95 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4077,7 +4077,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 107.7722) (xy 227.33 111.5822)
+			(xy 227.33 107.95) (xy 227.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4087,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 139.5222) (xy 185.42 133.1722)
+			(xy 185.42 139.7) (xy 185.42 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4097,7 +4097,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 103.9622) (xy 201.93 103.9622)
+			(xy 207.01 104.14) (xy 201.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4107,7 +4107,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 162.3822) (xy 189.23 166.1922)
+			(xy 189.23 162.56) (xy 189.23 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4117,7 +4117,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 100.1522) (xy 140.97 100.1522)
+			(xy 125.73 100.33) (xy 140.97 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4127,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 100.1522) (xy 185.42 100.1522)
+			(xy 180.34 100.33) (xy 185.42 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4137,7 +4137,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 178.8922) (xy 201.93 185.2422)
+			(xy 201.93 179.07) (xy 201.93 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4147,7 +4147,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 274.1422) (xy 391.16 274.1422)
+			(xy 393.7 274.32) (xy 391.16 274.32)
 		)
 		(stroke
 			(width 0.254)
@@ -4158,7 +4158,7 @@
 	)
 	(polyline
 		(pts
-			(xy 45.72 294.4622) (xy 45.72 297.0022)
+			(xy 45.72 294.64) (xy 45.72 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -4169,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 133.1722) (xy 201.93 139.5222)
+			(xy 201.93 133.35) (xy 201.93 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4179,7 +4179,7 @@
 	)
 	(polyline
 		(pts
-			(xy 288.29 260.1722) (xy 288.29 294.4622)
+			(xy 288.29 260.35) (xy 288.29 294.64)
 		)
 		(stroke
 			(width 0.254)
@@ -4190,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 105.2322) (xy 284.48 138.2522)
+			(xy 284.48 105.41) (xy 284.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4200,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 166.1922) (xy 125.73 162.3822)
+			(xy 125.73 166.37) (xy 125.73 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4210,7 +4210,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 100.1522) (xy 185.42 103.9622)
+			(xy 185.42 100.33) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4220,7 +4220,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 15.0622) (xy 132.08 17.6022)
+			(xy 132.08 15.24) (xy 132.08 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -4231,7 +4231,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 139.5222) (xy 185.42 139.5222)
+			(xy 201.93 139.7) (xy 185.42 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4241,7 +4241,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 294.4622) (xy 132.08 297.0022)
+			(xy 132.08 294.64) (xy 132.08 297.18)
 		)
 		(stroke
 			(width 0.254)
@@ -4252,7 +4252,7 @@
 	)
 	(polyline
 		(pts
-			(xy 2.54 100.1522) (xy 0 100.1522)
+			(xy 2.54 100.33) (xy 0 100.33)
 		)
 		(stroke
 			(width 0.254)
@@ -4263,7 +4263,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 100.1522) (xy 201.93 100.1522)
+			(xy 207.01 100.33) (xy 201.93 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4273,7 +4273,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 143.3322) (xy 391.16 143.3322)
+			(xy 393.7 143.51) (xy 391.16 143.51)
 		)
 		(stroke
 			(width 0.254)
@@ -4284,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 100.1522) (xy 125.73 100.1522)
+			(xy 109.22 100.33) (xy 125.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4294,7 +4294,7 @@
 	)
 	(polyline
 		(pts
-			(xy 391.16 17.6022) (xy 393.7 15.0622)
+			(xy 391.16 17.78) (xy 393.7 15.24)
 		)
 		(stroke
 			(width 0.254)
@@ -4305,7 +4305,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 166.1922) (xy 189.23 185.2422)
+			(xy 189.23 166.37) (xy 189.23 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4315,7 +4315,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 115.3922) (xy 224.79 115.3922)
+			(xy 227.33 115.57) (xy 224.79 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4325,7 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 105.2322) (xy 284.48 105.2322)
+			(xy 279.4 105.41) (xy 284.48 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4335,7 +4335,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 167.4622) (xy 201.93 171.2722)
+			(xy 201.93 167.64) (xy 201.93 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4345,7 +4345,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 100.1522) (xy 153.67 100.1522)
+			(xy 140.97 100.33) (xy 153.67 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4355,7 +4355,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 15.0622) (xy 218.44 17.6022)
+			(xy 218.44 15.24) (xy 218.44 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -4366,7 +4366,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 185.2422) (xy 92.71 110.3122)
+			(xy 92.71 185.42) (xy 92.71 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4376,7 +4376,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 100.1522) (xy 109.22 130.6322)
+			(xy 109.22 100.33) (xy 109.22 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4386,7 +4386,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 154.7622) (xy 201.93 139.5222)
+			(xy 201.93 154.94) (xy 201.93 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4396,7 +4396,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 100.1522) (xy 227.33 100.1522)
+			(xy 234.95 100.33) (xy 227.33 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4406,7 +4406,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 162.3822) (xy 189.23 162.3822)
+			(xy 185.42 162.56) (xy 189.23 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4416,7 +4416,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 15.0622) (xy 175.26 17.6022)
+			(xy 175.26 15.24) (xy 175.26 17.78)
 		)
 		(stroke
 			(width 0.254)
@@ -4427,7 +4427,7 @@
 	)
 	(polyline
 		(pts
-			(xy 322.58 284.3022) (xy 391.16 284.3022)
+			(xy 322.58 284.48) (xy 391.16 284.48)
 		)
 		(stroke
 			(width 0.254)
@@ -4438,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 185.2422) (xy 201.93 185.2422)
+			(xy 255.27 185.42) (xy 201.93 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4448,7 +4448,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 100.1522) (xy 185.42 100.1522)
+			(xy 201.93 100.33) (xy 185.42 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4458,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 100.1522) (xy 227.33 100.1522)
+			(xy 224.79 100.33) (xy 227.33 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4468,7 +4468,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 185.2422) (xy 109.22 138.2522)
+			(xy 109.22 185.42) (xy 109.22 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4478,7 +4478,7 @@
 	)
 	(polyline
 		(pts
-			(xy 393.7 56.9722) (xy 391.16 56.9722)
+			(xy 393.7 57.15) (xy 391.16 57.15)
 		)
 		(stroke
 			(width 0.254)
@@ -4489,7 +4489,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 140.7922) (xy 297.18 138.2522)
+			(xy 297.18 140.97) (xy 297.18 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4499,7 +4499,7 @@
 	)
 	(global_label "GDINPUT"
 		(shape passive)
-		(at 69.85 110.3122 180)
+		(at 69.85 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4509,7 +4509,7 @@
 		)
 		(uuid "dc22873c-a3e1-4c88-9bc1-39147f22b6c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 110.3122 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +4521,7 @@
 	)
 	(global_label "DCFILTERED"
 		(shape passive)
-		(at 320.04 100.1522 0)
+		(at 320.04 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4531,7 +4531,7 @@
 		)
 		(uuid "f0f78d5b-6111-4f43-88df-8db7a911d9cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 100.1522 0)
+			(at 320.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +4543,7 @@
 	)
 	(global_label "DCINPUT"
 		(shape passive)
-		(at 69.85 100.1522 180)
+		(at 69.85 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4553,7 +4553,7 @@
 		)
 		(uuid "f1535307-8120-4422-a81c-dc4484405dc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 100.1522 0)
+			(at 69.85 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4565,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Filter BNX024H01L 4.7uF 50V SMD12x9")
-		(at 259.08 100.1522 0)
+		(at 259.08 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4575,7 +4575,7 @@
 		(dnp no)
 		(uuid "0823dafe-3526-4fbd-89d0-08a9152e8958")
 		(property "Reference" "FL1"
-			(at 269.24 95.0722 0)
+			(at 269.24 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4585,7 +4585,7 @@
 			)
 		)
 		(property "Value" "BNX024H01L"
-			(at 271.78 97.6122 0)
+			(at 271.78 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:FILTER BNX0XXH01"
-			(at 259.08 100.1522 0)
+			(at 259.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4608,7 +4608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 100.1522 0)
+			(at 259.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +4619,7 @@
 			)
 		)
 		(property "Description" "Filter BNX024H01L 4.7uF 50V SMD12x9"
-			(at 259.08 100.1522 0)
+			(at 259.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +4630,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 258.572 73.1012 0)
+			(at 258.572 73.279 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4642,7 +4642,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 252.903 71.8312 0)
+			(at 252.903 72.009 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4654,7 +4654,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "BNX0xxH01"
-			(at 269.24 107.772 0)
+			(at 269.24 107.9498 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4662,7 +4662,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "BNX024H01L"
-			(at 266.7 87.4522 0)
+			(at 266.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4674,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 258.572 93.8022 0)
+			(at 258.572 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,7 +4686,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "BNX024H01L"
-			(at 258.572 93.8022 0)
+			(at 258.572 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4720,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Resistor 620K 1% 0402")
-		(at 125.73 152.2222 90)
+		(at 125.73 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4730,7 +4730,7 @@
 		(dnp no)
 		(uuid "16682dc1-4737-4d60-8c88-b846043bd37c")
 		(property "Reference" "R1"
-			(at 126.746 152.2222 90)
+			(at 126.746 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4741,7 +4741,7 @@
 			)
 		)
 		(property "Value" "620K"
-			(at 124.714 147.9042 90)
+			(at 124.714 148.082 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +4753,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.73 152.2222 0)
+			(at 125.73 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 152.2222 0)
+			(at 125.73 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +4775,7 @@
 			)
 		)
 		(property "Description" "Resistor 619K 1% 0402"
-			(at 125.73 152.2222 0)
+			(at 125.73 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4786,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 124.714 147.9042 90)
+			(at 124.714 148.082 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4798,7 +4798,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 124.714 147.9042 90)
+			(at 124.714 148.082 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,7 +4810,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 124.714 147.9042 90)
+			(at 124.714 148.082 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4822,7 +4822,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 124.714 147.9042 90)
+			(at 124.714 148.082 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4834,7 +4834,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "620K"
-			(at 126.746 154.7622 90)
+			(at 126.746 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4845,7 +4845,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 126.746 156.7942 90)
+			(at 126.746 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4872,7 +4872,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Capacitor 4.7nF 50V X7R 0402")
-		(at 201.93 175.0822 90)
+		(at 201.93 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4882,7 +4882,7 @@
 		(dnp no)
 		(uuid "1683632b-7e90-42c2-9dc6-ac0692f357d2")
 		(property "Reference" "C1"
-			(at 203.2 174.8282 90)
+			(at 203.2 175.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4893,7 +4893,7 @@
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 199.39 177.6222 90)
+			(at 199.39 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,7 +4905,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 201.93 175.0822 0)
+			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4916,7 +4916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 175.0822 0)
+			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,7 +4927,7 @@
 			)
 		)
 		(property "Description" "Capacitor 4.7nF 50V X7R 0402"
-			(at 201.93 175.0822 0)
+			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,7 +4938,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 201.422 172.5422 90)
+			(at 201.422 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4950,7 +4950,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 201.422 172.5422 90)
+			(at 201.422 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4962,7 +4962,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 197.612 171.2722 90)
+			(at 197.612 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,7 +4974,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 197.612 171.2722 90)
+			(at 197.612 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4986,7 +4986,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "4.7nF"
-			(at 203.2 177.3682 90)
+			(at 203.2 177.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4997,7 +4997,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 203.2 179.4002 90)
+			(at 203.2 179.578 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5008,7 +5008,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 203.2 181.4322 90)
+			(at 203.2 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5019,7 +5019,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 203.2 183.9722 90)
+			(at 203.2 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5046,7 +5046,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Resistor 12K 1% 0402")
-		(at 125.73 170.0022 90)
+		(at 125.73 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5056,7 +5056,7 @@
 		(dnp no)
 		(uuid "1e193128-b041-4dad-9229-adecddbe4d3d")
 		(property "Reference" "R2"
-			(at 126.746 170.0022 90)
+			(at 126.746 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5067,7 +5067,7 @@
 			)
 		)
 		(property "Value" "12K"
-			(at 124.714 165.6842 90)
+			(at 124.714 165.862 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +5079,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.73 170.0022 0)
+			(at 125.73 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +5090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 170.0022 0)
+			(at 125.73 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,7 +5101,7 @@
 			)
 		)
 		(property "Description" "Resistor 12K 1% 0402"
-			(at 125.73 170.0022 0)
+			(at 125.73 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5112,7 +5112,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 124.714 165.6842 90)
+			(at 124.714 165.862 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5124,7 +5124,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 124.714 165.6842 90)
+			(at 124.714 165.862 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5136,7 +5136,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 124.714 165.6842 90)
+			(at 124.714 165.862 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,7 +5148,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 124.714 165.6842 90)
+			(at 124.714 165.862 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,7 +5160,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "12K"
-			(at 126.746 172.5422 90)
+			(at 126.746 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5171,7 +5171,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 126.746 174.5742 90)
+			(at 126.746 174.752 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5198,7 +5198,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Resistor 10R 1% 0402")
-		(at 201.93 129.3622 90)
+		(at 201.93 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5208,7 +5208,7 @@
 		(dnp no)
 		(uuid "2b85886a-4b1c-4381-9742-cc96cc32100c")
 		(property "Reference" "R5"
-			(at 202.946 129.3622 90)
+			(at 202.946 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5219,7 +5219,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 200.914 125.0442 90)
+			(at 200.914 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5231,7 +5231,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 201.93 129.3622 0)
+			(at 201.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5242,7 +5242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 129.3622 0)
+			(at 201.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5253,7 +5253,7 @@
 			)
 		)
 		(property "Description" "Resistor 10R 1% 0402"
-			(at 201.93 129.3622 0)
+			(at 201.93 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5264,7 +5264,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 200.914 125.0442 90)
+			(at 200.914 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5276,7 +5276,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 200.914 125.0442 90)
+			(at 200.914 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5288,7 +5288,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 200.914 125.0442 90)
+			(at 200.914 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +5300,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 200.914 125.0442 90)
+			(at 200.914 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5312,7 +5312,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10R"
-			(at 202.946 131.9022 90)
+			(at 202.946 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 202.946 133.9342 90)
+			(at 202.946 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5350,7 +5350,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:IC LTC4365 Over Under Rev Volt Prot 8-Pin DFN")
-		(at 173.99 150.9522 0)
+		(at 173.99 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5360,7 +5360,7 @@
 		(dnp no)
 		(uuid "31851214-0a3d-4bd2-9bc7-19a4295f4cbf")
 		(property "Reference" "U2"
-			(at 173.99 145.8722 0)
+			(at 173.99 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5370,7 +5370,7 @@
 			)
 		)
 		(property "Value" "LTC4365"
-			(at 186.69 149.6822 0)
+			(at 186.69 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5381,7 +5381,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:DFN B2.0 x 3.0 x 0.75 P0.5 8-Pin EP"
-			(at 173.99 150.9522 0)
+			(at 173.99 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5392,7 +5392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 150.9522 0)
+			(at 173.99 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5403,7 +5403,7 @@
 			)
 		)
 		(property "Description" "IC LTC4365 Over Under Rev Volt Prot 8-Pin DFN"
-			(at 173.99 150.9522 0)
+			(at 173.99 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5414,7 +5414,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 173.482 127.7112 0)
+			(at 173.482 127.889 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5426,7 +5426,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 171.063 126.4412 0)
+			(at 171.063 126.619 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +5438,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin DFN"
-			(at 172.72 168.732 0)
+			(at 172.72 168.9098 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5446,7 +5446,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "LTC4365"
-			(at 164.338 148.1582 0)
+			(at 164.338 148.336 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5457,7 +5457,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Analog Devices"
-			(at 173.482 144.6022 0)
+			(at 173.482 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,7 +5469,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "LTC4365IDDB"
-			(at 173.482 144.6022 0)
+			(at 173.482 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5518,7 +5518,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:LED QTLP600C-4 Green Cathode Marked 0603")
-		(at 297.18 124.2822 270)
+		(at 297.18 124.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5528,7 +5528,7 @@
 		(dnp no)
 		(uuid "6727e9d1-1db7-464f-bde1-732e54336c25")
 		(property "Reference" "LED1"
-			(at 299.72 124.0282 90)
+			(at 299.72 124.206 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5539,7 +5539,7 @@
 			)
 		)
 		(property "Value" "QTLP600C-4"
-			(at 295.91 119.9642 90)
+			(at 295.91 120.142 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5551,7 +5551,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:LED 0603 H0-7 (C)"
-			(at 297.18 124.2822 0)
+			(at 297.18 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5562,7 +5562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 124.2822 0)
+			(at 297.18 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5573,7 +5573,7 @@
 			)
 		)
 		(property "Description" "LED QTLP600C-4 Green Cathode Marked 0603"
-			(at 297.18 124.2822 0)
+			(at 297.18 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5584,7 +5584,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 295.91 119.9642 90)
+			(at 295.91 120.142 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,7 +5596,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Everlight"
-			(at 295.91 119.9642 90)
+			(at 295.91 120.142 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5608,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "QTLP600C-4"
-			(at 295.91 119.9642 90)
+			(at 295.91 120.142 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5620,7 +5620,7 @@
 			)
 		)
 		(property "NOTE" "GREEN"
-			(at 299.72 126.5682 90)
+			(at 299.72 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5631,7 +5631,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "QTLP600C-4"
-			(at 299.72 129.1082 90)
+			(at 299.72 129.286 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5642,7 +5642,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 299.72 131.1402 90)
+			(at 299.72 131.318 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5669,7 +5669,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:TVS 1.5SMB27CA 10V SMB")
-		(at 109.22 134.4422 270)
+		(at 109.22 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5679,7 +5679,7 @@
 		(dnp no)
 		(uuid "8da20bcb-a5f8-42d5-89b2-ced188486784")
 		(property "Reference" "D1"
-			(at 110.49 134.4422 90)
+			(at 110.49 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5690,7 +5690,7 @@
 			)
 		)
 		(property "Value" "1.5SMB27CA"
-			(at 107.95 130.1242 90)
+			(at 107.95 130.302 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5702,7 +5702,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:Diode DO-214AA SMB Not-Pol"
-			(at 109.22 134.4422 0)
+			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5713,7 +5713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 134.4422 0)
+			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5724,7 +5724,7 @@
 			)
 		)
 		(property "Description" "TVS 1.5SMB27CA 10V SMB"
-			(at 109.22 134.4422 0)
+			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5735,7 +5735,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 107.95 130.1242 90)
+			(at 107.95 130.302 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +5747,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 107.95 130.1242 90)
+			(at 107.95 130.302 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5759,7 +5759,7 @@
 			)
 		)
 		(property "MANUFACTURER" "LittelFuse"
-			(at 107.95 130.1242 90)
+			(at 107.95 130.302 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5771,7 +5771,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "1.5SMB27CA"
-			(at 107.95 130.1242 90)
+			(at 107.95 130.302 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,7 +5783,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1.5SMB27CA"
-			(at 110.49 136.7282 90)
+			(at 110.49 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5794,7 +5794,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "DO-214AA"
-			(at 110.49 138.7602 90)
+			(at 110.49 138.938 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5821,7 +5821,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8")
-		(at 207.01 100.1522 0)
+		(at 207.01 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5831,7 +5831,7 @@
 		(dnp no)
 		(uuid "97523ed9-c309-4ad4-892b-c32ff0b3ac55")
 		(property "Reference" "Q3"
-			(at 215.9 95.0722 0)
+			(at 215.9 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5841,7 +5841,7 @@
 			)
 		)
 		(property "Value" "DMT4011LFG"
-			(at 219.71 98.8822 0)
+			(at 219.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5852,7 +5852,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin"
-			(at 207.01 100.1522 0)
+			(at 207.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 100.1522 0)
+			(at 207.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5874,7 +5874,7 @@
 			)
 		)
 		(property "Description" "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8"
-			(at 207.01 100.1522 0)
+			(at 207.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +5885,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 206.502 76.9112 0)
+			(at 206.502 77.089 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5897,7 +5897,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 204.083 75.6412 0)
+			(at 204.083 75.819 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5909,7 +5909,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
-			(at 215.9 117.932 0)
+			(at 215.9 118.1098 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5917,7 +5917,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "DMT4011LFG"
-			(at 197.358 97.3582 0)
+			(at 197.358 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5928,7 +5928,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diodes Inc"
-			(at 206.502 93.8022 0)
+			(at 206.502 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5940,7 +5940,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "DMT4011LFG"
-			(at 206.502 93.8022 0)
+			(at 206.502 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5989,7 +5989,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Resistor 10K 1% 0402")
-		(at 297.18 111.5822 90)
+		(at 297.18 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5999,7 +5999,7 @@
 		(dnp no)
 		(uuid "9de00906-8297-49bd-b53f-1c82b3eb3eb2")
 		(property "Reference" "R7"
-			(at 298.196 111.5822 90)
+			(at 298.196 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6010,7 +6010,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 296.164 107.2642 90)
+			(at 296.164 107.442 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6022,7 +6022,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 297.18 111.5822 0)
+			(at 297.18 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6033,7 +6033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 111.5822 0)
+			(at 297.18 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6044,7 +6044,7 @@
 			)
 		)
 		(property "Description" "Resistor 10K 1% 0402"
-			(at 297.18 111.5822 0)
+			(at 297.18 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6055,7 +6055,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 296.164 107.2642 90)
+			(at 296.164 107.442 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6067,7 +6067,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 296.164 107.2642 90)
+			(at 296.164 107.442 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6079,7 +6079,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 296.164 107.2642 90)
+			(at 296.164 107.442 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6091,7 +6091,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 296.164 107.2642 90)
+			(at 296.164 107.442 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6103,7 +6103,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 298.196 114.1222 90)
+			(at 298.196 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6114,7 +6114,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 298.196 116.1542 90)
+			(at 298.196 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6141,7 +6141,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 297.18 140.7922 0)
+		(at 297.18 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6151,7 +6151,7 @@
 		(dnp no)
 		(uuid "abd15895-927e-41d5-b242-06dc396caa2c")
 		(property "Reference" "#PWR020"
-			(at 297.18 140.7922 0)
+			(at 297.18 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6162,7 +6162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 297.18 147.1422 0)
+			(at 297.18 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6172,7 +6172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 140.7922 0)
+			(at 297.18 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6182,7 +6182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 140.7922 0)
+			(at 297.18 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6192,7 +6192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 140.7922 0)
+			(at 297.18 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6215,7 +6215,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Resistor 5.1K 1% 0402")
-		(at 201.93 163.6522 90)
+		(at 201.93 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6225,7 +6225,7 @@
 		(dnp no)
 		(uuid "b0894d02-f81f-4fff-a3d6-f02892c38d61")
 		(property "Reference" "R6"
-			(at 202.946 163.6522 90)
+			(at 202.946 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6236,7 +6236,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 200.914 159.3342 90)
+			(at 200.914 159.512 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6248,7 +6248,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 201.93 163.6522 0)
+			(at 201.93 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6259,7 +6259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 163.6522 0)
+			(at 201.93 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,7 +6270,7 @@
 			)
 		)
 		(property "Description" "Resistor 5.1K 1% 0402"
-			(at 201.93 163.6522 0)
+			(at 201.93 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6281,7 +6281,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 200.914 159.3342 90)
+			(at 200.914 159.512 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6293,7 +6293,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 200.914 159.3342 90)
+			(at 200.914 159.512 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,7 +6305,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 200.914 159.3342 90)
+			(at 200.914 159.512 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6317,7 +6317,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 200.914 159.3342 90)
+			(at 200.914 159.512 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,7 +6329,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "5.1K"
-			(at 202.946 166.1922 90)
+			(at 202.946 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6340,7 +6340,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 202.946 168.2242 90)
+			(at 202.946 168.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6367,7 +6367,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Resistor 100K 1% 0402")
-		(at 140.97 144.6022 90)
+		(at 140.97 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6377,7 +6377,7 @@
 		(dnp no)
 		(uuid "c7825e07-5b63-4e11-97b7-13ad884ee4ed")
 		(property "Reference" "R3"
-			(at 141.986 144.6022 90)
+			(at 141.986 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6388,7 +6388,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 139.954 140.2842 90)
+			(at 139.954 140.462 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6400,7 +6400,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 144.6022 0)
+			(at 140.97 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,7 +6411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 144.6022 0)
+			(at 140.97 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6422,7 +6422,7 @@
 			)
 		)
 		(property "Description" "Resistor 100K 1% 0402"
-			(at 140.97 144.6022 0)
+			(at 140.97 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6433,7 +6433,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 139.954 140.2842 90)
+			(at 139.954 140.462 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6445,7 +6445,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 139.954 140.2842 90)
+			(at 139.954 140.462 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6457,7 +6457,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 139.954 140.2842 90)
+			(at 139.954 140.462 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,7 +6469,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 139.954 140.2842 90)
+			(at 139.954 140.462 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6481,7 +6481,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100K"
-			(at 141.986 147.1422 90)
+			(at 141.986 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6492,7 +6492,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 141.986 149.1742 90)
+			(at 141.986 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6519,7 +6519,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8")
-		(at 180.34 100.1522 0)
+		(at 180.34 100.33 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6530,7 +6530,7 @@
 		(dnp no)
 		(uuid "c90f52c7-7def-4c2b-ba97-93ed81f1a733")
 		(property "Reference" "Q1"
-			(at 171.45 95.0722 0)
+			(at 171.45 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6540,7 +6540,7 @@
 			)
 		)
 		(property "Value" "DMT4011LFG"
-			(at 167.64 98.8822 0)
+			(at 167.64 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6551,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin"
-			(at 180.34 100.1522 0)
+			(at 180.34 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6562,7 +6562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 100.1522 0)
+			(at 180.34 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +6573,7 @@
 			)
 		)
 		(property "Description" "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8"
-			(at 180.34 100.1522 0)
+			(at 180.34 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +6584,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 179.832 76.9112 0)
+			(at 179.832 77.089 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,7 +6596,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 177.413 75.6412 0)
+			(at 177.413 75.819 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +6608,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
-			(at 171.45 117.932 0)
+			(at 171.45 118.1098 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6616,7 +6616,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "DMT4011LFG"
-			(at 189.992 97.3582 0)
+			(at 189.992 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,7 +6627,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diodes Inc"
-			(at 179.832 93.8022 0)
+			(at 179.832 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6639,7 +6639,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "DMT4011LFG"
-			(at 179.832 93.8022 0)
+			(at 179.832 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6688,7 +6688,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Resistor 10R 1% 0402")
-		(at 185.42 129.3622 90)
+		(at 185.42 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6698,7 +6698,7 @@
 		(dnp no)
 		(uuid "df7d269e-473b-4244-994c-582e57d6fd2b")
 		(property "Reference" "R4"
-			(at 186.436 129.3622 90)
+			(at 186.436 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6709,7 +6709,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 184.404 125.0442 90)
+			(at 184.404 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +6721,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 185.42 129.3622 0)
+			(at 185.42 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6732,7 +6732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 129.3622 0)
+			(at 185.42 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,7 +6743,7 @@
 			)
 		)
 		(property "Description" "Resistor 10R 1% 0402"
-			(at 185.42 129.3622 0)
+			(at 185.42 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6754,7 +6754,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 184.404 125.0442 90)
+			(at 184.404 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6766,7 +6766,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 184.404 125.0442 90)
+			(at 184.404 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6778,7 +6778,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 184.404 125.0442 90)
+			(at 184.404 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6790,7 +6790,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 184.404 125.0442 90)
+			(at 184.404 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6802,7 +6802,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10R"
-			(at 186.436 131.9022 90)
+			(at 186.436 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6813,7 +6813,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 186.436 133.9342 90)
+			(at 186.436 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

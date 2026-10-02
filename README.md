@@ -87,14 +87,17 @@ Each fix is a separate commit on top of the initial import.
 | Two vias sat in 0402 pads (R13 pad 2, R54 pad 2), connected on F.Cu only, and could wick solder | Removed |
 | 9 tracks ran within 0.15 mm of the new R/C pad corners, B.Cu tracks passed 0.10 mm from J2 pins 9/10, and the ENEXT track 0.21 mm from J3's peg hole | Rerouted; 15 small R/C parts and 3 GND vias moved 0.1 mm |
 | Net class patterns named Altium's auto-generated nets, so 13 power nets were in the Default class | Patterns point at the current net names |
+| Every sheet sat 43 mil off the 50 mil connection grid in Y | Shifted each sheet's contents 7 mil onto the grid, and moved the few remaining off-grid wire corners on S06 onto it |
+| 9 wires ran past their labels, leaving dangling ends | Trimmed back to the label |
+| GND, +12V, +3V3MCU and +5V had no power source for ERC | Added PWR_FLAG symbols |
+| Title blocks used the Altium formula `${COPY(DOCUMENTNAME,…)}` for the sheet title | Replaced with each sheet's title |
 
 Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
 `ALTIUM_FOOTPRINT`, `MANUFACTURER`, `MANUFACTURER_PN`, …) for reference.
 
 ### Known remaining issues
 
-- The KiCad default title block is drawn over the imported Altium one, and
-  variables such as `${PRODUCT_NAME}` and `${BOARD_NUMBER}` are not defined.
+- The KiCad default title block is drawn over the imported Altium one.
 - The mounting spacers use two near-identical footprints: M1 uses
   `Mech Spacer Wurth 78614150960 Through M3`, and M2–M6 use the upper-case
   variant.
