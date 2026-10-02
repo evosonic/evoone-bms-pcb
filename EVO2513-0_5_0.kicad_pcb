@@ -263,7 +263,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/8078b1e9-423e-4af8-97c7-25a2b5ba1463")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/8078b1e9-423e-4af8-97c7-25a2b5ba1463")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -492,7 +492,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/372e2070-acc5-4247-925b-1246dc2c8a69")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/372e2070-acc5-4247-925b-1246dc2c8a69")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -721,7 +721,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/50f88663-95e4-4722-9928-86fbcd0f03f9")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/50f88663-95e4-4722-9928-86fbcd0f03f9")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -950,7 +950,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/3f10fe5f-8763-49a5-ae71-8e5ec47e9cac")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/3f10fe5f-8763-49a5-ae71-8e5ec47e9cac")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -1177,7 +1177,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/7593311a-f34e-4f0f-a0cf-0f08bf368c04")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/7593311a-f34e-4f0f-a0cf-0f08bf368c04")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -1604,7 +1604,7 @@
 			)
 		)
 		(property ki_fp_filters "*VQFN-HR B2.0x2.0x1.0 10-Pin TI LM73100RPW*")
-		(path "/106cadf3-fa4a-49cb-9d36-9d637ddf9f79")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/106cadf3-fa4a-49cb-9d36-9d637ddf9f79")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -2083,7 +2083,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/ea9a3e28-5056-4d71-be82-c8281c019cdb")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/ea9a3e28-5056-4d71-be82-c8281c019cdb")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -2338,7 +2338,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1206_3216Metric*")
-		(path "/7b476513-59c7-4ac3-8e56-e3cc25c89d67")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/7b476513-59c7-4ac3-8e56-e3cc25c89d67")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -2565,7 +2565,7 @@
 			)
 		)
 		(property ki_fp_filters "*PG-TDSON-8-33 B6.44 x 5.15 H1.0 P1.27 8-Pin EP*")
-		(path "/986c1c69-80a2-4e78-809b-a7e87e5ceb0c")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/986c1c69-80a2-4e78-809b-a7e87e5ceb0c")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -3149,7 +3149,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/dad1e263-3107-4b38-b7cd-945de2fd6a9d")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/dad1e263-3107-4b38-b7cd-945de2fd6a9d")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -3378,7 +3378,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/334732f7-e23c-4672-9dba-8967320eb570")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/334732f7-e23c-4672-9dba-8967320eb570")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -3607,7 +3607,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/1e193128-b041-4dad-9229-adecddbe4d3d")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/1e193128-b041-4dad-9229-adecddbe4d3d")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -3836,7 +3836,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/ea3f4c07-aa59-4b90-a68b-f9e1e9f3af04")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/ea3f4c07-aa59-4b90-a68b-f9e1e9f3af04")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -4063,7 +4063,7 @@
 			)
 		)
 		(property ki_fp_filters "*Ind Coilcraft XAL8080*")
-		(path "/1273dff3-9bc4-4d3a-a71b-ba24d3f5020d")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/1273dff3-9bc4-4d3a-a71b-ba24d3f5020d")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -4362,7 +4362,7 @@
 			)
 		)
 		(property ki_fp_filters "*PG-TDSON-8-33 B6.44 x 5.15 H1.0 P1.27 8-Pin EP*")
-		(path "/04d25735-72fc-4844-9850-0565de895a23")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/04d25735-72fc-4844-9850-0565de895a23")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -4929,7 +4929,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/a960eec6-da6d-4d3f-9c73-f0afed4b3738")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/a960eec6-da6d-4d3f-9c73-f0afed4b3738")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -5184,7 +5184,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1206_3216Metric*")
-		(path "/4dfbe498-a480-4307-99f0-01e42911531e")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/4dfbe498-a480-4307-99f0-01e42911531e")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -5439,7 +5439,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/26e51ef6-a608-4b86-9c7b-c4db42aaa23e")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/26e51ef6-a608-4b86-9c7b-c4db42aaa23e")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -5668,7 +5668,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/7cebb08c-3169-4c5e-b919-c732a0562825")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/7cebb08c-3169-4c5e-b919-c732a0562825")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -5984,7 +5984,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/0f5b0a8a-4f04-4ca7-b9f7-74b9795b8570")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/0f5b0a8a-4f04-4ca7-b9f7-74b9795b8570")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -6239,7 +6239,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/347f244b-62bf-4a49-b8f2-5f121a14ba64")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/347f244b-62bf-4a49-b8f2-5f121a14ba64")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -6468,7 +6468,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/5d3dbf77-549e-4d31-b6a8-2db5f9c411b1")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/5d3dbf77-549e-4d31-b6a8-2db5f9c411b1")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -6697,7 +6697,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/9911fc7c-bfee-4b18-9e02-e15d038a722b")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/9911fc7c-bfee-4b18-9e02-e15d038a722b")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -6924,7 +6924,7 @@
 			)
 		)
 		(property ki_fp_filters "*PG-TDSON-8-33 B6.44 x 5.15 H1.0 P1.27 8-Pin EP*")
-		(path "/b7134853-fbd5-42b6-9b2c-ae92713cf1a7")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/b7134853-fbd5-42b6-9b2c-ae92713cf1a7")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -7534,7 +7534,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/00e631eb-4636-40b3-8ce2-1738b19b9caa")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/00e631eb-4636-40b3-8ce2-1738b19b9caa")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -7761,7 +7761,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/dc63ab0c-0600-474f-8e26-616ac356fdab")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/dc63ab0c-0600-474f-8e26-616ac356fdab")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -8181,7 +8181,7 @@
 			)
 		)
 		(property ki_fp_filters "*FILTER BNX0xxH01*")
-		(path "/0823dafe-3526-4fbd-89d0-08a9152e8958")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/0823dafe-3526-4fbd-89d0-08a9152e8958")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -8677,7 +8677,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/20d06ed5-394e-41cf-8c62-e90eabbfe588")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/20d06ed5-394e-41cf-8c62-e90eabbfe588")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -8904,7 +8904,7 @@
 			)
 		)
 		(property ki_fp_filters "*VQFN-HR B2.0x2.0x1.0 10-Pin TI LM73100RPW*")
-		(path "/cee9b0aa-f2dc-4853-a534-7421a10fb56a")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/cee9b0aa-f2dc-4853-a534-7421a10fb56a")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -9383,7 +9383,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/877d4b46-527a-43a6-830a-72024f5770ef")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/877d4b46-527a-43a6-830a-72024f5770ef")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -9638,7 +9638,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/d1787950-8043-4db5-b2a4-fdc8d0718285")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/d1787950-8043-4db5-b2a4-fdc8d0718285")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -9893,7 +9893,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1206_3216Metric*")
-		(path "/4eaa2818-6ade-4da3-9d3d-335dbc43f319")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/4eaa2818-6ade-4da3-9d3d-335dbc43f319")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -10122,7 +10122,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/4109a37c-9df4-45d5-8646-7a4f7c698cde")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/4109a37c-9df4-45d5-8646-7a4f7c698cde")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -10351,7 +10351,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/8d703f08-c041-4433-b107-a67533506c2b")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/8d703f08-c041-4433-b107-a67533506c2b")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -10606,7 +10606,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/ab5840ed-c24f-43b8-920e-023cd8772f1c")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/ab5840ed-c24f-43b8-920e-023cd8772f1c")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -10835,7 +10835,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/a0ade691-cd6e-4537-91e9-c5dd2534402a")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/a0ade691-cd6e-4537-91e9-c5dd2534402a")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -11062,7 +11062,7 @@
 			)
 		)
 		(property ki_fp_filters "*Diode DO-214AC SMA*")
-		(path "/01bea4fa-6db8-4558-bdc5-1d189c0bd7eb")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/01bea4fa-6db8-4558-bdc5-1d189c0bd7eb")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -11384,7 +11384,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/26bd08f9-090f-465c-9b4c-c95e7c7cbd7e")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/26bd08f9-090f-465c-9b4c-c95e7c7cbd7e")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -11573,9 +11573,9 @@
 			)
 		)
 		(property ki_fp_filters "*Mech Spacer Wurth 78614150960 Through M3*")
-		(path "/7882e300-938c-4e44-b0c4-e069e2a18bd2")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/7882e300-938c-4e44-b0c4-e069e2a18bd2")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12523,7 +12523,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1206_3216Metric*")
-		(path "/7e98d467-25e6-47c6-9e6f-986caf23cd0d")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/7e98d467-25e6-47c6-9e6f-986caf23cd0d")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -12778,7 +12778,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1206_3216Metric*")
-		(path "/c51eb8e8-a6f7-40c9-a246-0aa814f4be4f")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/c51eb8e8-a6f7-40c9-a246-0aa814f4be4f")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -13005,7 +13005,7 @@
 			)
 		)
 		(property ki_fp_filters "*IND Bourns SRRP1265A*")
-		(path "/477e2ef1-63df-4623-a51a-72b29f9a7310")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/477e2ef1-63df-4623-a51a-72b29f9a7310")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -13357,7 +13357,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/9e27cc25-56f0-4ac5-8846-27ef511ac5fa")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/9e27cc25-56f0-4ac5-8846-27ef511ac5fa")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -13612,7 +13612,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/c3d62dcf-5a64-4694-b022-dba662c0dade")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/c3d62dcf-5a64-4694-b022-dba662c0dade")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -13865,7 +13865,7 @@
 			)
 		)
 		(property ki_fp_filters "*CAP Panasonic CASE-E12*")
-		(path "/b074da3a-bf8a-42d8-ae0b-782a1fca842a")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/b074da3a-bf8a-42d8-ae0b-782a1fca842a")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -14276,7 +14276,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/e2a58cf2-8a20-4c33-8fb6-ae10c805aa23")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/e2a58cf2-8a20-4c33-8fb6-ae10c805aa23")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -14505,7 +14505,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/bbf6f663-a21a-44e1-bd64-8237744a4b2e")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/bbf6f663-a21a-44e1-bd64-8237744a4b2e")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -14760,7 +14760,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1206_3216Metric*")
-		(path "/9e156f0f-0dea-436d-8d8d-5c84ce5187c5")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/9e156f0f-0dea-436d-8d8d-5c84ce5187c5")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -14987,7 +14987,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/c90f52c7-7def-4c2b-ba97-93ed81f1a733")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/c90f52c7-7def-4c2b-ba97-93ed81f1a733")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -15389,7 +15389,7 @@
 			)
 		)
 		(property ki_fp_filters "*LED 0603 H0-7 (C)*")
-		(path "/fb989bb2-aa69-423b-b89c-1bd21b87e364")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/fb989bb2-aa69-423b-b89c-1bd21b87e364")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -15836,7 +15836,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/0f3becbd-d2f2-4bff-88db-f25998317098")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/0f3becbd-d2f2-4bff-88db-f25998317098")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -16063,7 +16063,7 @@
 			)
 		)
 		(property ki_fp_filters "*Diode SOD123*")
-		(path "/d058f641-d325-4897-a6d2-68efb9e32f2f")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/d058f641-d325-4897-a6d2-68efb9e32f2f")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -16420,7 +16420,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0805_2012Metric*")
-		(path "/af43c437-b0e5-449f-9bca-bcd34778e19e")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/af43c437-b0e5-449f-9bca-bcd34778e19e")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -16649,7 +16649,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/9f86f539-bd4e-495c-9892-8662827f761a")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/9f86f539-bd4e-495c-9892-8662827f761a")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -16878,7 +16878,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/addda6bc-a3ae-4bdc-9aa4-90cad9644208")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/addda6bc-a3ae-4bdc-9aa4-90cad9644208")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -17133,7 +17133,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/96c3d56a-e64d-49c5-bdd7-0c691ddef5eb")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/96c3d56a-e64d-49c5-bdd7-0c691ddef5eb")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -17362,7 +17362,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/ff024d5b-ee3f-46a6-aafc-3bc690c4090c")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/ff024d5b-ee3f-46a6-aafc-3bc690c4090c")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -17589,9 +17589,9 @@
 			)
 		)
 		(property ki_fp_filters "*Connector Molex 105310xx04 4POS 2.5mm THP*")
-		(path "/a285a98f-3639-4c68-8dcc-b528f6e5541f")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/a285a98f-3639-4c68-8dcc-b528f6e5541f")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18063,7 +18063,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/a2738271-de68-4151-9244-c984a63f05a5")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/a2738271-de68-4151-9244-c984a63f05a5")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -18292,7 +18292,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/c3406028-a6c0-4d8b-9bc6-a380481fd0df")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/c3406028-a6c0-4d8b-9bc6-a380481fd0df")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -18521,7 +18521,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/b372dd81-61e4-4ee5-8be9-a7e017d33bb3")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/b372dd81-61e4-4ee5-8be9-a7e017d33bb3")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -18750,7 +18750,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/86035186-db8b-4aed-b525-7439ac6eaaa9")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/86035186-db8b-4aed-b525-7439ac6eaaa9")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -19005,7 +19005,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/61015d9a-a9a7-49d2-944c-eb92ed37c451")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/61015d9a-a9a7-49d2-944c-eb92ed37c451")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -19260,7 +19260,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/83a6caa8-8615-4fd0-8672-6a09abbae6be")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/83a6caa8-8615-4fd0-8672-6a09abbae6be")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -19513,7 +19513,7 @@
 			)
 		)
 		(property ki_fp_filters "*CAP Panasonic CASE-E12*")
-		(path "/d64ced86-59d9-4c47-aec6-8dc873c37deb")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/d64ced86-59d9-4c47-aec6-8dc873c37deb")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -19911,7 +19911,7 @@
 			)
 		)
 		(property ki_fp_filters "*WSON B2x2 P0-5 8-Pin EP*")
-		(path "/da3df716-4d0f-416d-89f4-17e61ee5395d")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/da3df716-4d0f-416d-89f4-17e61ee5395d")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -20302,7 +20302,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/5db20caf-740f-4513-bd54-7b86fa5a8ab4")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/5db20caf-740f-4513-bd54-7b86fa5a8ab4")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -20531,7 +20531,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/b0894d02-f81f-4fff-a3d6-f02892c38d61")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/b0894d02-f81f-4fff-a3d6-f02892c38d61")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -20758,7 +20758,7 @@
 			)
 		)
 		(property ki_fp_filters "*DFN B2.0 x 3.0 x 0.75 P0.5 8-Pin EP*")
-		(path "/31851214-0a3d-4bd2-9bc7-19a4295f4cbf")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/31851214-0a3d-4bd2-9bc7-19a4295f4cbf")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -21121,7 +21121,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/1f1f3b11-0c88-4e0a-b51a-a6980cfb0057")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/1f1f3b11-0c88-4e0a-b51a-a6980cfb0057")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -21350,7 +21350,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/ec0d4828-e3cc-4409-83f2-c9be5abcd228")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/ec0d4828-e3cc-4409-83f2-c9be5abcd228")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -21579,7 +21579,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/5e764b5d-3d17-4ce5-9982-ea5a809bee38")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/5e764b5d-3d17-4ce5-9982-ea5a809bee38")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -21808,7 +21808,7 @@
 			)
 		)
 		(property ki_fp_filters "R_1206_3216Metric*")
-		(path "/9ff49bb5-cbde-40bd-b653-7dc2a3d221b8")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/9ff49bb5-cbde-40bd-b653-7dc2a3d221b8")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -22063,7 +22063,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/6d84f2b8-5d71-4e34-acb6-02255d963d93")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/6d84f2b8-5d71-4e34-acb6-02255d963d93")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -22292,7 +22292,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/6b1b1342-e4b1-4e87-ba60-27024371aa86")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/6b1b1342-e4b1-4e87-ba60-27024371aa86")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -22521,9 +22521,9 @@
 			)
 		)
 		(property ki_fp_filters "R_0603_1608Metric*")
-		(path "/818ddf50-844d-4e9a-a209-df85d5c5c4d7")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/818ddf50-844d-4e9a-a209-df85d5c5c4d7")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22748,7 +22748,7 @@
 			)
 		)
 		(property ki_fp_filters "*SOT-23 3-Pin*")
-		(path "/cf1012c2-ff27-4843-a061-9961703c07e2")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/cf1012c2-ff27-4843-a061-9961703c07e2")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -23087,7 +23087,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/04ee2a84-83d8-45be-8daa-435688e59040")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/04ee2a84-83d8-45be-8daa-435688e59040")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -23517,7 +23517,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/b3665018-0b50-4d33-adb7-e8eb44254098")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/b3665018-0b50-4d33-adb7-e8eb44254098")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -23772,7 +23772,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/0e056dd5-4af1-4827-9527-cdb68660594b")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/0e056dd5-4af1-4827-9527-cdb68660594b")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -24027,7 +24027,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1210_3225Metric*")
-		(path "/db6ab958-b925-4924-8c8e-658170af9f59")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/db6ab958-b925-4924-8c8e-658170af9f59")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -24254,7 +24254,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/7f7b64dc-57b6-4d5c-b810-a78d1c15b508")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/7f7b64dc-57b6-4d5c-b810-a78d1c15b508")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -24665,7 +24665,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/5b275610-2bb2-49ca-8bc9-9ab86917aa78")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/5b275610-2bb2-49ca-8bc9-9ab86917aa78")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -24880,9 +24880,9 @@
 			)
 		)
 		(property ki_fp_filters "*Fiducial-50*")
-		(path "/c04ead15-732b-46c9-aea2-28ac28155997")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/c04ead15-732b-46c9-aea2-28ac28155997")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24991,9 +24991,9 @@
 			)
 		)
 		(property ki_fp_filters "*Mech Spacer Wurth 78614150960 Through M3*")
-		(path "/eacca96c-f5ed-48bc-af60-c85c36d52e65")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/eacca96c-f5ed-48bc-af60-c85c36d52e65")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25907,7 +25907,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/cbcff28d-ccfa-45b6-9f25-940e5208b64e")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/cbcff28d-ccfa-45b6-9f25-940e5208b64e")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -26197,7 +26197,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/fb1d3410-f907-483a-b21a-2b183ef23c7c")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/fb1d3410-f907-483a-b21a-2b183ef23c7c")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -26424,7 +26424,7 @@
 			)
 		)
 		(property ki_fp_filters "*Diode DO-214AC SMA*")
-		(path "/15ea9b0b-e4fd-4a93-a03d-ce81a01a0f73")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/15ea9b0b-e4fd-4a93-a03d-ce81a01a0f73")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -26769,7 +26769,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/a1d3fa4e-ae8c-4112-89bb-53a48d18a31b")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/a1d3fa4e-ae8c-4112-89bb-53a48d18a31b")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -27024,7 +27024,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0805_2012Metric*")
-		(path "/1bd152f6-49c3-4039-a4b8-43359eab3fda")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/1bd152f6-49c3-4039-a4b8-43359eab3fda")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -27279,7 +27279,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/ff96db5a-ddd4-4e2d-b25d-2c507b7cf289")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/ff96db5a-ddd4-4e2d-b25d-2c507b7cf289")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -27534,7 +27534,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/d9223e18-6bbf-4231-b846-048e4938d79c")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/d9223e18-6bbf-4231-b846-048e4938d79c")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -27763,7 +27763,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/df7d269e-473b-4244-994c-582e57d6fd2b")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/df7d269e-473b-4244-994c-582e57d6fd2b")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -28018,7 +28018,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/7486568c-15e5-4f2d-984f-795d02c13fda")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/7486568c-15e5-4f2d-984f-795d02c13fda")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -28247,7 +28247,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/fda171cb-f2c3-41aa-a3d8-0b50eaf618c8")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/fda171cb-f2c3-41aa-a3d8-0b50eaf618c8")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -28476,7 +28476,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/44d843a1-3613-4eea-a10e-244994f6d0cb")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/44d843a1-3613-4eea-a10e-244994f6d0cb")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -28705,7 +28705,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/475faa26-006a-49d9-9d26-51113c29bd94")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/475faa26-006a-49d9-9d26-51113c29bd94")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -28934,7 +28934,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/5b1a2d5c-faef-47ab-a858-754c07104a85")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/5b1a2d5c-faef-47ab-a858-754c07104a85")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -29161,7 +29161,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/97523ed9-c309-4ad4-892b-c32ff0b3ac55")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/97523ed9-c309-4ad4-892b-c32ff0b3ac55")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -29610,7 +29610,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1206_3216Metric*")
-		(path "/409db197-6665-485f-a470-495b4199c186")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/409db197-6665-485f-a470-495b4199c186")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -29865,7 +29865,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/099cc083-d45b-47c7-8528-30fd417cc5e3")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/099cc083-d45b-47c7-8528-30fd417cc5e3")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -30094,7 +30094,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/e82b9b75-0db5-43e6-b3b5-c2c1f7980a90")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/e82b9b75-0db5-43e6-b3b5-c2c1f7980a90")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -30321,7 +30321,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/3e704a0d-a6ca-4a3e-91b3-eee3a92539bc")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/3e704a0d-a6ca-4a3e-91b3-eee3a92539bc")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -30770,7 +30770,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/ed1426d1-bc5c-4142-98c9-544cc46187fb")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/ed1426d1-bc5c-4142-98c9-544cc46187fb")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -30999,7 +30999,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/19ead673-9b8d-4a9f-8318-ff2a7ea1d777")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/19ead673-9b8d-4a9f-8318-ff2a7ea1d777")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -31226,7 +31226,7 @@
 			)
 		)
 		(property ki_fp_filters "*FET 3-Pin DFN1006*")
-		(path "/646f1b6c-77be-4545-aa19-94f8d3b3e687")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/646f1b6c-77be-4545-aa19-94f8d3b3e687")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -31542,7 +31542,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/3adabd01-a00e-42cd-9e3e-44641c586faa")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/3adabd01-a00e-42cd-9e3e-44641c586faa")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -31771,7 +31771,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/81399064-8574-4a12-9990-f4e8aca8fbf1")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/81399064-8574-4a12-9990-f4e8aca8fbf1")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -31998,7 +31998,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/070d7d71-8920-4e71-8b5a-5438595bf255")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/070d7d71-8920-4e71-8b5a-5438595bf255")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -32424,9 +32424,9 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/594a8869-ed51-495f-a7be-bc659e301369")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/594a8869-ed51-495f-a7be-bc659e301369")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32679,7 +32679,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/f0eb2e3a-6de0-4bce-acf9-4443162a1620")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/f0eb2e3a-6de0-4bce-acf9-4443162a1620")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -32908,7 +32908,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/280d25ec-475a-4aef-8099-1b4ab70f5ad5")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/280d25ec-475a-4aef-8099-1b4ab70f5ad5")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -33135,7 +33135,7 @@
 			)
 		)
 		(property ki_fp_filters "*QFN B5x7 P0-5 38-Pin EP*")
-		(path "/7383872f-7781-44c7-acf7-9b2762a8df5f")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/7383872f-7781-44c7-acf7-9b2762a8df5f")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -34283,7 +34283,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/9de00906-8297-49bd-b53f-1c82b3eb3eb2")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/9de00906-8297-49bd-b53f-1c82b3eb3eb2")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -34512,7 +34512,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/f8eece4a-ccd4-48cf-b028-2951d479608c")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/f8eece4a-ccd4-48cf-b028-2951d479608c")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -34739,7 +34739,7 @@
 			)
 		)
 		(property ki_fp_filters "*LED 0603 H0-7 (C)*")
-		(path "/152ce735-39fb-4d80-99cd-a7ab3a170d69")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/152ce735-39fb-4d80-99cd-a7ab3a170d69")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -35204,7 +35204,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0805_2012Metric*")
-		(path "/18277461-a81a-4320-b4bb-ebce4119eb52")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/18277461-a81a-4320-b4bb-ebce4119eb52")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -35433,7 +35433,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/a66900d5-1265-4068-bfb3-1c07c6f04d47")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/a66900d5-1265-4068-bfb3-1c07c6f04d47")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -35688,7 +35688,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/625e46bb-851b-41fa-93c6-d99950cc9a77")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/625e46bb-851b-41fa-93c6-d99950cc9a77")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -35943,7 +35943,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/bb267e41-3376-40d7-adad-794ebb128e15")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/bb267e41-3376-40d7-adad-794ebb128e15")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -36172,7 +36172,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/76abe22d-c14b-40f9-b40c-c98aad46c607")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/76abe22d-c14b-40f9-b40c-c98aad46c607")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -36401,7 +36401,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/26535782-20b0-44f5-8465-7eb178be28cb")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/26535782-20b0-44f5-8465-7eb178be28cb")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -36656,7 +36656,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/1a348ade-c416-453d-8acd-4e692caa462a")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/1a348ade-c416-453d-8acd-4e692caa462a")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -36885,7 +36885,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/b6b18792-eb99-41aa-bb6d-4c53e2f7b0a0")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/b6b18792-eb99-41aa-bb6d-4c53e2f7b0a0")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -37112,9 +37112,9 @@
 			)
 		)
 		(property ki_fp_filters "*Connector Molex 105310xx04 4POS 2.5mm THP*")
-		(path "/13a7a122-b92d-454d-80cd-c4cb380f798b")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/13a7a122-b92d-454d-80cd-c4cb380f798b")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37557,7 +37557,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/177f86d3-9300-4f10-a808-bb28ab85ded4")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/177f86d3-9300-4f10-a808-bb28ab85ded4")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -37746,9 +37746,9 @@
 			)
 		)
 		(property ki_fp_filters "*Mech Spacer Wurth 78614150960 Through M3*")
-		(path "/558417dc-3daf-4b3b-9db6-c18a707cc455")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/558417dc-3daf-4b3b-9db6-c18a707cc455")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38680,7 +38680,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1210_3225Metric*")
-		(path "/66ae9ea0-f0a4-4a42-9dfb-6bb8b9688149")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/66ae9ea0-f0a4-4a42-9dfb-6bb8b9688149")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -38933,7 +38933,7 @@
 			)
 		)
 		(property ki_fp_filters "*CAP Panasonic CASE-E12*")
-		(path "/70a1d934-14e9-4fa4-afd0-4345c56245cc")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/70a1d934-14e9-4fa4-afd0-4345c56245cc")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -39334,7 +39334,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/cdfb1f97-9717-453e-ba7d-3ab162280a21")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/cdfb1f97-9717-453e-ba7d-3ab162280a21")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -39561,7 +39561,7 @@
 			)
 		)
 		(property ki_fp_filters "*U-DFN2510-10 Diode Inc*")
-		(path "/3b1c1bcd-2c21-43e3-aa9e-64d90281c0a8")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/3b1c1bcd-2c21-43e3-aa9e-64d90281c0a8")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -39988,7 +39988,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/855df741-9710-49e5-b7a8-c0db591c680f")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/855df741-9710-49e5-b7a8-c0db591c680f")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -40243,7 +40243,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/70d77f31-013a-4942-a781-39db9f76e0ce")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/70d77f31-013a-4942-a781-39db9f76e0ce")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -40496,7 +40496,7 @@
 			)
 		)
 		(property ki_fp_filters "*CAP Panasonic CASE-E12*")
-		(path "/d0a0e008-8d16-453e-956d-a84bfe3a576a")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/d0a0e008-8d16-453e-956d-a84bfe3a576a")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -40911,7 +40911,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/eaa0740c-8e84-4f36-acd9-56caf4e9a0c2")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/eaa0740c-8e84-4f36-acd9-56caf4e9a0c2")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -41138,7 +41138,7 @@
 			)
 		)
 		(property ki_fp_filters "*Diode SOD523*")
-		(path "/e7e13115-ba3b-498e-a103-504ec4342e41")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/e7e13115-ba3b-498e-a103-504ec4342e41")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -41479,7 +41479,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/5a8c4871-e57c-419b-844c-0a501819368a")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/5a8c4871-e57c-419b-844c-0a501819368a")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -41734,7 +41734,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/e0f366ba-003f-4d51-989a-02fac206fa18")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/e0f366ba-003f-4d51-989a-02fac206fa18")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -41923,9 +41923,9 @@
 			)
 		)
 		(property ki_fp_filters "*Mech Spacer Wurth 78614150960 Through M3*")
-		(path "/cab7a913-e3b1-40ac-8870-fb555f6a30a7")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/cab7a913-e3b1-40ac-8870-fb555f6a30a7")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -42785,7 +42785,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0603_1608Metric*")
-		(path "/d080eecc-f83c-4b37-aaf3-9ce01935410d")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/d080eecc-f83c-4b37-aaf3-9ce01935410d")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -43014,7 +43014,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/57b25134-1006-42bd-b6ec-a583eefb6d37")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/57b25134-1006-42bd-b6ec-a583eefb6d37")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -43243,7 +43243,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/0e857b7c-dcda-4ca1-a3d8-bedc8ecf2a12")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/0e857b7c-dcda-4ca1-a3d8-bedc8ecf2a12")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -43470,7 +43470,7 @@
 			)
 		)
 		(property ki_fp_filters "*FET 3-Pin DFN1006*")
-		(path "/2faa723c-2356-4c42-afbd-23841cb47c47")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/2faa723c-2356-4c42-afbd-23841cb47c47")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -43795,7 +43795,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/761972de-142c-4987-b9a6-65193376fdc3")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/761972de-142c-4987-b9a6-65193376fdc3")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -44199,7 +44199,7 @@
 			)
 		)
 		(property ki_fp_filters "*FET 3-Pin DFN1006*")
-		(path "/e8d3b73c-47c4-4b44-a8ed-2cddca912d05")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/e8d3b73c-47c4-4b44-a8ed-2cddca912d05")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -44530,7 +44530,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0603_1608Metric*")
-		(path "/8d75aac9-813b-4803-8062-561fda21d776")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/8d75aac9-813b-4803-8062-561fda21d776")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -44759,7 +44759,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/ee11f786-bd5e-4431-8025-6dc009518bea")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/ee11f786-bd5e-4431-8025-6dc009518bea")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -45014,7 +45014,7 @@
 			)
 		)
 		(property ki_fp_filters "C_1206_3216Metric*")
-		(path "/d704e95a-1f56-4f56-a774-720bfd926cd6")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/d704e95a-1f56-4f56-a774-720bfd926cd6")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -45241,7 +45241,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/7dbebb15-b153-4854-ba50-ce82c71dae51")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/7dbebb15-b153-4854-ba50-ce82c71dae51")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -45672,7 +45672,7 @@
 			)
 		)
 		(property ki_fp_filters "*CAP Panasonic CASE-F12*")
-		(path "/dd180739-bc19-47b0-b57c-839e7b9d610e")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/dd180739-bc19-47b0-b57c-839e7b9d610e")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -46103,7 +46103,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/7b3c80ff-69f0-4d49-8ce5-cf634f7d81bb")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/7b3c80ff-69f0-4d49-8ce5-cf634f7d81bb")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -46543,7 +46543,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/1683632b-7e90-42c2-9dc6-ac0692f357d2")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/1683632b-7e90-42c2-9dc6-ac0692f357d2")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -46770,7 +46770,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power CSD17304Q3-8 B3.3 x 3.3 P0.65 Tab 8-Pin EP1.75 x 2.45*")
-		(path "/e0eedc6b-28d5-4ca5-b2de-b4c56e8ae537")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/e0eedc6b-28d5-4ca5-b2de-b4c56e8ae537")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -47206,7 +47206,7 @@
 			)
 		)
 		(property ki_fp_filters "R_1206_3216Metric*")
-		(path "/b44c2c13-c830-43b4-938d-8c7f4a9be8c0")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/b44c2c13-c830-43b4-938d-8c7f4a9be8c0")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -47461,7 +47461,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/61031cb3-0e42-4a35-8f0d-bc39f307e4b3")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/61031cb3-0e42-4a35-8f0d-bc39f307e4b3")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -47688,7 +47688,7 @@
 			)
 		)
 		(property ki_fp_filters "*QFN B6x6 P0-5 40-Pin EP*")
-		(path "/75f401bf-3bf7-4d94-968c-b7080452a007")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/75f401bf-3bf7-4d94-968c-b7080452a007")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -48730,7 +48730,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/537ed607-b045-4b1c-9b1e-8938bb894412")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/537ed607-b045-4b1c-9b1e-8938bb894412")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -48957,7 +48957,7 @@
 			)
 		)
 		(property ki_fp_filters "*U-DFN2510-10 Diode Inc*")
-		(path "/1b7a0ae2-b188-482b-97ac-09aaba6136aa")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/1b7a0ae2-b188-482b-97ac-09aaba6136aa")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -49361,7 +49361,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/c7e15151-d8be-4808-a9e3-207c9e870b8b")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/c7e15151-d8be-4808-a9e3-207c9e870b8b")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -49590,7 +49590,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/e2bbc68a-9a7e-4c99-b7aa-1247c0bc175b")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/e2bbc68a-9a7e-4c99-b7aa-1247c0bc175b")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -49845,7 +49845,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0805_2012Metric*")
-		(path "/d23802f4-1987-47d6-b3bb-242027cf5b07")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/d23802f4-1987-47d6-b3bb-242027cf5b07")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -50074,7 +50074,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/2b85886a-4b1c-4381-9742-cc96cc32100c")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/2b85886a-4b1c-4381-9742-cc96cc32100c")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -50303,7 +50303,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/b50aad11-e436-4a1d-aa33-a683c7372f87")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/b50aad11-e436-4a1d-aa33-a683c7372f87")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -50492,9 +50492,9 @@
 			)
 		)
 		(property ki_fp_filters "*Mech Spacer Wurth 78614150960 Through M3*")
-		(path "/bff2600e-913a-4be7-8a8b-99d2d7a54f11")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/bff2600e-913a-4be7-8a8b-99d2d7a54f11")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51442,7 +51442,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/3689fa65-de9e-45ed-8d02-7dbc7bed929c")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/3689fa65-de9e-45ed-8d02-7dbc7bed929c")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -51671,7 +51671,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/30bcdb95-e542-47b6-8e04-bada23fcc3c2")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/30bcdb95-e542-47b6-8e04-bada23fcc3c2")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -51900,7 +51900,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/e6af7f90-9d12-4860-8e8a-7b211bad662c")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/e6af7f90-9d12-4860-8e8a-7b211bad662c")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -52129,7 +52129,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/c7825e07-5b63-4e11-97b7-13ad884ee4ed")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/c7825e07-5b63-4e11-97b7-13ad884ee4ed")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -52358,9 +52358,9 @@
 			)
 		)
 		(property ki_fp_filters "R_0603_1608Metric*")
-		(path "/a5a01afd-bf79-4622-9bc8-78f3c0055894")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/a5a01afd-bf79-4622-9bc8-78f3c0055894")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -52585,7 +52585,7 @@
 			)
 		)
 		(property ki_fp_filters "*WSON B2x2 P0-5 8-Pin EP*")
-		(path "/a5eaacbb-118d-4cce-be3d-b46f5b05e75f")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/a5eaacbb-118d-4cce-be3d-b46f5b05e75f")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -52979,7 +52979,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/8a8c94d7-da67-472e-bfc5-a5462dd1e770")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/8a8c94d7-da67-472e-bfc5-a5462dd1e770")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -53234,7 +53234,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/b262c0c6-af12-4012-9b8c-bf9855a506a5")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/b262c0c6-af12-4012-9b8c-bf9855a506a5")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -53461,9 +53461,9 @@
 			)
 		)
 		(property ki_fp_filters "*Connector Molex 1053091102 2POS 2.5mm THP*")
-		(path "/14bbf7fd-b816-47fb-9176-7089db5a634b")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/14bbf7fd-b816-47fb-9176-7089db5a634b")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -53899,7 +53899,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/fef7f478-f1e3-47ad-bcab-b0807ded48ea")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/fef7f478-f1e3-47ad-bcab-b0807ded48ea")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -54321,7 +54321,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/e66b45e5-3e6e-47c9-93d1-8f8f7e9cf571")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/e66b45e5-3e6e-47c9-93d1-8f8f7e9cf571")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -54548,7 +54548,7 @@
 			)
 		)
 		(property ki_fp_filters "*LED 0603 H0-7 (C)*")
-		(path "/07ca378e-46cf-445a-b028-e34332d9cb7c")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/07ca378e-46cf-445a-b028-e34332d9cb7c")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -54977,7 +54977,7 @@
 			)
 		)
 		(property ki_fp_filters "*Diode DO-214AC SMA*")
-		(path "/4bf5d603-f798-4570-852d-5eb141052938")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/4bf5d603-f798-4570-852d-5eb141052938")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -55342,7 +55342,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/d2a87bf1-dcce-44bd-8362-be3ae42e9cdc")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/d2a87bf1-dcce-44bd-8362-be3ae42e9cdc")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -55569,9 +55569,9 @@
 			)
 		)
 		(property ki_fp_filters "*Connector Molex 1053101114 2.5mm THP*")
-		(path "/9cfc11a5-3b79-4b9f-b111-8c71af6a391e")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/9cfc11a5-3b79-4b9f-b111-8c71af6a391e")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -56167,7 +56167,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/16682dc1-4737-4d60-8c88-b846043bd37c")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/16682dc1-4737-4d60-8c88-b846043bd37c")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -56422,7 +56422,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/1cfef559-d711-4c49-8a0e-2d2ffcecb43d")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/1cfef559-d711-4c49-8a0e-2d2ffcecb43d")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -56637,9 +56637,9 @@
 			)
 		)
 		(property ki_fp_filters "*Fiducial-50*")
-		(path "/b58e16a2-57fc-460e-9f42-5d546586e514")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/b58e16a2-57fc-460e-9f42-5d546586e514")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -56786,7 +56786,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/c4e6f15d-0237-4aec-8f14-4b5e70c137a9")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/c4e6f15d-0237-4aec-8f14-4b5e70c137a9")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -57227,7 +57227,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/88db73b3-0b5a-4f19-9e7b-0d163b2511f2")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/88db73b3-0b5a-4f19-9e7b-0d163b2511f2")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -57454,9 +57454,9 @@
 			)
 		)
 		(property ki_fp_filters "*Connector Molex 1053091102 2POS 2.5mm THP*")
-		(path "/3a2a7f2c-0269-474f-a060-e4f79596cdd2")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/3a2a7f2c-0269-474f-a060-e4f79596cdd2")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -57846,9 +57846,9 @@
 			)
 		)
 		(property ki_fp_filters "*Mech Spacer Wurth 78614150960 Through M3*")
-		(path "/3024fb4d-ae5b-4684-93b3-7a894a9a9c1f")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/3024fb4d-ae5b-4684-93b3-7a894a9a9c1f")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -58760,7 +58760,7 @@
 			)
 		)
 		(property ki_fp_filters "*VQFN-HR B2.0x2.0x1.0 10-Pin TI LM73100RPW*")
-		(path "/15e5a71d-8e47-41e6-9586-a131bf5f30e0")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/15e5a71d-8e47-41e6-9586-a131bf5f30e0")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -59220,7 +59220,7 @@
 			)
 		)
 		(property ki_fp_filters "*Diode DO-214AA SMB Not-Pol*")
-		(path "/8da20bcb-a5f8-42d5-89b2-ced188486784")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/8da20bcb-a5f8-42d5-89b2-ced188486784")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -59524,7 +59524,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/f06277d6-3c4f-4b61-a382-00a93b3673b2")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/f06277d6-3c4f-4b61-a382-00a93b3673b2")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -59753,7 +59753,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/9c992d8f-c00f-4395-933e-4b19ba436199")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/9c992d8f-c00f-4395-933e-4b19ba436199")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -59982,7 +59982,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/a4547f02-5cb0-462a-81d4-18c241360d97")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/a4547f02-5cb0-462a-81d4-18c241360d97")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -60237,7 +60237,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/ad1f40bf-0dd6-42c7-82f7-90e0a960c81e")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/ad1f40bf-0dd6-42c7-82f7-90e0a960c81e")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -60464,7 +60464,7 @@
 			)
 		)
 		(property ki_fp_filters "*Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin*")
-		(path "/d7b3b84d-a516-4ad9-a9a1-c7f78f687635")
+		(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f/d7b3b84d-a516-4ad9-a9a1-c7f78f687635")
 		(sheetname "/S05 Battery Management/")
 		(sheetfile "S05 Battery Management.kicad_sch")
 		(units
@@ -60888,7 +60888,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/b92755db-3f89-4de7-8a57-f6f743c7f469")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/b92755db-3f89-4de7-8a57-f6f743c7f469")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -61117,7 +61117,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/4d9fcd8c-adf4-4ea2-9478-2675b6692ef1")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/4d9fcd8c-adf4-4ea2-9478-2675b6692ef1")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -61344,7 +61344,7 @@
 			)
 		)
 		(property ki_fp_filters "*LED 0603 H0-7 (C)*")
-		(path "/6727e9d1-1db7-464f-bde1-732e54336c25")
+		(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07/6727e9d1-1db7-464f-bde1-732e54336c25")
 		(sheetname "/S02 Input Protection/")
 		(sheetfile "S02 Input Protection.kicad_sch")
 		(units
@@ -61798,7 +61798,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/4db5b614-c570-4f86-8395-6309ead33185")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/4db5b614-c570-4f86-8395-6309ead33185")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -62053,7 +62053,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0402_1005Metric*")
-		(path "/ecb46246-c883-43c6-a239-8cce610be8e2")
+		(path "/18ff53f2-b256-4e35-9ef5-a5aab1ec179d/ecb46246-c883-43c6-a239-8cce610be8e2")
 		(sheetname "/S04 Charger Regulation/")
 		(sheetfile "S04 Charger Regulation.kicad_sch")
 		(units
@@ -62308,7 +62308,7 @@
 			)
 		)
 		(property ki_fp_filters "C_0603_1608Metric*")
-		(path "/23304f85-0fdb-41b5-9f57-13d4024f84a3")
+		(path "/7e883a06-f690-476b-966b-7e93c32ca0bb/23304f85-0fdb-41b5-9f57-13d4024f84a3")
 		(sheetname "/S06 STEP-Up Step-Down Reg/")
 		(sheetfile "S06 STEP-Up Step-Down Reg.kicad_sch")
 		(units
@@ -62535,9 +62535,9 @@
 			)
 		)
 		(property ki_fp_filters "*Connector Amphenol BergStak 10144517-043802LF 40-Pin Receptical*")
-		(path "/0eb4a196-59d6-4559-9411-3dbd051d7654")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/0eb4a196-59d6-4559-9411-3dbd051d7654")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -63296,7 +63296,7 @@
 			)
 		)
 		(property ki_fp_filters "R_2512_6332Metric*")
-		(path "/bbc4ce4d-4e79-4197-bf53-eae077a717e3")
+		(path "/6efa18a4-50c3-468b-8389-2f58aea00523/bbc4ce4d-4e79-4197-bf53-eae077a717e3")
 		(sheetname "/S03 BMS Input and Output Monitor/")
 		(sheetfile "S03 BMS Input and Output Monitor.kicad_sch")
 		(units
@@ -63525,7 +63525,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/89cb6f93-bd9e-4fe3-a63d-32fdc39d97ae")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/89cb6f93-bd9e-4fe3-a63d-32fdc39d97ae")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -63754,7 +63754,7 @@
 			)
 		)
 		(property ki_fp_filters "R_0402_1005Metric*")
-		(path "/f119df65-e014-493c-a9f2-82fd1291dce0")
+		(path "/3983715d-0555-40e9-9f86-7ce2617793ce/f119df65-e014-493c-a9f2-82fd1291dce0")
 		(sheetname "/S07 Load Switch and I-Sense/")
 		(sheetfile "S07 Load Switch and I-Sense.kicad_sch")
 		(units
@@ -63947,9 +63947,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/039cc1f1-33d1-4e0d-b444-f8d1f9d2d3e9")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/039cc1f1-33d1-4e0d-b444-f8d1f9d2d3e9")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -64553,9 +64553,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/67cb7c9f-29ed-4575-b6a2-f11cd9e1a036")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/67cb7c9f-29ed-4575-b6a2-f11cd9e1a036")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -65159,9 +65159,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/86711255-4819-42c4-a398-a432e40fdcdd")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/86711255-4819-42c4-a398-a432e40fdcdd")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -65765,9 +65765,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/65db1c66-7a0e-485b-a3b5-4d6dbaf79541")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/65db1c66-7a0e-485b-a3b5-4d6dbaf79541")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -66371,9 +66371,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/26a86de5-c629-4c0b-b00f-9e8468835280")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/26a86de5-c629-4c0b-b00f-9e8468835280")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -66977,9 +66977,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/a9a4560c-b779-441c-90ea-fefbe78f4415")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/a9a4560c-b779-441c-90ea-fefbe78f4415")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -67583,9 +67583,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/28be6ffc-81d6-485b-baff-03d4db3242e7")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/28be6ffc-81d6-485b-baff-03d4db3242e7")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -68189,9 +68189,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/3abc232e-8ea1-4115-9615-be7d8e1eaa6a")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/3abc232e-8ea1-4115-9615-be7d8e1eaa6a")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -68795,9 +68795,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/74ffc95b-957a-47dd-94e9-79d5f99aadf6")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/74ffc95b-957a-47dd-94e9-79d5f99aadf6")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -69401,9 +69401,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/7b75a139-4ad5-4e0b-90fe-c3cf55725477")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/7b75a139-4ad5-4e0b-90fe-c3cf55725477")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -70007,9 +70007,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/69131672-b145-4a07-84c8-80bdb463e184")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/69131672-b145-4a07-84c8-80bdb463e184")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -70613,9 +70613,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/38c59352-afe7-418f-926f-b87b8524eeda")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/38c59352-afe7-418f-926f-b87b8524eeda")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -71219,9 +71219,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/2b4f74ec-3977-49cd-9c88-9e22f9824a86")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/2b4f74ec-3977-49cd-9c88-9e22f9824a86")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -71825,9 +71825,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/960b9f31-8392-4181-8bcc-3d94311d11b5")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/960b9f31-8392-4181-8bcc-3d94311d11b5")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -72431,9 +72431,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/6752f89e-0049-49e9-abc0-17107bea94de")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/6752f89e-0049-49e9-abc0-17107bea94de")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -73037,9 +73037,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/fa8660d0-6898-4312-8433-f23f11f214e2")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/fa8660d0-6898-4312-8433-f23f11f214e2")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -73643,9 +73643,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/017988a2-535d-4a08-97a5-cd6fd6365c46")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/017988a2-535d-4a08-97a5-cd6fd6365c46")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -74249,9 +74249,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/e1b934c0-4860-4b82-a7f0-ad9fcb7adc9b")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/e1b934c0-4860-4b82-a7f0-ad9fcb7adc9b")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -74855,9 +74855,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/7ce31dca-167f-413a-b57d-9d7ebac130b3")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/7ce31dca-167f-413a-b57d-9d7ebac130b3")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -75461,9 +75461,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/2d70cc39-9de4-4e1e-8eeb-695e0c6e8f28")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/2d70cc39-9de4-4e1e-8eeb-695e0c6e8f28")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -76067,9 +76067,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/deeead7d-18f6-40b8-951a-b1eb5d282203")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/deeead7d-18f6-40b8-951a-b1eb5d282203")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -76673,9 +76673,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/3d6e6f15-95a2-4d1d-96d8-7a1001587efe")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/3d6e6f15-95a2-4d1d-96d8-7a1001587efe")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -77279,9 +77279,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/bf009ed6-ccf9-46fb-bd7a-b94b39c8e3cd")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/bf009ed6-ccf9-46fb-bd7a-b94b39c8e3cd")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -77885,9 +77885,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/520aaa6d-6e46-4e74-84f1-6a3bf0c25efe")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/520aaa6d-6e46-4e74-84f1-6a3bf0c25efe")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -78491,9 +78491,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/4ea05032-4131-469c-973c-e006d57d1e67")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/4ea05032-4131-469c-973c-e006d57d1e67")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -79097,9 +79097,9 @@
 			)
 		)
 		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
-		(path "/014c9cc1-cbcd-4c0b-b52e-b49c71d27b60")
+		(path "/49489d81-6ed3-4223-b712-58477545f8f8/014c9cc1-cbcd-4c0b-b52e-b49c71d27b60")
 		(sheetname "/S01 External Connectors/")
-		(sheetfile "EVO2513-0_5_0.kicad_sch")
+		(sheetfile "S01 External Connectors.kicad_sch")
 		(units
 			(unit
 				(name "A")

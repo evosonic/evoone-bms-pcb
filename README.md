@@ -18,12 +18,13 @@ The raw import needed several fixes before the schematic and PCB agreed; see
 
 ## Schematic sheets
 
-The schematic uses KiCad 10 top-level sheets (listed in the project file)
-rather than a hierarchy, so open it from `EVO2513-0_5_0.kicad_pro`.
+The schematic is hierarchical: the root sheet `EVO2513-0_5_0.kicad_sch` holds
+one sheet symbol per sheet, and each sheet is its own file. Open it from
+`EVO2513-0_5_0.kicad_pro`.
 
 | Sheet | Function | Key parts |
 |---|---|---|
-| S01 External Connectors (`EVO2513-0_5_0.kicad_sch`) | Board connectors, mounting and pogo test pads | J1–J6, BON1–26 |
+| S01 External Connectors | Board connectors, mounting and pogo test pads | J1–J6, BON1–26 |
 | S02 Input Protection | Over/under-voltage and reverse-voltage protection on the input | LTC4365, DMT4011LFG N-FETs |
 | S03 BMS Input and Output Monitor | Input/output current sensing and power-path switching | LTC1960, DMP3018SFV P-FETs, 2512 shunts |
 | S04 Charger Regulation | Charger switching stage | LTC1960, L1 4.7 µH |
@@ -50,7 +51,8 @@ local.
 ## Files
 
 - `EVO2513-0_5_0.kicad_pro` — project
-- `EVO2513-0_5_0.kicad_sch` and `S0x *.kicad_sch` — schematics
+- `EVO2513-0_5_0.kicad_sch` — root schematic sheet; `S0x *.kicad_sch` — the
+  seven sheets
 - `EVO2513-0_5_0.kicad_pcb` — PCB layout
 - `EVO2513-0_5_0-import-fps.pretty/` — project footprint library (footprints
   extracted by the Altium import), registered in `fp-lib-table`. Chip resistors
@@ -91,6 +93,7 @@ Each fix is a separate commit on top of the initial import.
 | 9 wires ran past their labels, leaving dangling ends | Trimmed back to the label |
 | GND, +12V, +3V3MCU and +5V had no power source for ERC | Added PWR_FLAG symbols |
 | Title blocks used the Altium formula `${COPY(DOCUMENTNAME,…)}` for the sheet title | Replaced with each sheet's title |
+| The import made seven KiCad 10 top-level sheets, so `kicad-cli` only loaded S01, and every title block read "sheet 7 of 7" | Added a root sheet with the seven as sub-sheets (S01's content moved to `S01 External Connectors.kicad_sch`); sheet numbers now come from the page number |
 
 Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
 `ALTIUM_FOOTPRINT`, `MANUFACTURER`, `MANUFACTURER_PN`, …) for reference.
@@ -111,8 +114,6 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
   exposed pads, FL1, the 2512 shunts, and 0402/0603 capacitors). Order the
   board with vias filled and capped; open vias would wick solder from the
   small pads.
-- `kicad-cli` only loads the first top-level sheet, so command-line ERC, BOM
-  and DRC schematic-parity checks don't cover the whole design. Use the GUI.
 
 Generated outputs (netlists, backups, per-user `.kicad_prl` settings) are not
 tracked; see `.gitignore`.

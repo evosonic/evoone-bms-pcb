@@ -942,44 +942,18 @@
     "top_level_sheets": [
       {
         "filename": "EVO2513-0_5_0.kicad_sch",
-        "name": "S01 External Connectors",
-        "uuid": "49489d81-6ed3-4223-b712-58477545f8f8"
-      },
-      {
-        "filename": "S02 Input Protection.kicad_sch",
-        "name": "S02 Input Protection",
-        "uuid": "8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
-      },
-      {
-        "filename": "S03 BMS Input and Output Monitor.kicad_sch",
-        "name": "S03 BMS Input and Output Monitor",
-        "uuid": "6efa18a4-50c3-468b-8389-2f58aea00523"
-      },
-      {
-        "filename": "S04 Charger Regulation.kicad_sch",
-        "name": "S04 Charger Regulation",
-        "uuid": "18ff53f2-b256-4e35-9ef5-a5aab1ec179d"
-      },
-      {
-        "filename": "S05 Battery Management.kicad_sch",
-        "name": "S05 Battery Management",
-        "uuid": "bee1e856-8c4d-49a6-b37e-8448f12b694f"
-      },
-      {
-        "filename": "S06 STEP-Up Step-Down Reg.kicad_sch",
-        "name": "S06 STEP-Up Step-Down Reg",
-        "uuid": "7e883a06-f690-476b-966b-7e93c32ca0bb"
-      },
-      {
-        "filename": "S07 Load Switch and I-Sense.kicad_sch",
-        "name": "S07 Load Switch and I-Sense",
-        "uuid": "3983715d-0555-40e9-9f86-7ce2617793ce"
+        "name": "EVO2513-0_5_0",
+        "uuid": "44203427-0a3b-455b-9bb9-c1b577d179b3"
       }
     ],
     "used_designators": "#PWR1-99",
     "variants": []
   },
   "sheets": [
+    [
+      "44203427-0a3b-455b-9bb9-c1b577d179b3",
+      "EVO2513-0_5_0"
+    ],
     [
       "49489d81-6ed3-4223-b712-58477545f8f8",
       "S01 External Connectors"
