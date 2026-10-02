@@ -438,15 +438,7 @@
 						(color 240 255 255 0.5)
 					)
 				)
-				(text "=FootPrint"
-					(at 10.16 -7.62 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 10.16 -10.16 0)
 					(effects
 						(font
@@ -613,15 +605,7 @@
 						(color 240 255 255 1)
 					)
 				)
-				(text "=FootPrint"
-					(at -1.27 -17.78 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at -1.27 -20.32 0)
 					(effects
 						(font
@@ -2258,15 +2242,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 8.89 -17.78 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 8.89 -20.32 0)
 					(effects
 						(font
@@ -2751,15 +2727,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 8.89 -17.78 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 8.89 -20.32 0)
 					(effects
 						(font
@@ -5171,15 +5139,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "BNX0xxH01"
-			(at 267.97 91.2622 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 269.24 107.772 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "BNX024H01L"
@@ -5959,13 +5923,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin DFN"
-			(at 163.83 150.6982 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 172.72 168.732 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6433,13 +6394,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
-			(at 196.85 99.8982 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 215.9 117.932 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7136,13 +7094,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
-			(at 190.5 99.8982 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 171.45 117.932 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)

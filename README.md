@@ -68,6 +68,7 @@ Each fix is a separate commit on top of the initial import.
 | 12 Footprint fields differed from the placed footprint only in letter case, so library lookup failed | Fields now name the exact footprint used on the PCB (J2, J5, J6, M2–M6, FL1, D9, D10, L2) |
 | An imported `FOOTPRINT` field holding the bare package name (`0402`, `SMA`, …) overrode the real Footprint field, since KiCad matches field names case-insensitively | Renamed to `ALTIUM_FOOTPRINT` on all 237 symbols |
 | Altium net labels became KiCad local labels, which don't connect across sheets, splitting 35 nets | Converted the 78 labels for those nets to global labels |
+| 44 embedded library symbols drew Altium special strings `=Value` and `=FootPrint` as literal text | `=Value` replaced with `${VALUE}`; `=FootPrint` replaced by showing each part's own `ALTIUM_FOOTPRINT` field in the same place, so parts show their part number and package as in Altium |
 | All 99 power symbols were unannotated (`#PWR?`) | Annotated `#PWR1`–`#PWR99` |
 | PCB footprints were linked to the imported symbols by mismatched internal IDs, and nets used Altium names | Ran Update PCB from Schematic: no errors, placement and copper unchanged, all 147 nets match the schematic |
 
@@ -78,7 +79,6 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
 
 - The KiCad default title block is drawn over the imported Altium one, and
   variables such as `${PRODUCT_NAME}` and `${BOARD_NUMBER}` are not defined.
-- Many symbols show literal Altium text such as `=FootPrint` and `=Value`.
 - The "Lattech Systems" symbol library is not installed; symbols exist only as
   the copies embedded in the schematics.
 - The mounting spacers use two near-identical footprints: M1 uses

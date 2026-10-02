@@ -2067,15 +2067,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -27.94 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -30.48 0)
 					(effects
 						(font
@@ -2286,15 +2278,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -24.13 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -26.67 0)
 					(effects
 						(font
@@ -2523,15 +2507,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -16.51 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -19.05 0)
 					(effects
 						(font
@@ -2706,15 +2682,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -13.97 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -16.51 0)
 					(effects
 						(font
@@ -2835,15 +2803,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -13.97 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -16.51 0)
 					(effects
 						(font
@@ -4546,15 +4506,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 8.89 -17.78 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 8.89 -20.32 0)
 					(effects
 						(font
@@ -5039,15 +4991,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 8.89 -17.78 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 8.89 -20.32 0)
 					(effects
 						(font
@@ -8780,13 +8724,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "38-pin QFN"
-			(at 212.09 110.3122 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 203.2 140.792 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10763,13 +10704,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "38-pin QFN"
-			(at 182.88 204.2922 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 173.99 223.342 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11211,13 +11149,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "DI3333-8"
-			(at 270.51 83.3882 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 251.46 101.422 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13287,13 +13222,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "DI3333-8"
-			(at 265.43 83.3882 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 284.48 101.422 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)

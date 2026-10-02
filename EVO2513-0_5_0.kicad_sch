@@ -969,15 +969,7 @@
 						(color 240 255 255 1)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -74.93 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -77.47 0)
 					(effects
 						(font
@@ -1821,15 +1813,7 @@
 						(color 240 255 255 1)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -6.35 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -8.89 0)
 					(effects
 						(font
@@ -2145,15 +2129,7 @@
 						(color 240 255 255 1)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -25.4 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -27.94 0)
 					(effects
 						(font
@@ -2555,15 +2531,7 @@
 						(type none)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -6.35 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -8.89 0)
 					(effects
 						(font
@@ -2785,15 +2753,7 @@
 						(color 240 255 255 1)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -6.35 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -8.89 0)
 					(effects
 						(font
@@ -3232,19 +3192,11 @@
 						(color 240 255 255 1)
 					)
 				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 8.89 0)
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "=FootPrint"
-					(at 0 6.35 0)
-					(effects
-						(font
-							(size 1.016 1.016)
 						)
 					)
 				)
@@ -7656,15 +7608,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0.8mm BergStak"
-			(at 184.912 93.8022 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 198.12 172.542 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "10144517-043802LF"
@@ -7922,15 +7870,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
-			(at 330.2 183.9722 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 320.04 167.462 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "1053101204"
@@ -8079,15 +8023,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
-			(at 332.74 147.1422 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 322.58 130.632 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "1053091102"
@@ -8748,15 +8688,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 38.804 262.8392 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 40.64 261.442 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
@@ -8987,15 +8923,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
-			(at 332.74 115.3922 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 322.58 98.882 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "1053091102"
@@ -9952,15 +9884,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 81.984 262.8392 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 83.82 261.442 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
@@ -10935,15 +10863,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 125.164 262.8392 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 127 261.442 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
@@ -11890,15 +11814,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "2.5mm THP Vert"
-			(at 95.25 161.1122 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 85.09 163.652 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "1053101114"
@@ -12225,15 +12145,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
-			(at 95.25 107.7722 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 85.09 91.262 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "1053102204"
@@ -13034,15 +12950,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 60.394 262.8392 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 62.23 261.442 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"
@@ -13369,15 +13281,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 15.944 270.3322 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 17.78 261.442 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -13846,15 +13754,11 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
-			(at 103.574 262.8392 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 105.41 261.442 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "78614150960"

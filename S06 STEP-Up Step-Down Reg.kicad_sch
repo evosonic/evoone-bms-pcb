@@ -2447,15 +2447,7 @@
 						(color 240 255 255 1)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -78.74 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -81.28 0)
 					(effects
 						(font
@@ -6019,15 +6011,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -13.97 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -16.51 0)
 					(effects
 						(font
@@ -6494,15 +6478,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -13.97 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -16.51 0)
 					(effects
 						(font
@@ -6969,15 +6945,7 @@
 						)
 					)
 				)
-				(text "=FootPrint"
-					(at 0 -13.97 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "=Value"
+				(text "${VALUE}"
 					(at 0 -16.51 0)
 					(effects
 						(font
@@ -11691,13 +11659,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin"
-			(at 149.86 83.3882 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 160.02 97.612 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13552,13 +13517,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" ""
-			(at 176.53 134.4422 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 167.64 215.722 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -14536,13 +14498,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin"
-			(at 260.35 84.6582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 250.19 98.882 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -16208,13 +16167,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin"
-			(at 170.18 46.5582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 160.02 60.782 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -17754,13 +17710,10 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin"
-			(at 240.03 47.8282 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+			(at 250.19 62.052 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
