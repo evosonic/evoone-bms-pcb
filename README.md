@@ -71,6 +71,28 @@ nets use power symbols.
 - `744393580068.stp` — STEP model for part 744393580068 (not currently
   referenced by any footprint in the PCB)
 
+## Design changes (W16 review)
+
+Part and value changes from the W16 schematic review. None changes a
+connection or the board copper.
+
+| Ref | Was | Now | Why |
+|---|---|---|---|
+| Q1, Q3 | DMT4011LFG 40 V | DMT6007LFGQ-7 60 V | Margin against D1's clamp voltage |
+| D1 | 1.5SMB27CA | SMBJ26CA (Littelfuse) | Stand-off above the 24 V supply; 42.1 V clamp |
+| L1 | 4.7 µH SRP1265A-4R7M | 10 µH SRP1265A-100M | LTC1960's 10 µH minimum |
+| C10 | 100 nF 16 V | 100 nF 50 V CC0402KPX7R9BB104 | Sits on VPLUS at ~23 V |
+| R54 | 1 kΩ | 768 Ω RC0402FR-07768RL | SBC load-switch current limit (R22, R53, R71 stay 1 kΩ) |
+| C16 | 220 nF 50 V C0G 0805 | 220 nF 50 V X7R CC0805KFX7R9BB224 | No 220 nF C0G 0805 exists |
+| C39 | 470 pF | 1 nF | SW2 snubber, boost-mode ringing |
+| C3, C11, C12, C55 | 35 V | 50 V | DCFILTERED / DCBMS / DCSENSED at 26.3 V |
+| C44, C45, C48–C50, C54 | 16 V | 50 V | +12 V and the switched outputs |
+| R1 | 620K (description 619K) | 619K | Value and description now agree |
+| D4 | Pins named as a series pair | Pins named for the fitted common-anode BAT54A | Drawing and wiring were already right |
+
+Still to confirm against what was fitted: C2 (100 µF on the schematic,
+82 µF `35SVPF82M` ordered) and C47 (4.7 nF on the schematic, 1.8 nF ordered).
+
 ## Fixes after import
 
 Each fix is a separate commit on top of the initial import.

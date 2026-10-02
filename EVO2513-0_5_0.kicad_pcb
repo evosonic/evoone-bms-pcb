@@ -2222,7 +2222,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 10uF 35V X5R 1206"
+		(property "Description" "Capacitor 10uF 50V X5R 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2324,7 +2324,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "35V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5323,7 +5323,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5425,7 +5425,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6123,7 +6123,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6225,7 +6225,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12662,7 +12662,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 10uF 35V X5R 1206"
+		(property "Description" "Capacitor 10uF 50V X5R 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12764,7 +12764,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "35V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12891,7 +12891,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "10uH"
 			(at -1.6333 -1.811402 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -12915,7 +12915,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor Shielded Power 4.7uH SRP1265A"
+		(property "Description" "Inductor Shielded Power 10uH SRP1265A"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12965,7 +12965,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "SRP1265A-4R7M"
+		(property "MANUFACTURER_PN" "SRP1265A-100M"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14873,7 +14873,7 @@
 				)
 			)
 		)
-		(property "Value" "DMT4011LFG"
+		(property "Value" "DMT6007LFGQ-7"
 			(at 392.652414 154.7262 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -14897,7 +14897,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8"
+		(property "Description" "Transistor N-Channel MOSFET 60V DMT6007LFGQ-7 Power DI3333-8"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14973,7 +14973,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT6007LFGQ-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22932,7 +22932,7 @@
 			(roundrect_rratio 0.25)
 			(chamfer_ratio 0.25)
 			(chamfer top_left top_right bottom_left bottom_right)
-			(net "Net-(D4-1A2C)")
+			(net "Net-(D4-A)")
 			(pinfunction "1A2C_3")
 			(pintype "passive")
 			(uuid "000f34e5-20c1-4c0f-8220-765d6be98fe8")
@@ -23656,7 +23656,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 35V X5R 0402"
+		(property "Description" "Capacitor 1uF 50V X5R 0402"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -23758,7 +23758,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "35V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29047,7 +29047,7 @@
 				)
 			)
 		)
-		(property "Value" "DMT4011LFG"
+		(property "Value" "DMT6007LFGQ-7"
 			(at -392.752414 -154.8262 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -29071,7 +29071,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor N-Channel MOSFET 40V DMT4011LFG Power DI3333-8"
+		(property "Description" "Transistor N-Channel MOSFET 60V DMT6007LFGQ-7 Power DI3333-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29147,7 +29147,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT6007LFGQ-7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29494,7 +29494,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 2.2uF 35V X5R 1206"
+		(property "Description" "Capacitor 2.2uF 50V X5R 1206"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -29596,7 +29596,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "35V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30654,7 +30654,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -30756,7 +30756,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35064,7 +35064,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "1nF"
 			(at -29.67379 50.316035 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -35088,7 +35088,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 470pF 50V X7R 0805"
+		(property "Description" "Capacitor 1nF 50V X7R 0805"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40127,7 +40127,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 100nF 16V X7R 0402"
+		(property "Description" "Capacitor 100nF 50V X7R 0402"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -40164,7 +40164,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40177,7 +40177,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40229,7 +40229,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47345,7 +47345,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -47447,7 +47447,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49729,7 +49729,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 220nF 50V C0G 0805"
+		(property "Description" "Capacitor 220nF 50V X7R 0805"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49766,7 +49766,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49779,7 +49779,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CC0805KFX7R9BB224"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49818,7 +49818,7 @@
 				)
 			)
 		)
-		(property "MATERIAL" "COG"
+		(property "MATERIAL" "X7R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51557,7 +51557,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "768R"
 			(at 219.881214 38.0738 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -51581,7 +51581,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1K 1% 0402"
+		(property "Description" "Resistor 768R 1% 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51618,7 +51618,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51631,7 +51631,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07768RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56053,7 +56053,7 @@
 				)
 			)
 		)
-		(property "Value" "620K"
+		(property "Value" "619K"
 			(at -418.199367 -158.9296 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -56306,7 +56306,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56408,7 +56408,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59106,7 +59106,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5SMB27CA"
+		(property "Value" "SMBJ26CA"
 			(at -406.295261 -147.7262 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -59130,7 +59130,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS 1.5SMB27CA 10V SMB"
+		(property "Description" "TVS SMBJ26CA 26V SMB"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -59180,7 +59180,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "1.5SMB27CA"
+		(property "MANUFACTURER_PN" "SMBJ26CA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60051,7 +60051,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D4-1A2C)")
+			(net "Net-(D4-A)")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "a5fa7983-605b-4659-92ca-c58fc89c3f3e")
@@ -60121,7 +60121,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -60223,7 +60223,7 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -136470,7 +136470,7 @@
 		(end 176.9311 126.4036)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "Net-(D4-1A2C)")
+		(net "Net-(D4-A)")
 		(uuid "c7f66d5f-6f42-4016-aaf6-1c0dea59e35d")
 	)
 	(via

@@ -5,6 +5,303 @@
 	(uuid "e0dfc1dd-7fd1-4f7a-b942-d94ea9715177")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Lattech Systems:Capacitor 1uF 50V X5R 0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor 1uF 50V X5R 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_0603_1608Metric*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor 1uF 50V X5R 0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.016) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Resistor 768R 1% 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor 768R 1% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_0402_1005Metric*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor 768R 1% 0402_1_0"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -607,174 +904,6 @@
 				)
 			)
 			(symbol "Capacitor 10uF 10V X5R 0603_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Capacitor 1uF 16V X5R 0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 1uF 16V X5R 0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0603_1608Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 1uF 16V X5R 0603_1_0"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.508 0)
@@ -9500,7 +9629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 16V X5R 0603")
+		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
 		(at 57.15 85.09 90)
 		(unit 1)
 		(body_style 1)
@@ -9555,7 +9684,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 57.15 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9647,7 +9776,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 58.42 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10204,7 +10333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 16V X5R 0603")
+		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
 		(at 54.61 212.09 90)
 		(unit 1)
 		(body_style 1)
@@ -10259,7 +10388,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 54.61 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -10351,7 +10480,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 55.88 220.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10533,7 +10662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Resistor 1K 1% 0402")
+		(lib_id "Lattech Systems:Resistor 768R 1% 0402")
 		(at 93.98 143.51 90)
 		(unit 1)
 		(body_style 1)
@@ -10554,7 +10683,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "768R"
 			(at 92.964 139.192 90)
 			(hide yes)
 			(show_name no)
@@ -10588,7 +10717,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1K 1% 0402"
+		(property "Description" "Resistor 768R 1% 0402"
 			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10623,7 +10752,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Yageo"
 			(at 92.964 139.192 90)
 			(hide yes)
 			(show_name no)
@@ -10635,7 +10764,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07768RL"
 			(at 92.964 139.192 90)
 			(hide yes)
 			(show_name no)
@@ -10759,7 +10888,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 16V X5R 0603")
+		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
 		(at 226.06 83.82 90)
 		(unit 1)
 		(body_style 1)
@@ -10814,7 +10943,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 226.06 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10906,7 +11035,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 227.33 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +12818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 16V X5R 0603")
+		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
 		(at 172.72 54.61 90)
 		(unit 1)
 		(body_style 1)
@@ -12744,7 +12873,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 172.72 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12836,7 +12965,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 173.99 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15196,7 +15325,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 16V X5R 0603")
+		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
 		(at 170.18 181.61 90)
 		(unit 1)
 		(body_style 1)
@@ -15251,7 +15380,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 170.18 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -15343,7 +15472,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 171.45 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18120,7 +18249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 16V X5R 0603")
+		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
 		(at 341.63 53.34 90)
 		(unit 1)
 		(body_style 1)
@@ -18175,7 +18304,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 16V X5R 0603"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 341.63 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18267,7 +18396,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 342.9 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
