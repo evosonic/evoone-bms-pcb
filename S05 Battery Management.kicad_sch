@@ -9037,7 +9037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:U-DFN2510-10 Diode Inc"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:U-DFN2510-10 DIODE INC"
 			(at 323.85 176.3522 0)
 			(hide yes)
 			(show_name no)
@@ -9348,7 +9348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:U-DFN2510-10 Diode Inc"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:U-DFN2510-10 DIODE INC"
 			(at 323.85 81.1022 0)
 			(hide yes)
 			(show_name no)

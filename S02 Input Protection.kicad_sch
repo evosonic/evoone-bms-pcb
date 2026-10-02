@@ -5077,7 +5077,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:FILTER BNX0xxH01"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:FILTER BNX0XXH01"
 			(at 259.08 100.1522 0)
 			(hide yes)
 			(show_name no)

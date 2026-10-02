@@ -7637,7 +7637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Connector Molex 1053091102 2POS 2.5mm THP"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:CONNECTOR MOLEX 1053091102 2POS 2.5MM THP"
 			(at 322.58 124.2822 0)
 			(hide yes)
 			(show_name no)
@@ -8318,7 +8318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Mech Spacer Wurth 78614150960 Through M3"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
 			(at 40.64 267.7922 0)
 			(hide yes)
 			(show_name no)
@@ -8545,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Connector Molex 1053091102 2POS 2.5mm THP"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:CONNECTOR MOLEX 1053091102 2POS 2.5MM THP"
 			(at 322.58 92.5322 0)
 			(hide yes)
 			(show_name no)
@@ -9522,7 +9522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Mech Spacer Wurth 78614150960 Through M3"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
 			(at 83.82 267.7922 0)
 			(hide yes)
 			(show_name no)
@@ -10505,7 +10505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Mech Spacer Wurth 78614150960 Through M3"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
 			(at 127 267.7922 0)
 			(hide yes)
 			(show_name no)
@@ -11448,7 +11448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Connector Molex 1053101114 2.5mm THP"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:CONNECTOR MOLEX 1053101114 2.5MM THP"
 			(at 85.09 138.2522 0)
 			(hide yes)
 			(show_name no)
@@ -12604,7 +12604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Mech Spacer Wurth 78614150960 Through M3"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
 			(at 62.23 267.7922 0)
 			(hide yes)
 			(show_name no)
@@ -13416,7 +13416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Mech Spacer Wurth 78614150960 Through M3"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
 			(at 105.41 267.7922 0)
 			(hide yes)
 			(show_name no)

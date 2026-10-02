@@ -11841,7 +11841,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Ind Coilcraft XAL8080"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:IND COILCRAFT XAL8080"
 			(at 215.9 73.4822 0)
 			(hide yes)
 			(show_name no)
