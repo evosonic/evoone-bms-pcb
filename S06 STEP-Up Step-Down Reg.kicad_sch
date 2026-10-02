@@ -11780,7 +11780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09dcf440-84a7-4997-a9f7-4a5cd63c7067")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR062"
 			(at 77.47 159.8422 0)
 			(hide yes)
 			(show_name no)
@@ -11837,7 +11837,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR?")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -14382,7 +14382,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e0613b7-b379-4df5-84df-9e4b79ea982d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR068"
 			(at 372.11 54.4322 0)
 			(hide yes)
 			(show_name no)
@@ -14439,7 +14439,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR?")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -14625,7 +14625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ab872fc-4a5a-425d-9ec0-bccd7e6ec7c6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR064"
 			(at 182.88 95.0722 0)
 			(hide yes)
 			(show_name no)
@@ -14682,7 +14682,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR?")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -15328,7 +15328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a51b75a8-83b0-4fb7-ad30-a66eca8b47c4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR067"
 			(at 346.71 92.5322 0)
 			(hide yes)
 			(show_name no)
@@ -15385,7 +15385,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR?")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -15402,7 +15402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5dd52ed-2b3e-4d5e-909b-e29b892317eb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR061"
 			(at 73.66 91.2622 0)
 			(hide yes)
 			(show_name no)
@@ -15459,7 +15459,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR?")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -16601,7 +16601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb181700-9256-45b1-9eb2-840269d94417")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR065"
 			(at 193.548 220.8022 0)
 			(hide yes)
 			(show_name no)
@@ -16658,7 +16658,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR?")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -18169,7 +18169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7c297a8-b7e0-4783-ae0b-e2ef7741f6b4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR066"
 			(at 227.33 95.0722 0)
 			(hide yes)
 			(show_name no)
@@ -18226,7 +18226,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR?")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -19177,7 +19177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa0e04ce-30f3-4ab4-aad0-97aa59972a55")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR063"
 			(at 144.78 234.7722 0)
 			(hide yes)
 			(show_name no)
@@ -19234,7 +19234,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR?")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)

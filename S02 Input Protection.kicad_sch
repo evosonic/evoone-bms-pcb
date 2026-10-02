@@ -6677,7 +6677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abd15895-927e-41d5-b242-06dc396caa2c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 297.18 140.7922 0)
 			(hide yes)
 			(show_name no)
@@ -6734,7 +6734,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
-					(reference "#PWR?")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

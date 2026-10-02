@@ -9854,7 +9854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45f325cd-ca39-4bf8-b97e-3372fb94a4a7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR059"
 			(at 337.82 98.8822 0)
 			(hide yes)
 			(show_name no)
@@ -9911,7 +9911,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f"
-					(reference "#PWR?")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -9928,7 +9928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57e29a41-7a1b-4799-bb88-abdee5a3b005")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR056"
 			(at 52.07 109.0422 0)
 			(hide yes)
 			(show_name no)
@@ -9985,7 +9985,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f"
-					(reference "#PWR?")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10154,7 +10154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "678cfa4a-1751-44fd-8997-3f2abc14a6e9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR060"
 			(at 339.09 192.8622 0)
 			(hide yes)
 			(show_name no)
@@ -10211,7 +10211,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f"
-					(reference "#PWR?")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10896,7 +10896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af93b65c-8c22-47d1-a2fa-4418af4dfa70")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR058"
 			(at 307.34 100.1522 0)
 			(hide yes)
 			(show_name no)
@@ -10953,7 +10953,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f"
-					(reference "#PWR?")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -11991,7 +11991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecd96849-d80c-4298-82a9-6835447b71ab")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR057"
 			(at 306.07 192.8622 0)
 			(hide yes)
 			(show_name no)
@@ -12048,7 +12048,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/bee1e856-8c4d-49a6-b37e-8448f12b694f"
-					(reference "#PWR?")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
