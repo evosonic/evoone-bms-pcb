@@ -7882,95 +7882,203 @@
 		)
 		(uuid "ff4596cf-4e3b-4fb7-975d-7a464715a7b3")
 	)
-	(label "DCSENSED"
-		(at 340.36 70.9422 180)
+	(global_label "DCSENSED"
+		(shape passive)
+		(at 342.9 70.9422 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
 		(uuid "052f0262-9405-40d1-8706-aae930404382")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.9 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "CLOCK"
-		(at 82.55 216.9922 0)
+	(global_label "CLOCK"
+		(shape passive)
+		(at 81.28 216.9922 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "06dba28e-1664-458f-9c7f-7d4c8847e047")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 216.9922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "nCS"
-		(at 82.55 220.8022 0)
+	(global_label "nCS"
+		(shape passive)
+		(at 81.28 220.8022 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "1534e574-e031-4c5a-a0d2-0e23f01b9580")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 220.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "MISO"
-		(at 82.55 210.6422 0)
+	(global_label "MISO"
+		(shape passive)
+		(at 81.28 210.6422 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "2f3f2243-39fd-4828-9554-ab1eaf33e37c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 210.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DCFILTERED"
-		(at 57.15 83.6422 0)
+	(global_label "DCFILTERED"
+		(shape passive)
+		(at 55.88 83.6422 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "33d813e2-72e0-45d8-ab91-a0bcf59d8086")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DCBMS"
-		(at 303.53 172.5422 180)
+	(global_label "DCBMS"
+		(shape passive)
+		(at 304.8 172.5422 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
 		(uuid "4f80e511-aaab-4b74-9fd7-e64a8566fa14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.8 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "DCPATH"
-		(at 82.55 172.5422 0)
+	(global_label "DCPATH"
+		(shape passive)
+		(at 81.28 172.5422 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "b15deaba-454a-463b-89e8-8945895fa6c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DCPATH"
-		(at 341.63 83.6422 180)
+	(global_label "DCPATH"
+		(shape passive)
+		(at 342.9 83.6422 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
 		(uuid "bd8313e8-afcb-4686-8fe5-4a8fe2ede3b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.9 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "MOSI"
-		(at 82.55 206.8322 0)
+	(global_label "MOSI"
+		(shape passive)
+		(at 81.28 206.8322 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "f37dd6a9-631d-49b1-8b81-a12f04267148")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 206.8322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")

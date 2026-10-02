@@ -11291,15 +11291,27 @@
 		)
 		(uuid "8551b103-44fe-4954-b8e2-83b6cc7a7910")
 	)
-	(label "CDC"
-		(at 35.56 182.7022 0)
+	(global_label "CDC"
+		(shape passive)
+		(at 34.29 182.7022 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "85ab9a24-15f6-49fc-83df-135301536f74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 182.7022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(label "LDVR1"
 		(at 137.16 95.0722 0)
@@ -11311,15 +11323,27 @@
 		)
 		(uuid "9f8aa7b7-329d-46ec-8131-ec49a61fd59a")
 	)
-	(label "REGEN"
-		(at 35.56 125.5522 0)
+	(global_label "REGEN"
+		(shape passive)
+		(at 34.29 125.5522 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "ac383cd5-50be-4dd1-a895-aad6cd8a772b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 125.5522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(label "LDVR2"
 		(at 273.05 96.3422 180)
@@ -11361,15 +11385,27 @@
 		)
 		(uuid "ebf63e17-3672-4358-a49b-01ddb1dff49d")
 	)
-	(label "DCBMS"
-		(at 39.37 58.2422 0)
+	(global_label "DCBMS"
+		(shape passive)
+		(at 38.1 58.2422 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "f68ee677-1e54-45a6-9a92-662238befefa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 58.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(label "HDVR2"
 		(at 227.33 59.5122 0)

@@ -5014,35 +5014,71 @@
 		)
 		(uuid "ffe150c3-ee94-4c35-ae6d-db08f6426b31")
 	)
-	(label "GDINPUT"
-		(at 71.12 110.3122 0)
+	(global_label "GDINPUT"
+		(shape passive)
+		(at 69.85 110.3122 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "dc22873c-a3e1-4c88-9bc1-39147f22b6c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 110.3122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DCFILTERED"
-		(at 318.77 100.1522 180)
+	(global_label "DCFILTERED"
+		(shape passive)
+		(at 320.04 100.1522 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
 		(uuid "f0f78d5b-6111-4f43-88df-8db7a911d9cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 320.04 100.1522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "DCINPUT"
-		(at 71.12 100.1522 0)
+	(global_label "DCINPUT"
+		(shape passive)
+		(at 69.85 100.1522 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
 		(uuid "f1535307-8120-4422-a81c-dc4484405dc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 100.1522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Lattech Systems:Filter BNX024H01L 4.7uF 50V SMD12x9")
