@@ -3455,8 +3455,8 @@
 			)
 			(symbol "NEQ Res 2512_1_0"
 				(rectangle
-					(start -2.54 -1.016)
-					(end 2.54 1.016)
+					(start 2.54 1.016)
+					(end -2.54 -1.016)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3713,8 +3713,8 @@
 			)
 			(symbol "Resistor 0.005R 1% 3W 2512_1_0"
 				(rectangle
-					(start -2.54 -1.016)
-					(end 2.54 1.016)
+					(start 2.54 1.016)
+					(end -2.54 -1.016)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3971,8 +3971,8 @@
 			)
 			(symbol "Resistor 100K 1% 0402_1_0"
 				(rectangle
-					(start 2.54 1.016)
-					(end -2.54 -1.016)
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
 					(stroke
 						(width 0)
 						(type solid)
@@ -7090,135 +7090,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NEQ Res 2512_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "NEQ Res 2512"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Res{space}2512{space}H0-9*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NEQ Res 2512_1_1_0"
-				(rectangle
-					(start 2.54 1.016)
-					(end -2.54 -1.016)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type color)
-						(color 240 255 255 1)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12309,7 +12180,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NEQ Res 2512_1")
 		(lib_id "Lattech Systems:NEQ Res 2512")
 		(at 200.66 68.4022 0)
 		(unit 1)

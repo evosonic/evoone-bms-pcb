@@ -55,6 +55,11 @@ local.
 - `EVO2513-0_5_0-import-fps.pretty/` — project footprint library (all
   footprints used by the board, extracted by the Altium import), registered in
   `fp-lib-table`
+- `EVO2513-0_5_0-lattech.kicad_sym` — project symbol library (nickname
+  `Lattech Systems`): the 96 Lattech symbols used by the board, extracted from
+  the schematics. It is not the complete Lattech library, which was not supplied.
+- `EVO2513-0_5_0-altium-import.kicad_sym` — the 4 power symbols created by the
+  Altium import. Both symbol libraries are registered in `sym-lib-table`.
 - `744393580068.stp` — STEP model for part 744393580068 (not currently
   referenced by any footprint in the PCB)
 
@@ -70,6 +75,7 @@ Each fix is a separate commit on top of the initial import.
 | Altium net labels became KiCad local labels, which don't connect across sheets, splitting 35 nets | Converted the 78 labels for those nets to global labels |
 | 44 embedded library symbols drew Altium special strings `=Value` and `=FootPrint` as literal text | `=Value` replaced with `${VALUE}`; `=FootPrint` replaced by showing each part's own `ALTIUM_FOOTPRINT` field in the same place, so parts show their part number and package as in Altium |
 | All 99 power symbols were unannotated (`#PWR?`) | Annotated `#PWR1`–`#PWR99` |
+| The "Lattech Systems" symbol library wasn't available, so symbols existed only as copies embedded in the schematics, some in several slightly different versions | Exported the symbols to project libraries under their original library names, and made every schematic use one definition per symbol |
 | PCB footprints were linked to the imported symbols by mismatched internal IDs, and nets used Altium names | Ran Update PCB from Schematic: no errors, placement and copper unchanged, all 147 nets match the schematic |
 
 Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
@@ -79,8 +85,6 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
 
 - The KiCad default title block is drawn over the imported Altium one, and
   variables such as `${PRODUCT_NAME}` and `${BOARD_NUMBER}` are not defined.
-- The "Lattech Systems" symbol library is not installed; symbols exist only as
-  the copies embedded in the schematics.
 - The mounting spacers use two near-identical footprints: M1 uses
   `Mech Spacer Wurth 78614150960 Through M3`, and M2–M6 use the upper-case
   variant.
