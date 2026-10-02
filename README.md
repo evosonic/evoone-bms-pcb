@@ -90,6 +90,17 @@ connection or the board copper.
 | R1 | 620K (description 619K) | 619K | Value and description now agree |
 | D4 | Pins named as a series pair | Pins named for the fitted common-anode BAT54A | Drawing and wiring were already right |
 
+Connection options on U5 (LM51772), as 0R 0402 links so either build can be
+fitted (lower right of S06):
+
+| Pin | Fitted | DNP (alternative) |
+|---|---|---|
+| MODE (7) | R86 to GND: power-save mode (W16 review) | R87 back to VCC2/ILIMCOMP: forced PWM, as built before |
+| BIAS (40) | R88 to DCBMS, as built before | R89 to +12V, still under review |
+
+These links aren't on the board yet: run Update PCB from Schematic, then
+place and route R86–R89.
+
 Still to confirm against what was fitted: C2 (100 µF on the schematic,
 82 µF `35SVPF82M` ordered) and C47 (4.7 nF on the schematic, 1.8 nF ordered).
 
