@@ -7299,7 +7299,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 223.52 184.4802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7695,7 +7695,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 248.666 136.4742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7921,7 +7921,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0805"
+		(property "ALTIUM_FOOTPRINT" "0805"
 			(at 151.13 176.8602 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8207,7 +8207,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "Power DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 135.89 87.1982 0)
 			(hide yes)
 			(show_name no)
@@ -8478,7 +8478,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SRP1265A"
+		(property "ALTIUM_FOOTPRINT" "SRP1265A"
 			(at 180.34 93.0402 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8641,7 +8641,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "1206"
+		(property "ALTIUM_FOOTPRINT" "1206"
 			(at 298.45 103.2002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +8815,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "1206"
+		(property "ALTIUM_FOOTPRINT" "1206"
 			(at 78.74 101.9302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9063,7 +9063,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0603"
+		(property "ALTIUM_FOOTPRINT" "0603"
 			(at 271.78 103.2002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9311,7 +9311,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 248.92 148.9202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9449,7 +9449,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "Power DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 97.79 121.4882 0)
 			(hide yes)
 			(show_name no)
@@ -9731,7 +9731,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "1206"
+		(property "ALTIUM_FOOTPRINT" "1206"
 			(at 285.75 103.2002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9905,7 +9905,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 233.426 174.5742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10082,7 +10082,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "38-pin QFN"
+		(property "ALTIUM_FOOTPRINT" "38-pin QFN"
 			(at 200.66 143.3322 0)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +10392,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "2512"
+		(property "ALTIUM_FOOTPRINT" "2512"
 			(at 234.95 87.4522 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10544,7 +10544,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "1206"
+		(property "ALTIUM_FOOTPRINT" "1206"
 			(at 311.15 103.2002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10718,7 +10718,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0603"
+		(property "ALTIUM_FOOTPRINT" "0603"
 			(at 248.92 184.4802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10967,7 +10967,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 161.29 176.8602 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11215,7 +11215,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "SOD-123"
+		(property "ALTIUM_FOOTPRINT" "SOD-123"
 			(at 144.78 103.2002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11367,7 +11367,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0805"
+		(property "ALTIUM_FOOTPRINT" "0805"
 			(at 161.29 101.9302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11541,7 +11541,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "1206"
+		(property "ALTIUM_FOOTPRINT" "1206"
 			(at 90.17 101.9302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11715,7 +11715,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 233.68 184.4802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,7 +11963,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "2512"
+		(property "ALTIUM_FOOTPRINT" "2512"
 			(at 234.95 82.3722 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12116,7 +12116,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SOD-523"
+		(property "ALTIUM_FOOTPRINT" "SOD-523"
 			(at 145.796 132.6642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12269,7 +12269,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 213.36 184.4802 90)
 			(show_name no)
 			(do_not_autoplace no)

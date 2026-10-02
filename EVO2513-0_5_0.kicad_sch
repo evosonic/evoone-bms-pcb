@@ -6918,7 +6918,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 132.6642 0)
 			(hide yes)
 			(show_name no)
@@ -7032,7 +7032,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 128.8542 0)
 			(hide yes)
 			(show_name no)
@@ -7146,7 +7146,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 128.8542 0)
 			(hide yes)
 			(show_name no)
@@ -7271,7 +7271,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "0.8mm BergStak"
+		(property "ALTIUM_FOOTPRINT" "0.8mm BergStak"
 			(at 184.912 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -7537,7 +7537,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "THP 2.5mm"
+		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
 			(at 330.2 183.9722 0)
 			(hide yes)
 			(show_name no)
@@ -7694,7 +7694,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "THP 2.5mm"
+		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
 			(at 332.74 147.1422 0)
 			(hide yes)
 			(show_name no)
@@ -7908,7 +7908,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 159.3342 0)
 			(hide yes)
 			(show_name no)
@@ -8022,7 +8022,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 155.5242 0)
 			(hide yes)
 			(show_name no)
@@ -8136,7 +8136,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 159.3342 0)
 			(hide yes)
 			(show_name no)
@@ -8250,7 +8250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 240.03 163.1442 0)
 			(hide yes)
 			(show_name no)
@@ -8363,7 +8363,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "THP Through M3 15mm"
+		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 38.804 262.8392 0)
 			(hide yes)
 			(show_name no)
@@ -8477,7 +8477,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 29.21 235.5342 0)
 			(hide yes)
 			(show_name no)
@@ -8602,7 +8602,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "THP 2.5mm"
+		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
 			(at 332.74 115.3922 0)
 			(hide yes)
 			(show_name no)
@@ -8742,7 +8742,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 136.4742 0)
 			(hide yes)
 			(show_name no)
@@ -8856,7 +8856,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 136.4742 0)
 			(hide yes)
 			(show_name no)
@@ -9192,7 +9192,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 144.0942 0)
 			(hide yes)
 			(show_name no)
@@ -9306,7 +9306,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 155.5242 0)
 			(hide yes)
 			(show_name no)
@@ -9567,7 +9567,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "THP Through M3 15mm"
+		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 81.984 262.8392 0)
 			(hide yes)
 			(show_name no)
@@ -9729,7 +9729,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 232.156 177.1142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9907,7 +9907,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 151.7142 0)
 			(hide yes)
 			(show_name no)
@@ -10021,7 +10021,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 121.2342 0)
 			(hide yes)
 			(show_name no)
@@ -10135,7 +10135,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 151.7142 0)
 			(hide yes)
 			(show_name no)
@@ -10249,7 +10249,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 98.3742 0)
 			(hide yes)
 			(show_name no)
@@ -10437,7 +10437,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 163.83 102.1842 0)
 			(hide yes)
 			(show_name no)
@@ -10550,7 +10550,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "THP Through M3 15mm"
+		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 125.164 262.8392 0)
 			(hide yes)
 			(show_name no)
@@ -10664,7 +10664,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 125.0442 0)
 			(hide yes)
 			(show_name no)
@@ -10778,7 +10778,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 147.9042 0)
 			(hide yes)
 			(show_name no)
@@ -10940,7 +10940,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0603"
+		(property "ALTIUM_FOOTPRINT" "0603"
 			(at 271.018 177.1142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,7 +11044,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 163.1442 0)
 			(hide yes)
 			(show_name no)
@@ -11232,7 +11232,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 125.0442 0)
 			(hide yes)
 			(show_name no)
@@ -11505,7 +11505,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "2.5mm THP Vert"
+		(property "ALTIUM_FOOTPRINT" "2.5mm THP Vert"
 			(at 95.25 161.1122 0)
 			(hide yes)
 			(show_name no)
@@ -11840,7 +11840,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "THP 2.5mm"
+		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
 			(at 95.25 107.7722 0)
 			(hide yes)
 			(show_name no)
@@ -12034,7 +12034,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0603"
+		(property "ALTIUM_FOOTPRINT" "0603"
 			(at 260.858 177.1142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12212,7 +12212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 113.6142 0)
 			(hide yes)
 			(show_name no)
@@ -12413,7 +12413,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" ""
+		(property "ALTIUM_FOOTPRINT" ""
 			(at 15.24 291.9222 0)
 			(hide yes)
 			(show_name no)
@@ -12536,7 +12536,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 166.37 132.6642 0)
 			(hide yes)
 			(show_name no)
@@ -12649,7 +12649,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "THP Through M3 15mm"
+		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 60.394 262.8392 0)
 			(hide yes)
 			(show_name no)
@@ -12776,7 +12776,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" ""
+		(property "ALTIUM_FOOTPRINT" ""
 			(at 15.24 289.3822 0)
 			(hide yes)
 			(show_name no)
@@ -12984,7 +12984,7 @@
 				(justify left)
 			)
 		)
-		(property "FOOTPRINT" "THP Through M3 15mm"
+		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 15.944 270.3322 0)
 			(hide yes)
 			(show_name no)
@@ -13234,7 +13234,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 147.9042 0)
 			(hide yes)
 			(show_name no)
@@ -13348,7 +13348,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 231.14 144.0942 0)
 			(hide yes)
 			(show_name no)
@@ -13461,7 +13461,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "THP Through M3 15mm"
+		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 103.574 262.8392 0)
 			(hide yes)
 			(show_name no)
@@ -13649,7 +13649,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SMD 1.25mm"
+		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
 			(at 16.51 235.5342 0)
 			(hide yes)
 			(show_name no)

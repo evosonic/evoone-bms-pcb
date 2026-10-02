@@ -8751,7 +8751,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 191.77 150.6982 0)
 			(hide yes)
 			(show_name no)
@@ -8923,7 +8923,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "Power DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 106.68 59.2582 0)
 			(hide yes)
 			(show_name no)
@@ -9082,7 +9082,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "U-DFN2510-10 Pin"
+		(property "ALTIUM_FOOTPRINT" "U-DFN2510-10 Pin"
 			(at 332.74 173.8122 0)
 			(hide yes)
 			(show_name no)
@@ -9290,7 +9290,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 252.73 84.9122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9393,7 +9393,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "U-DFN2510-10 Pin"
+		(property "ALTIUM_FOOTPRINT" "U-DFN2510-10 Pin"
 			(at 332.74 78.5622 0)
 			(hide yes)
 			(show_name no)
@@ -9601,7 +9601,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 252.73 88.7222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9901,7 +9901,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 252.73 176.3522 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +10091,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "Power DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 106.68 59.2582 0)
 			(hide yes)
 			(show_name no)
@@ -10263,7 +10263,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 182.88 59.2582 0)
 			(hide yes)
 			(show_name no)
@@ -10435,7 +10435,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "Power DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 105.41 150.6982 0)
 			(hide yes)
 			(show_name no)
@@ -10643,7 +10643,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 53.086 117.4242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10820,7 +10820,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "38-pin QFN"
+		(property "ALTIUM_FOOTPRINT" "38-pin QFN"
 			(at 172.72 92.5322 0)
 			(hide yes)
 			(show_name no)
@@ -11081,7 +11081,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "38-pin QFN"
+		(property "ALTIUM_FOOTPRINT" "38-pin QFN"
 			(at 171.45 183.9722 0)
 			(hide yes)
 			(show_name no)
@@ -11391,7 +11391,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "SOT23"
+		(property "ALTIUM_FOOTPRINT" "SOT23"
 			(at 46.736 131.3942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11510,7 +11510,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "Power DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 105.41 150.6982 0)
 			(hide yes)
 			(show_name no)
@@ -11682,7 +11682,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "FOOTPRINT" "DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 193.04 59.2582 0)
 			(hide yes)
 			(show_name no)
@@ -11928,7 +11928,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 181.61 150.6982 0)
 			(hide yes)
 			(show_name no)
@@ -12136,7 +12136,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0402"
 			(at 252.73 180.1622 0)
 			(show_name no)
 			(do_not_autoplace no)
