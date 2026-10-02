@@ -308,7 +308,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}0603{space}H0-9*"
+			(property "ki_fp_filters" "C_0603_1608Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -476,7 +476,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}0402{space}H0-6{space}R*"
+			(property "ki_fp_filters" "C_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -644,7 +644,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}1210{space}H2-1*"
+			(property "ki_fp_filters" "C_1210_3225Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -812,7 +812,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}0402{space}H0-6{space}R*"
+			(property "ki_fp_filters" "C_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1200,7 +1200,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}0402{space}H0-6{space}R*"
+			(property "ki_fp_filters" "C_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1368,7 +1368,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}0402{space}H0-6{space}R*"
+			(property "ki_fp_filters" "C_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1756,7 +1756,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}1210{space}H2-1*"
+			(property "ki_fp_filters" "C_1210_3225Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1924,7 +1924,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}0603{space}H0-9*"
+			(property "ki_fp_filters" "C_0603_1608Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2092,7 +2092,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}0805{space}H1-4*"
+			(property "ki_fp_filters" "C_0805_2012Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2260,7 +2260,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Cap{space}0402{space}H0-6{space}R*"
+			(property "ki_fp_filters" "C_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3442,7 +3442,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}2512{space}H0-9*"
+			(property "ki_fp_filters" "R_2512_6332Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3571,7 +3571,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}2512{space}H0-9*"
+			(property "ki_fp_filters" "R_2512_6332Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3700,7 +3700,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}2512{space}H0-9*"
+			(property "ki_fp_filters" "R_2512_6332Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3829,7 +3829,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3958,7 +3958,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4087,7 +4087,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0603{space}H0-45*"
+			(property "ki_fp_filters" "R_0603_1608Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4216,7 +4216,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4345,7 +4345,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}1206{space}H0-55*"
+			(property "ki_fp_filters" "R_1206_3216Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4474,7 +4474,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4603,7 +4603,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4732,7 +4732,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4861,7 +4861,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4990,7 +4990,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5119,7 +5119,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5248,7 +5248,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5377,7 +5377,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5506,7 +5506,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5635,7 +5635,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11300,7 +11300,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0603 H0-9"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.79 163.6522 0)
 			(hide yes)
 			(show_name no)
@@ -11865,7 +11865,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0805 H1-4"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 227.33 88.7222 0)
 			(hide yes)
 			(show_name no)
@@ -12039,7 +12039,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0603 H0-9"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.9 144.6022 0)
 			(hide yes)
 			(show_name no)
@@ -12213,7 +12213,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 2512 H0-9"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 200.66 68.4022 0)
 			(hide yes)
 			(show_name no)
@@ -12365,7 +12365,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0603 H0-9"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 148.4122 0)
 			(hide yes)
 			(show_name no)
@@ -12539,7 +12539,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 131.9022 0)
 			(hide yes)
 			(show_name no)
@@ -12691,7 +12691,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0402 H0-6 R"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.9 214.4522 0)
 			(hide yes)
 			(show_name no)
@@ -12865,7 +12865,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.01 227.1522 0)
 			(hide yes)
 			(show_name no)
@@ -13017,7 +13017,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 123.19 214.4522 0)
 			(hide yes)
 			(show_name no)
@@ -13169,7 +13169,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 1210 H2-1"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 73.66 69.6722 0)
 			(hide yes)
 			(show_name no)
@@ -13607,7 +13607,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 2512 H0-9"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 360.68 59.5122 0)
 			(hide yes)
 			(show_name no)
@@ -13759,7 +13759,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0402 H0-6 R"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 214.4522 0)
 			(hide yes)
 			(show_name no)
@@ -13933,7 +13933,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 69.6722 0)
 			(hide yes)
 			(show_name no)
@@ -14085,7 +14085,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0603 H0-45"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 204.47 91.2622 0)
 			(hide yes)
 			(show_name no)
@@ -14551,7 +14551,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.16 175.0822 0)
 			(hide yes)
 			(show_name no)
@@ -14702,7 +14702,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 1206 H0-55"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 182.88 78.5622 0)
 			(hide yes)
 			(show_name no)
@@ -14854,7 +14854,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 62.23 214.4522 0)
 			(hide yes)
 			(show_name no)
@@ -15006,7 +15006,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0402 H0-6 R"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.49 156.0322 0)
 			(hide yes)
 			(show_name no)
@@ -15328,7 +15328,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 290.83 67.1322 0)
 			(hide yes)
 			(show_name no)
@@ -15480,7 +15480,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0805 H1-4"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 182.88 88.7222 0)
 			(hide yes)
 			(show_name no)
@@ -15828,7 +15828,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 1206 H0-55"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 227.33 78.5622 0)
 			(hide yes)
 			(show_name no)
@@ -16146,7 +16146,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 290.83 84.9122 0)
 			(hide yes)
 			(show_name no)
@@ -16298,7 +16298,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 145.8722 0)
 			(hide yes)
 			(show_name no)
@@ -16524,7 +16524,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.07 214.4522 0)
 			(hide yes)
 			(show_name no)
@@ -16676,7 +16676,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0603 H0-45"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 196.85 91.2622 0)
 			(hide yes)
 			(show_name no)
@@ -17176,7 +17176,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 1210 H2-1"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 346.71 70.9422 0)
 			(hide yes)
 			(show_name no)
@@ -17689,7 +17689,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0603 H0-9"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.79 178.8922 0)
 			(hide yes)
 			(show_name no)
@@ -17863,7 +17863,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 2512 H0-9"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 360.68 54.4322 0)
 			(hide yes)
 			(show_name no)
@@ -18089,7 +18089,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 214.4522 0)
 			(hide yes)
 			(show_name no)
@@ -18241,7 +18241,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 2512 H0-9"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 200.66 73.4822 0)
 			(hide yes)
 			(show_name no)
@@ -18393,7 +18393,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.22 83.6422 0)
 			(hide yes)
 			(show_name no)
@@ -18545,7 +18545,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.12 214.4522 0)
 			(hide yes)
 			(show_name no)
@@ -18697,7 +18697,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0402 H0-6 R"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.79 214.4522 0)
 			(hide yes)
 			(show_name no)
@@ -18871,7 +18871,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.3 214.4522 0)
 			(hide yes)
 			(show_name no)
@@ -19097,7 +19097,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Cap 0402 H0-6 R"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.66 101.4222 0)
 			(hide yes)
 			(show_name no)

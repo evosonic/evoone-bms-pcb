@@ -3286,7 +3286,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0603{space}H0-45*"
+			(property "ki_fp_filters" "R_0603_1608Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3428,7 +3428,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Res{space}0402{space}H0-45{space}R*"
+			(property "ki_fp_filters" "R_0402_1005Metric*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9949,7 +9949,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0402 H0-45 R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 172.5422 0)
 			(hide yes)
 			(show_name no)
@@ -11156,7 +11156,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0603 H0-45"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 269.24 172.5422 0)
 			(hide yes)
 			(show_name no)
@@ -12242,7 +12242,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Res 0603 H0-45"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.08 172.5422 0)
 			(hide yes)
 			(show_name no)
