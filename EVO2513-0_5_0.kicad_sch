@@ -1833,7 +1833,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCFILTERED" passive
+		(pin "DCFILTERED" output
 			(at 190.5 48.26 180)
 			(uuid "0ba35dd9-291e-4b16-b8f4-9aeb907be219")
 			(effects
@@ -1928,7 +1928,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCBMS" passive
+		(pin "DCBMS" output
 			(at 190.5 88.9 180)
 			(uuid "0b1b31f0-5dcb-4021-b8cb-32fa7d34848e")
 			(effects
@@ -1938,7 +1938,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCFILTERED" passive
+		(pin "DCFILTERED" input
 			(at 190.5 91.44 180)
 			(uuid "ebad5093-9aac-4a38-9636-28e0ca8fee6a")
 			(effects
@@ -1948,7 +1948,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCSENSED" passive
+		(pin "DCSENSED" output
 			(at 190.5 93.98 180)
 			(uuid "2594763b-75a8-482c-825c-8760b27dd9be")
 			(effects
@@ -1958,7 +1958,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCPATH" passive
+		(pin "DCPATH" bidirectional
 			(at 190.5 96.52 180)
 			(uuid "adec360d-8185-4700-90d6-c16d11a4d6fd")
 			(effects
@@ -2013,7 +2013,7 @@
 				(justify left top)
 			)
 		)
-		(pin "DCSENSED" passive
+		(pin "DCSENSED" input
 			(at 190.5 121.92 180)
 			(uuid "e302c8c3-b595-4e24-864a-23bcda2058d3")
 			(effects
@@ -2023,7 +2023,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCCHARGER" passive
+		(pin "DCCHARGER" output
 			(at 190.5 124.46 180)
 			(uuid "0b9a196b-1bbc-45ad-b752-ce350779fde0")
 			(effects
@@ -2198,7 +2198,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCPATH" passive
+		(pin "DCPATH" output
 			(at 304.8 73.66 180)
 			(uuid "a917f02f-366d-4e09-b89b-e4b782756d2f")
 			(effects
@@ -2208,7 +2208,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCCHARGER" passive
+		(pin "DCCHARGER" input
 			(at 304.8 76.2 180)
 			(uuid "15d7a72d-ebdd-4919-8761-77cec75bac58")
 			(effects
@@ -2273,7 +2273,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCBMS" passive
+		(pin "DCBMS" input
 			(at 304.8 104.14 180)
 			(uuid "8a378997-9586-4744-95aa-2acd21d3befa")
 			(effects
@@ -2283,7 +2283,7 @@
 				(justify left)
 			)
 		)
-		(pin "CDC" passive
+		(pin "CDC" output
 			(at 304.8 106.68 180)
 			(uuid "86b504a4-6ba4-4222-b946-c491730f4fee")
 			(effects
@@ -2438,7 +2438,7 @@
 				(justify left)
 			)
 		)
-		(pin "CDC" passive
+		(pin "CDC" input
 			(at 304.8 162.56 180)
 			(uuid "50754fa0-4b74-4c71-9c41-9100b5e0b73b")
 			(effects

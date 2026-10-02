@@ -11111,7 +11111,7 @@
 		(uuid "8551b103-44fe-4954-b8e2-83b6cc7a7910")
 	)
 	(hierarchical_label "CDC"
-		(shape passive)
+		(shape output)
 		(at 34.29 182.88 180)
 		(effects
 			(font
@@ -11183,7 +11183,7 @@
 		(uuid "ebf63e17-3672-4358-a49b-01ddb1dff49d")
 	)
 	(hierarchical_label "DCBMS"
-		(shape passive)
+		(shape input)
 		(at 38.1 58.42 180)
 		(effects
 			(font

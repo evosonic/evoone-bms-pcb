@@ -7342,7 +7342,7 @@
 		(uuid "ff4596cf-4e3b-4fb7-975d-7a464715a7b3")
 	)
 	(hierarchical_label "DCSENSED"
-		(shape passive)
+		(shape output)
 		(at 342.9 71.12 0)
 		(effects
 			(font
@@ -7386,7 +7386,7 @@
 		(uuid "2f3f2243-39fd-4828-9554-ab1eaf33e37c")
 	)
 	(hierarchical_label "DCFILTERED"
-		(shape passive)
+		(shape input)
 		(at 55.88 83.82 180)
 		(effects
 			(font
@@ -7397,7 +7397,7 @@
 		(uuid "33d813e2-72e0-45d8-ab91-a0bcf59d8086")
 	)
 	(hierarchical_label "DCBMS"
-		(shape passive)
+		(shape output)
 		(at 304.8 172.72 0)
 		(effects
 			(font
@@ -7408,7 +7408,7 @@
 		(uuid "4f80e511-aaab-4b74-9fd7-e64a8566fa14")
 	)
 	(hierarchical_label "DCPATH"
-		(shape passive)
+		(shape bidirectional)
 		(at 81.28 172.72 180)
 		(effects
 			(font
@@ -7419,7 +7419,7 @@
 		(uuid "b15deaba-454a-463b-89e8-8945895fa6c6")
 	)
 	(hierarchical_label "DCPATH"
-		(shape passive)
+		(shape bidirectional)
 		(at 342.9 83.82 0)
 		(effects
 			(font

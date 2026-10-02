@@ -6975,7 +6975,7 @@
 		(uuid "e497a7dd-9f91-436e-881f-0840133358cd")
 	)
 	(hierarchical_label "CDC"
-		(shape passive)
+		(shape input)
 		(at 251.46 175.26 180)
 		(effects
 			(font

@@ -38,7 +38,9 @@ sheets S03–S05.
 Nets that cross sheets leave each sheet through a hierarchical label and a
 pin on its sheet symbol, and the root sheet joins the pins with local
 labels. There are no global labels; those nets are named from the root
-(`/DCBMS`, `/POS1`, …). Labels used on only one sheet are local, and power
+(`/DCBMS`, `/POS1`, …). Labels between device sheets show the direction of
+power or signal flow (e.g. DCFILTERED is an output of S02 and an input to
+S03); links to the connector sheet, S01, stay passive. Labels used on only one sheet are local, and power
 nets use power symbols.
 
 ## Connectors

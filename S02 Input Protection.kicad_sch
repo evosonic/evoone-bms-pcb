@@ -4509,7 +4509,7 @@
 		(uuid "dc22873c-a3e1-4c88-9bc1-39147f22b6c9")
 	)
 	(hierarchical_label "DCFILTERED"
-		(shape passive)
+		(shape output)
 		(at 320.04 100.33 0)
 		(effects
 			(font

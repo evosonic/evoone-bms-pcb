@@ -6579,7 +6579,7 @@
 		(uuid "fce2b908-cf70-451f-8d19-97fa48a17f93")
 	)
 	(hierarchical_label "DCCHARGER"
-		(shape passive)
+		(shape output)
 		(at 334.01 87.63 0)
 		(effects
 			(font
@@ -6590,7 +6590,7 @@
 		(uuid "8c61606f-19d0-452f-b20e-a03d1f878307")
 	)
 	(hierarchical_label "DCSENSED"
-		(shape passive)
+		(shape input)
 		(at 53.34 87.63 180)
 		(effects
 			(font

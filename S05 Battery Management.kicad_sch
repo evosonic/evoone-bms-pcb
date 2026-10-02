@@ -6446,7 +6446,7 @@
 		(uuid "fe4b3594-6da6-4344-855d-c4a6d8d925f3")
 	)
 	(hierarchical_label "DCPATH"
-		(shape passive)
+		(shape output)
 		(at 245.11 151.13 0)
 		(effects
 			(font
@@ -6512,7 +6512,7 @@
 		(uuid "4373f199-6f82-4c37-a37d-6e0314bd33fd")
 	)
 	(hierarchical_label "DCPATH"
-		(shape passive)
+		(shape output)
 		(at 246.38 59.69 0)
 		(effects
 			(font
@@ -6523,7 +6523,7 @@
 		(uuid "5a100e61-9495-4b7c-be97-faecd344ddb7")
 	)
 	(hierarchical_label "DCCHARGER"
-		(shape passive)
+		(shape input)
 		(at 27.94 59.69 180)
 		(effects
 			(font
@@ -6556,7 +6556,7 @@
 		(uuid "80505357-573b-40db-8dba-be0088fda080")
 	)
 	(hierarchical_label "DCCHARGER"
-		(shape passive)
+		(shape input)
 		(at 26.67 151.13 180)
 		(effects
 			(font
