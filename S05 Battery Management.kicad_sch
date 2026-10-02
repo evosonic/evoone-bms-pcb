@@ -6735,6 +6735,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 172.72 168.9098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6903,6 +6905,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 125.73 77.4698 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7059,6 +7063,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "U-DFN2510-10 Pin"
 			(at 323.85 190.4998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7367,6 +7373,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "U-DFN2510-10 Pin"
 			(at 323.85 95.2498 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8062,6 +8070,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 87.63 77.4698 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8230,6 +8240,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 201.93 77.4698 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8398,6 +8410,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 124.46 168.9098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8780,6 +8794,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "38-pin QFN"
 			(at 163.83 109.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9038,6 +9054,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "38-pin QFN"
 			(at 162.56 200.6598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9464,6 +9482,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 86.36 168.9098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9633,6 +9653,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 173.99 77.4698 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9875,6 +9897,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 200.66 168.9098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)

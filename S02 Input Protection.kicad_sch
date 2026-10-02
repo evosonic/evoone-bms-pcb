@@ -4622,6 +4622,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "BNX0xxH01"
 			(at 269.24 107.9498 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5406,6 +5408,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin DFN"
 			(at 172.72 168.9098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5877,6 +5881,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 215.9 118.1098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6576,6 +6582,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "Power DI3333-8"
 			(at 171.45 118.1098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)

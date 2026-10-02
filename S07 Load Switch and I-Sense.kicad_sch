@@ -7064,6 +7064,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin WSON"
 			(at 307.34 241.2998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7931,6 +7933,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin WSON"
 			(at 259.08 241.2998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8551,6 +8555,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "10-Pin VQFN"
 			(at 280.67 82.5498 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8873,6 +8879,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "10-Pin VQFN"
 			(at 111.76 83.8198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11907,6 +11915,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin WSON"
 			(at 119.38 253.9998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14790,6 +14800,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin WSON"
 			(at 121.92 126.9998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -16270,6 +16282,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "10-Pin VQFN"
 			(at 109.22 210.8198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -16615,6 +16629,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin WSON"
 			(at 293.37 181.6098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17031,6 +17047,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin WSON"
 			(at 290.83 125.7298 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)

@@ -8141,6 +8141,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "38-pin QFN"
 			(at 203.2 140.9698 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10121,6 +10123,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "38-pin QFN"
 			(at 173.99 223.5198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10566,6 +10570,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 251.46 101.5998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12638,6 +12644,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "DI3333-8"
 			(at 284.48 101.5998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)

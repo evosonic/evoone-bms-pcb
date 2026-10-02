@@ -11110,17 +11110,6 @@
 		)
 		(uuid "8551b103-44fe-4954-b8e2-83b6cc7a7910")
 	)
-	(hierarchical_label "CDC"
-		(shape output)
-		(at 34.29 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85ab9a24-15f6-49fc-83df-135301536f74")
-	)
 	(label "LDVR1"
 		(at 137.16 95.25 0)
 		(effects
@@ -11130,17 +11119,6 @@
 			(justify left bottom)
 		)
 		(uuid "9f8aa7b7-329d-46ec-8131-ec49a61fd59a")
-	)
-	(hierarchical_label "REGEN"
-		(shape passive)
-		(at 34.29 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac383cd5-50be-4dd1-a895-aad6cd8a772b")
 	)
 	(label "LDVR2"
 		(at 273.05 96.52 180)
@@ -11182,17 +11160,6 @@
 		)
 		(uuid "ebf63e17-3672-4358-a49b-01ddb1dff49d")
 	)
-	(hierarchical_label "DCBMS"
-		(shape input)
-		(at 38.1 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f68ee677-1e54-45a6-9a92-662238befefa")
-	)
 	(label "HDVR2"
 		(at 227.33 59.69 0)
 		(effects
@@ -11212,6 +11179,39 @@
 			(justify right bottom)
 		)
 		(uuid "ff8ba61f-ff16-490c-95d9-117ecc330437")
+	)
+	(hierarchical_label "CDC"
+		(shape output)
+		(at 34.29 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85ab9a24-15f6-49fc-83df-135301536f74")
+	)
+	(hierarchical_label "REGEN"
+		(shape passive)
+		(at 34.29 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac383cd5-50be-4dd1-a895-aad6cd8a772b")
+	)
+	(hierarchical_label "DCBMS"
+		(shape input)
+		(at 38.1 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f68ee677-1e54-45a6-9a92-662238befefa")
 	)
 	(symbol
 		(lib_id "Lattech Systems:Capacitor 100nF 16V X7R 0603")
@@ -11478,6 +11478,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin"
 			(at 160.02 97.7898 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13335,6 +13337,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" ""
 			(at 167.64 215.8998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14316,6 +14320,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin"
 			(at 250.19 99.0598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15985,6 +15991,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin"
 			(at 160.02 60.9598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17528,6 +17536,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "8-Pin"
 			(at 250.19 62.2298 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)

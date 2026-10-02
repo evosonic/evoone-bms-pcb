@@ -5,121 +5,6 @@
 	(uuid "7e7bd56c-034a-4c53-8a0c-97ddd4087a8a")
 	(paper "A3")
 	(lib_symbols
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -3787,6 +3672,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "9"
 		(exclude_from_sim no)
@@ -6557,6 +6557,36 @@
 		)
 		(uuid "fffe3903-7397-4596-b14e-1001627cad53")
 	)
+	(label "REGTEMP"
+		(at 247.65 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0662b430-4d5b-4a59-bdf4-d9e551461c1c")
+	)
+	(label "BMSTEMP"
+		(at 247.65 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5fc209f1-08e2-4de1-9300-9e79d25bfb12")
+	)
+	(label "ID"
+		(at 247.65 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec885b50-90a3-41a1-a748-118239f795c4")
+	)
 	(hierarchical_label "ENEXT"
 		(shape passive)
 		(at 248.92 162.56 0)
@@ -6567,16 +6597,6 @@
 			(justify left)
 		)
 		(uuid "05c4fe77-00f5-457b-982b-aa38bc592d1d")
-	)
-	(label "REGTEMP"
-		(at 247.65 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0662b430-4d5b-4a59-bdf4-d9e551461c1c")
 	)
 	(hierarchical_label "OUTSBC"
 		(shape passive)
@@ -6720,16 +6740,6 @@
 			(justify right)
 		)
 		(uuid "5d6af871-7f98-4bb2-a6ff-1cc40c1de7d7")
-	)
-	(label "BMSTEMP"
-		(at 247.65 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5fc209f1-08e2-4de1-9300-9e79d25bfb12")
 	)
 	(hierarchical_label "IAMPDAQ"
 		(shape passive)
@@ -6884,16 +6894,6 @@
 			(justify left)
 		)
 		(uuid "ebab87c8-d424-4b8e-8fff-7328ab5037b8")
-	)
-	(label "ID"
-		(at 247.65 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec885b50-90a3-41a1-a748-118239f795c4")
 	)
 	(hierarchical_label "POS2"
 		(shape passive)
@@ -7372,6 +7372,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "0.8mm BergStak"
 			(at 198.12 172.7198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7634,6 +7636,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
 			(at 320.04 167.6398 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7787,6 +7791,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
 			(at 322.58 130.8098 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8452,6 +8458,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 40.64 261.6198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8687,6 +8695,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
 			(at 322.58 99.0598 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8966,6 +8976,84 @@
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
 					(reference "BON7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 276.86 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e6ca28d-a898-4c19-ab37-f26298efe8c5")
+		(property "Reference" "#FLG03"
+			(at 278.765 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 280.67 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 276.86 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a03b38f-95f4-40d2-bf1e-343a85b7cced")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9648,6 +9736,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 83.82 261.6198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10627,6 +10717,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 127 261.6198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11340,6 +11432,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 160.02 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96cea750-c673-41d8-bcf1-b2c2f719c156")
+		(property "Reference" "#FLG02"
+			(at 161.925 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 163.83 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 160.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "502cc080-825d-4a43-b502-b5d8dd338ecb")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
 		(at 17.78 267.97 0)
 		(unit 1)
@@ -11578,6 +11748,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "2.5mm THP Vert"
 			(at 85.09 163.8298 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11909,6 +12081,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP 2.5mm"
 			(at 85.09 91.4398 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12714,6 +12888,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 62.23 261.6198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12875,6 +13051,84 @@
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
 					(reference "Fiducial1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 17.78 240.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c46cc01b-e133-42b7-aa19-2eea80bfa1b3")
+		(property "Reference" "#FLG01"
+			(at 19.685 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 21.59 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 17.78 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba666846-eb3b-47f3-be4f-1521af8727bb")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -13045,6 +13299,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 17.78 261.6198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13518,6 +13774,8 @@
 		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 105.41 261.6198 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13736,209 +13994,4 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 17.78 240.03 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c46cc01b-e133-42b7-aa19-2eea80bfa1b3")
-		(property "Reference" "#FLG01"
-			(at 19.685 240.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 21.59 240.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 240.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 240.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 17.78 240.03 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba666846-eb3b-47f3-be4f-1521af8727bb")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 160.02 102.87 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "96cea750-c673-41d8-bcf1-b2c2f719c156")
-		(property "Reference" "#FLG02"
-			(at 161.925 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 163.83 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 102.87 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "502cc080-825d-4a43-b502-b5d8dd338ecb")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 276.86 148.59 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e6ca28d-a898-4c19-ab37-f26298efe8c5")
-		(property "Reference" "#FLG03"
-			(at 278.765 148.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 280.67 148.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 148.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 148.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 276.86 148.59 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a03b38f-95f4-40d2-bf1e-343a85b7cced")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(embedded_fonts no)
 )
