@@ -7489,6 +7489,17 @@
 		)
 		(uuid "4f8f6152-b3da-4d3b-a592-53c15c0ed88d")
 	)
+	(text "U5 nFLT/nINT to the I/O expander (S08)"
+		(exclude_from_sim no)
+		(at 266.7 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5355bb94-e82c-4102-99cd-f48354f0e5f7")
+	)
 	(text "C"
 		(exclude_from_sim no)
 		(at 1.27 121.92 0)
@@ -8533,6 +8544,16 @@
 			(type default)
 		)
 		(uuid "0acc9d3e-a921-4beb-91aa-e4274cf8aeee")
+	)
+	(wire
+		(pts
+			(xy 271.78 228.6) (xy 284.48 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b55bd3f-2048-4149-8d61-f2b552d3f2a9")
 	)
 	(wire
 		(pts
@@ -11438,6 +11459,16 @@
 		)
 		(uuid "206000bf-c492-4773-af9b-ced1bfb9354f")
 	)
+	(label "nFLT"
+		(at 140.97 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28c5a2a6-a99d-4d82-8802-01ed94dbfc2b")
+	)
 	(label "MODE"
 		(at 142.24 160.02 180)
 		(effects
@@ -11507,6 +11538,16 @@
 			(justify right bottom)
 		)
 		(uuid "8551b103-44fe-4954-b8e2-83b6cc7a7910")
+	)
+	(label "nFLT"
+		(at 271.78 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ef65472-0741-4039-876f-40acee507ff8")
 	)
 	(label "LDVR1"
 		(at 137.16 95.25 0)
@@ -11607,6 +11648,17 @@
 			(justify right bottom)
 		)
 		(uuid "ff8ba61f-ff16-490c-95d9-117ecc330437")
+	)
+	(hierarchical_label "nFLT"
+		(shape output)
+		(at 284.48 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "159ca191-678f-45a9-8bd6-bd493123dc8f")
 	)
 	(hierarchical_label "CDC"
 		(shape output)

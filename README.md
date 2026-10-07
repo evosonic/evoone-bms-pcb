@@ -31,6 +31,7 @@ one sheet symbol per sheet, and each sheet is its own file. Open it from
 | S05 Battery Management | Dual-battery selection and management | LTC1960 |
 | S06 STEP-Up Step-Down Reg | Buck-boost output regulator | LM51772, L2 0.68 µH |
 | S07 Load Switch and I-Sense | Output load switches and current-sense amplifiers | TPS22811 ×3, TLV9002 ×2 |
+| S08 IO Expander | SPI I/O expander driving the rail enables and reading the faults | PCAL9714 |
 
 The LTC1960 dual battery charger/selector is a single IC (U1) split across
 sheets S03–S05.
@@ -57,15 +58,15 @@ nets use power symbols.
 
 - `EVO2513-0_5_0.kicad_pro` — project
 - `EVO2513-0_5_0.kicad_sch` — root schematic sheet; `S0x *.kicad_sch` — the
-  seven sheets
+  eight sheets
 - `EVO2513-0_5_0.kicad_pcb` — PCB layout
 - `EVO2513-0_5_0-import-fps.pretty/` — project footprint library (footprints
   extracted by the Altium import), registered in `fp-lib-table`. Chip resistors
   and capacitors instead use KiCad's standard `Resistor_SMD` and
   `Capacitor_SMD` libraries
 - `EVO2513-0_5_0-lattech.kicad_sym` — project symbol library (nickname
-  `Lattech Systems`): the 96 Lattech symbols used by the board, extracted from
-  the schematics. It is not the complete Lattech library, which was not supplied.
+  `Lattech Systems`): the Lattech symbols used by the board, extracted from
+  the schematics, plus symbols added for the W16 changes (resistor values, PCAL9714). It is not the complete Lattech library, which was not supplied.
 - `EVO2513-0_5_0-altium-import.kicad_sym` — the 4 power symbols created by the
   Altium import. Both symbol libraries are registered in `sym-lib-table`.
 - `744393580068.stp` — STEP model for part 744393580068 (not currently
@@ -106,8 +107,39 @@ turns back on below about 11.8 V. To revert, leave R90–R92 unfitted.
 Undervoltage lockout (11.4 V) is deferred: EN/UVLO (pin 1) is also the MCU
 enable, and a tight threshold there needs a FET.
 
+Rail enables and faults through a PCAL9714 SPI I/O expander (U11, new sheet
+S08). It shares CLOCK/MOSI/MISO with U1 (LTC1960) and has its own chip
+select, nCSIO, on J3.32, the pin that was ENSBC. Address 40h (ADDR to GND);
+INT has a pull-up but isn't routed off the board. Both supplies are
++3V3MCU. RESET comes from a divider on +12V (R99 100K, R100 40.2K: 3.44 V
+at 12 V), so the expander is held in reset, with every port an input,
+whenever the 12 V rail is off. It releases above about 8 V and resets
+below about 3.5 V; there is no hysteresis, so firmware should wait for
++12V before configuring it.
+
+| Port | Net | Function |
+|---|---|---|
+| P0_0–P0_2 (out) | ENDAQ, ENSBC, ENEXT | U6, U7, U9 enables |
+| P0_4–P0_6 (in) | PGDAQ, PGSBC, PGEXT | U6, U7, U9 power good (also still drive the LEDs) |
+| P0_7 (in) | nFLT | U5 nFLT/nINT, which was unconnected |
+| P0_3, P1_0–P1_5 | — | spare, not connected |
+
+REGEN (U5 enable, J3.12) stays separate: it is still driven straight from
+J3 and doesn't pass through the expander.
+
+J3 pins 34 and 36 are now `MCU_ENDAQ` and `MCU_ENEXT`. Each reaches its
+enable only through a DNP 0R link (R97, R98), and J3.32
+`nCSIO` has R95 (fitted) to the expander CS and R96 (DNP) to ENSBC. To go
+back to driving an enable straight from J3, fit its link and leave that
+expander port an input. The expander powers up with every port an input
+and pulls off, so the existing pull-downs keep the rails off until
+firmware sets P0_0–P0_2 as outputs. The MCU firmware must change for this:
+the three load-switch enables move from GPIO to SPI, and nCSIO must idle high (R93
+pulls it up).
+
 These parts aren't on the board yet: run Update PCB from Schematic, then
-place and route R86–R92.
+place and route R86–R100, U11, C58 and C59. The ENDAQ, ENSBC and ENEXT
+tracks from J3 need cutting at the new links.
 
 Still to confirm against what was fitted: C2 (100 µF on the schematic,
 82 µF `35SVPF82M` ordered) and C47 (4.7 nF on the schematic, 1.8 nF ordered).

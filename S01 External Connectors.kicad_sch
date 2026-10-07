@@ -6587,7 +6587,7 @@
 		)
 		(uuid "ec885b50-90a3-41a1-a748-118239f795c4")
 	)
-	(hierarchical_label "ENEXT"
+	(hierarchical_label "MCU_ENEXT"
 		(shape passive)
 		(at 248.92 162.56 0)
 		(effects
@@ -6763,7 +6763,7 @@
 		)
 		(uuid "75ca5efe-8b06-40a5-b02b-cf726f0b99ff")
 	)
-	(hierarchical_label "ENDAQ"
+	(hierarchical_label "MCU_ENDAQ"
 		(shape passive)
 		(at 248.92 158.75 0)
 		(effects
@@ -6785,7 +6785,7 @@
 		)
 		(uuid "99b823f6-d1e2-41b4-806d-5cdecb9fcf2f")
 	)
-	(hierarchical_label "ENSBC"
+	(hierarchical_label "nCSIO"
 		(shape passive)
 		(at 248.92 154.94 0)
 		(effects
