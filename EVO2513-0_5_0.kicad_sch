@@ -13,36 +13,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 129.54 119.38) (xy 129.54 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06225867-b949-49f4-8591-abdb9478ff91")
-	)
-	(wire
-		(pts
-			(xy 129.54 160.02) (xy 190.5 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6631f5eb-f7b5-49ba-b048-9e8106e22164")
-	)
-	(wire
-		(pts
-			(xy 114.3 119.38) (xy 129.54 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a41ca2ca-0f57-4469-81ea-f0b5daa9bb29")
-	)
-	(wire
-		(pts
 			(xy 114.3 101.6) (xy 116.84 101.6)
 		)
 		(stroke
@@ -60,6 +30,16 @@
 			(type default)
 		)
 		(uuid "04bfa95d-b3fa-40c3-a9a0-e0b2deeb353b")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 129.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06225867-b949-49f4-8591-abdb9478ff91")
 	)
 	(wire
 		(pts
@@ -453,6 +433,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 160.02) (xy 190.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6631f5eb-f7b5-49ba-b048-9e8106e22164")
+	)
+	(wire
+		(pts
 			(xy 167.64 78.74) (xy 167.64 48.26)
 		)
 		(stroke
@@ -670,6 +660,16 @@
 			(type default)
 		)
 		(uuid "a0ca4d3c-5cbe-4411-bd2b-f1cc603aeb4b")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 129.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41ca2ca-0f57-4469-81ea-f0b5daa9bb29")
 	)
 	(wire
 		(pts

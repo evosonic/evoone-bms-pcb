@@ -111,11 +111,20 @@ Rail enables and faults through a PCAL9714 SPI I/O expander (U11, new sheet
 S08). It shares CLOCK/MOSI/MISO with U1 (LTC1960) and has its own chip
 select, nCSIO, on J3.32, the pin that was ENSBC. Address 40h (ADDR to GND);
 INT has a pull-up but isn't routed off the board. Both supplies are
-+3V3MCU. RESET comes from a divider on +12V (R99 100K, R100 40.2K: 3.44 V
-at 12 V), so the expander is held in reset, with every port an input,
-whenever the 12 V rail is off. It releases above about 8 V and resets
-below about 3.5 V; there is no hysteresis, so firmware should wait for
-+12V before configuring it.
++3V3MCU. RESET is held low by R100 (100K) and pulled to +3V3MCU by Q23
+(BSS138, the same FET as Q20-Q22) whenever +12V is up: R99 100K /
+R101 1M put about 11 V on its gate. With the 12 V rail off the expander is
+in reset with every port an input, and RESET can never rise above
++3V3MCU, so nothing back-powers the expander. The switch point depends on
+Q23's gate threshold (roughly 3.5-4 V on +12V with a BSS138) and has no hysteresis, so
+firmware should wait for +12V before configuring the expander.
+
+Q20–Q23 are onsemi BSS138 (SOT-23) in place of the DMN65D8LFB-7
+(DFN1006, 1.0 × 0.6 mm). Use the plain BSS138 or another part without a
+gate protection zener: the gates sit on 100K pull-ups (R63, R65, R78) and
+the R99/R101 divider, and ESD-protected parts such as the 2N7002K or
+BSS138BK leak up to about 10 µA, which would pull the PG high level down
+by about 1 V. BSS138: IGSS 100 nA, IDSS 0.5 µA, VGS(th) 0.8–1.5 V.
 
 | Port | Net | Function |
 |---|---|---|
@@ -138,7 +147,8 @@ the three load-switch enables move from GPIO to SPI, and nCSIO must idle high (R
 pulls it up).
 
 These parts aren't on the board yet: run Update PCB from Schematic, then
-place and route R86–R100, U11, C58 and C59. The ENDAQ, ENSBC and ENEXT
+place and route R86–R101, Q23, U11, C58 and C59, and re-place Q20–Q22
+(now SOT-23). The ENDAQ, ENSBC and ENEXT
 tracks from J3 need cutting at the new links.
 
 Still to confirm against what was fitted: C2 (100 µF on the schematic,
