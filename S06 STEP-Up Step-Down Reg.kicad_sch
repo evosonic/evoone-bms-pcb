@@ -5,303 +5,6 @@
 	(uuid "481ba881-1c2e-4549-9d53-de6f3a3019bc")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Lattech Systems:Resistor 0R 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor 0R 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistor 0R 0402_1_0"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type color)
-						(color 240 255 255 1)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Capacitor 1nF 50V X7R 0805"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 1nF 50V X7R 0805"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0805_2012Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 1nF 50V X7R 0805_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -1971,6 +1674,174 @@
 					(at 3.81 0 180)
 					(length 1.27)
 					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Capacitor 1nF 50V X7R 0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor 1nF 50V X7R 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_0805_2012Metric*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor 1nF 50V X7R 0805_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.016) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4012,6 +3883,135 @@
 				(rectangle
 					(start 2.54 1.016)
 					(end -2.54 -1.016)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type color)
+						(color 240 255 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Resistor 0R 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor 0R 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_0402_1005Metric*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor 0R 0402_1_0"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
 					(stroke
 						(width 0)
 						(type solid)
@@ -7867,6 +7867,17 @@
 		)
 		(uuid "f0564e18-a3cc-4f96-8ccc-e85554d532aa")
 	)
+	(text "U5 MODE and BIAS link options (fit one of each pair)"
+		(exclude_from_sim no)
+		(at 266.7 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f297b8fb-d895-4897-98ee-f4a573a03f53")
+	)
 	(text "9"
 		(exclude_from_sim no)
 		(at 369.57 16.51 0)
@@ -8003,6 +8014,12 @@
 		(uuid "20c86259-e343-4484-8765-fca19802718a")
 	)
 	(junction
+		(at 279.4 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b705044-b335-4fef-97d5-7ae11fea6c77")
+	)
+	(junction
 		(at 204.47 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8067,6 +8084,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48f0362c-e110-406a-bd88-d68943f09e4f")
+	)
+	(junction
+		(at 279.4 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5204b82f-3357-44e8-a381-29363778e29a")
 	)
 	(junction
 		(at 148.59 58.42)
@@ -8442,6 +8465,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 190.5) (xy 292.1 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06079ba3-cf86-4e43-b5b6-c214e5a28316")
+	)
+	(wire
+		(pts
 			(xy 238.76 48.26) (xy 241.3 48.26)
 		)
 		(stroke
@@ -8785,6 +8818,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 198.12) (xy 292.1 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221ce87a-996d-41da-8c3c-5a15883b789c")
+	)
+	(wire
+		(pts
 			(xy 332.74 92.71) (xy 332.74 74.93)
 		)
 		(stroke
@@ -9088,6 +9131,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 194.31) (xy 279.4 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da89d76-91eb-44ed-bf3a-75a3ad346749")
+	)
+	(wire
+		(pts
 			(xy 148.59 83.82) (xy 148.59 87.63)
 		)
 		(stroke
@@ -9242,6 +9295,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 152.4) (xy 142.24 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5696d6-11ca-4e7a-b748-f3b2554daec9")
+	)
+	(wire
+		(pts
 			(xy 62.23 233.68) (xy 71.12 233.68)
 		)
 		(stroke
@@ -9331,6 +9394,16 @@
 			(type default)
 		)
 		(uuid "52958558-c445-4957-9960-d6cdc51785cc")
+	)
+	(wire
+		(pts
+			(xy 147.32 160.02) (xy 142.24 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5417cc64-0796-4692-b7e2-3420eb977eff")
 	)
 	(wire
 		(pts
@@ -9518,7 +9591,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 148.59) (xy 130.81 160.02)
+			(xy 130.81 148.59) (xy 130.81 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9719,16 +9792,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 137.16) (xy 127 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ac270a-8e98-4518-9d92-747f0df38c11")
-	)
-	(wire
-		(pts
 			(xy 346.71 67.31) (xy 346.71 59.69)
 		)
 		(stroke
@@ -9911,7 +9974,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 127 156.21)
+			(xy 127 137.16) (xy 127 156.21)
 		)
 		(stroke
 			(width 0)
@@ -10483,6 +10546,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 218.44) (xy 292.1 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd78c04-a083-4940-ad6d-9a732da6dd11")
+	)
+	(wire
+		(pts
 			(xy 261.62 92.71) (xy 259.08 92.71)
 		)
 		(stroke
@@ -10676,6 +10749,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 214.63) (xy 279.4 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06a6a6d-55e2-4836-abe3-8d953906d7cc")
+	)
+	(wire
+		(pts
 			(xy 60.96 58.42) (xy 73.66 58.42)
 		)
 		(stroke
@@ -10754,6 +10837,16 @@
 			(type default)
 		)
 		(uuid "c4a70c6a-2c6a-4d4c-bde1-756b800b7e94")
+	)
+	(wire
+		(pts
+			(xy 279.4 210.82) (xy 279.4 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c682fb90-5b78-4e77-87a7-cd7191c473e6")
 	)
 	(wire
 		(pts
@@ -11010,6 +11103,16 @@
 			(type default)
 		)
 		(uuid "dcfc5797-a716-46b3-9b7b-0598770a4bae")
+	)
+	(wire
+		(pts
+			(xy 279.4 190.5) (xy 279.4 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd13e06c-441a-497b-86fd-4a0a8f62fa6d")
 	)
 	(polyline
 		(pts
@@ -11286,13 +11389,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 160.02) (xy 130.81 175.26)
+			(xy 287.02 210.82) (xy 292.1 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbe97285-f8eb-4ff6-8fb1-6c35c14774b7")
+		(uuid "fac2d193-0b96-4461-8e1a-20ce4957a4c7")
 	)
 	(polyline
 		(pts
@@ -11325,6 +11428,26 @@
 		)
 		(uuid "ff2871d1-8086-4623-b72e-460da34e145d")
 	)
+	(label "BIAS"
+		(at 142.24 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "206000bf-c492-4773-af9b-ced1bfb9354f")
+	)
+	(label "MODE"
+		(at 142.24 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c70f062-fffa-41a7-aa6e-89333306e194")
+	)
 	(label "LDVR1"
 		(at 213.36 171.45 180)
 		(effects
@@ -11334,6 +11457,16 @@
 			(justify right bottom)
 		)
 		(uuid "45c06867-de6c-4373-a640-f005f6158606")
+	)
+	(label "MODE"
+		(at 271.78 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "557cd24d-bae1-4a13-8bdd-f7e0b23699cb")
 	)
 	(label "SW1"
 		(at 213.36 163.83 180)
@@ -11405,6 +11538,26 @@
 		)
 		(uuid "b878706d-1340-4c59-a174-24b0aa5877e0")
 	)
+	(label "VCC2"
+		(at 135.89 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cab4d605-07a4-48a9-88d3-0bba7c78115a")
+	)
+	(label "VCC2"
+		(at 292.1 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccfbb90a-442d-495c-8c05-d35b2ee5782b")
+	)
 	(label "HDVR2"
 		(at 213.36 175.26 180)
 		(effects
@@ -11414,6 +11567,16 @@
 			(justify right bottom)
 		)
 		(uuid "cee4a859-e9dc-4195-85bb-b5156a790d5d")
+	)
+	(label "BIAS"
+		(at 271.78 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da9d2578-6205-4dba-8c6b-1a89549c3c76")
 	)
 	(label "SW1"
 		(at 175.26 73.66 0)
@@ -11455,6 +11618,17 @@
 			(justify right)
 		)
 		(uuid "85ab9a24-15f6-49fc-83df-135301536f74")
+	)
+	(hierarchical_label "DCBMS"
+		(shape input)
+		(at 292.1 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abbce2fe-43f9-4966-b821-e0798ee39531")
 	)
 	(hierarchical_label "REGEN"
 		(shape passive)
@@ -13942,6 +14116,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Lattech Systems:Resistor 0R 0402")
+		(at 283.21 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "86270ebe-32a4-407b-aa4c-bfdf2883aeca")
+		(property "Reference" "R87"
+			(at 280.67 189.484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0R"
+			(at 285.496 194.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 283.21 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 0R 0402"
+			(at 283.21 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 282.702 188.087 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 282.702 188.087 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 278.892 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 278.892 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 280.67 194.056 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0402"
+			(at 283.21 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0eee2b81-92bd-49b0-8f5e-22fe6473436b")
+		)
+		(pin "1"
+			(uuid "995ab806-3920-467c-a895-0b3e8bd8f256")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Lattech Systems:Capacitor 68nF 25V X7R 0402")
 		(at 80.01 214.63 90)
 		(unit 1)
@@ -14730,6 +15055,157 @@
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Resistor 0R 0402")
+		(at 283.21 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b83748b-ea9e-43c6-a12f-526cd9573f30")
+		(property "Reference" "R88"
+			(at 280.67 209.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0R"
+			(at 285.496 214.884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 283.21 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 0R 0402"
+			(at 283.21 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 282.702 208.407 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 282.702 208.407 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 278.892 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 278.892 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 280.67 214.376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0402"
+			(at 283.21 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5deb5760-19e7-4df0-a2e8-4bd60317a77e")
+		)
+		(pin "1"
+			(uuid "f002baa6-4d33-4809-8882-d2566220ba44")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -15839,6 +16315,80 @@
 		)
 	)
 	(symbol
+		(lib_id "EVO2513-0_5_0-altium-import:+12V_BAR")
+		(at 292.1 218.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0118f98-0608-4d27-81fd-e9130c1b8efe")
+		(property "Reference" "#PWR0101"
+			(at 292.1 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 292.1 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "af143a59-c492-47f6-a3ff-4f2acd560a93")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Lattech Systems:Capacitor 180uF 25V Alu Elect SVPF Case E12")
 		(at 332.74 71.12 270)
 		(unit 1)
@@ -16631,6 +17181,157 @@
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Resistor 0R 0402")
+		(at 283.21 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8f2bac8-6590-4b1a-8c0a-77e7c9b63be4")
+		(property "Reference" "R86"
+			(at 280.67 197.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0R"
+			(at 285.496 202.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 283.21 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 0R 0402"
+			(at 283.21 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 282.702 195.707 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 282.702 195.707 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 278.892 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 278.892 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 280.67 201.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0402"
+			(at 283.21 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c740bba-d187-46d8-bfc0-21166d12796f")
+		)
+		(pin "1"
+			(uuid "f9729262-d030-47fe-adc1-801aa45b45cd")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -18886,6 +19587,80 @@
 		)
 	)
 	(symbol
+		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
+		(at 292.1 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f066bfa1-d2b6-4d45-ad58-d7ecf2df0511")
+		(property "Reference" "#PWR0100"
+			(at 292.1 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "baf2dcc8-50f9-4a1c-9275-1338d2a1c6e8")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Lattech Systems:Capacitor 15nF 50V X7R  0402")
 		(at 97.79 214.63 90)
 		(unit 1)
@@ -19286,6 +20061,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Lattech Systems:Resistor 0R 0402")
+		(at 283.21 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "fed1698e-4a7c-4cc7-8a01-7ce189a81811")
+		(property "Reference" "R89"
+			(at 280.67 217.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0R"
+			(at 285.496 222.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 283.21 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 0R 0402"
+			(at 283.21 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 282.702 216.027 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 282.702 216.027 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 278.892 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 278.892 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 280.67 221.996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0402"
+			(at 283.21 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "abdf0213-e208-4ced-9760-79964683b349")
+		)
+		(pin "1"
+			(uuid "1131ada6-3910-4cec-8533-b5da5f0d0a60")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Lattech Systems:Capacitor 110pF 50V C0G 0402")
 		(at 200.66 101.6 0)
 		(unit 1)
@@ -19458,951 +20384,5 @@
 				)
 			)
 		)
-	)
-	(wire
-		(pts
-			(xy 147.32 160.02) (xy 142.24 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5417cc64-0796-4692-b7e2-3420eb977eff")
-	)
-	(label "MODE"
-		(at 142.24 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3c70f062-fffa-41a7-aa6e-89333306e194")
-	)
-	(wire
-		(pts
-			(xy 147.32 152.4) (xy 142.24 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a5696d6-11ca-4e7a-b748-f3b2554daec9")
-	)
-	(label "BIAS"
-		(at 142.24 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "206000bf-c492-4773-af9b-ced1bfb9354f")
-	)
-	(label "VCC2"
-		(at 135.89 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cab4d605-07a4-48a9-88d3-0bba7c78115a")
-	)
-	(text "U5 MODE and BIAS link options (fit one of each pair)"
-		(exclude_from_sim no)
-		(at 266.7 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f297b8fb-d895-4897-98ee-f4a573a03f53")
-	)
-	(symbol
-		(lib_id "Lattech Systems:Resistor 0R 0402")
-		(at 283.21 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c8f2bac8-6590-4b1a-8c0a-77e7c9b63be4")
-		(property "Reference" "R86"
-			(at 280.67 197.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 285.496 202.184 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 283.21 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor 0R 0402"
-			(at 283.21 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NOTE" ""
-			(at 282.702 195.707 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PL_SORT_GROUP" "2.3"
-			(at 282.702 195.707 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "?"
-			(at 278.892 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER_PN" "?"
-			(at 278.892 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "0R"
-			(at 280.67 201.676 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 283.21 198.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6c740bba-d187-46d8-bfc0-21166d12796f")
-		)
-		(pin "1"
-			(uuid "f9729262-d030-47fe-adc1-801aa45b45cd")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "R86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 287.02 198.12) (xy 292.1 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "221ce87a-996d-41da-8c3c-5a15883b789c")
-	)
-	(symbol
-		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 292.1 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f066bfa1-d2b6-4d45-ad58-d7ecf2df0511")
-		(property "Reference" "#PWR0100"
-			(at 292.1 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 292.1 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 198.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 198.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 292.1 198.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "baf2dcc8-50f9-4a1c-9275-1338d2a1c6e8")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Lattech Systems:Resistor 0R 0402")
-		(at 283.21 190.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "86270ebe-32a4-407b-aa4c-bfdf2883aeca")
-		(property "Reference" "R87"
-			(at 280.67 189.484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 285.496 194.564 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 283.21 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor 0R 0402"
-			(at 283.21 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NOTE" ""
-			(at 282.702 188.087 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PL_SORT_GROUP" "2.3"
-			(at 282.702 188.087 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "?"
-			(at 278.892 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER_PN" "?"
-			(at 278.892 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "0R"
-			(at 280.67 194.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 283.21 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0eee2b81-92bd-49b0-8f5e-22fe6473436b")
-		)
-		(pin "1"
-			(uuid "995ab806-3920-467c-a895-0b3e8bd8f256")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "R87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 287.02 190.5) (xy 292.1 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06079ba3-cf86-4e43-b5b6-c214e5a28316")
-	)
-	(label "VCC2"
-		(at 292.1 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccfbb90a-442d-495c-8c05-d35b2ee5782b")
-	)
-	(wire
-		(pts
-			(xy 279.4 190.5) (xy 279.4 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd13e06c-441a-497b-86fd-4a0a8f62fa6d")
-	)
-	(wire
-		(pts
-			(xy 271.78 194.31) (xy 279.4 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da89d76-91eb-44ed-bf3a-75a3ad346749")
-	)
-	(junction
-		(at 279.4 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5204b82f-3357-44e8-a381-29363778e29a")
-	)
-	(label "MODE"
-		(at 271.78 194.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "557cd24d-bae1-4a13-8bdd-f7e0b23699cb")
-	)
-	(symbol
-		(lib_id "Lattech Systems:Resistor 0R 0402")
-		(at 283.21 210.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b83748b-ea9e-43c6-a12f-526cd9573f30")
-		(property "Reference" "R88"
-			(at 280.67 209.804 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 285.496 214.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 283.21 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor 0R 0402"
-			(at 283.21 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NOTE" ""
-			(at 282.702 208.407 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PL_SORT_GROUP" "2.3"
-			(at 282.702 208.407 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "?"
-			(at 278.892 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER_PN" "?"
-			(at 278.892 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "0R"
-			(at 280.67 214.376 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 283.21 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5deb5760-19e7-4df0-a2e8-4bd60317a77e")
-		)
-		(pin "1"
-			(uuid "f002baa6-4d33-4809-8882-d2566220ba44")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "R88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 287.02 210.82) (xy 292.1 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fac2d193-0b96-4461-8e1a-20ce4957a4c7")
-	)
-	(hierarchical_label "DCBMS"
-		(shape input)
-		(at 292.1 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "abbce2fe-43f9-4966-b821-e0798ee39531")
-	)
-	(symbol
-		(lib_id "Lattech Systems:Resistor 0R 0402")
-		(at 283.21 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "fed1698e-4a7c-4cc7-8a01-7ce189a81811")
-		(property "Reference" "R89"
-			(at 280.67 217.424 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 285.496 222.504 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 283.21 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor 0R 0402"
-			(at 283.21 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NOTE" ""
-			(at 282.702 216.027 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PL_SORT_GROUP" "2.3"
-			(at 282.702 216.027 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "?"
-			(at 278.892 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER_PN" "?"
-			(at 278.892 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "0R"
-			(at 280.67 221.996 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 283.21 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "abdf0213-e208-4ced-9760-79964683b349")
-		)
-		(pin "1"
-			(uuid "1131ada6-3910-4cec-8533-b5da5f0d0a60")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 287.02 218.44) (xy 292.1 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd78c04-a083-4940-ad6d-9a732da6dd11")
-	)
-	(symbol
-		(lib_id "EVO2513-0_5_0-altium-import:+12V_BAR")
-		(at 292.1 218.44 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0118f98-0608-4d27-81fd-e9130c1b8efe")
-		(property "Reference" "#PWR0101"
-			(at 292.1 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 292.1 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 292.1 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "af143a59-c492-47f6-a3ff-4f2acd560a93")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 279.4 210.82) (xy 279.4 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c682fb90-5b78-4e77-87a7-cd7191c473e6")
-	)
-	(wire
-		(pts
-			(xy 271.78 214.63) (xy 279.4 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c06a6a6d-55e2-4836-abe3-8d953906d7cc")
-	)
-	(junction
-		(at 279.4 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b705044-b335-4fef-97d5-7ae11fea6c77")
-	)
-	(label "BIAS"
-		(at 271.78 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da9d2578-6205-4dba-8c6b-1a89549c3c76")
 	)
 )

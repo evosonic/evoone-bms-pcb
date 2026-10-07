@@ -4279,8 +4279,8 @@
 	)
 	(text_box "Mating to: 10144518-043802LF"
 		(exclude_from_sim no)
-		(at 223.52 191.77 0)
-		(size -49.53 5.08)
+		(at 173.99 191.77 0)
+		(size 41.91 9.2631)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)

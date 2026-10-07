@@ -33,7 +33,17 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 106.68) (xy 302.26 106.68)
+			(xy 129.54 119.38) (xy 129.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06225867-b949-49f4-8591-abdb9478ff91")
+	)
+	(wire
+		(pts
+			(xy 190.5 154.94) (xy 187.96 154.94)
 		)
 		(stroke
 			(width 0)
@@ -130,16 +140,6 @@
 			(type default)
 		)
 		(uuid "2583cd34-9435-47be-b74b-04ac18994147")
-	)
-	(wire
-		(pts
-			(xy 304.8 76.2) (xy 302.26 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2968fe2f-4589-430e-86de-d6caca145c9e")
 	)
 	(wire
 		(pts
@@ -283,16 +283,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 101.6) (xy 302.26 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a05f88d-4eaa-4649-a0f2-19e2f368ecd9")
-	)
-	(wire
-		(pts
 			(xy 114.3 63.5) (xy 116.84 63.5)
 		)
 		(stroke
@@ -370,6 +360,16 @@
 			(type default)
 		)
 		(uuid "6607c52f-b7e7-4f03-9359-fcca676cd4f1")
+	)
+	(wire
+		(pts
+			(xy 129.54 160.02) (xy 190.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6631f5eb-f7b5-49ba-b048-9e8106e22164")
 	)
 	(wire
 		(pts
@@ -553,7 +553,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 91.44) (xy 116.84 91.44)
+			(xy 114.3 119.38) (xy 129.54 119.38)
 		)
 		(stroke
 			(width 0)
@@ -570,6 +570,16 @@
 			(type default)
 		)
 		(uuid "a55f05ce-f5ab-4c41-ab28-168a1dbe1c3d")
+	)
+	(wire
+		(pts
+			(xy 259.08 76.2) (xy 259.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb5c87e-ef11-49c4-805b-0be68f65b7f3")
 	)
 	(wire
 		(pts
@@ -703,6 +713,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 76.2) (xy 304.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ba9313-3851-490c-9b6e-5ad8611d6e2d")
+	)
+	(wire
+		(pts
 			(xy 304.8 152.4) (xy 302.26 152.4)
 		)
 		(stroke
@@ -733,7 +753,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 104.14) (xy 302.26 104.14)
+			(xy 190.5 152.4) (xy 187.96 152.4)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +783,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 124.46) (xy 187.96 124.46)
+			(xy 241.3 124.46) (xy 259.08 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1111,16 +1131,6 @@
 		)
 		(uuid "925c6ae3-d10f-4320-a862-a9a1b1effd72")
 	)
-	(label "REGEN"
-		(at 116.84 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "979302de-594d-4e5d-a7c1-7bbc41f6e3e1")
-	)
 	(label "IAMPEXT"
 		(at 116.84 104.14 0)
 		(effects
@@ -1160,16 +1170,6 @@
 			(justify left bottom)
 		)
 		(uuid "abd66cb5-8dc6-420d-b33b-42f1ef9d2bcc")
-	)
-	(label "DCCHARGER"
-		(at 302.26 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af0b3227-1e67-40cf-8198-ccd4f51bb735")
 	)
 	(label "nCS"
 		(at 116.84 55.88 0)
@@ -1212,7 +1212,7 @@
 		(uuid "c1f32c9b-1225-48fe-bda2-5eb901bea631")
 	)
 	(label "DCCHARGER"
-		(at 187.96 124.46 180)
+		(at 254 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1242,7 +1242,7 @@
 		(uuid "cd0b6880-3074-4628-a9a8-6e227c292a70")
 	)
 	(label "CDC"
-		(at 302.26 106.68 180)
+		(at 187.96 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1362,7 +1362,7 @@
 		(uuid "f9861a9b-c57d-41d8-9452-a8c0713276eb")
 	)
 	(label "REGEN"
-		(at 302.26 101.6 180)
+		(at 187.96 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1372,7 +1372,7 @@
 		(uuid "fa337c7f-c92e-4a31-9310-d53b52fdea58")
 	)
 	(label "DCBMS"
-		(at 302.26 104.14 180)
+		(at 187.96 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1439,13 +1439,13 @@
 			)
 		)
 		(pin "DCCHARGER" output
-			(at 190.5 124.46 180)
+			(at 241.3 124.46 0)
 			(uuid "0b9a196b-1bbc-45ad-b752-ce350779fde0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1839,7 +1839,7 @@
 			)
 		)
 		(pin "REGEN" passive
-			(at 114.3 91.44 0)
+			(at 114.3 119.38 0)
 			(uuid "d42b9be0-c7ba-4153-adb2-a38edb78b721")
 			(effects
 				(font
@@ -2082,7 +2082,7 @@
 		)
 	)
 	(sheet
-		(at 304.8 96.52)
+		(at 190.5 144.78)
 		(size 50.8 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2097,7 +2097,7 @@
 		)
 		(uuid "7e883a06-f690-476b-966b-7e93c32ca0bb")
 		(property "Sheetname" "S06 STEP-Up Step-Down Reg"
-			(at 304.8 95.7575 0)
+			(at 190.5 144.0175 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2108,7 +2108,7 @@
 			)
 		)
 		(property "Sheetfile" "S06 STEP-Up Step-Down Reg.kicad_sch"
-			(at 304.8 117.427 0)
+			(at 190.5 165.687 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2119,7 +2119,7 @@
 			)
 		)
 		(pin "REGEN" passive
-			(at 304.8 101.6 180)
+			(at 190.5 160.02 180)
 			(uuid "09be9ee5-8284-405f-b839-b591470ce109")
 			(effects
 				(font
@@ -2129,7 +2129,7 @@
 			)
 		)
 		(pin "DCBMS" input
-			(at 304.8 104.14 180)
+			(at 190.5 152.4 180)
 			(uuid "8a378997-9586-4744-95aa-2acd21d3befa")
 			(effects
 				(font
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(pin "CDC" output
-			(at 304.8 106.68 180)
+			(at 190.5 154.94 180)
 			(uuid "86b504a4-6ba4-4222-b946-c491730f4fee")
 			(effects
 				(font
