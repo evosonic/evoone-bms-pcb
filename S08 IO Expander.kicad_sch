@@ -243,174 +243,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lattech Systems:Capacitor 100nF 16V X7R 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 100nF 16V X7R 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 100nF 16V X7R 0402_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Lattech Systems:IC PCAL9714 HVQFN-24"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1778,6 +1610,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Lattech Systems:Capacitor 100nF 50V X7R 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor 100nF 50V X7R 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_0402_1005Metric*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor 100nF 50V X7R 0402_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.016) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Lattech Systems:Resistor 1M 1% 0402"
 			(pin_numbers
 				(hide yes)
@@ -1908,7 +1908,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Links: R95 fitted (expander CS).  To drive an enable straight from J3 instead,\nfit its link (R96 ENSBC, R97 ENDAQ, R98 ENEXT), remove R95 and leave the port an input"
+	(text "Links: R95 fitted (expander CS).  To drive an enable straight from J3 instead,\nfit its link (R96 ENSBC, R97 ENDAQ, R98 ENEXT), remove R95 and leave the port an input.\nJ3.34/J3.36 also carry the U5 I2C option (R104/R105, S06): fit R97/R98 or the I2C option, not both"
 		(exclude_from_sim no)
 		(at 63.5 81.28 0)
 		(effects
@@ -3159,7 +3159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 100nF 16V X7R 0402")
+		(lib_id "Lattech Systems:Capacitor 100nF 50V X7R 0402")
 		(at 195.58 162.56 90)
 		(unit 1)
 		(body_style 1)
@@ -3214,7 +3214,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 100nF 16V X7R 0402"
+		(property "Description" "Capacitor 100nF 50V X7R 0402"
 			(at 195.58 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3249,7 +3249,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Yageo"
 			(at 194.31 158.242 90)
 			(hide yes)
 			(show_name no)
@@ -3261,7 +3261,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
 			(at 194.31 158.242 90)
 			(hide yes)
 			(show_name no)
@@ -3306,7 +3306,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 196.85 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +3333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 100nF 16V X7R 0402")
+		(lib_id "Lattech Systems:Capacitor 100nF 50V X7R 0402")
 		(at 182.88 162.56 90)
 		(unit 1)
 		(body_style 1)
@@ -3388,7 +3388,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 100nF 16V X7R 0402"
+		(property "Description" "Capacitor 100nF 50V X7R 0402"
 			(at 182.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3423,7 +3423,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Yageo"
 			(at 181.61 158.242 90)
 			(hide yes)
 			(show_name no)
@@ -3435,7 +3435,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
 			(at 181.61 158.242 90)
 			(hide yes)
 			(show_name no)
@@ -3480,7 +3480,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 184.15 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)

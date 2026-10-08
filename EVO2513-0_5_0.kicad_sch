@@ -1731,6 +1731,46 @@
 		)
 		(uuid "fd576f5b-7192-4404-867f-195465bd5b8f")
 	)
+	(wire
+		(pts
+			(xy 187.96 162.56) (xy 190.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0bd00c-6e11-4a29-a025-0132e234f604")
+	)
+	(label "MCU_ENDAQ"
+		(at 187.96 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dc74f17-9271-4b0d-80a7-f612c3acc431")
+	)
+	(wire
+		(pts
+			(xy 187.96 165.1) (xy 190.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e38080a-2937-4eb1-a91f-22f702cb5d95")
+	)
+	(label "MCU_ENEXT"
+		(at 187.96 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92f15862-0544-4aaa-b229-d526e6d97449")
+	)
 	(sheet
 		(at 190.5 116.84)
 		(size 50.8 20.32)
@@ -2628,7 +2668,7 @@
 	)
 	(sheet
 		(at 190.5 144.78)
-		(size 50.8 20.32)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2653,7 +2693,7 @@
 			)
 		)
 		(property "Sheetfile" "S06 STEP-Up Step-Down Reg.kicad_sch"
-			(at 190.5 165.687 0)
+			(at 190.5 170.767 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2696,6 +2736,26 @@
 		(pin "nFLT" output
 			(at 190.5 157.48 180)
 			(uuid "fbd66c5e-c0c2-4094-b852-5a9326da6d0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_ENDAQ" passive
+			(at 190.5 162.56 180)
+			(uuid "cff1424c-bf33-4fe4-9efe-874f701711f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_ENEXT" passive
+			(at 190.5 165.1 180)
+			(uuid "94b80fd0-7f3c-4776-80ad-6cc47c502f52")
 			(effects
 				(font
 					(size 1.27 1.27)

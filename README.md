@@ -99,11 +99,38 @@ fitted (lower right of S06):
 | MODE (7) | R86 to GND: power-save mode (W16 review) | R87 back to VCC2/ILIMCOMP: forced PWM, as built before |
 | BIAS (40) | R88 to DCBMS, as built before | R89 to +12V, still under review |
 
+U5 can also be configured over I2C instead of by its CFG resistors (right of
+the MODE/BIAS links on S06, all DNP as built):
+
+| Ref | Part | Function in the I2C build |
+|---|---|---|
+| R103 | 0R, CFG1 (ADDR/SLOPE, pin 9) to GND | Enables I2C at address 0x6A. R38 can stay; R103 shorts it |
+| R104 | 0R, SDA/CFG3 (pin 5) to J3.34 `MCU_ENDAQ` | SDA to the MCU |
+| R105 | 0R, SCL/CFG4 (pin 6) to J3.36 `MCU_ENEXT` | SCL to the MCU |
+| R106, R107 | 2.2K to +3V3MCU | SDA and SCL pull-ups (pins rated to 5.8 V) |
+| R30, R29 | 5.1K and 1.87K to GND | **Remove**: they are CFG3/CFG4 and would load the bus |
+
+To build for I2C, fit R103–R107 and remove R29 and R30. J3.34 and J3.36 are
+also the direct-enable fallback through R97 and R98 (S08): fit R97/R98 or the
+I2C option, never both. The MCU pins on J3.34/J3.36 must support I2C.
+
+In the I2C build U5 starts from its register defaults, not the resistor
+settings, so firmware must write them before raising REGEN. They are latched
+for as long as DCBMS is up, since nRST is tied to DCBMS. Defaults that differ
+from the resistor build:
+- slope compensation is 0.875 (R38 selects 1.0)
+- VCC1, DRSS, hiccup mode and the current-limit options come from registers
+  instead of R30 and R29
+- the internal DAC becomes the current-limit reference (`ILIM_THRESHOLD`);
+  ILIMCOMP is tied to VCC2, so confirm the average current limit stays
+  disabled
+
 Overvoltage lockout on the load switches U6, U7 and U9 (TPS22811, S07): a 1 MΩ
-0.1% resistor (R90, R91, R92) from +12V to nEN/OVLO (pin 2), with the
-existing pull-downs R51, R52 and R70 changed from 100K 1% to 102K 0.1%. Each
-switch turns off above 12.96 V (12.70–13.22 V over the ±2% pin threshold) and
-turns back on below about 11.8 V. To revert, leave R90–R92 unfitted.
+1% resistor (R90, R91, R92) from +12V to nEN/OVLO (pin 2), with the
+existing 100K 1% pull-downs R51, R52 and R70. Each switch turns off above
+13.2 V (12.60–13.81 V over the ±2% pin threshold, 1% resistors and ±0.1 µA pin
+leakage) and turns back on below 12.0 V (11.50–12.60 V). To revert, leave
+R90–R92 unfitted.
 Undervoltage lockout (11.4 V) is deferred: EN/UVLO (pin 1) is also the MCU
 enable, and a tight threshold there needs a FET.
 
@@ -153,6 +180,41 @@ tracks from J3 need cutting at the new links.
 
 Still to confirm against what was fitted: C2 (100 µF on the schematic,
 82 µF `35SVPF82M` ordered) and C47 (4.7 nF on the schematic, 1.8 nF ordered).
+
+## BOM consolidation
+
+Parts with the same value in different packages or ratings now share one BOM
+line. Each change keeps or raises the voltage rating and tolerance.
+All resistors are 1%: the OVLO dividers moved from 1M/102K 0.1% to
+1M/100K 1%, which keeps the lowest trip point at 12.60 V.
+
+| Refs | Was | Now |
+|---|---|---|
+| C8, C9, C55 | 1 µF 50 V X5R 0402 | 1 µF 50 V X5R **0603**, as C23, C44, C45, C48–C50, C54 |
+| C7, C52, C53, C58, C59 | 100 nF 16 V X7R 0402 | 100 nF **50 V** X7R 0402 `CC0402KPX7R9BB104`, as C10 |
+| C37, C38 | 100 nF 16 V X7R 0603 | the same, **0402** (U5 bootstrap caps, ~5 V) |
+| C17, C18, C20, C21, C34 | 100 nF 50 V X7R 0402, no part number | `CC0402KPX7R9BB104` |
+| C11–C14, C24–C26 | 10 µF 25 V/50 V 1206 | 10 µF 50 V X7R **1210** Murata `GRM32ER71H106KA12L`, as C27 (1210 is easier to source) |
+| C27 | 10 µF 50 V X5R 1210 | the same part, X7R |
+| C16 | 220 nF 50 V X7R 0805 | the same, **0603** Yageo `CC0603KRX7R9BB224`, as C22 (charger bootstrap cap) |
+| C22 | 220 nF 50 V 0603, material field X5R | X7R, as its description already said |
+| R43, R44 | 10R 1% 0603 | 10R 1% **0402**, as R4, R5, R24–R27 (U5 current-sense filter, no power) |
+
+Three U5 (LM51772) fixes found during the review:
+
+| Ref | Was | Now | Why |
+|---|---|---|---|
+| C30 → **R102** | 22 µF 6.3 V 0603 on VCC1 | 10K 1% 0402 to GND, as R7 | VCC1 is disabled (R30 5.1K on CFG3); the datasheet says tie a disabled VCC1 to GND through a resistor, not leave it floating |
+| C32 | 22 µF 6.3 V X5R 0603 on VCC2 | 22 µF **16 V** X5R **0805** Murata `GRM21BR61C226ME44L` | VCC2 needs 6 µF minimum; the 0603 keeps only about 5–7 µF at 5 V |
+| R29 | 1.9K | **1.87K** | CFG4 setting #3 accepts 1.814–1.926 kΩ (1.87K typical); 1.9K isn't a 1% value, and 1.91K can reach 1.929 kΩ |
+
+New library symbols: `Capacitor 10uF 50V X7R 1210`, `Capacitor 22uF 16V X5R
+0805` and `Resistor 1.87K 1% 0402`.
+Run Update PCB from Schematic to swap the footprints. Parts that grow overlap
+their neighbours' courtyards and need moving: the 0603s for C8, C9 and C55 by
+up to 0.9 mm (C55 against C5 and C7, C8 against R8, C9 against R15 and C10),
+the 1210s by about 0.15 mm (C11/C12/C27, C24/C26, C25 against C23), and C32
+by 0.3 mm against C38 (before C38 shrinks to 0402) and 0.1 mm against TH2.
 
 ## Fixes after import
 

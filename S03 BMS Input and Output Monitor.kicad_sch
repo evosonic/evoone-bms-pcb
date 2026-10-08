@@ -411,174 +411,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lattech Systems:Capacitor 100nF 16V X7R 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 100nF 16V X7R 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 100nF 16V X7R 0402_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Lattech Systems:Capacitor 100nF 50V X7R 0402"
 			(pin_numbers
 				(hide yes)
@@ -1303,174 +1135,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lattech Systems:Capacitor 10uF 50V X5R 1206"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 10uF 50V X5R 1206"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_1206_3216Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 10uF 50V X5R 1206_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Lattech Systems:Capacitor 1nF 50V COG 0402"
 			(pin_numbers
 				(hide yes)
@@ -1548,174 +1212,6 @@
 				)
 			)
 			(symbol "Capacitor 1nF 50V COG 0402_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Capacitor 1uF 50V X5R 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 1uF 50V X5R 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 1uF 50V X5R 0402_1_0"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.508 0)
@@ -4672,6 +4168,342 @@
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Capacitor 1uF 50V X5R 0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor 1uF 50V X5R 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_0603_1608Metric*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor 1uF 50V X5R 0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.016) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lattech Systems:Capacitor 10uF 50V X7R 1210"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor 10uF 50V X7R 1210"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_1210_3225Metric*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor 10uF 50V X7R 1210_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.016) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 128 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7663,7 +7495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0402")
+		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
 		(at 137.16 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -7696,7 +7528,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 137.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7718,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 50V X5R 0402"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 137.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7741,7 +7573,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "PL_SORT_GROUP" ""
+		(property "PL_SORT_GROUP" "2.3"
 			(at 135.89 92.202 90)
 			(hide yes)
 			(show_name no)
@@ -7753,7 +7585,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "?"
 			(at 135.89 92.202 90)
 			(hide yes)
 			(show_name no)
@@ -7765,7 +7597,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "?"
 			(at 135.89 92.202 90)
 			(hide yes)
 			(show_name no)
@@ -7788,7 +7620,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0603"
 			(at 138.43 100.838 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8397,7 +8229,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0402")
+		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
 		(at 222.25 142.24 90)
 		(unit 1)
 		(body_style 1)
@@ -8430,7 +8262,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 222.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8452,7 +8284,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 50V X5R 0402"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 222.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8475,7 +8307,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "PL_SORT_GROUP" ""
+		(property "PL_SORT_GROUP" "2.3"
 			(at 220.98 137.922 90)
 			(hide yes)
 			(show_name no)
@@ -8487,7 +8319,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "?"
 			(at 220.98 137.922 90)
 			(hide yes)
 			(show_name no)
@@ -8499,7 +8331,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "?"
 			(at 220.98 137.922 90)
 			(hide yes)
 			(show_name no)
@@ -8522,7 +8354,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0603"
 			(at 223.52 146.558 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9275,7 +9107,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 100nF 16V X7R 0402")
+		(lib_id "Lattech Systems:Capacitor 100nF 50V X7R 0402")
 		(at 115.57 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -9330,7 +9162,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 100nF 16V X7R 0402"
+		(property "Description" "Capacitor 100nF 50V X7R 0402"
 			(at 115.57 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9365,7 +9197,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Yageo"
 			(at 111.252 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9377,7 +9209,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
 			(at 111.252 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9422,7 +9254,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "VOLTAGE" "16V"
+		(property "VOLTAGE" "50V"
 			(at 109.22 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10305,7 +10137,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 10uF 50V X5R 1206")
+		(lib_id "Lattech Systems:Capacitor 10uF 50V X7R 1210")
 		(at 257.81 185.42 90)
 		(unit 1)
 		(body_style 1)
@@ -10338,7 +10170,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 257.81 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -10360,7 +10192,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 10uF 50V X5R 1206"
+		(property "Description" "Capacitor 10uF 50V X7R 1210"
 			(at 257.81 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -10383,7 +10215,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "PL_SORT_GROUP" ""
+		(property "PL_SORT_GROUP" "2.3"
 			(at 256.54 181.102 90)
 			(hide yes)
 			(show_name no)
@@ -10395,7 +10227,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Murata"
 			(at 256.54 181.102 90)
 			(hide yes)
 			(show_name no)
@@ -10407,7 +10239,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
 			(at 256.54 181.102 90)
 			(hide yes)
 			(show_name no)
@@ -10430,7 +10262,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "1206"
+		(property "ALTIUM_FOOTPRINT" "1210"
 			(at 259.08 189.738 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10441,7 +10273,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MATERIAL" "X5R"
+		(property "MATERIAL" "X7R"
 			(at 259.08 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10976,7 +10808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0402")
+		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
 		(at 120.65 128.27 90)
 		(unit 1)
 		(body_style 1)
@@ -11009,7 +10841,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.65 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11031,7 +10863,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1uF 50V X5R 0402"
+		(property "Description" "Capacitor 1uF 50V X5R 0603"
 			(at 120.65 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11054,7 +10886,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "PL_SORT_GROUP" ""
+		(property "PL_SORT_GROUP" "2.3"
 			(at 119.38 123.952 90)
 			(hide yes)
 			(show_name no)
@@ -11066,7 +10898,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "?"
 			(at 119.38 123.952 90)
 			(hide yes)
 			(show_name no)
@@ -11078,7 +10910,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "?"
 			(at 119.38 123.952 90)
 			(hide yes)
 			(show_name no)
@@ -11101,7 +10933,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "0402"
+		(property "ALTIUM_FOOTPRINT" "0603"
 			(at 121.92 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12724,7 +12556,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 10uF 50V X5R 1206")
+		(lib_id "Lattech Systems:Capacitor 10uF 50V X7R 1210")
 		(at 270.51 185.42 90)
 		(unit 1)
 		(body_style 1)
@@ -12757,7 +12589,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 270.51 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12779,7 +12611,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 10uF 50V X5R 1206"
+		(property "Description" "Capacitor 10uF 50V X7R 1210"
 			(at 270.51 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12802,7 +12634,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "PL_SORT_GROUP" ""
+		(property "PL_SORT_GROUP" "2.3"
 			(at 269.24 181.102 90)
 			(hide yes)
 			(show_name no)
@@ -12814,7 +12646,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Murata"
 			(at 269.24 181.102 90)
 			(hide yes)
 			(show_name no)
@@ -12826,7 +12658,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
 			(at 269.24 181.102 90)
 			(hide yes)
 			(show_name no)
@@ -12849,7 +12681,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "1206"
+		(property "ALTIUM_FOOTPRINT" "1210"
 			(at 271.78 189.738 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12860,7 +12692,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MATERIAL" "X5R"
+		(property "MATERIAL" "X7R"
 			(at 271.78 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
