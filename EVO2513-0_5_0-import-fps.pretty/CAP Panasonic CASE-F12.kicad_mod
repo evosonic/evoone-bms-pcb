@@ -279,6 +279,46 @@
 			)
 		)
 	)
+	(fp_line
+		(start -5.75 -5.45)
+		(end 5.75 -5.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cdf3fa2b-c826-485c-a8f8-0dd0d075b8c6")
+	)
+	(fp_line
+		(start 5.75 -5.45)
+		(end 5.75 5.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53695101-a59c-455c-87bd-326e22fdd3e7")
+	)
+	(fp_line
+		(start 5.75 5.45)
+		(end -5.75 5.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d8d6f2b-ba77-4d1f-8b08-4c24b796dcff")
+	)
+	(fp_line
+		(start -5.75 5.45)
+		(end -5.75 -5.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97524f5d-c069-4049-a3f0-6a33803b15d0")
+	)
 	(pad "1" smd rect
 		(at -3.9 0 180)
 		(size 3.2 1.1)

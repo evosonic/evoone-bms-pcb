@@ -54,6 +54,17 @@
 	(sheetname "S01 External Connectors")
 	(sheetfile "S01 External Connectors.kicad_sch")
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.74 -0.74)
+		(end 0.74 0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f2cd6cbc-203f-4763-b64a-ae4529cda81b")
+	)
 	(pad "1" smd circle
 		(at 0 0)
 		(size 1.27 1.27)

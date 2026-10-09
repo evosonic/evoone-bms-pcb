@@ -279,6 +279,126 @@
 			)
 		)
 	)
+	(fp_line
+		(start -4.35 -4.35)
+		(end 4.35 -4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68c915eb-da14-42bb-a191-5db6fde20a75")
+	)
+	(fp_line
+		(start 4.35 -4.35)
+		(end 4.35 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49a02fa4-7116-4060-b11e-10b5eeb05ce6")
+	)
+	(fp_line
+		(start 4.35 -0.85)
+		(end 5.1 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d55355c-b2d9-45c8-bff0-411c66ba9684")
+	)
+	(fp_line
+		(start 5.1 -0.85)
+		(end 5.1 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d8391cb-8834-403d-af70-0ea75c3553a8")
+	)
+	(fp_line
+		(start 5.1 0.85)
+		(end 4.35 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bed772d3-030e-4031-9e74-a30c693a04b3")
+	)
+	(fp_line
+		(start 4.35 0.85)
+		(end 4.35 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca540d94-37ed-40ca-b121-0e00642daf83")
+	)
+	(fp_line
+		(start 4.35 4.35)
+		(end -4.35 4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53d373f3-f6ce-46c4-bb23-d5fd88102d33")
+	)
+	(fp_line
+		(start -4.35 4.35)
+		(end -4.35 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3f4f608-0b73-4c72-8a6e-16f721e36f6f")
+	)
+	(fp_line
+		(start -4.35 0.85)
+		(end -5.1 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b63a25b0-5e1e-44bb-aca9-877428e0db70")
+	)
+	(fp_line
+		(start -5.1 0.85)
+		(end -5.1 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98254abf-ca0b-48d3-9d81-b2ccfd0aaa08")
+	)
+	(fp_line
+		(start -5.1 -0.85)
+		(end -4.35 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d870c8f9-2144-447c-91d4-61b2e2c34f2b")
+	)
+	(fp_line
+		(start -4.35 -0.85)
+		(end -4.35 -4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e1a5e59-5a93-47f4-90d6-71460e98bb6c")
+	)
 	(pad "1" smd rect
 		(at -3.20001 0 180)
 		(size 3.3 1.2)
