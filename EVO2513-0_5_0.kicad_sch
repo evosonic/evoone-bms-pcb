@@ -133,6 +133,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 162.56) (xy 190.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0bd00c-6e11-4a29-a025-0132e234f604")
+	)
+	(wire
+		(pts
 			(xy 302.26 170.18) (xy 304.8 170.18)
 		)
 		(stroke
@@ -190,6 +200,16 @@
 			(type default)
 		)
 		(uuid "2ba9ddfb-350c-4067-9668-8b7932b922b8")
+	)
+	(wire
+		(pts
+			(xy 187.96 165.1) (xy 190.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e38080a-2937-4eb1-a91f-22f702cb5d95")
 	)
 	(wire
 		(pts
@@ -1361,6 +1381,16 @@
 		)
 		(uuid "7c6e0090-a1d2-405b-965c-d896780eec44")
 	)
+	(label "MCU_ENDAQ"
+		(at 187.96 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dc74f17-9271-4b0d-80a7-f612c3acc431")
+	)
 	(label "POS1"
 		(at 302.26 58.42 180)
 		(effects
@@ -1440,6 +1470,16 @@
 			(justify right bottom)
 		)
 		(uuid "925c6ae3-d10f-4320-a862-a9a1b1effd72")
+	)
+	(label "MCU_ENEXT"
+		(at 187.96 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92f15862-0544-4aaa-b229-d526e6d97449")
 	)
 	(label "IAMPEXT"
 		(at 116.84 104.14 0)
@@ -1730,46 +1770,6 @@
 			(justify right bottom)
 		)
 		(uuid "fd576f5b-7192-4404-867f-195465bd5b8f")
-	)
-	(wire
-		(pts
-			(xy 187.96 162.56) (xy 190.5 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e0bd00c-6e11-4a29-a025-0132e234f604")
-	)
-	(label "MCU_ENDAQ"
-		(at 187.96 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7dc74f17-9271-4b0d-80a7-f612c3acc431")
-	)
-	(wire
-		(pts
-			(xy 187.96 165.1) (xy 190.5 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e38080a-2937-4eb1-a91f-22f702cb5d95")
-	)
-	(label "MCU_ENEXT"
-		(at 187.96 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "92f15862-0544-4aaa-b229-d526e6d97449")
 	)
 	(sheet
 		(at 190.5 116.84)
