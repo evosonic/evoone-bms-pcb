@@ -3376,6 +3376,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R42 = 1.5 mR is deliberate: peak current limit\n36.7 A max, inside L2's 38 A I_RP. Do not reduce.\n\nU5 pins 16 (ILIMCOMP) and 29 (VCC2) stay commoned\nwith C32 and R40: ILIMCOMP on VCC2 is the documented\nway to disable the average current limit. Only pin 7\n(MODE) may be separated (R86/R87)."
+		(exclude_from_sim no)
+		(at 292.1 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f3fdba2b-8c27-4962-8560-72dff70e37a4")
+	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 24.13 295.91 0)

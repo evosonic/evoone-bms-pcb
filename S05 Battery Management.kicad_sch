@@ -2903,6 +2903,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R22 = 1K is the D4 battery-presence pull-up:\nan empty battery slot sits at about 5 V. Expected.\nKeep R22 at 1K (R54 is 768R; they don't share a value)."
+		(exclude_from_sim no)
+		(at 68.58 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "da2aaacb-dfe5-4fcb-ad39-919872054a3d")
+	)
 	(text "MODULE:"
 		(exclude_from_sim no)
 		(at 325.12 275.59 0)

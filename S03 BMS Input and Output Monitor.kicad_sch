@@ -2282,6 +2282,17 @@
 		)
 		(uuid "ed88c27c-4354-44ac-83f4-f030cedf93ef")
 	)
+	(text "R16 breaker latches: 90-115 mV for 15 ms opens every PowerPath\nswitch, including DC, and sets FA. It clears only when all sources\nare removed and VPLUS falls below UVLO.\nED29 test packs trip at 8 A each (measured); QE29 production packs\nat 10.5 A. Any figure keyed to 10.5 A applies to QE29 only."
+		(exclude_from_sim no)
+		(at 317.5 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6d68351b-aa22-4734-9da3-d85b74d1009b")
+	)
 	(text "${#}"
 		(exclude_from_sim no)
 		(at 298.45 292.1 0)

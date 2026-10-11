@@ -98,6 +98,8 @@ connection or the board copper.
 | D9, D10 | DT1240V3-04LP fitted | DNP | Go with R24–R27: wrong clamp level for 3.3 V, and the protected MCU is on another board |
 | R14 | 0.01 Ω | 0.012 Ω Yageo `PA2512FKF7W0R012E` | Adapter limit 8.33 A, below the 9.2 A supply, so charging throttles before the supply trips |
 | R36 | 61.9K fitted | DNP | VIN-FB goes to ground through R37, as required when PCM is unused |
+| R59, R61, R76 / R60, R62, R77 | 1M / 130K | 100K / 13K | TPS22811 PGTH dividers: same 10.43 V threshold, 10× lower impedance so pin leakage can't push it near the rail |
+| R90–R92, R101 | 1M | 1.07M | OVLO trip 14.0 V, so a tripped switch recovers on the 12.03 V rail; R101 shares the BOM line |
 | D4 | Pins named as a series pair | Pins named for the fitted common-anode BAT54A | Drawing and wiring were already right |
 
 Connection options on U5 (LM51772), as 0R 0402 links so either build can be
@@ -133,13 +135,20 @@ from the resistor build:
 - the internal DAC becomes the current-limit reference (`ILIM_THRESHOLD`);
   ILIMCOMP is tied to VCC2, so confirm the average current limit stays
   disabled
+- constant dead time (`EN_CONST_TDEAD`) defaults off; R30 (CFG3 setting 7)
+  turns it on
 
-Overvoltage lockout on the load switches U6, U7 and U9 (TPS22811, S07): a 1 MΩ
-1% resistor (R90, R91, R92) from +12V to nEN/OVLO (pin 2), with the
+Overvoltage lockout on the load switches U6, U7 and U9 (TPS22811, S07): a
+1.07 MΩ 1% resistor (R90, R91, R92) from +12V to nEN/OVLO (pin 2), with the
 existing 100K 1% pull-downs R51, R52 and R70. Each switch turns off above
-13.2 V (12.60–13.81 V over the ±2% pin threshold, 1% resistors and ±0.1 µA pin
-leakage) and turns back on below 12.0 V (11.50–12.60 V). To revert, leave
-R90–R92 unfitted.
+14.0 V (13.40–14.69 V over the ±2% pin threshold, 1% resistors and ±0.1 µA pin
+leakage) and turns back on below 12.75 V (12.23–13.41 V), so a tripped switch
+always recovers on U5's 12.03 V output. (1 MΩ gave 13.2 V, recovering at
+11.50–12.60 V, which might not.) To revert, leave R90–R92 unfitted.
+The power-good dividers on PGTH are R59, R61 and R76 (100K) over R60, R62 and
+R77 (13K): PG rises at 10.43 V (10.93 V worst case) and falls at 9.47 V
+(at least 9.05 V). They were 1M over 130K, the same ratio, but the ±1 µA PGTH
+leakage across 1M could put the threshold at 11.84 V, within 0.2 V of the rail.
 Undervoltage lockout (11.4 V) is deferred: EN/UVLO (pin 1) is also the MCU
 enable, and a tight threshold there needs a FET.
 
@@ -149,7 +158,7 @@ select, nCSIO, on J3.32, the pin that was ENSBC. Address 40h (ADDR to GND);
 INT has a pull-up but isn't routed off the board. Both supplies are
 +3V3MCU. RESET is held low by R100 (100K) and pulled to +3V3MCU by Q23
 (BSS138, the same FET as Q20-Q22) whenever +12V is up: R99 100K /
-R101 1M put about 11 V on its gate. With the 12 V rail off the expander is
+R101 1.07M put about 11 V on its gate. With the 12 V rail off the expander is
 in reset with every port an input, and RESET can never rise above
 +3V3MCU, so nothing back-powers the expander. The switch point depends on
 Q23's gate threshold (roughly 3.5-4 V on +12V with a BSS138) and has no hysteresis, so
@@ -192,7 +201,8 @@ tracks from J3 need cutting at the new links.
 Parts with the same value in different packages or ratings now share one BOM
 line. Each change keeps or raises the voltage rating and tolerance.
 All resistors are 1%: the OVLO dividers moved from 1M/102K 0.1% to
-1M/100K 1%, which keeps the lowest trip point at 12.60 V.
+1.07M/100K 1% (see the overvoltage lockout above), and R101 is 1.07M to share
+their BOM line.
 
 | Refs | Was | Now |
 |---|---|---|

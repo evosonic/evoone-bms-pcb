@@ -6281,7 +6281,7 @@
 				)
 			)
 		)
-		(property "Value" "130K"
+		(property "Value" "13K"
 			(at 123.6738 -299.643043 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -6305,7 +6305,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 130K 1% 0402"
+		(property "Description" "Resistor 13K 1% 0402"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6368,7 +6368,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "130K"
+		(property "ALTIUM_VALUE" "13K"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10491,7 +10491,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1.07M"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "c0277ac5-6b0e-4ca2-897a-79f166489549")
@@ -10513,7 +10513,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 1.07M 1% 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10576,7 +10576,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "1.07M"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16433,7 +16433,7 @@
 				)
 			)
 		)
-		(property "Value" "130K"
+		(property "Value" "13K"
 			(at 123.6738 -299.643043 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -16457,7 +16457,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 130K 1% 0402"
+		(property "Description" "Resistor 13K 1% 0402"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16520,7 +16520,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "130K"
+		(property "ALTIUM_VALUE" "13K"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20261,7 +20261,7 @@
 				)
 			)
 		)
-		(property "Value" "130K"
+		(property "Value" "13K"
 			(at 123.6738 -299.643043 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -20285,7 +20285,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 130K 1% 0402"
+		(property "Description" "Resistor 13K 1% 0402"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20348,7 +20348,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "130K"
+		(property "ALTIUM_VALUE" "13K"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20490,7 +20490,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100K"
 			(at -123.6738 299.724071 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -20514,7 +20514,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 100K 1% 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20577,7 +20577,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "100K"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32381,7 +32381,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100K"
 			(at -123.6738 299.724071 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -32405,7 +32405,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 100K 1% 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32468,7 +32468,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "100K"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36521,7 +36521,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1.07M"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "72d223ac-0f4e-4a51-a580-9b51e0cc9c51")
@@ -36543,7 +36543,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 1.07M 1% 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36606,7 +36606,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "1.07M"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44907,7 +44907,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1.07M"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "f98e8c9f-6da3-4c2a-9b97-4c0c6f4e2f6c")
@@ -44929,7 +44929,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 1.07M 1% 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44992,7 +44992,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "1.07M"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60625,7 +60625,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1.07M"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "e9343e24-90ce-4251-af5c-192ab26578a2")
@@ -60647,7 +60647,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 1.07M 1% 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60710,7 +60710,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "1.07M"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71344,7 +71344,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100K"
 			(at -123.6738 299.724071 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -71368,7 +71368,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 100K 1% 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -71431,7 +71431,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "100K"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

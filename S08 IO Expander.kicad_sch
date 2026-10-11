@@ -2253,7 +2253,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1.07M"
 			(at 122.936 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2286,7 +2286,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 1.07M 1% 0402"
 			(at 121.92 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -2345,7 +2345,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "1.07M"
 			(at 120.904 104.902 0)
 			(hide yes)
 			(show_name no)

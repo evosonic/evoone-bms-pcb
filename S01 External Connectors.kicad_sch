@@ -3798,6 +3798,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "J2 contact allocation is deliberate: POS1 on pins 11/12, POS2 on 13/14,\nGND on 4-7 shared, so positive and return carry the same current per\ncontact. Preserve it."
+		(exclude_from_sim no)
+		(at 44.45 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "65fcbb01-f594-498b-a374-aed89f2f9c1a")
+	)
 	(text "9"
 		(exclude_from_sim no)
 		(at 369.57 295.91 0)

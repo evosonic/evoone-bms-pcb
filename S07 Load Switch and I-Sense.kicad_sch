@@ -1966,6 +1966,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Overvoltage lockout: R90/R91/R92 1.07M with R51/R52/R70 100K on nEN/OVLO.\nOff above 14.0 V (13.4-14.7 V), back on below 12.75 V (12.2-13.4 V),\nso a tripped switch always recovers on the 12.03 V rail.\nPGTH dividers R59/R61/R76 100K over R60/R62/R77 13K: PG at 10.43 V\n(10.93 V worst case); the low impedance keeps the PGTH pin leakage small."
+		(exclude_from_sim no)
+		(at 170.18 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "16540f0a-88dd-405f-92b5-12ad8214a6a7")
+	)
 	(text "5"
 		(exclude_from_sim no)
 		(at 196.85 16.51 0)
@@ -9165,7 +9176,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1.07M"
 			(at 77.216 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,7 +9209,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 1.07M 1% 0402"
 			(at 76.2 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -9257,7 +9268,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "1.07M"
 			(at 75.184 47.752 0)
 			(hide yes)
 			(show_name no)
@@ -11324,7 +11335,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100K"
 			(at 131.826 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11357,7 +11368,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 100K 1% 0402"
 			(at 130.81 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -11416,7 +11427,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "100K"
 			(at 129.794 49.022 0)
 			(hide yes)
 			(show_name no)
@@ -12509,7 +12520,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "130K"
+		(property "Value" "13K"
 			(at 300.736 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12542,7 +12553,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 130K 1% 0402"
+		(property "Description" "Resistor 13K 1% 0402"
 			(at 299.72 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -12601,7 +12612,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "130K"
+		(property "ALTIUM_VALUE" "13K"
 			(at 298.704 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -12735,7 +12746,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1.07M"
 			(at 246.126 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12768,7 +12779,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 1.07M 1% 0402"
 			(at 245.11 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -12827,7 +12838,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "1.07M"
 			(at 244.094 46.482 0)
 			(hide yes)
 			(show_name no)
@@ -14613,7 +14624,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100K"
 			(at 129.286 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14646,7 +14657,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 100K 1% 0402"
 			(at 128.27 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -14705,7 +14716,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "100K"
 			(at 127.254 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -14917,7 +14928,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "130K"
+		(property "Value" "13K"
 			(at 129.286 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14950,7 +14961,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 130K 1% 0402"
+		(property "Description" "Resistor 13K 1% 0402"
 			(at 128.27 190.5 90)
 			(hide yes)
 			(show_name no)
@@ -15009,7 +15020,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "130K"
+		(property "ALTIUM_VALUE" "13K"
 			(at 127.254 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -15069,7 +15080,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "130K"
+		(property "Value" "13K"
 			(at 131.826 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15102,7 +15113,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 130K 1% 0402"
+		(property "Description" "Resistor 13K 1% 0402"
 			(at 130.81 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -15161,7 +15172,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "130K"
+		(property "ALTIUM_VALUE" "13K"
 			(at 129.794 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -17707,7 +17718,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "100K"
 			(at 300.736 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17740,7 +17751,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 100K 1% 0402"
 			(at 299.72 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -17799,7 +17810,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "100K"
 			(at 298.704 47.752 0)
 			(hide yes)
 			(show_name no)
@@ -17859,7 +17870,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1.07M"
 			(at 74.676 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17892,7 +17903,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 0402"
+		(property "Description" "Resistor 1.07M 1% 0402"
 			(at 73.66 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -17951,7 +17962,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "1M"
+		(property "ALTIUM_VALUE" "1.07M"
 			(at 72.644 174.752 0)
 			(hide yes)
 			(show_name no)
