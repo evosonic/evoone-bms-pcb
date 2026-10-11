@@ -5,7 +5,146 @@
 	(uuid "7af1b873-0aea-4f17-bdf4-d7f404572308")
 	(paper "A3")
 	(lib_symbols
-		(symbol "EVO2513-0_5_0-altium-import:+5V_BAR"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)		(symbol "EVO2513-0_5_0-altium-import:+5V_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1519,264 +1658,6 @@
 						)
 					)
 					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Resistor 10R 1% 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor 10R 1% 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistor 10R 1% 0402_1_0"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type color)
-						(color 240 255 255 1)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Resistor 1K 1% 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor 1K 1% 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistor 1K 1% 0402_1_0"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type color)
-						(color 240 255 255 1)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6993,7 +6874,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1b7a0ae2-b188-482b-97ac-09aaba6136aa")
 		(property "Reference" "D10"
 			(at 323.85 171.45 0)
@@ -7143,8 +7024,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Resistor 10R 1% 0402")
-		(at 265.43 85.09 0)
+		(lib_id "Device:R")
+		(at 265.43 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7154,30 +7035,29 @@
 		(dnp no)
 		(uuid "334732f7-e23c-4672-9dba-8967320eb570")
 		(property "Reference" "R25"
-			(at 270.51 85.09 0)
+			(at 270.51 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "10R"
-			(at 267.716 89.154 0)
-			(hide yes)
+		(property "Value" "0R"
+			(at 257.81 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 265.43 85.09 0)
+			(at 265.43 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7188,7 +7068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 85.09 0)
+			(at 265.43 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7198,8 +7078,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 10R 1% 0402"
-			(at 265.43 85.09 0)
+		(property "Description" "Resistor 0R 0402"
+			(at 265.43 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,7 +7090,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 264.922 82.677 0)
+			(at 264.922 82.677 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,11 +7098,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 264.922 82.677 0)
+			(at 264.922 82.677 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,11 +7110,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 261.112 81.28 0)
+			(at 261.112 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,11 +7122,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 261.112 81.28 0)
+			(at 261.112 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,29 +7134,30 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "ALTIUM_VALUE" "10R"
-			(at 257.81 85.09 0)
+		(property "ALTIUM_VALUE" "0R"
+			(at 267.716 89.154 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 252.73 85.09 0)
+			(at 252.73 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(pin "2"
@@ -7303,7 +7184,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3b1c1bcd-2c21-43e3-aa9e-64d90281c0a8")
 		(property "Reference" "D9"
 			(at 323.85 76.2 0)
@@ -7453,8 +7334,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Resistor 10R 1% 0402")
-		(at 265.43 88.9 0)
+		(lib_id "Device:R")
+		(at 265.43 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7464,30 +7345,29 @@
 		(dnp no)
 		(uuid "4109a37c-9df4-45d5-8646-7a4f7c698cde")
 		(property "Reference" "R24"
-			(at 270.51 88.9 0)
+			(at 270.51 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "10R"
-			(at 267.716 92.964 0)
-			(hide yes)
+		(property "Value" "0R"
+			(at 257.81 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 265.43 88.9 0)
+			(at 265.43 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,7 +7378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 88.9 0)
+			(at 265.43 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7508,8 +7388,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 10R 1% 0402"
-			(at 265.43 88.9 0)
+		(property "Description" "Resistor 0R 0402"
+			(at 265.43 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7520,7 +7400,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 264.922 86.487 0)
+			(at 264.922 86.487 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7528,11 +7408,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 264.922 86.487 0)
+			(at 264.922 86.487 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7540,11 +7420,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 261.112 85.09 0)
+			(at 261.112 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,11 +7432,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 261.112 85.09 0)
+			(at 261.112 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7564,29 +7444,30 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "ALTIUM_VALUE" "10R"
-			(at 257.81 88.9 0)
+		(property "ALTIUM_VALUE" "0R"
+			(at 267.716 92.964 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 252.73 88.9 0)
+			(at 252.73 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(pin "2"
@@ -7753,8 +7634,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Resistor 10R 1% 0402")
-		(at 265.43 176.53 0)
+		(lib_id "Device:R")
+		(at 265.43 176.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7764,30 +7645,29 @@
 		(dnp no)
 		(uuid "5d3dbf77-549e-4d31-b6a8-2db5f9c411b1")
 		(property "Reference" "R27"
-			(at 270.51 176.53 0)
+			(at 270.51 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "10R"
-			(at 267.716 180.594 0)
-			(hide yes)
+		(property "Value" "0R"
+			(at 257.81 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 265.43 176.53 0)
+			(at 265.43 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7798,7 +7678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 176.53 0)
+			(at 265.43 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7808,8 +7688,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 10R 1% 0402"
-			(at 265.43 176.53 0)
+		(property "Description" "Resistor 0R 0402"
+			(at 265.43 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7820,7 +7700,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 264.922 174.117 0)
+			(at 264.922 174.117 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,11 +7708,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 264.922 174.117 0)
+			(at 264.922 174.117 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7840,11 +7720,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 261.112 172.72 0)
+			(at 261.112 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7852,11 +7732,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 261.112 172.72 0)
+			(at 261.112 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7864,29 +7744,30 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "ALTIUM_VALUE" "10R"
-			(at 257.81 176.53 0)
+		(property "ALTIUM_VALUE" "0R"
+			(at 267.716 180.594 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 252.73 176.53 0)
+			(at 252.73 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(pin "2"
@@ -8490,8 +8371,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Resistor 1K 1% 0402")
-		(at 52.07 113.03 90)
+		(lib_id "Device:R")
+		(at 52.07 113.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8501,7 +8382,7 @@
 		(dnp no)
 		(uuid "a4547f02-5cb0-462a-81d4-18c241360d97")
 		(property "Reference" "R22"
-			(at 53.086 113.03 90)
+			(at 53.086 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8512,8 +8393,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 51.054 108.712 90)
-			(hide yes)
+			(at 53.086 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8524,7 +8404,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 52.07 113.03 0)
+			(at 52.07 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8535,7 +8415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 113.03 0)
+			(at 52.07 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8546,7 +8426,7 @@
 			)
 		)
 		(property "Description" "Resistor 1K 1% 0402"
-			(at 52.07 113.03 0)
+			(at 52.07 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8557,7 +8437,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 51.054 108.712 90)
+			(at 51.054 108.712 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8569,7 +8449,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 51.054 108.712 90)
+			(at 51.054 108.712 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,7 +8461,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 51.054 108.712 90)
+			(at 51.054 108.712 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8593,7 +8473,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 51.054 108.712 90)
+			(at 51.054 108.712 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8605,7 +8485,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1K"
-			(at 53.086 115.57 90)
+			(at 51.054 108.712 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8616,7 +8497,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 53.086 117.602 90)
+			(at 53.086 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9977,8 +9858,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Resistor 10R 1% 0402")
-		(at 265.43 180.34 0)
+		(lib_id "Device:R")
+		(at 265.43 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9988,30 +9869,29 @@
 		(dnp no)
 		(uuid "ff024d5b-ee3f-46a6-aafc-3bc690c4090c")
 		(property "Reference" "R26"
-			(at 270.51 180.34 0)
+			(at 270.51 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "10R"
-			(at 267.716 184.404 0)
-			(hide yes)
+		(property "Value" "0R"
+			(at 257.81 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 265.43 180.34 0)
+			(at 265.43 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10022,7 +9902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 180.34 0)
+			(at 265.43 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10032,8 +9912,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 10R 1% 0402"
-			(at 265.43 180.34 0)
+		(property "Description" "Resistor 0R 0402"
+			(at 265.43 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10044,7 +9924,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 264.922 177.927 0)
+			(at 264.922 177.927 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10052,11 +9932,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 264.922 177.927 0)
+			(at 264.922 177.927 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10064,11 +9944,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 261.112 176.53 0)
+			(at 261.112 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10076,11 +9956,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 261.112 176.53 0)
+			(at 261.112 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10088,29 +9968,30 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "ALTIUM_VALUE" "10R"
-			(at 257.81 180.34 0)
+		(property "ALTIUM_VALUE" "0R"
+			(at 267.716 184.404 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 252.73 180.34 0)
+			(at 252.73 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(pin "2"

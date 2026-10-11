@@ -5,7 +5,300 @@
 	(uuid "7f30f889-11f1-4ab6-92c9-edafa50943e0")
 	(paper "A3")
 	(lib_symbols
-		(symbol "EVO2513-0_5_0-altium-import:+5V_BAR"
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)		(symbol "EVO2513-0_5_0-altium-import:+5V_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -233,1014 +526,6 @@
 						)
 					)
 					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Capacitor 100nF 50V X7R 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 100nF 50V X7R 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 100nF 50V X7R 0402_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Capacitor 100pF 50V C0G 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 100pF 50V C0G 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 100pF 50V C0G 0402_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Capacitor 10uF 50V X7R 1210"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 10uF 50V X7R 1210"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_1210_3225Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 10uF 50V X7R 1210_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Capacitor 1uF 50V X5R 0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 1uF 50V X5R 0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0603_1608Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 1uF 50V X5R 0603_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Capacitor 220nF 50V X7R 0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 220nF 50V X7R 0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0603_1608Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 220nF 50V X7R 0603_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Capacitor 4.7uF 10V X5R 0805"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Capacitor 4.7uF 10V X5R 0805"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_0805_2012Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor 4.7uF 10V X5R 0805_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0.508 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2883,393 +2168,6 @@
 				(rectangle
 					(start 2.54 1.016)
 					(end -2.54 -1.016)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type color)
-						(color 240 255 255 1)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Resistor 0.015R 1% 3W 2512"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor 0.015R 1% 3W 2512"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_2512_6332Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistor 0.015R 1% 3W 2512_1_0"
-				(rectangle
-					(start 2.54 1.016)
-					(end -2.54 -1.016)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type color)
-						(color 240 255 255 1)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Resistor 100R 1% 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor 100R 1% 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistor 100R 1% 0402_1_0"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 128 0 1)
-					)
-					(fill
-						(type color)
-						(color 240 255 255 1)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Lattech Systems:Resistor 3.6K 1% 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor 3.6K 1% 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_0402_1005Metric*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistor 3.6K 1% 0402_1_0"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
 					(stroke
 						(width 0)
 						(type solid)
@@ -6413,9 +5311,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 100pF 50V C0G 0402")
-		(at 222.25 180.34 270)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 222.25 180.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6425,30 +5322,29 @@
 		(dnp no)
 		(uuid "0f5b0a8a-4f04-4ca7-b9f7-74b9795b8570")
 		(property "Reference" "C19"
-			(at 223.52 180.086 90)
+			(at 223.52 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Value" "100pF"
-			(at 220.98 176.022 90)
-			(hide yes)
+			(at 223.52 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 222.25 180.34 0)
+			(at 222.25 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6459,7 +5355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 180.34 0)
+			(at 222.25 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6470,7 +5366,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100pF 50V C0G 0402"
-			(at 222.25 180.34 0)
+			(at 222.25 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6481,7 +5377,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 220.98 176.022 90)
+			(at 220.98 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6489,11 +5385,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 220.98 176.022 90)
+			(at 220.98 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6501,11 +5397,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 220.98 176.022 90)
+			(at 220.98 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,11 +5409,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 220.98 176.022 90)
+			(at 220.98 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6525,51 +5421,52 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_VALUE" "100pF"
-			(at 223.52 182.626 90)
+			(at 220.98 176.022 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 223.52 184.658 90)
+			(at 223.52 184.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MATERIAL" "COG"
-			(at 223.52 186.69 90)
+			(at 223.52 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 223.52 189.23 90)
+			(at 223.52 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(pin "2"
@@ -6810,8 +5707,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Resistor 100R 1% 0402")
-		(at 247.65 132.08 90)
+		(lib_id "Device:R")
+		(at 247.65 132.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6821,7 +5718,7 @@
 		(dnp no)
 		(uuid "19ead673-9b8d-4a9f-8318-ff2a7ea1d777")
 		(property "Reference" "R21"
-			(at 248.666 132.08 90)
+			(at 248.666 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6832,8 +5729,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 246.634 127.762 90)
-			(hide yes)
+			(at 248.666 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6844,7 +5740,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.65 132.08 0)
+			(at 247.65 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6855,7 +5751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 132.08 0)
+			(at 247.65 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6866,7 +5762,7 @@
 			)
 		)
 		(property "Description" "Resistor 100R 1% 0402"
-			(at 247.65 132.08 0)
+			(at 247.65 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6877,7 +5773,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 246.634 127.762 90)
+			(at 246.634 127.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6889,7 +5785,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 246.634 127.762 90)
+			(at 246.634 127.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6901,7 +5797,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 246.634 127.762 90)
+			(at 246.634 127.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6913,7 +5809,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 246.634 127.762 90)
+			(at 246.634 127.762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6925,7 +5821,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100R"
-			(at 248.666 134.62 90)
+			(at 246.634 127.762 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6936,7 +5833,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 248.666 136.652 90)
+			(at 248.666 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7036,8 +5933,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 4.7uF 10V X5R 0805")
-		(at 149.86 172.72 90)
+		(lib_id "Device:C")
+		(at 149.86 172.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7047,7 +5944,7 @@
 		(dnp no)
 		(uuid "1bd152f6-49c3-4039-a4b8-43359eab3fda")
 		(property "Reference" "C15"
-			(at 151.13 172.466 90)
+			(at 151.13 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7058,8 +5955,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 148.59 168.402 90)
-			(hide yes)
+			(at 151.13 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7070,7 +5966,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 149.86 172.72 0)
+			(at 149.86 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7081,7 +5977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 172.72 0)
+			(at 149.86 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7092,7 +5988,7 @@
 			)
 		)
 		(property "Description" "Capacitor 4.7uF 10V X5R 0805"
-			(at 149.86 172.72 0)
+			(at 149.86 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7103,7 +5999,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 148.59 168.402 90)
+			(at 148.59 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7115,7 +6011,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 148.59 168.402 90)
+			(at 148.59 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +6023,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 148.59 168.402 90)
+			(at 148.59 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7139,7 +6035,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 148.59 168.402 90)
+			(at 148.59 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +6047,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "4.7uF"
-			(at 151.13 175.006 90)
+			(at 148.59 168.402 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7162,7 +6059,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0805"
-			(at 151.13 177.038 90)
+			(at 151.13 177.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7173,7 +6070,7 @@
 			)
 		)
 		(property "MATERIAL" "X5R"
-			(at 151.13 179.07 90)
+			(at 151.13 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7184,7 +6081,7 @@
 			)
 		)
 		(property "VOLTAGE" "10V"
-			(at 151.13 181.61 90)
+			(at 151.13 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7728,7 +6625,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "4.7uH"
+		(property "ALTIUM_VALUE" "10uH"
 			(at 180.34 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,8 +6652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 10uF 50V X7R 1210")
-		(at 297.18 99.06 90)
+		(lib_id "Device:C")
+		(at 297.18 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7766,7 +6663,7 @@
 		(dnp no)
 		(uuid "4dfbe498-a480-4307-99f0-01e42911531e")
 		(property "Reference" "C25"
-			(at 298.45 98.806 90)
+			(at 298.45 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7777,8 +6674,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 295.91 94.742 90)
-			(hide yes)
+			(at 298.45 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7789,7 +6685,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 297.18 99.06 0)
+			(at 297.18 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7800,7 +6696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 99.06 0)
+			(at 297.18 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7811,7 +6707,7 @@
 			)
 		)
 		(property "Description" "Capacitor 10uF 50V X7R 1210"
-			(at 297.18 99.06 0)
+			(at 297.18 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7822,7 +6718,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 295.91 94.742 90)
+			(at 295.91 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7834,7 +6730,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 295.91 94.742 90)
+			(at 295.91 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7846,7 +6742,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 295.91 94.742 90)
+			(at 295.91 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +6754,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
-			(at 295.91 94.742 90)
+			(at 295.91 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7870,7 +6766,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10uF"
-			(at 298.45 101.346 90)
+			(at 295.91 94.742 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7881,7 +6778,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "1210"
-			(at 298.45 103.378 90)
+			(at 298.45 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7892,7 +6789,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 298.45 105.41 90)
+			(at 298.45 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7903,7 +6800,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 298.45 107.95 90)
+			(at 298.45 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7929,8 +6826,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 10uF 50V X7R 1210")
-		(at 77.47 97.79 90)
+		(lib_id "Device:C")
+		(at 77.47 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7940,7 +6837,7 @@
 		(dnp no)
 		(uuid "4eaa2818-6ade-4da3-9d3d-335dbc43f319")
 		(property "Reference" "C13"
-			(at 78.74 97.536 90)
+			(at 78.74 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7951,8 +6848,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 76.2 93.472 90)
-			(hide yes)
+			(at 78.74 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7963,7 +6859,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 77.47 97.79 0)
+			(at 77.47 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7974,7 +6870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 97.79 0)
+			(at 77.47 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7985,7 +6881,7 @@
 			)
 		)
 		(property "Description" "Capacitor 10uF 50V X7R 1210"
-			(at 77.47 97.79 0)
+			(at 77.47 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7996,7 +6892,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 76.2 93.472 90)
+			(at 76.2 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8008,7 +6904,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 76.2 93.472 90)
+			(at 76.2 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,7 +6916,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 76.2 93.472 90)
+			(at 76.2 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8032,7 +6928,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
-			(at 76.2 93.472 90)
+			(at 76.2 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8044,7 +6940,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10uF"
-			(at 78.74 100.076 90)
+			(at 76.2 93.472 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8055,7 +6952,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "1210"
-			(at 78.74 102.108 90)
+			(at 78.74 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8066,7 +6963,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 78.74 104.14 90)
+			(at 78.74 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8077,7 +6974,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 78.74 106.68 90)
+			(at 78.74 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8177,8 +7074,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 1uF 50V X5R 0603")
-		(at 270.51 99.06 90)
+		(lib_id "Device:C")
+		(at 270.51 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8188,7 +7085,7 @@
 		(dnp no)
 		(uuid "537ed607-b045-4b1c-9b1e-8938bb894412")
 		(property "Reference" "C23"
-			(at 271.78 98.806 90)
+			(at 271.78 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8199,8 +7096,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 269.24 94.742 90)
-			(hide yes)
+			(at 271.78 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8211,7 +7107,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 270.51 99.06 0)
+			(at 270.51 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8222,7 +7118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 99.06 0)
+			(at 270.51 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8233,7 +7129,7 @@
 			)
 		)
 		(property "Description" "Capacitor 1uF 50V X5R 0603"
-			(at 270.51 99.06 0)
+			(at 270.51 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8244,7 +7140,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 269.24 94.742 90)
+			(at 269.24 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8256,7 +7152,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 269.24 94.742 90)
+			(at 269.24 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8268,7 +7164,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 269.24 94.742 90)
+			(at 269.24 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +7176,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 269.24 94.742 90)
+			(at 269.24 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8292,7 +7188,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1uF"
-			(at 271.78 101.346 90)
+			(at 269.24 94.742 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8303,7 +7200,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 271.78 103.378 90)
+			(at 271.78 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8314,7 +7211,7 @@
 			)
 		)
 		(property "MATERIAL" "X5R"
-			(at 271.78 105.41 90)
+			(at 271.78 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8325,7 +7222,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 271.78 107.95 90)
+			(at 271.78 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8425,8 +7322,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 100nF 50V X7R 0402")
-		(at 247.65 144.78 90)
+		(lib_id "Device:C")
+		(at 247.65 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8436,7 +7333,7 @@
 		(dnp no)
 		(uuid "7486568c-15e5-4f2d-984f-795d02c13fda")
 		(property "Reference" "C21"
-			(at 248.92 144.526 90)
+			(at 248.92 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8447,8 +7344,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 246.38 140.462 90)
-			(hide yes)
+			(at 248.92 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8459,7 +7355,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 247.65 144.78 0)
+			(at 247.65 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8470,7 +7366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 144.78 0)
+			(at 247.65 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8481,7 +7377,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100nF 50V X7R 0402"
-			(at 247.65 144.78 0)
+			(at 247.65 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8492,7 +7388,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 246.38 140.462 90)
+			(at 246.38 140.462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8504,7 +7400,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 246.38 140.462 90)
+			(at 246.38 140.462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8516,7 +7412,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 246.38 140.462 90)
+			(at 246.38 140.462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,7 +7424,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
-			(at 246.38 140.462 90)
+			(at 246.38 140.462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8540,7 +7436,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100nF"
-			(at 248.92 147.066 90)
+			(at 246.38 140.462 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8551,7 +7448,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 248.92 149.098 90)
+			(at 248.92 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8562,7 +7459,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 248.92 151.13 90)
+			(at 248.92 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8573,7 +7470,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 248.92 153.67 90)
+			(at 248.92 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8843,8 +7740,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 10uF 50V X7R 1210")
-		(at 284.48 99.06 90)
+		(lib_id "Device:C")
+		(at 284.48 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8854,7 +7751,7 @@
 		(dnp no)
 		(uuid "7e98d467-25e6-47c6-9e6f-986caf23cd0d")
 		(property "Reference" "C24"
-			(at 285.75 98.806 90)
+			(at 285.75 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8865,8 +7762,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 283.21 94.742 90)
-			(hide yes)
+			(at 285.75 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8877,7 +7773,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 284.48 99.06 0)
+			(at 284.48 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8888,7 +7784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 99.06 0)
+			(at 284.48 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8899,7 +7795,7 @@
 			)
 		)
 		(property "Description" "Capacitor 10uF 50V X7R 1210"
-			(at 284.48 99.06 0)
+			(at 284.48 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8910,7 +7806,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 283.21 94.742 90)
+			(at 283.21 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,7 +7818,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 283.21 94.742 90)
+			(at 283.21 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8934,7 +7830,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 283.21 94.742 90)
+			(at 283.21 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8946,7 +7842,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
-			(at 283.21 94.742 90)
+			(at 283.21 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,7 +7854,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10uF"
-			(at 285.75 101.346 90)
+			(at 283.21 94.742 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8969,7 +7866,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "1210"
-			(at 285.75 103.378 90)
+			(at 285.75 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8980,7 +7877,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 285.75 105.41 90)
+			(at 285.75 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8991,7 +7888,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 285.75 107.95 90)
+			(at 285.75 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9017,8 +7914,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Resistor 3.6K 1% 0402")
-		(at 232.41 170.18 90)
+		(lib_id "Device:R")
+		(at 232.41 170.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9028,7 +7925,7 @@
 		(dnp no)
 		(uuid "877d4b46-527a-43a6-830a-72024f5770ef")
 		(property "Reference" "R20"
-			(at 233.426 170.18 90)
+			(at 233.426 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9039,8 +7936,7 @@
 			)
 		)
 		(property "Value" "3.6K"
-			(at 231.394 165.862 90)
-			(hide yes)
+			(at 233.426 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9051,7 +7947,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 232.41 170.18 0)
+			(at 232.41 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9062,7 +7958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 170.18 0)
+			(at 232.41 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9073,7 +7969,7 @@
 			)
 		)
 		(property "Description" "Resistor 3.6K 1% 0402"
-			(at 232.41 170.18 0)
+			(at 232.41 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9084,7 +7980,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.394 165.862 90)
+			(at 231.394 165.862 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9096,7 +7992,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 231.394 165.862 90)
+			(at 231.394 165.862 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9108,7 +8004,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 231.394 165.862 90)
+			(at 231.394 165.862 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,7 +8016,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" ""
-			(at 231.394 165.862 90)
+			(at 231.394 165.862 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,7 +8028,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "3.6K"
-			(at 233.426 172.72 90)
+			(at 231.394 165.862 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9143,7 +8040,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 233.426 174.752 90)
+			(at 233.426 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9503,8 +8400,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Resistor 0.015R 1% 3W 2512")
-		(at 229.87 87.63 0)
+		(lib_id "Device:R")
+		(at 229.87 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9514,30 +8411,29 @@
 		(dnp no)
 		(uuid "9911fc7c-bfee-4b18-9e02-e15d038a722b")
 		(property "Reference" "R19"
-			(at 227.33 86.614 0)
+			(at 227.33 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Value" "0.015R"
-			(at 232.156 91.694 0)
-			(hide yes)
+			(at 217.17 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 229.87 87.63 0)
+			(at 229.87 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9548,7 +8444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 87.63 0)
+			(at 229.87 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9559,7 +8455,7 @@
 			)
 		)
 		(property "Description" "Resistor 0.015R 1% 3W 2512"
-			(at 229.87 87.63 0)
+			(at 229.87 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9570,7 +8466,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 229.362 85.217 0)
+			(at 229.362 85.217 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9578,11 +8474,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "PL_SORT_GROUP" ""
-			(at 229.362 85.217 0)
+			(at 229.362 85.217 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9590,11 +8486,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 225.552 83.82 0)
+			(at 225.552 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9602,11 +8498,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER_PN" "CRA2512-FZ-R015ELF"
-			(at 225.552 83.82 0)
+			(at 225.552 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9614,29 +8510,30 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_VALUE" "0.015R"
-			(at 217.17 87.63 0)
+			(at 232.156 91.694 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "2512"
-			(at 234.95 87.63 0)
+			(at 234.95 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(pin "2"
@@ -9655,8 +8552,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 10uF 50V X7R 1210")
-		(at 309.88 99.06 90)
+		(lib_id "Device:C")
+		(at 309.88 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9666,7 +8563,7 @@
 		(dnp no)
 		(uuid "9e156f0f-0dea-436d-8d8d-5c84ce5187c5")
 		(property "Reference" "C26"
-			(at 311.15 98.806 90)
+			(at 311.15 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9677,8 +8574,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 308.61 94.742 90)
-			(hide yes)
+			(at 311.15 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9689,7 +8585,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 309.88 99.06 0)
+			(at 309.88 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9700,7 +8596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 99.06 0)
+			(at 309.88 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9711,7 +8607,7 @@
 			)
 		)
 		(property "Description" "Capacitor 10uF 50V X7R 1210"
-			(at 309.88 99.06 0)
+			(at 309.88 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9722,7 +8618,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 308.61 94.742 90)
+			(at 308.61 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9734,7 +8630,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 308.61 94.742 90)
+			(at 308.61 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9746,7 +8642,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 308.61 94.742 90)
+			(at 308.61 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9758,7 +8654,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
-			(at 308.61 94.742 90)
+			(at 308.61 94.742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9770,7 +8666,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10uF"
-			(at 311.15 101.346 90)
+			(at 308.61 94.742 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9781,7 +8678,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "1210"
-			(at 311.15 103.378 90)
+			(at 311.15 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9792,7 +8689,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 311.15 105.41 90)
+			(at 311.15 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9803,7 +8700,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 311.15 107.95 90)
+			(at 311.15 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9829,8 +8726,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 220nF 50V X7R 0603")
-		(at 247.65 180.34 90)
+		(lib_id "Device:C")
+		(at 247.65 180.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9840,7 +8737,7 @@
 		(dnp no)
 		(uuid "ab5840ed-c24f-43b8-920e-023cd8772f1c")
 		(property "Reference" "C22"
-			(at 248.92 180.086 90)
+			(at 248.92 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9851,8 +8748,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 246.38 176.022 90)
-			(hide yes)
+			(at 248.92 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9863,7 +8759,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 247.65 180.34 0)
+			(at 247.65 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,7 +8770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 180.34 0)
+			(at 247.65 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9885,7 +8781,7 @@
 			)
 		)
 		(property "Description" "Capacitor 220nF 50V X7R 0603"
-			(at 247.65 180.34 0)
+			(at 247.65 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9896,7 +8792,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 246.38 176.022 90)
+			(at 246.38 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9908,7 +8804,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 246.38 176.022 90)
+			(at 246.38 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,7 +8816,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 246.38 176.022 90)
+			(at 246.38 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9932,7 +8828,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "CC0603KRX7R9BB224"
-			(at 246.38 176.022 90)
+			(at 246.38 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9944,7 +8840,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "220nF"
-			(at 248.92 182.626 90)
+			(at 246.38 176.022 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9955,7 +8852,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 248.92 184.658 90)
+			(at 248.92 184.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9966,7 +8863,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 248.92 186.69 90)
+			(at 248.92 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9977,7 +8874,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 248.92 189.23 90)
+			(at 248.92 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10077,9 +8974,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 100nF 50V X7R 0402")
-		(at 160.02 172.72 270)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 160.02 172.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10089,30 +8985,29 @@
 		(dnp no)
 		(uuid "bb267e41-3376-40d7-adad-794ebb128e15")
 		(property "Reference" "C17"
-			(at 161.29 172.466 90)
+			(at 161.29 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Value" "100nF"
-			(at 158.75 168.402 90)
-			(hide yes)
+			(at 161.29 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 160.02 172.72 0)
+			(at 160.02 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10123,7 +9018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 172.72 0)
+			(at 160.02 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10134,7 +9029,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100nF 50V X7R 0402"
-			(at 160.02 172.72 0)
+			(at 160.02 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10145,7 +9040,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 158.75 168.402 90)
+			(at 158.75 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10153,11 +9048,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 158.75 168.402 90)
+			(at 158.75 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10165,11 +9060,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 158.75 168.402 90)
+			(at 158.75 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10177,11 +9072,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
-			(at 158.75 168.402 90)
+			(at 158.75 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10189,51 +9084,52 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_VALUE" "100nF"
-			(at 161.29 175.006 90)
+			(at 158.75 168.402 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 161.29 177.038 90)
+			(at 161.29 177.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 161.29 179.07 90)
+			(at 161.29 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 161.29 181.61 90)
+			(at 161.29 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(pin "2"
@@ -10478,8 +9374,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 220nF 50V X7R 0603")
-		(at 160.02 97.79 90)
+		(lib_id "Device:C")
+		(at 160.02 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10489,7 +9385,7 @@
 		(dnp no)
 		(uuid "d23802f4-1987-47d6-b3bb-242027cf5b07")
 		(property "Reference" "C16"
-			(at 161.29 97.536 90)
+			(at 161.29 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10500,8 +9396,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 158.75 93.472 90)
-			(hide yes)
+			(at 161.29 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10512,7 +9407,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 160.02 97.79 0)
+			(at 160.02 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10523,7 +9418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 97.79 0)
+			(at 160.02 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10534,7 +9429,7 @@
 			)
 		)
 		(property "Description" "Capacitor 220nF 50V X7R 0603"
-			(at 160.02 97.79 0)
+			(at 160.02 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,7 +9440,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 158.75 93.472 90)
+			(at 158.75 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +9452,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 158.75 93.472 90)
+			(at 158.75 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10569,7 +9464,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 158.75 93.472 90)
+			(at 158.75 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10581,7 +9476,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "CC0603KRX7R9BB224"
-			(at 158.75 93.472 90)
+			(at 158.75 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10593,7 +9488,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "220nF"
-			(at 161.29 100.076 90)
+			(at 158.75 93.472 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10604,7 +9500,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 161.29 102.108 90)
+			(at 161.29 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10615,7 +9511,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 161.29 104.14 90)
+			(at 161.29 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10626,7 +9522,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 161.29 106.68 90)
+			(at 161.29 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10652,8 +9548,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 10uF 50V X7R 1210")
-		(at 88.9 97.79 90)
+		(lib_id "Device:C")
+		(at 88.9 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10663,7 +9559,7 @@
 		(dnp no)
 		(uuid "d704e95a-1f56-4f56-a774-720bfd926cd6")
 		(property "Reference" "C14"
-			(at 90.17 97.536 90)
+			(at 90.17 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10674,8 +9570,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 87.63 93.472 90)
-			(hide yes)
+			(at 90.17 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10686,7 +9581,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 88.9 97.79 0)
+			(at 88.9 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10697,7 +9592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 97.79 0)
+			(at 88.9 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10708,7 +9603,7 @@
 			)
 		)
 		(property "Description" "Capacitor 10uF 50V X7R 1210"
-			(at 88.9 97.79 0)
+			(at 88.9 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10719,7 +9614,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 87.63 93.472 90)
+			(at 87.63 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10731,7 +9626,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 87.63 93.472 90)
+			(at 87.63 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10743,7 +9638,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 87.63 93.472 90)
+			(at 87.63 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10755,7 +9650,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
-			(at 87.63 93.472 90)
+			(at 87.63 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10767,7 +9662,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10uF"
-			(at 90.17 100.076 90)
+			(at 87.63 93.472 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10778,7 +9674,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "1210"
-			(at 90.17 102.108 90)
+			(at 90.17 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10789,7 +9685,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 90.17 104.14 90)
+			(at 90.17 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10800,7 +9696,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 90.17 106.68 90)
+			(at 90.17 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10826,8 +9722,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 100nF 50V X7R 0402")
-		(at 232.41 180.34 90)
+		(lib_id "Device:C")
+		(at 232.41 180.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10837,7 +9733,7 @@
 		(dnp no)
 		(uuid "d9223e18-6bbf-4231-b846-048e4938d79c")
 		(property "Reference" "C20"
-			(at 233.68 180.086 90)
+			(at 233.68 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10848,8 +9744,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 231.14 176.022 90)
-			(hide yes)
+			(at 233.68 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10860,7 +9755,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 232.41 180.34 0)
+			(at 232.41 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10871,7 +9766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 180.34 0)
+			(at 232.41 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10882,7 +9777,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100nF 50V X7R 0402"
-			(at 232.41 180.34 0)
+			(at 232.41 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10893,7 +9788,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 176.022 90)
+			(at 231.14 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10905,7 +9800,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 231.14 176.022 90)
+			(at 231.14 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10917,7 +9812,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 231.14 176.022 90)
+			(at 231.14 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10929,7 +9824,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
-			(at 231.14 176.022 90)
+			(at 231.14 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10941,7 +9836,8 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100nF"
-			(at 233.68 182.626 90)
+			(at 231.14 176.022 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10952,7 +9848,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 233.68 184.658 90)
+			(at 233.68 184.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10963,7 +9859,7 @@
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 233.68 186.69 90)
+			(at 233.68 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10974,7 +9870,7 @@
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 233.68 189.23 90)
+			(at 233.68 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11457,9 +10353,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Capacitor 100nF 50V X7R 0402")
-		(at 212.09 180.34 270)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 212.09 180.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11469,30 +10364,29 @@
 		(dnp no)
 		(uuid "ecb46246-c883-43c6-a239-8cce610be8e2")
 		(property "Reference" "C18"
-			(at 213.36 180.086 90)
+			(at 213.36 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Value" "100nF"
-			(at 210.82 176.022 90)
-			(hide yes)
+			(at 213.36 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 212.09 180.34 0)
+			(at 212.09 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11503,7 +10397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 180.34 0)
+			(at 212.09 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11514,7 +10408,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100nF 50V X7R 0402"
-			(at 212.09 180.34 0)
+			(at 212.09 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11525,7 +10419,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 210.82 176.022 90)
+			(at 210.82 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11533,11 +10427,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 210.82 176.022 90)
+			(at 210.82 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11545,11 +10439,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 210.82 176.022 90)
+			(at 210.82 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11557,11 +10451,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
-			(at 210.82 176.022 90)
+			(at 210.82 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11569,51 +10463,52 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_VALUE" "100nF"
-			(at 213.36 182.626 90)
+			(at 210.82 176.022 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 213.36 184.658 90)
+			(at 213.36 184.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 213.36 186.69 90)
+			(at 213.36 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 213.36 189.23 90)
+			(at 213.36 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(pin "2"

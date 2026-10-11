@@ -689,7 +689,7 @@
       },
       {
         "netclass": "PWR 15A",
-        "pattern": "Net-(C40-+)"
+        "pattern": "Net-(U5-ISNSP)"
       },
       {
         "netclass": "PWR 15A",

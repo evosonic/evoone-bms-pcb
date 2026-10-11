@@ -3972,7 +3972,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "0R"
 			(at 348.962129 -168.82619 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3996,7 +3996,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 10R 1% 0402"
+		(property "Description" "Resistor 0R 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4059,7 +4059,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "10R"
+		(property "ALTIUM_VALUE" "0R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7092,7 +7092,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "0R"
 			(at 349.162119 -177.02618 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7116,7 +7116,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 10R 1% 0402"
+		(property "Description" "Resistor 0R 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7179,7 +7179,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "10R"
+		(property "ALTIUM_VALUE" "0R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11451,7 +11451,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "0R"
 			(at 350.962119 -170.82619 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -11475,7 +11475,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 10R 1% 0402"
+		(property "Description" "Resistor 0R 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11538,7 +11538,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "10R"
+		(property "ALTIUM_VALUE" "0R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14902,7 +14902,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "4.7uH"
+		(property "ALTIUM_VALUE" "10uH"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16152,7 +16152,7 @@
 			(at -3.20001 0 270)
 			(size 3.3 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "+_1")
 			(pintype "passive")
 			(uuid "b2765832-a3d9-420b-97a0-eaaccb7dfc6f")
@@ -16986,7 +16986,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "DMT4011LFG"
+		(property "ALTIUM_VALUE" "DMT6007LFGQ-7"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19029,7 +19029,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "bfb493e4-3cad-40e2-a189-e94823556ad8")
@@ -19320,7 +19320,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "0R"
 			(at 351.162119 -179.02619 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -19344,7 +19344,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 10R 1% 0402"
+		(property "Description" "Resistor 0R 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19407,7 +19407,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "10R"
+		(property "ALTIUM_VALUE" "0R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21950,7 +21950,7 @@
 			(at -3.2 0)
 			(size 3.3 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "+_1")
 			(pintype "passive")
 			(uuid "982ccdaf-48b3-4d97-85eb-1394c0e71218")
@@ -27134,7 +27134,7 @@
 			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "a14a6ff7-60df-41fe-9da5-d79782e3b139")
@@ -32682,7 +32682,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "DMT4011LFG"
+		(property "ALTIUM_VALUE" "DMT6007LFGQ-7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33297,7 +33297,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "1.8nF"
 			(at 305.723957 127.7738 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -33321,7 +33321,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 4.7nF 50V X7R 0402"
+		(property "Description" "Capacitor 1.8nF 50V X7R 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33358,7 +33358,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33371,7 +33371,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0402KRX7R9BB182"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33384,7 +33384,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "4.7nF"
+		(property "ALTIUM_VALUE" "1.8nF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35567,7 +35567,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "23133f1b-1b12-4bde-a234-f1691cacdb22")
@@ -39353,7 +39353,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "470pF"
+		(property "ALTIUM_VALUE" "1nF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43214,7 +43214,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "82uF"
 			(at 84.02621 -307.333165 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -43238,7 +43238,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 100uF 35V Alu Electrolythic SVPF Case E12"
+		(property "Description" "Capacitor 82uF 35V Alu Electrolythic SVPF Case E12"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43301,7 +43301,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "100uF"
+		(property "ALTIUM_VALUE" "82uF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44112,6 +44112,7 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(attr dnp)
 		(fp_line
 			(start -0.7 -1.3)
 			(end -0.5 -1.3)
@@ -45640,7 +45641,7 @@
 			(at -3.2 0)
 			(size 3.3 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "+_1")
 			(pintype "passive")
 			(uuid "90bc6622-cfc1-4cec-ad7d-317684f55a12")
@@ -52696,7 +52697,7 @@
 			(at 1.5 0.975 270)
 			(size 0.7 0.47)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "D_5")
 			(pintype "passive")
 			(uuid "98745b5a-77d3-4307-b21f-5b9153a56617")
@@ -52705,7 +52706,7 @@
 			(at 1.5 0.325 270)
 			(size 0.7 0.47)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "D_6")
 			(pintype "passive")
 			(uuid "5fc0f06f-4d49-4245-83de-633dfec14a14")
@@ -52714,7 +52715,7 @@
 			(at 1.5 -0.325 270)
 			(size 0.7 0.47)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "D_7")
 			(pintype "passive")
 			(uuid "90e48a1c-8766-4d37-b629-40683ab69aa4")
@@ -52723,7 +52724,7 @@
 			(at 0.3 0 270)
 			(size 1.8 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "D_8")
 			(pintype "passive")
 			(uuid "b12dc5aa-c87d-4cb0-89f1-dc5842bfc5cd")
@@ -52732,7 +52733,7 @@
 			(at 1.5 -0.975 270)
 			(size 0.7 0.47)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "D_8")
 			(pintype "passive")
 			(uuid "eddb2a43-adc4-4809-bbf7-52988c75de66")
@@ -53967,7 +53968,7 @@
 			(roundrect_rratio 0.25)
 			(chamfer_ratio 0.25)
 			(chamfer top_left top_right bottom_left bottom_right)
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "VOUT_18")
 			(pintype "passive")
 			(uuid "097753e3-e5ad-4404-aa51-fd3370f5db97")
@@ -53991,7 +53992,7 @@
 			(roundrect_rratio 0.25)
 			(chamfer_ratio 0.25)
 			(chamfer top_left top_right bottom_left bottom_right)
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "ISNSP_20")
 			(pintype "passive")
 			(uuid "6abf4865-1417-494f-adc8-cb30f5cf0114")
@@ -54661,6 +54662,7 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
+		(attr dnp)
 		(fp_line
 			(start -0.70001 1.3)
 			(end 0.7 1.3)
@@ -57580,7 +57582,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "1K"
+		(property "ALTIUM_VALUE" "768R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57915,7 +57917,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net "Net-(C40-+)")
+			(net "Net-(U5-ISNSP)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "94555f58-8e5f-4bdc-a934-7270a50257bf")
@@ -58935,7 +58937,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -61867,7 +61869,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "1.8nF"
 			(at 305.723957 127.7738 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -61891,7 +61893,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 4.7nF 50V X7R 0402"
+		(property "Description" "Capacitor 1.8nF 50V X7R 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61928,7 +61930,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61941,7 +61943,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0402KRX7R9BB182"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61954,7 +61956,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "4.7nF"
+		(property "ALTIUM_VALUE" "1.8nF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63042,7 +63044,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "620K"
+		(property "ALTIUM_VALUE" "619K"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66628,7 +66630,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "1.5SMB27CA"
+		(property "ALTIUM_VALUE" "SMBJ26CA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66830,7 +66832,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "1.8nF"
 			(at 305.723957 127.7738 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -66854,7 +66856,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 4.7nF 50V X7R 0402"
+		(property "Description" "Capacitor 1.8nF 50V X7R 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -66891,7 +66893,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66904,7 +66906,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0402KRX7R9BB182"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66917,7 +66919,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "4.7nF"
+		(property "ALTIUM_VALUE" "1.8nF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70884,7 +70886,7 @@
 				)
 			)
 		)
-		(property "Value" "0.01R"
+		(property "Value" "0.012R"
 			(at 32.3738 72.74761 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -70908,7 +70910,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 0.01R 1% 3W 2512"
+		(property "Description" "Resistor 0.012R 1% 2W 2512"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -70945,7 +70947,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70958,7 +70960,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "PA2512FKF7W0R012E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70971,7 +70973,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "0.01R"
+		(property "ALTIUM_VALUE" "0.012R"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87978,7 +87980,7 @@
 		)
 		(fill yes)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "db0ea12c-a1de-41ee-a529-ecf843fd371f")
 	)
 	(gr_poly
@@ -87992,7 +87994,7 @@
 		)
 		(fill yes)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "1e0a4d1a-9441-45a1-a75b-3d174ca3d775")
 	)
 	(gr_poly
@@ -88048,7 +88050,7 @@
 		)
 		(fill yes)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "5ae42318-d4a7-40fc-82a7-ea29b68dc2e7")
 	)
 	(gr_poly
@@ -88076,7 +88078,7 @@
 		)
 		(fill yes)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "ade3ef05-f557-4346-a236-f98d4ba4453e")
 	)
 	(gr_poly
@@ -88104,7 +88106,7 @@
 		)
 		(fill yes)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "7be9a552-6365-44f4-bfc9-261bf890333f")
 	)
 	(gr_poly
@@ -88132,7 +88134,7 @@
 		)
 		(fill yes)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "9662e81b-8ba1-473d-9613-fa12e32cca00")
 	)
 	(gr_poly
@@ -88174,7 +88176,7 @@
 		)
 		(fill yes)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "9c3a0a97-1b0d-4226-bf07-339a4836d8ad")
 	)
 	(gr_poly
@@ -89202,7 +89204,7 @@
 		)
 		(fill yes)
 		(layer "In1.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "33747a22-7c09-4226-bb98-dbf71b96e469")
 	)
 	(gr_poly
@@ -89216,7 +89218,7 @@
 		)
 		(fill yes)
 		(layer "In1.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "5dd76a71-3006-4d2d-b561-3734b0e28736")
 	)
 	(gr_poly
@@ -89272,7 +89274,7 @@
 		)
 		(fill yes)
 		(layer "In1.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "a85261ed-811e-4381-9364-dbceba8a400b")
 	)
 	(gr_poly
@@ -89300,7 +89302,7 @@
 		)
 		(fill yes)
 		(layer "In1.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "4fec5a8c-8fdc-4861-b493-c861d97efacf")
 	)
 	(gr_poly
@@ -89328,7 +89330,7 @@
 		)
 		(fill yes)
 		(layer "In1.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "42498312-ea8d-4700-8ae9-f2dd755dea1d")
 	)
 	(gr_poly
@@ -89356,7 +89358,7 @@
 		)
 		(fill yes)
 		(layer "In1.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "80399660-46de-4053-9855-70955e459487")
 	)
 	(gr_poly
@@ -89398,7 +89400,7 @@
 		)
 		(fill yes)
 		(layer "In1.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "b3fc8d2e-faee-44e1-9aca-455a9a8c9896")
 	)
 	(gr_poly
@@ -90218,7 +90220,7 @@
 		)
 		(fill yes)
 		(layer "In2.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "833c6195-2394-4af6-a9d0-a949de70e769")
 	)
 	(gr_poly
@@ -90232,7 +90234,7 @@
 		)
 		(fill yes)
 		(layer "In2.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "6d61c363-33fe-45f8-a58e-df34b9252e7e")
 	)
 	(gr_poly
@@ -90246,7 +90248,7 @@
 		)
 		(fill yes)
 		(layer "In2.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "0881f06f-5437-4406-91ee-ac274cfa335b")
 	)
 	(gr_poly
@@ -90288,7 +90290,7 @@
 		)
 		(fill yes)
 		(layer "In2.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "58c7c461-5a76-4430-89ad-296ae664671e")
 	)
 	(gr_poly
@@ -90842,7 +90844,7 @@
 		)
 		(fill yes)
 		(layer "In3.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "b0631c58-710a-41cd-a242-cb3b65a8a287")
 	)
 	(gr_poly
@@ -90856,7 +90858,7 @@
 		)
 		(fill yes)
 		(layer "In3.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "db380370-7494-4b00-a969-72512399a009")
 	)
 	(gr_poly
@@ -90912,7 +90914,7 @@
 		)
 		(fill yes)
 		(layer "In3.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "45073dc2-0e19-4c06-9e5c-83fc36dd8072")
 	)
 	(gr_poly
@@ -90940,7 +90942,7 @@
 		)
 		(fill yes)
 		(layer "In3.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "b9f38b93-c8d8-4799-8f9b-7705396d3293")
 	)
 	(gr_poly
@@ -90968,7 +90970,7 @@
 		)
 		(fill yes)
 		(layer "In3.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "074301c8-d641-4cc6-8037-66528c525503")
 	)
 	(gr_poly
@@ -90996,7 +90998,7 @@
 		)
 		(fill yes)
 		(layer "In3.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "f686fe49-ec9d-4440-b4b8-31be440848ed")
 	)
 	(gr_poly
@@ -91038,7 +91040,7 @@
 		)
 		(fill yes)
 		(layer "In3.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "c6abb136-f8a6-47aa-b864-747c6102c7cc")
 	)
 	(gr_poly
@@ -91858,7 +91860,7 @@
 		)
 		(fill yes)
 		(layer "In4.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "e0d01c21-49c9-4751-bea8-4bc8517c96ff")
 	)
 	(gr_poly
@@ -91872,7 +91874,7 @@
 		)
 		(fill yes)
 		(layer "In4.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "a154ec47-f0ba-45d1-8ff9-2ea3bd1e28fb")
 	)
 	(gr_poly
@@ -91886,7 +91888,7 @@
 		)
 		(fill yes)
 		(layer "In4.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "eb0d5d63-5fa4-47b3-b877-b02712d32124")
 	)
 	(gr_poly
@@ -91928,7 +91930,7 @@
 		)
 		(fill yes)
 		(layer "In4.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "e7801bfb-26c3-4eb0-94cb-cbd86c036555")
 	)
 	(gr_poly
@@ -92482,7 +92484,7 @@
 		)
 		(fill yes)
 		(layer "In5.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "58455d85-fdee-435a-95df-a3238d29921f")
 	)
 	(gr_poly
@@ -92496,7 +92498,7 @@
 		)
 		(fill yes)
 		(layer "In5.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "7806d81c-4ce2-48b9-8dac-53c5d3b112fa")
 	)
 	(gr_poly
@@ -92552,7 +92554,7 @@
 		)
 		(fill yes)
 		(layer "In5.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "0694f7ba-7af4-4023-aa3b-dad739f2952c")
 	)
 	(gr_poly
@@ -92580,7 +92582,7 @@
 		)
 		(fill yes)
 		(layer "In5.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "873acc25-94a7-46c0-afbd-cae48e9df77f")
 	)
 	(gr_poly
@@ -92608,7 +92610,7 @@
 		)
 		(fill yes)
 		(layer "In5.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "7cfae32e-8369-42df-956a-31b12a9f3801")
 	)
 	(gr_poly
@@ -92636,7 +92638,7 @@
 		)
 		(fill yes)
 		(layer "In5.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "dde1162f-ae3d-4dc7-834c-c99ba10036ec")
 	)
 	(gr_poly
@@ -92678,7 +92680,7 @@
 		)
 		(fill yes)
 		(layer "In5.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "abf94197-592c-4c6d-a7d4-d67539cf8486")
 	)
 	(gr_poly
@@ -93610,7 +93612,7 @@
 		)
 		(fill yes)
 		(layer "In6.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "f9802bbf-4dd5-4874-8b54-557f22936d92")
 	)
 	(gr_poly
@@ -93624,7 +93626,7 @@
 		)
 		(fill yes)
 		(layer "In6.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "34a0df12-6d34-4bdc-bc25-1f659b041e2e")
 	)
 	(gr_poly
@@ -93680,7 +93682,7 @@
 		)
 		(fill yes)
 		(layer "In6.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "d2aa9223-9efa-4454-8d5c-a103abd5b8e4")
 	)
 	(gr_poly
@@ -93708,7 +93710,7 @@
 		)
 		(fill yes)
 		(layer "In6.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "14ce4ad2-c02b-498c-9de4-b987643c0d11")
 	)
 	(gr_poly
@@ -93736,7 +93738,7 @@
 		)
 		(fill yes)
 		(layer "In6.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "bc2bea9b-321b-4063-95c4-783fd353ccd4")
 	)
 	(gr_poly
@@ -93792,7 +93794,7 @@
 		)
 		(fill yes)
 		(layer "In6.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "3b872edd-560b-4261-ae69-62e88a950d2b")
 	)
 	(gr_poly
@@ -142026,7 +142028,7 @@
 		(end 136.1011 111.1036)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "236a0c7d-cb4b-4a34-84b7-a40b62c6d1df")
 	)
 	(segment
@@ -142034,7 +142036,7 @@
 		(end 136.0011 109.6036)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "2f8c0c27-d957-4b31-9e14-dba5f0049e69")
 	)
 	(segment
@@ -142042,7 +142044,7 @@
 		(end 121.3011 112.80359)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "837e5176-aecc-4307-8530-3bdb90cc7b73")
 	)
 	(segment
@@ -142050,7 +142052,7 @@
 		(end 135.7511 110.8536)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "a8593aeb-ceef-48fa-8e60-fd2808f05720")
 	)
 	(segment
@@ -142058,7 +142060,7 @@
 		(end 136.0011 111.1036)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "abbf430e-6df4-4138-a2d3-808c5cb21f66")
 	)
 	(segment
@@ -142066,7 +142068,7 @@
 		(end 136.1011 109.6036)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "db8eff34-84fa-4dc5-bca8-7e675309c3fd")
 	)
 	(segment
@@ -142074,7 +142076,7 @@
 		(end 128.0011 115.0036)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "e107f357-1427-4f35-835d-a28bdd42b336")
 	)
 	(segment
@@ -142082,7 +142084,7 @@
 		(end 121.1011 110.2096)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "e454f83c-c0ce-453f-bd05-e47da187dbce")
 	)
 	(segment
@@ -142090,7 +142092,7 @@
 		(end 135.7511 109.8536)
 		(width 0.3)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "ea91b61a-9f77-4cca-8169-13baf8cdef13")
 	)
 	(segment
@@ -142098,7 +142100,7 @@
 		(end 124.06678 112.80359)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "ec870fed-75d1-4730-8a88-c3fa9ff4d08d")
 	)
 	(segment
@@ -142106,7 +142108,7 @@
 		(end 127.8011 115.2036)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "f648860d-9309-4548-8a48-0dfba434e2de")
 	)
 	(segment
@@ -142114,7 +142116,7 @@
 		(end 126.46679 115.2036)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "fe824522-f818-481d-ad5e-4bd5221a0afb")
 	)
 	(via
@@ -142126,7 +142128,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "00ebb3a1-3357-4dee-b5a3-ab648b52dad5")
 	)
 	(via
@@ -142138,7 +142140,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "02bb39f8-dea3-4132-8e21-e02de6946615")
 	)
 	(via
@@ -142150,7 +142152,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "069dd068-6717-46b8-b808-a79af92b18dd")
 	)
 	(via
@@ -142162,7 +142164,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "0765a34f-371a-4fd6-8472-9848c34231e1")
 	)
 	(via
@@ -142174,7 +142176,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "0882756e-76a0-48f3-a41f-a4d22b127e87")
 	)
 	(via
@@ -142186,7 +142188,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "098d0e2b-8b59-4f0b-a983-256841feb5c9")
 	)
 	(via
@@ -142198,7 +142200,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "0b6f13b7-27af-4f77-99ba-31b367b5e18d")
 	)
 	(via
@@ -142210,7 +142212,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "0e881b31-8039-4ba4-8b71-4913de4c8d59")
 	)
 	(via
@@ -142222,7 +142224,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "0e940146-f59a-4fe4-a257-99ba75931e0e")
 	)
 	(via
@@ -142234,7 +142236,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "149bc8b4-4e79-4ef4-a27e-b735f16ff95a")
 	)
 	(via
@@ -142246,7 +142248,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "1a2ff6cc-783a-47b5-b160-0c3c967cd46e")
 	)
 	(via
@@ -142258,7 +142260,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "1bcecffb-a92a-47d9-8968-7c81d68cffab")
 	)
 	(via
@@ -142270,7 +142272,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "2dd58598-582e-442a-a560-e40f9cb5d38e")
 	)
 	(via
@@ -142282,7 +142284,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "31f37b94-cf6a-45ee-b616-00cc1325b0c4")
 	)
 	(via
@@ -142294,7 +142296,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "32ec60a9-4569-4598-881f-8303f90ed568")
 	)
 	(via
@@ -142306,7 +142308,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "3e7b8fac-d223-4f2d-8c94-79d545486050")
 	)
 	(via
@@ -142318,7 +142320,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "3f9805ba-013c-4b39-9bc9-d09908e0f74d")
 	)
 	(via
@@ -142330,7 +142332,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "425df86d-9d56-4c20-8421-f9f5f864842f")
 	)
 	(via
@@ -142342,7 +142344,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "4adb03e9-2cab-4914-baf4-645fcaf9476b")
 	)
 	(via
@@ -142354,7 +142356,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "5334c036-dc17-4f4a-b795-12406c89bcea")
 	)
 	(via
@@ -142366,7 +142368,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "53e5c436-1f75-4f47-b1fb-0941c6974db5")
 	)
 	(via
@@ -142378,7 +142380,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "59e20f6d-a759-4835-a626-06af982097e5")
 	)
 	(via
@@ -142390,7 +142392,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "612c2067-764c-4bc4-8915-0a7396b314b5")
 	)
 	(via
@@ -142402,7 +142404,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "625fffec-d3e4-4d8b-aed4-a141699aac91")
 	)
 	(via
@@ -142414,7 +142416,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "63c1b6d6-9571-47c0-b537-15c7e377d496")
 	)
 	(via
@@ -142426,7 +142428,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "68016d84-47ea-4002-8a24-b71806e13995")
 	)
 	(via
@@ -142438,7 +142440,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "8290755a-fe9d-4028-8bbb-efa828bd9b7d")
 	)
 	(via
@@ -142450,7 +142452,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "92e82196-25d1-4038-9009-880c14bceb82")
 	)
 	(via
@@ -142462,7 +142464,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "953813c2-5156-4f9d-862d-9babb97ca42b")
 	)
 	(via
@@ -142474,7 +142476,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "9f0ada34-367e-478e-acbf-012610cec94c")
 	)
 	(via
@@ -142486,7 +142488,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "a24e89a5-20ef-444d-8e0b-39f9b3ad7443")
 	)
 	(via
@@ -142498,7 +142500,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "a8a8386b-f603-4e4a-9ec6-9413ffa42ad1")
 	)
 	(via
@@ -142510,7 +142512,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "ac331f9b-e889-46b0-881b-402eb741c6e0")
 	)
 	(via
@@ -142522,7 +142524,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "aec24fed-d82f-4104-889f-e50f51e9f73e")
 	)
 	(via
@@ -142534,7 +142536,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "b6fec2d0-5fef-4eb6-87a2-bd74aed12357")
 	)
 	(via
@@ -142546,7 +142548,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "b715d9cd-e91a-4adb-befe-0aff415e887b")
 	)
 	(via
@@ -142558,7 +142560,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "c4ace2c3-89db-4821-833c-5f3c025ee593")
 	)
 	(via
@@ -142570,7 +142572,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "d2a2953e-b786-4c7f-8d33-05ecfb6b094f")
 	)
 	(via
@@ -142582,7 +142584,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "d41de844-43e7-4e34-a485-0e8421b76172")
 	)
 	(via
@@ -142594,7 +142596,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "d4b332e6-c763-4921-9f22-655eaeea8fa1")
 	)
 	(via
@@ -142606,7 +142608,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "df0dd6cc-4fee-4821-871d-b6734f7133eb")
 	)
 	(via
@@ -142618,7 +142620,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "e3ea9355-6887-4fec-be54-042534db7d85")
 	)
 	(via
@@ -142630,7 +142632,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "e732a3c0-ca60-431c-b81e-8942193bf022")
 	)
 	(via
@@ -142642,7 +142644,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "ef1b60de-1631-4bfa-acfa-dc4558951acc")
 	)
 	(via
@@ -142654,7 +142656,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "f5e584df-902a-4d87-a8e6-f574bbe08d41")
 	)
 	(via
@@ -142666,7 +142668,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "fa126351-78be-432a-8040-bee31a5f6385")
 	)
 	(segment
@@ -142674,7 +142676,7 @@
 		(end 136.1011 109.6036)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "1efa099b-78b7-4a14-a7e6-88e96cbe2d1b")
 	)
 	(segment
@@ -142682,7 +142684,7 @@
 		(end 133.3011 115.0036)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "21bd714c-8aff-4128-8195-c77fa877ce80")
 	)
 	(segment
@@ -142690,7 +142692,7 @@
 		(end 136.3011 112.0036)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "44a39aab-a5b6-4bea-812d-253d3b2e312c")
 	)
 	(segment
@@ -142698,7 +142700,7 @@
 		(end 135.8694 109.6036)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "5310abe2-3be0-4459-9dfd-4db95bd75649")
 	)
 	(segment
@@ -142706,7 +142708,7 @@
 		(end 136.3011 111.3036)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "5a548213-88b1-4a7d-8176-e0c075ca4ca3")
 	)
 	(segment
@@ -142714,7 +142716,7 @@
 		(end 136.3011 111.3036)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "69e5ce66-b33f-40d9-857d-cdf5325dc216")
 	)
 	(segment
@@ -142722,7 +142724,7 @@
 		(end 135.5011 109.9719)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "75ecc2fc-069c-4bff-b7fb-cce90c4cbc83")
 	)
 	(segment
@@ -142730,7 +142732,7 @@
 		(end 136.1011 111.1036)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(uuid "f32115c0-18d8-488d-8de0-558a00449477")
 	)
 	(via
@@ -155565,7 +155567,7 @@
 		)
 	)
 	(zone
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(layer "F.Cu")
 		(uuid "5cebfb43-74eb-48c6-8208-0df09b11fb29")
 		(hatch edge 0.5)
@@ -164810,7 +164812,7 @@
 		)
 	)
 	(zone
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(layer "In2.Cu")
 		(uuid "09fdf379-eb8a-46b5-aa5f-bb4167a12d5c")
 		(hatch edge 0.5)
@@ -175064,7 +175066,7 @@
 		)
 	)
 	(zone
-		(net "Net-(C40-+)")
+		(net "Net-(U5-ISNSP)")
 		(layer "In4.Cu")
 		(uuid "6c2ac93a-5cdd-46a1-9d2b-c80c297f9479")
 		(hatch edge 0.5)

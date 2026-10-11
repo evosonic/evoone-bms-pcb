@@ -66,7 +66,10 @@ nets use power symbols.
   `Capacitor_SMD` libraries
 - `EVO2513-0_5_0-lattech.kicad_sym` — project symbol library (nickname
   `Lattech Systems`): the Lattech symbols used by the board, extracted from
-  the schematics, plus symbols added for the W16 changes (resistor values, PCAL9714). It is not the complete Lattech library, which was not supplied.
+  the schematics, plus the PCAL9714 added for the W16 changes. It is not the complete Lattech library, which was not supplied.
+  Resistors and capacitors use KiCad's standard `Device:R`, `Device:C` and
+  `Device:C_Polarized` symbols, with value, footprint and part number in the
+  symbol fields, so a value change needs no new symbol
 - `EVO2513-0_5_0-altium-import.kicad_sym` — the 4 power symbols created by the
   Altium import. Both symbol libraries are registered in `sym-lib-table`.
 - `744393580068.stp` — STEP model for part 744393580068 (not currently
@@ -89,6 +92,12 @@ connection or the board copper.
 | C3, C11, C12, C55 | 35 V | 50 V | DCFILTERED / DCBMS / DCSENSED at 26.3 V |
 | C44, C45, C48–C50, C54 | 16 V | 50 V | +12 V and the switched outputs |
 | R1 | 620K (description 619K) | 619K | Value and description now agree |
+| C2 | 100 µF (part number `35SVPF82M`) | 82 µF `35SVPF82M` | Matches the ordered part |
+| C46, C47, C51 | 4.7 nF 50 V X7R 0402 | 1.8 nF 50 V X7R 0402 `CC0402KRX7R9BB182` | TPS22811 DVDT caps (U6, U7, U9): shorter output ramp, as ordered for C47; the loads have little capacitance |
+| R24–R27 | 10 Ω | 0 Ω | Pack comms pass straight through; protection moves to the MCU board |
+| D9, D10 | DT1240V3-04LP fitted | DNP | Go with R24–R27: wrong clamp level for 3.3 V, and the protected MCU is on another board |
+| R14 | 0.01 Ω | 0.012 Ω Yageo `PA2512FKF7W0R012E` | Adapter limit 8.33 A, below the 9.2 A supply, so charging throttles before the supply trips |
+| R36 | 61.9K fitted | DNP | VIN-FB goes to ground through R37, as required when PCM is unused |
 | D4 | Pins named as a series pair | Pins named for the fitted common-anode BAT54A | Drawing and wiring were already right |
 
 Connection options on U5 (LM51772), as 0R 0402 links so either build can be
@@ -178,9 +187,6 @@ place and route R86–R101, Q23, U11, C58 and C59, and re-place Q20–Q22
 (now SOT-23). The ENDAQ, ENSBC and ENEXT
 tracks from J3 need cutting at the new links.
 
-Still to confirm against what was fitted: C2 (100 µF on the schematic,
-82 µF `35SVPF82M` ordered) and C47 (4.7 nF on the schematic, 1.8 nF ordered).
-
 ## BOM consolidation
 
 Parts with the same value in different packages or ratings now share one BOM
@@ -208,8 +214,6 @@ Three U5 (LM51772) fixes found during the review:
 | C32 | 22 µF 6.3 V X5R 0603 on VCC2 | 22 µF **16 V** X5R **0805** Murata `GRM21BR61C226ME44L` | VCC2 needs 6 µF minimum; the 0603 keeps only about 5–7 µF at 5 V |
 | R29 | 1.9K | **1.87K** | CFG4 setting #3 accepts 1.814–1.926 kΩ (1.87K typical); 1.9K isn't a 1% value, and 1.91K can reach 1.929 kΩ |
 
-New library symbols: `Capacitor 10uF 50V X7R 1210`, `Capacitor 22uF 16V X5R
-0805` and `Resistor 1.87K 1% 0402`.
 Run Update PCB from Schematic to swap the footprints. Parts that grow overlap
 their neighbours' courtyards and need moving: the 0603s for C8, C9 and C55 by
 up to 0.9 mm (C55 against C5 and C7, C8 against R8, C9 against R15 and C10),
@@ -243,6 +247,7 @@ Each fix is a separate commit on top of the initial import.
 | 9 wires ran past their labels, leaving dangling ends | Trimmed back to the label |
 | GND, +12V, +3V3MCU and +5V had no power source for ERC | Added PWR_FLAG symbols |
 | Title blocks used the Altium formula `${COPY(DOCUMENTNAME,…)}` for the sheet title | Replaced with each sheet's title |
+| Every resistor and capacitor had its own per-value Lattech symbol (76 of them), and the schematic showed the `ALTIUM_VALUE` field, not Value, so R1, C39 and R54 still displayed their old values | Swapped all 160 for KiCad's `Device:R`, `Device:C` and `Device:C_Polarized` (C2, C28, C40–C42) in place, connections unchanged; Value is now the displayed field, and the 76 symbols are gone from the project library. `ALTIUM_VALUE` brought in line with Value on R1, C39, R54, D1, Q1, Q3 and L1 |
 | The import made seven KiCad 10 top-level sheets, so `kicad-cli` only loaded S01, and every title block read "sheet 7 of 7" | Added a root sheet with the seven as sub-sheets (S01's content moved to `S01 External Connectors.kicad_sch`); sheet numbers now come from the page number |
 
 Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
