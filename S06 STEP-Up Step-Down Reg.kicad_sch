@@ -12089,7 +12089,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9b83748b-ea9e-43c6-a12f-526cd9573f30")
 		(property "Reference" "R88"
 			(at 280.67 209.804 90)
@@ -17233,7 +17233,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "fed1698e-4a7c-4cc7-8a01-7ce189a81811")
 		(property "Reference" "R89"
 			(at 280.67 217.424 90)

@@ -60,6 +60,9 @@ nets use power symbols.
 - `EVO2513-0_5_0.kicad_sch` — root schematic sheet; `S0x *.kicad_sch` — the
   eight sheets
 - `EVO2513-0_5_0.kicad_pcb` — PCB layout
+- `FIRMWARE_NOTES.md` — what the MCU firmware must know about this revision:
+  SPI and expander set-up, the inverted DAQ enable, load-switch thresholds and
+  current-monitor scaling
 - `EVO2513-0_5_0-import-fps.pretty/` — project footprint library (footprints
   extracted by the Altium import), registered in `fp-lib-table`. Chip resistors
   and capacitors instead use KiCad's standard `Resistor_SMD` and
@@ -110,11 +113,12 @@ connection or the board copper.
 
 Connection options on U5 (LM51772), as 0R 0402 links so either build can be
 fitted (lower right of S06):
+nRST stays on DCBMS in both BIAS builds.
 
 | Pin | Fitted | DNP (alternative) |
 |---|---|---|
 | MODE (7) | R86 to GND: power-save mode (W16 review) | R87 back to VCC2/ILIMCOMP: forced PWM, as built before |
-| BIAS (40) | R88 to DCBMS, as built before | R89 to +12V, still under review |
+| BIAS (40) | R89 to +12V (U5's own output): the LM51772 datasheet's standard configuration (§7.3.5). VSMART runs the VCC2 regulator from the lower of VIN and BIAS once both exceed the switch-over threshold, so on the 24 V supply it drops from 12 V instead of 24 V; at start-up or with +12V shorted it falls back to VIN | R88 to DCBMS, as built on the field units |
 
 U5 can also be configured over I2C instead of by its CFG resistors (right of
 the MODE/BIAS links on S06, all DNP as built):
