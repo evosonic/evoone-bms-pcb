@@ -1966,6 +1966,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R53 (DAQ) and R71 (EXT) set the U6/U9 current limits: ILIM = 6595 / R\n(1K = 6.6 A, up to 7.1 A with IMON gain tolerance). J6 and J5 carry each\noutput on one 6.5 A contact: once the final loads are known, raise R53/R71\n(1.2K or more) to keep ILIM at or below 6.5 A. This also rescales IAMPDAQ/IAMPEXT."
+		(exclude_from_sim no)
+		(at 157.48 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3c8cbcab-918d-451e-be62-5948960a849e")
+	)
 	(text "DAQ (U6) is deliberately different from SBC and EXT; keep it.\nU6 has an 11 V undervoltage lockout: R108/R49 turn it on at\n11.2 V (10.8-11.7 V) and off at 10.2 V (9.8-10.7 V). That\ndivider must hold EN/UVLO, so the enable goes through Q24:\nnENDAQ is active LOW. High or floating (POR, expander in reset\nor unpowered) turns Q24 on and holds U6 in shutdown; low hands\nEN/UVLO to the divider. R109/R110 bias the gate from +12V, not\n+3V3MCU, so DAQ stays off when the MCU board is unpowered."
 		(exclude_from_sim no)
 		(at 15.24 228.6 0)
