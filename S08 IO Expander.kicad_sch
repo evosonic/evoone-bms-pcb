@@ -1517,7 +1517,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Links: R95 fitted (expander CS).  To drive an enable straight from J3 instead,\nfit its link (R96 ENSBC, R97 ENDAQ, R98 ENEXT), remove R95 and leave the port an input.\nJ3.34/J3.36 also carry the U5 I2C option (R104/R105, S06): fit R97/R98 or the I2C option, not both"
+	(text "Links: R95 fitted (expander CS).  To drive an enable straight from J3 instead,\nfit its link (R96 ENSBC, R97 nENDAQ active low, R98 ENEXT), remove R95 and leave the port an input.\nJ3.34/J3.36 also carry the U5 I2C option (R104/R105, S06): fit R97/R98 or the I2C option, not both"
 		(exclude_from_sim no)
 		(at 63.5 81.28 0)
 		(effects
@@ -1550,7 +1550,7 @@
 		)
 		(uuid "80e36cb0-6b85-4a61-a67c-7ff474aa3bed")
 	)
-	(text "PCAL9714 SPI I/O expander, address 40h (ADDR = GND)\nShares CLOCK / MOSI / MISO with U1 (LTC1960); selected by nCSIO on J3.32, which was ENSBC\nPorts power up as inputs with pull-ups off: the enable pull-downs (R49, R50, R69) hold the rails off\nuntil firmware sets P0_0-P0_2 as outputs. P0_4-P0_7 read U6/U7/U9 PG and U5 nFLT. P0_3, P1_0-P1_5 spare.\nREGEN (U5 enable) stays a direct J3.12 signal and does not pass through the expander"
+	(text "PCAL9714 SPI I/O expander, address 40h (ADDR = GND)\nShares CLOCK / MOSI / MISO with U1 (LTC1960); selected by nCSIO on J3.32, which was ENSBC\nPorts power up as inputs with pull-ups off: the enable pull-downs (R50, R69) and Q24's gate bias (DAQ) hold the rails off\nuntil firmware sets P0_0-P0_2 as outputs. P0_0 (nENDAQ) is active LOW. P0_4-P0_7 read U6/U7/U9 PG and U5 nFLT. P0_3, P1_0-P1_5 spare.\nREGEN (U5 enable) stays a direct J3.12 signal and does not pass through the expander"
 		(exclude_from_sim no)
 		(at 63.5 66.04 0)
 		(effects
@@ -2099,7 +2099,7 @@
 		)
 		(uuid "625fb767-702b-42fa-bd2f-f1d282a3cb05")
 	)
-	(hierarchical_label "ENDAQ"
+	(hierarchical_label "nENDAQ"
 		(shape output)
 		(at 99.06 124.46 0)
 		(effects
@@ -2187,7 +2187,7 @@
 		)
 		(uuid "bb2e7f31-5c5d-4e21-9df3-c70dbd938543")
 	)
-	(hierarchical_label "ENDAQ"
+	(hierarchical_label "nENDAQ"
 		(shape output)
 		(at 213.36 106.68 0)
 		(effects

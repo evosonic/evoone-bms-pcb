@@ -1966,6 +1966,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DAQ (U6) is deliberately different from SBC and EXT; keep it.\nU6 has an 11 V undervoltage lockout: R108/R49 turn it on at\n11.2 V (10.8-11.7 V) and off at 10.2 V (9.8-10.7 V). That\ndivider must hold EN/UVLO, so the enable goes through Q24:\nnENDAQ is active LOW. High or floating (POR, expander in reset\nor unpowered) turns Q24 on and holds U6 in shutdown; low hands\nEN/UVLO to the divider. R109/R110 bias the gate from +12V, not\n+3V3MCU, so DAQ stays off when the MCU board is unpowered."
+		(exclude_from_sim no)
+		(at 15.24 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ab038a5e-fe87-40f7-a387-3d3ccf1617cd")
+	)
 	(text "Overvoltage lockout: R90/R91/R92 1.07M with R51/R52/R70 100K on nEN/OVLO.\nOff above 14.0 V (13.4-14.7 V), back on below 12.75 V (12.2-13.4 V),\nso a tripped switch always recovers on the 12.03 V rail.\nPGTH dividers R59/R61/R76 100K over R60/R62/R77 13K: PG at 10.43 V\n(10.93 V worst case); the low impedance keeps the PGTH pin leakage small."
 		(exclude_from_sim no)
 		(at 170.18 97.79 0)
@@ -2508,6 +2519,58 @@
 			(justify left top)
 		)
 		(uuid "d2488fbe-ca26-434a-aae7-b41bf4c59e22")
+	)
+	(wire
+		(pts
+			(xy 45.72 185.42) (xy 45.72 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4f93a7-eceb-4277-af79-e4ad6d62d359")
+	)
+	(wire
+		(pts
+			(xy 45.72 196.85) (xy 45.72 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ee4120-26cb-4c9e-b02c-3cff8bd4582f")
+	)
+	(wire
+		(pts
+			(xy 40.64 193.04) (xy 33.02 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d20790-8d82-4f07-89c1-c7b461d37efa")
+	)
+	(wire
+		(pts
+			(xy 33.02 193.04) (xy 25.4 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa14c691-57fa-4004-a503-9a960e3a90ac")
+	)
+	(junction
+		(at 50.8 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc837c70-53c6-49b4-ab27-e9659a5ba99e")
+	)
+	(junction
+		(at 33.02 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "931959f7-f2de-4836-b105-8198126b8f86")
 	)
 	(junction
 		(at 67.31 93.98)
@@ -5570,7 +5633,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 185.42) (xy 38.1 185.42)
+			(xy 64.77 185.42) (xy 45.72 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5685,9 +5748,9 @@
 		)
 		(uuid "610c8eca-9411-4db7-b4ec-07a7e0f52725")
 	)
-	(hierarchical_label "ENDAQ"
+	(hierarchical_label "nENDAQ"
 		(shape input)
-		(at 38.1 185.42 180)
+		(at 25.4 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13524,7 +13587,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "12K"
 			(at 65.786 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13557,7 +13620,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 100K 1% 0402"
+		(property "Description" "Resistor 12K 1% 0402"
 			(at 64.77 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -13616,7 +13679,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100K"
+		(property "ALTIUM_VALUE" "12K"
 			(at 63.754 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -18524,6 +18587,913 @@
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
 					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lattech Systems:Transistor N-Channel MOSFET 50V BSS138 SOT-23")
+		(at 44.45 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "296316c6-6ebc-4079-8969-3dc36c683335")
+		(property "Reference" "Q24"
+			(at 46.99 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 44.45 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 44.45 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transistor N-Channel MOSFET 50V BSS138 SOT-23"
+			(at 44.45 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 36.806 186.817 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 33.113 185.547 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "onsemi"
+			(at 40.132 188.722 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "BSS138"
+			(at 40.132 188.722 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "SOT-23"
+			(at 46.99 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "BSS138"
+			(at 46.99 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "25fb52db-5688-454d-821a-93aef170f06b")
+		)
+		(pin "3"
+			(uuid "9b0797eb-4103-40dc-8291-20f5a5304725")
+		)
+		(pin "2"
+			(uuid "5e6343be-c5e3-4aa8-9dc7-e005712b343b")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
+					(reference "Q24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 181.61 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26cdbcbc-f110-4329-b18d-4f0ba0892714")
+		(property "Reference" "R108"
+			(at 49.784 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 49.784 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.8 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 100K 1% 0402"
+			(at 50.8 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 49.784 177.292 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 49.784 177.292 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 49.784 177.292 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 49.784 177.292 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100K"
+			(at 49.784 177.292 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0402"
+			(at 49.784 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "5ac0ee34-c123-426f-a4ec-f423054f6d40")
+		)
+		(pin "1"
+			(uuid "96302a6c-ef3c-4d2f-a6a5-3e969f34ebda")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 189.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1c669a0-fb9b-42e4-a0c7-f20f36394ffb")
+		(property "Reference" "R109"
+			(at 34.036 185.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 34.036 188.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 33.02 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 100K 1% 0402"
+			(at 33.02 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 32.004 184.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 32.004 184.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 32.004 184.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 32.004 184.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100K"
+			(at 32.004 184.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0402"
+			(at 34.036 190.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "6a03ccd0-895c-4f8a-a66b-34bf3f1f1e6e")
+		)
+		(pin "1"
+			(uuid "416b97bd-45aa-443c-af7b-756819577959")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
+					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 196.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b31810bf-c339-4926-bd6d-632cacabf202")
+		(property "Reference" "R110"
+			(at 34.036 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "27K"
+			(at 34.036 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 33.02 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 27K 1% 0402"
+			(at 33.02 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 32.004 192.532 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 32.004 192.532 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 32.004 192.532 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 32.004 192.532 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "27K"
+			(at 32.004 192.532 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0402"
+			(at 34.036 201.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "5999b9f6-1054-46b9-9bda-1aa79ed31a10")
+		)
+		(pin "1"
+			(uuid "19ada5da-39a0-429f-a868-6f81e8a84a32")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
+					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVO2513-0_5_0-altium-import:+12V_BAR")
+		(at 50.8 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30a66c1c-6a4e-45e8-8edf-1fa7206cca7f")
+		(property "Reference" "#PWR117"
+			(at 50.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 50.8 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "81f77134-a532-485b-85d3-6831e4058293")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
+					(reference "#PWR117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVO2513-0_5_0-altium-import:+12V_BAR")
+		(at 33.02 185.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4ce313f-94dd-4e90-857a-81e88cdc104d")
+		(property "Reference" "#PWR118"
+			(at 33.02 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 33.02 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4de777f4-3554-4525-aaf0-a4c10108e393")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
+					(reference "#PWR118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
+		(at 45.72 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd9d026c-b8af-464c-9c6d-2a9e73ef1e25")
+		(property "Reference" "#PWR119"
+			(at 45.72 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ea2fe73e-8f8d-44e5-b9a0-0183d9b69f39")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
+					(reference "#PWR119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
+		(at 33.02 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bff833fb-8bb5-46a9-ab09-8470224e5a2e")
+		(property "Reference" "#PWR120"
+			(at 33.02 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "be7081e1-ad86-46e8-905f-1b1e3d22298a")
+		)
+		(instances
+			(project "EVO2513-0_5_0"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
+					(reference "#PWR120")
 					(unit 1)
 				)
 			)

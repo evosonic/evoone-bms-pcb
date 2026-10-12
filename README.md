@@ -100,6 +100,7 @@ connection or the board copper.
 | R36 | 61.9K fitted | DNP | VIN-FB goes to ground through R37, as required when PCM is unused |
 | R59, R61, R76 / R60, R62, R77 | 1M / 130K | 100K / 13K | TPS22811 PGTH dividers: same 10.43 V threshold, 10× lower impedance so pin leakage can't push it near the rail |
 | R90–R92, R101 | 1M | 1.07M | OVLO trip 14.0 V, so a tripped switch recovers on the 12.03 V rail; R101 shares the BOM line |
+| U6 EN/UVLO | ENDAQ from P0_0, R49 100K pull-down | R108 100K / R49 **12K** UVLO divider, Q24 shutdown FET with R109 100K / R110 27K gate bias; net `nENDAQ`, active low | DAQ 11 V undervoltage lockout (W16 handoff §4.4) |
 | D4 | Pins named as a series pair | Pins named for the fitted common-anode BAT54A | Drawing and wiring were already right |
 
 Connection options on U5 (LM51772), as 0R 0402 links so either build can be
@@ -149,8 +150,19 @@ The power-good dividers on PGTH are R59, R61 and R76 (100K) over R60, R62 and
 R77 (13K): PG rises at 10.43 V (10.93 V worst case) and falls at 9.47 V
 (at least 9.05 V). They were 1M over 130K, the same ratio, but the ±1 µA PGTH
 leakage across 1M could put the threshold at 11.84 V, within 0.2 V of the rail.
-Undervoltage lockout (11.4 V) is deferred: EN/UVLO (pin 1) is also the MCU
-enable, and a tight threshold there needs a FET.
+Undervoltage lockout on the DAQ switch U6 only: R108 100K from +12V over R49
+12K on EN/UVLO (pin 1) turns U6 on at 11.2 V (10.77–11.69 V, including
+±0.1 µA pin and 0.5 µA FET leakage) and off at 10.17 V (9.83–10.66 V). The
+TPS22811's fixed hysteresis makes the turn-off point about 9% below turn-on,
+so 11 V has to be the turn-on point. Because the divider now holds EN/UVLO,
+the enable goes through Q24 (BSS138) from EN/UVLO to GND, and the expander net
+is `nENDAQ`, active low: high or floating (POR, expander in reset or
+unpowered) turns Q24 on and puts U6 in shutdown; low releases EN/UVLO to the
+divider. R109 100K / R110 27K bias the gate from +12V to 2.55 V (3.1 V at the
+14.7 V OVLO limit), so the channel stays off when the MCU board is
+unpowered, and the gate stays under 3.3 V, so P0_0 can stay push-pull and
+the R97 fallback can drive it from a 3.3 V MCU pin. SBC and EXT have no
+UVLO. A note on S07 marks the DAQ circuit as deliberate.
 
 Rail enables and faults through a PCAL9714 SPI I/O expander (U11, new sheet
 S08). It shares CLOCK/MOSI/MISO with U1 (LTC1960) and has its own chip
@@ -173,7 +185,8 @@ by about 1 V. BSS138: IGSS 100 nA, IDSS 0.5 µA, VGS(th) 0.8–1.5 V.
 
 | Port | Net | Function |
 |---|---|---|
-| P0_0–P0_2 (out) | ENDAQ, ENSBC, ENEXT | U6, U7, U9 enables |
+| P0_0 (out) | nENDAQ | U6 enable through Q24, **active low** |
+| P0_1, P0_2 (out) | ENSBC, ENEXT | U7, U9 enables |
 | P0_4–P0_6 (in) | PGDAQ, PGSBC, PGEXT | U6, U7, U9 power good (also still drive the LEDs) |
 | P0_7 (in) | nFLT | U5 nFLT/nINT, which was unconnected |
 | P0_3, P1_0–P1_5 | — | spare, not connected |
@@ -186,13 +199,14 @@ enable only through a DNP 0R link (R97, R98), and J3.32
 `nCSIO` has R95 (fitted) to the expander CS and R96 (DNP) to ENSBC. To go
 back to driving an enable straight from J3, fit its link and leave that
 expander port an input. The expander powers up with every port an input
-and pulls off, so the existing pull-downs keep the rails off until
-firmware sets P0_0–P0_2 as outputs. The MCU firmware must change for this:
+and pulls off, so the pull-downs (R50, R69) and Q24's gate bias keep the
+rails off until firmware sets P0_0–P0_2 as outputs. R97 now lands on
+`nENDAQ`, so an MCU driving DAQ directly must drive it low to enable. The MCU firmware must change for this:
 the three load-switch enables move from GPIO to SPI, and nCSIO must idle high (R93
 pulls it up).
 
 These parts aren't on the board yet: run Update PCB from Schematic, then
-place and route R86–R101, Q23, U11, C58 and C59, and re-place Q20–Q22
+place and route R86–R110, Q23, Q24, U11, C58 and C59, and re-place Q20–Q22
 (now SOT-23). The ENDAQ, ENSBC and ENEXT
 tracks from J3 need cutting at the new links.
 

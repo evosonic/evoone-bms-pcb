@@ -1451,7 +1451,7 @@
 		)
 		(uuid "8a42508b-6d97-40d7-bfda-9b8bf52413e0")
 	)
-	(label "ENDAQ"
+	(label "nENDAQ"
 		(at 243.84 187.96 0)
 		(effects
 			(font
@@ -1541,7 +1541,7 @@
 		)
 		(uuid "ba2ddc6f-36c4-428c-8cd8-c20d4142f9b7")
 	)
-	(label "ENDAQ"
+	(label "nENDAQ"
 		(at 302.26 137.16 180)
 		(effects
 			(font
@@ -1873,7 +1873,7 @@
 				(justify left top)
 			)
 		)
-		(pin "ENDAQ" input
+		(pin "nENDAQ" input
 			(at 304.8 137.16 180)
 			(uuid "89a2eed4-f078-4e13-9b77-ab18179925b7")
 			(effects
@@ -2588,7 +2588,7 @@
 				(justify left)
 			)
 		)
-		(pin "ENDAQ" output
+		(pin "nENDAQ" output
 			(at 241.3 187.96 0)
 			(uuid "19bdeb2e-c03d-4d50-83cc-909e89f91e78")
 			(effects
