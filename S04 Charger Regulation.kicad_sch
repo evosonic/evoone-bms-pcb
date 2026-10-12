@@ -159,7 +159,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "Device:R"
+		)
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -298,7 +299,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "EVO2513-0_5_0-altium-import:+5V_BAR"
+		)
+		(symbol "EVO2513-0_5_0-altium-import:+5V_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2831,17 +2833,6 @@
 		)
 		(uuid "ca658ef0-731e-4a13-8a28-d3e1c1f2f499")
 	)
-	(text "R19 = 15 mR is deliberate: hard limit 190 mV / R19 = 12.67 A, 13.7 A peak with\nripple, against L1's 15.5 A saturation. Do not reduce."
-		(exclude_from_sim no)
-		(at 214.63 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "65a48497-7b6f-40d0-84da-283c7636fbac")
-	)
 	(text "5"
 		(exclude_from_sim no)
 		(at 196.85 16.51 0)
@@ -2981,6 +2972,17 @@
 			)
 		)
 		(uuid "63b38cfd-1953-4c21-8137-6e3a8f8b991c")
+	)
+	(text "R19 = 15 mR is deliberate: hard limit 190 mV / R19 = 12.67 A, 13.7 A peak with\nripple, against L1's 15.5 A saturation. Do not reduce."
+		(exclude_from_sim no)
+		(at 214.63 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "65a48497-7b6f-40d0-84da-283c7636fbac")
 	)
 	(text "${PRODUCT_NAME}"
 		(exclude_from_sim no)

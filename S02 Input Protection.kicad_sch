@@ -159,7 +159,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "Device:R"
+		)
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -298,7 +299,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND"
+		)
+		(symbol "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)

@@ -144,7 +144,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "EVO2513-0_5_0-altium-import:+5V_BAR"
+		)
+		(symbol "EVO2513-0_5_0-altium-import:+5V_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2810,25 +2811,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 -11.43 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -7.62 180)
+					(at 17.78 0 180)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -2864,7 +2847,25 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 0 180)
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -11.43 180)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -2902,17 +2903,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "R22 = 1K is the D4 battery-presence pull-up:\nan empty battery slot sits at about 5 V. Expected.\nKeep R22 at 1K (R54 is 768R; they don't share a value)."
-		(exclude_from_sim no)
-		(at 68.58 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "da2aaacb-dfe5-4fcb-ad39-919872054a3d")
 	)
 	(text "MODULE:"
 		(exclude_from_sim no)
@@ -3342,6 +3332,17 @@
 			)
 		)
 		(uuid "d9bf01f1-14fe-46c3-ac8d-46adfc88cd5e")
+	)
+	(text "R22 = 1K is the D4 battery-presence pull-up:\nan empty battery slot sits at about 5 V. Expected.\nKeep R22 at 1K (R54 is 768R; they don't share a value)."
+		(exclude_from_sim no)
+		(at 68.58 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "da2aaacb-dfe5-4fcb-ad39-919872054a3d")
 	)
 	(text "E"
 		(exclude_from_sim no)
@@ -6685,6 +6686,18 @@
 		(pin "2"
 			(uuid "b1c679e1-2195-47b6-b42d-33d53902f0cd")
 		)
+		(pin "5"
+			(uuid "9e02e26c-c6b7-4c78-8ef5-38f152e96982")
+		)
+		(pin "5"
+			(uuid "d0562e3e-2c41-484e-885a-5186a4d6d0ff")
+		)
+		(pin "5"
+			(uuid "ba301f25-ee28-4e40-9b1e-4689bedc1544")
+		)
+		(pin "5"
+			(uuid "7b9d73f2-8872-401e-87c8-96519cc04349")
+		)
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/bee1e856-8c4d-49a6-b37e-8448f12b694f"
@@ -8178,6 +8191,18 @@
 		(pin "2"
 			(uuid "4b561147-0aed-4afe-9038-acd9b54256b6")
 		)
+		(pin "5"
+			(uuid "6e0f1cc2-ac37-4c35-b915-5dc32b12f31f")
+		)
+		(pin "5"
+			(uuid "b3efce3a-c9ae-4ad3-a6c8-87e76955e5fd")
+		)
+		(pin "5"
+			(uuid "5f799a38-49c3-4f30-94aa-84232b9dd249")
+		)
+		(pin "5"
+			(uuid "85981b6e-7cd5-4da8-9a67-f68a2622eac0")
+		)
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/bee1e856-8c4d-49a6-b37e-8448f12b694f"
@@ -9579,6 +9604,18 @@
 		(pin "2"
 			(uuid "b55f70cc-8267-46e0-85d1-26f78722aa10")
 		)
+		(pin "5"
+			(uuid "f4ca21e5-260f-408c-94e6-6397902f4a07")
+		)
+		(pin "5"
+			(uuid "2274cce0-5124-4afa-b0d9-a12fc45727d8")
+		)
+		(pin "5"
+			(uuid "a99e414c-0592-4e84-9bf7-69136d59625a")
+		)
+		(pin "5"
+			(uuid "b68f489a-4e22-4b3b-9c92-4325c5704222")
+		)
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/bee1e856-8c4d-49a6-b37e-8448f12b694f"
@@ -9810,6 +9847,18 @@
 		)
 		(pin "2"
 			(uuid "f01194ad-c7ec-4d8e-8c08-04d59d0841bb")
+		)
+		(pin "5"
+			(uuid "a354fa95-9fcc-4152-93a1-8a0890a979b7")
+		)
+		(pin "5"
+			(uuid "0c0a7caa-2d31-48ad-8284-04928d9b7edc")
+		)
+		(pin "5"
+			(uuid "44b8423b-c947-4b3f-a964-8eb17d9b34ae")
+		)
+		(pin "5"
+			(uuid "af23b98d-92bd-4b70-ad02-898a6f128662")
 		)
 		(instances
 			(project "EVO2513-0_5_0"

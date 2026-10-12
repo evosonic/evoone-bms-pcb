@@ -159,7 +159,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "Device:C_Polarized"
+		)
+		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
 			)
@@ -335,7 +336,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "Device:R"
+		)
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -474,7 +476,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
+		)
+		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3376,17 +3379,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "R42 = 1.5 mR is deliberate: peak current limit\n36.7 A max, inside L2's 38 A I_RP. Do not reduce.\n\nU5 pins 16 (ILIMCOMP) and 29 (VCC2) stay commoned\nwith C32 and R40: ILIMCOMP on VCC2 is the documented\nway to disable the average current limit. Only pin 7\n(MODE) may be separated (R86/R87)."
-		(exclude_from_sim no)
-		(at 292.1 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "f3fdba2b-8c27-4962-8560-72dff70e37a4")
-	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 24.13 295.91 0)
@@ -3673,17 +3665,6 @@
 		)
 		(uuid "9cba23de-912e-44e6-93df-588788b7b193")
 	)
-	(text "R38 on CFG1 sets slope compensation 1.0 (resistor configuration).\nI2C build: change R38 to 0R, which selects I2C at address 0x6A\n(see the I2C configuration option note)."
-		(exclude_from_sim no)
-		(at 96.52 243.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b97efdb7-1eb4-42ae-9eb7-0ad577a87733")
-	)
 	(text "I2C configuration option (all DNP as built: U5 reads CFG1-CFG4 resistors)\nFor I2C at address 0x6A: fit R104-R107, change R38 to 0R and remove R29 and R30.\nSDA/SCL use J3.34/J3.36, shared with the R97/R98 enable links on S08: fit only one.\nFirmware must then write the settings R29, R30 and R38 select, before REGEN."
 		(exclude_from_sim no)
 		(at 300.99 243.84 0)
@@ -3754,6 +3735,17 @@
 			)
 		)
 		(uuid "b67dadc2-8fae-4a84-ad95-1278ef47f306")
+	)
+	(text "R38 on CFG1 sets slope compensation 1.0 (resistor configuration).\nI2C build: change R38 to 0R, which selects I2C at address 0x6A\n(see the I2C configuration option note)."
+		(exclude_from_sim no)
+		(at 96.52 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b97efdb7-1eb4-42ae-9eb7-0ad577a87733")
 	)
 	(text "D"
 		(exclude_from_sim no)
@@ -3909,6 +3901,17 @@
 			)
 		)
 		(uuid "f2d8fe29-697f-4062-91e9-a49178908fbf")
+	)
+	(text "R42 = 1.5 mR is deliberate: peak current limit\n36.7 A max, inside L2's 38 A I_RP. Do not reduce.\n\nU5 pins 16 (ILIMCOMP) and 29 (VCC2) stay commoned\nwith C32 and R40: ILIMCOMP on VCC2 is the documented\nway to disable the average current limit. Only pin 7\n(MODE) may be separated (R86/R87)."
+		(exclude_from_sim no)
+		(at 292.1 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f3fdba2b-8c27-4962-8560-72dff70e37a4")
 	)
 	(text "${#}"
 		(exclude_from_sim no)

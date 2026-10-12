@@ -144,7 +144,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
+		)
+		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3798,17 +3799,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "J2 contact allocation is deliberate: POS1 on pins 11/12, POS2 on 13/14,\nGND on 4-7 shared, so positive and return carry the same current per\ncontact. Preserve it."
-		(exclude_from_sim no)
-		(at 44.45 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "65fcbb01-f594-498b-a374-aed89f2f9c1a")
-	)
 	(text "9"
 		(exclude_from_sim no)
 		(at 369.57 295.91 0)
@@ -4013,6 +4003,17 @@
 			(justify left)
 		)
 		(uuid "5bad48ec-1bc1-4658-ba45-afdcc1ce28e8")
+	)
+	(text "J2 contact allocation is deliberate: POS1 on pins 11/12, POS2 on 13/14,\nGND on 4-7 shared, so positive and return carry the same current per\ncontact. Preserve it."
+		(exclude_from_sim no)
+		(at 44.45 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "65fcbb01-f594-498b-a374-aed89f2f9c1a")
 	)
 	(text "${PRODUCT_NAME}"
 		(exclude_from_sim no)
@@ -4424,6 +4425,12 @@
 		(uuid "437c4b96-4b48-4957-9c17-cd4be96e0342")
 	)
 	(junction
+		(at 232.41 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c015963-f7b0-49d1-b861-c64aef8266e8")
+	)
+	(junction
 		(at 179.07 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4434,12 +4441,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae7e0bf-ab56-4a98-8c98-dea6f6b2a118")
-	)
-	(junction
-		(at 232.41 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ceb8505-4a0e-4a6f-ab67-7743048053a9")
 	)
 	(junction
 		(at 167.64 135.89)
@@ -4488,6 +4489,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e1fbdf0-6f80-44c9-97ef-481e5bbb164b")
+	)
+	(junction
+		(at 232.41 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f12febf-2ea5-4539-b500-e611bff137c4")
 	)
 	(junction
 		(at 219.71 109.22)
@@ -4644,12 +4651,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faae33e1-4678-4b98-80f1-20e72b86afdc")
-	)
-	(junction
-		(at 232.41 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb9a5b57-cadb-47aa-b894-4b45116acdd8")
 	)
 	(wire
 		(pts
@@ -4912,7 +4913,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 168.91) (xy 259.08 147.32)
+			(xy 271.78 168.91) (xy 271.78 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4932,7 +4933,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 139.7) (xy 232.41 139.7)
+			(xy 262.89 147.32) (xy 232.41 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5020,16 +5021,6 @@
 			(type default)
 		)
 		(uuid "390ea63f-7a84-4394-bf50-46b9efe3aa76")
-	)
-	(wire
-		(pts
-			(xy 232.41 139.7) (xy 210.82 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a67d7be-eb7c-4989-8bc1-7d8242fa5295")
 	)
 	(wire
 		(pts
@@ -5163,6 +5154,16 @@
 		)
 		(uuid "4ebe55d0-79d8-41b0-934b-4345037451e3")
 	)
+	(wire
+		(pts
+			(xy 210.82 147.32) (xy 232.41 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f09ea0f-25f1-453c-a1a4-125315ee8f7b")
+	)
 	(polyline
 		(pts
 			(xy 2.54 100.33) (xy 0 100.33)
@@ -5279,23 +5280,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 147.32) (xy 232.41 147.32)
+			(xy 271.78 139.7) (xy 232.41 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "67262f5b-657d-4aea-b6de-3b122a1d323c")
-	)
-	(wire
-		(pts
-			(xy 232.41 147.32) (xy 210.82 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f45a25-5c8c-48b0-b73a-fb77ce9d0449")
 	)
 	(wire
 		(pts
@@ -5502,6 +5493,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "85b60aa2-6dd3-4804-84e6-8a9dc5343314")
+	)
+	(wire
+		(pts
+			(xy 210.82 139.7) (xy 232.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ebd302-a24d-4b05-9138-2d6aa2722a88")
 	)
 	(wire
 		(pts
@@ -5884,7 +5885,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 179.07) (xy 259.08 176.53)
+			(xy 271.78 179.07) (xy 271.78 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6038,7 +6039,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 168.91) (xy 269.24 139.7)
+			(xy 262.89 168.91) (xy 262.89 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6151,7 +6152,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 179.07) (xy 269.24 176.53)
+			(xy 262.89 179.07) (xy 262.89 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6579,7 +6580,7 @@
 		(uuid "fffe3903-7397-4596-b14e-1001627cad53")
 	)
 	(label "REGTEMP"
-		(at 247.65 147.32 180)
+		(at 247.65 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6589,7 +6590,7 @@
 		(uuid "0662b430-4d5b-4a59-bdf4-d9e551461c1c")
 	)
 	(label "BMSTEMP"
-		(at 247.65 139.7 180)
+		(at 247.65 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8776,7 +8777,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 139.7 0)
+		(at 232.41 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8786,7 +8787,7 @@
 		(dnp no)
 		(uuid "3abc232e-8ea1-4115-9615-be7d8e1eaa6a")
 		(property "Reference" "BON20"
-			(at 229.87 139.7 0)
+			(at 229.87 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8797,7 +8798,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 138.43 0)
+			(at 232.41 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8808,7 +8809,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 139.7 0)
+			(at 232.41 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,7 +8820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 139.7 0)
+			(at 232.41 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8830,7 +8831,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 139.7 0)
+			(at 232.41 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,7 +8842,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 136.652 0)
+			(at 231.14 144.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8853,7 +8854,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 136.652 0)
+			(at 231.14 144.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8865,7 +8866,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 138.43 0)
+			(at 233.68 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9606,7 +9607,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 269.24 179.07 0)
+		(at 262.89 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9616,7 +9617,7 @@
 		(dnp no)
 		(uuid "52b62ae5-e7c6-4df4-9a71-de2171554453")
 		(property "Reference" "#PWR015"
-			(at 269.24 179.07 0)
+			(at 262.89 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9627,7 +9628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 185.42 0)
+			(at 262.89 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9637,7 +9638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 179.07 0)
+			(at 262.89 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9647,7 +9648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 179.07 0)
+			(at 262.89 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9657,7 +9658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 179.07 0)
+			(at 262.89 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11000,7 +11001,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:NTC Thermistor 10k 0603")
-		(at 269.24 172.72 90)
+		(at 262.89 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11010,7 +11011,7 @@
 		(dnp no)
 		(uuid "818ddf50-844d-4e9a-a209-df85d5c5c4d7")
 		(property "Reference" "TH1"
-			(at 271.018 172.72 90)
+			(at 264.668 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11021,7 +11022,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 267.462 168.402 90)
+			(at 261.112 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,7 +11034,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 269.24 172.72 0)
+			(at 262.89 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,7 +11045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 172.72 0)
+			(at 262.89 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,7 +11056,7 @@
 			)
 		)
 		(property "Description" "NTC Thermistor 10k 0603"
-			(at 269.24 172.72 0)
+			(at 262.89 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11066,7 +11067,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 267.462 168.402 90)
+			(at 261.112 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11078,7 +11079,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 267.462 168.402 90)
+			(at 261.112 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11090,7 +11091,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 267.462 168.402 90)
+			(at 261.112 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11102,7 +11103,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "NCU18XH103E6SRB"
-			(at 267.462 168.402 90)
+			(at 261.112 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11114,7 +11115,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k"
-			(at 271.018 175.26 90)
+			(at 264.668 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11125,7 +11126,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 271.018 177.292 90)
+			(at 264.668 177.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11939,7 +11940,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 259.08 179.07 0)
+		(at 271.78 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11949,7 +11950,7 @@
 		(dnp no)
 		(uuid "a1993691-dff3-4f5e-bb4b-b2bb084315cd")
 		(property "Reference" "#PWR014"
-			(at 259.08 179.07 0)
+			(at 271.78 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11960,7 +11961,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 185.42 0)
+			(at 271.78 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11970,7 +11971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 179.07 0)
+			(at 271.78 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11980,7 +11981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 179.07 0)
+			(at 271.78 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11990,7 +11991,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 179.07 0)
+			(at 271.78 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12168,7 +12169,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:NTC Thermistor 10k 0603")
-		(at 259.08 172.72 90)
+		(at 271.78 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12178,7 +12179,7 @@
 		(dnp no)
 		(uuid "a5a01afd-bf79-4622-9bc8-78f3c0055894")
 		(property "Reference" "TH2"
-			(at 260.858 172.72 90)
+			(at 273.558 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12189,7 +12190,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 257.302 168.402 90)
+			(at 270.002 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12201,7 +12202,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 259.08 172.72 0)
+			(at 271.78 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12212,7 +12213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 172.72 0)
+			(at 271.78 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12223,7 +12224,7 @@
 			)
 		)
 		(property "Description" "NTC Thermistor 10k 0603"
-			(at 259.08 172.72 0)
+			(at 271.78 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12234,7 +12235,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 257.302 168.402 90)
+			(at 270.002 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12246,7 +12247,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 257.302 168.402 90)
+			(at 270.002 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12258,7 +12259,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 257.302 168.402 90)
+			(at 270.002 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12270,7 +12271,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "NCU18XH103E6SRB"
-			(at 257.302 168.402 90)
+			(at 270.002 168.402 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12282,7 +12283,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k"
-			(at 260.858 175.26 90)
+			(at 273.558 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12293,7 +12294,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 260.858 177.292 90)
+			(at 273.558 177.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13604,7 +13605,7 @@
 	)
 	(symbol
 		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
-		(at 232.41 147.32 0)
+		(at 232.41 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13614,7 +13615,7 @@
 		(dnp no)
 		(uuid "e1b934c0-4860-4b82-a7f0-ad9fcb7adc9b")
 		(property "Reference" "BON21"
-			(at 229.87 147.32 0)
+			(at 229.87 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13625,7 +13626,7 @@
 			)
 		)
 		(property "Value" "POGO-1"
-			(at 232.41 146.05 0)
+			(at 232.41 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13636,7 +13637,7 @@
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
-			(at 232.41 147.32 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13647,7 +13648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 147.32 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13658,7 +13659,7 @@
 			)
 		)
 		(property "Description" "No Component - Pogo-1 pin will make contact with the pad"
-			(at 232.41 147.32 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13669,7 +13670,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 231.14 144.272 0)
+			(at 231.14 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13681,7 +13682,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMD 1.25mm"
-			(at 231.14 144.272 0)
+			(at 231.14 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13693,7 +13694,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 233.68 146.05 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

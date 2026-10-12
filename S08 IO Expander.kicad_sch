@@ -159,7 +159,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "Device:R"
+		)
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -298,7 +299,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
+		)
+		(symbol "EVO2513-0_5_0-altium-import:+12V_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1647,16 +1649,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 106.68) (xy 213.36 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "127e2eb3-3b9d-43a9-aaa2-c15f0c9a1ab4")
-	)
-	(wire
-		(pts
 			(xy 205.74 111.76) (xy 213.36 111.76)
 		)
 		(stroke
@@ -1717,16 +1709,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 109.22) (xy 213.36 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4134ebc7-23cc-4ec4-8dfe-b8a6ed943614")
-	)
-	(wire
-		(pts
 			(xy 91.44 132.08) (xy 99.06 132.08)
 		)
 		(stroke
@@ -1764,6 +1746,16 @@
 			(type default)
 		)
 		(uuid "7d74d41d-c9f4-405b-9166-fb46fc820853")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.22) (xy 213.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81edcc56-baca-4137-8f2b-6cc933ca74fa")
 	)
 	(wire
 		(pts
@@ -1844,6 +1836,16 @@
 			(type default)
 		)
 		(uuid "c1067386-3bd0-4ed1-ba2f-a8ed9ed04e4b")
+	)
+	(wire
+		(pts
+			(xy 205.74 106.68) (xy 213.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e1835e-1f5e-4a0f-bb8d-57f15ae0ac11")
 	)
 	(wire
 		(pts
@@ -2189,7 +2191,7 @@
 	)
 	(hierarchical_label "nENDAQ"
 		(shape output)
-		(at 213.36 106.68 0)
+		(at 213.36 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,7 +2202,7 @@
 	)
 	(hierarchical_label "ENSBC"
 		(shape output)
-		(at 213.36 109.22 0)
+		(at 213.36 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)

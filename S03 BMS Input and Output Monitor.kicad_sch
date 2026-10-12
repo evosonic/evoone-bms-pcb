@@ -159,7 +159,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "Device:C_Polarized"
+		)
+		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
 			)
@@ -335,7 +336,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "Device:R"
+		)
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -474,7 +476,8 @@
 				)
 			)
 			(embedded_fonts no)
-		)		(symbol "EVO2513-0_5_0-altium-import:+3V3MCU_BAR"
+		)
+		(symbol "EVO2513-0_5_0-altium-import:+3V3MCU_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2163,25 +2166,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 -11.43 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -7.62 180)
+					(at 17.78 0 180)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -2217,7 +2202,25 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 0 180)
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -11.43 180)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -2281,17 +2284,6 @@
 			(type none)
 		)
 		(uuid "ed88c27c-4354-44ac-83f4-f030cedf93ef")
-	)
-	(text "R16 breaker latches: 90-115 mV for 15 ms (30-38 A with 3 mR)\nopens every PowerPath switch, including DC, and sets FA. It\nclears only when all sources are removed and VPLUS falls below UVLO.\nED29 test packs trip at 8 A each (measured); QE29 production packs\nat 10.5 A. Any figure keyed to 10.5 A applies to QE29 only."
-		(exclude_from_sim no)
-		(at 317.5 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6d68351b-aa22-4734-9da3-d85b74d1009b")
 	)
 	(text "${#}"
 		(exclude_from_sim no)
@@ -2504,6 +2496,17 @@
 			)
 		)
 		(uuid "62fdb15b-9b8a-4e76-a88a-c9bb44d4295d")
+	)
+	(text "R16 breaker latches: 90-115 mV for 15 ms (30-38 A with 3 mR)\nopens every PowerPath switch, including DC, and sets FA. It\nclears only when all sources are removed and VPLUS falls below UVLO.\nED29 test packs trip at 8 A each (measured); QE29 production packs\nat 10.5 A. Any figure keyed to 10.5 A applies to QE29 only."
+		(exclude_from_sim no)
+		(at 317.5 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6d68351b-aa22-4734-9da3-d85b74d1009b")
 	)
 	(text "${##}"
 		(exclude_from_sim no)
@@ -8215,6 +8218,18 @@
 		(pin "2"
 			(uuid "2f87af26-3c6c-431b-b9a7-65dfd7a59db4")
 		)
+		(pin "5"
+			(uuid "d01819ba-93c8-4a82-a6b4-a7541dc94ace")
+		)
+		(pin "5"
+			(uuid "a8ee4857-5ab2-4d0b-bc4b-cd34db9c6bd5")
+		)
+		(pin "5"
+			(uuid "afa72fda-0c59-4531-9e72-5c7ee3ff7b42")
+		)
+		(pin "5"
+			(uuid "08588cb7-9da7-4712-a817-b9ee0637f041")
+		)
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/6efa18a4-50c3-468b-8389-2f58aea00523"
@@ -10276,6 +10291,18 @@
 		)
 		(pin "2"
 			(uuid "caef78d2-b025-4d79-ae79-fd44416c470e")
+		)
+		(pin "5"
+			(uuid "3f86bde9-9b8d-4726-ad44-417807d02496")
+		)
+		(pin "5"
+			(uuid "0e59d319-5311-4dc2-b302-cc96ec1ed377")
+		)
+		(pin "5"
+			(uuid "9ade4473-e660-44b7-ae49-de9c668c7cd5")
+		)
+		(pin "5"
+			(uuid "e6e7e1e8-31aa-4f36-91ef-8cce601806f8")
 		)
 		(instances
 			(project "EVO2513-0_5_0"
