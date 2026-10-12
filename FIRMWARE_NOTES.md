@@ -114,7 +114,7 @@ expected to rise to 1.2K or more once the final DAQ and EXT loads are known
 
 ### I2C configuration build (assembly option, unfitted as built)
 
-If R103–R107 are fitted and R29/R30 removed, U5 is configured over I2C at
+If R104–R107 are fitted, R38 is changed to 0R and R29/R30 are removed, U5 is configured over I2C at
 address 0x6A on SDA = J3.34 and SCL = J3.36 (the MCU pins must support
 I2C). U5 then starts from its register defaults, not the resistor settings,
 so firmware must write them before raising REGEN. The settings stay latched

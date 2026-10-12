@@ -69,8 +69,79 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|106201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|47218256-2e5a-4386-b9ab-0229a0a6d0f2",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|106201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|89155788-0977-4143-9ba8-306fcf06b6a3",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|106201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|8a70454a-76b7-4e74-bb19-0a62672f2700",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|106201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|a323caf8-7428-42ed-b6cf-47f2595db695",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|106201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|b122c83b-8f54-4fff-b4b3-ab98c54d8bab",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|106201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|b334ac78-b83c-486c-89c9-d09a1bcaa34c",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|106201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|d03ce6d5-6f51-4a6c-a676-ff4bc10e2dfa",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|106201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|df932512-99de-4e9f-b834-3d111b6e4541",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|107201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|357a1d6c-5a4b-4a9f-bbc2-35a5d2f4a097",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|107701100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|a53d558c-f4ec-46dd-88d3-841ab74a4725",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|108201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|f49a89b7-a893-4425-add8-0e587cf187ce",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|108701100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|00c6bf37-c6b9-4b57-9029-286a898d169f",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|109201100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|2367967c-8b06-4d8f-aa29-fc55e3df71f9",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|109501100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|0aafba6c-3805-46d8-81da-10002c58e1b1",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|110001100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|9d1ed48d-967b-42f1-a4c3-c1eb231bea54",
+          "Marker, allowed"
+        ],
+        [
+          "copper_edge_clearance|110501100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|10d8dd44-8fb3-49d0-8f47-d8cae43c8735",
+          "Marker, allowed"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -203,7 +274,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.25,
+        0.3
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +306,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -504,7 +589,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -516,14 +601,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "All Nets",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -535,14 +619,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR 10A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -554,14 +637,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR 12A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -573,14 +655,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR 15A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -592,14 +673,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR 20A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -611,14 +691,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR 3A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -630,14 +709,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR 5A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -649,14 +727,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR 7A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",

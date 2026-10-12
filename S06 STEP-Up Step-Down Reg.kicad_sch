@@ -3673,7 +3673,18 @@
 		)
 		(uuid "9cba23de-912e-44e6-93df-588788b7b193")
 	)
-	(text "I2C configuration option (all DNP as built: U5 reads CFG1-CFG4 resistors)\nFor I2C at address 0x6A: fit R103-R107 and remove R29 and R30 (R38 can stay: R103 shorts it).\nSDA/SCL use J3.34/J3.36, shared with the R97/R98 enable links on S08: fit only one.\nFirmware must then write the settings R29, R30 and R38 select, before REGEN."
+	(text "R38 on CFG1 sets slope compensation 1.0 (resistor configuration).\nI2C build: change R38 to 0R, which selects I2C at address 0x6A\n(see the I2C configuration option note)."
+		(exclude_from_sim no)
+		(at 96.52 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b97efdb7-1eb4-42ae-9eb7-0ad577a87733")
+	)
+	(text "I2C configuration option (all DNP as built: U5 reads CFG1-CFG4 resistors)\nFor I2C at address 0x6A: fit R104-R107, change R38 to 0R and remove R29 and R30.\nSDA/SCL use J3.34/J3.36, shared with the R97/R98 enable links on S08: fit only one.\nFirmware must then write the settings R29, R30 and R38 select, before REGEN."
 		(exclude_from_sim no)
 		(at 300.99 243.84 0)
 		(effects
@@ -6109,16 +6120,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 233.68) (xy 317.5 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a4f9a01-0fce-4207-9dc7-96b43e42c40c")
-	)
-	(wire
-		(pts
 			(xy 309.88 218.44) (xy 309.88 214.63)
 		)
 		(stroke
@@ -6176,16 +6177,6 @@
 			(type default)
 		)
 		(uuid "8d93abd1-234c-4cdb-ab67-7c531121e45d")
-	)
-	(wire
-		(pts
-			(xy 325.12 233.68) (xy 330.2 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e649bfd-53b1-4d44-89cd-5d74d68e9cdd")
 	)
 	(wire
 		(pts
@@ -7640,16 +7631,6 @@
 			(justify right bottom)
 		)
 		(uuid "64cfcb90-dcae-4aeb-8f4a-8aef4859d66d")
-	)
-	(label "CFG1"
-		(at 304.8 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6936e7c0-619f-4465-9673-5b4041030e51")
 	)
 	(label "SW2"
 		(at 231.14 73.66 0)
@@ -10347,153 +10328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 321.31 233.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "751b2449-3e0b-49c8-b9b8-b4fb3979355a")
-		(property "Reference" "R103"
-			(at 318.77 232.664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0R"
-			(at 318.77 237.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 321.31 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 321.31 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor 0R 0402"
-			(at 321.31 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NOTE" ""
-			(at 321.31 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PL_SORT_GROUP" "2.3"
-			(at 321.31 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "?"
-			(at 321.31 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_PN" "?"
-			(at 321.31 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALTIUM_VALUE" "0R"
-			(at 318.77 237.236 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 321.31 233.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3733a53b-750e-4640-b320-6ceb8bd424c4")
-		)
-		(pin "1"
-			(uuid "7822708e-2f3b-4886-ab49-bb930b1df05a")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "R103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Lattech Systems:IC LM51772RHAR Buck-Boost Controller QFN-40")
 		(at 167.64 137.16 0)
 		(unit 1)
@@ -11378,83 +11212,6 @@
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 330.2 233.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "893c2337-fafe-4e47-bc87-1af84811155c")
-		(property "Reference" "#PWR116"
-			(at 330.2 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 330.2 240.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e60bce50-8a9c-400d-aa5b-250afeb63a2e")
-		)
-		(instances
-			(project "EVO2513-0_5_0"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR116")
 					(unit 1)
 				)
 			)

@@ -125,13 +125,13 @@ the MODE/BIAS links on S06, all DNP as built):
 
 | Ref | Part | Function in the I2C build |
 |---|---|---|
-| R103 | 0R, CFG1 (ADDR/SLOPE, pin 9) to GND | Enables I2C at address 0x6A. R38 can stay; R103 shorts it |
+| R38 | change 6.49K to 0R, CFG1 (ADDR/SLOPE, pin 9) to GND | Selects I2C at address 0x6A; 6.49K selects resistor configuration with slope compensation 1.0 |
 | R104 | 0R, SDA/CFG3 (pin 5) to J3.34 `MCU_ENDAQ` | SDA to the MCU |
 | R105 | 0R, SCL/CFG4 (pin 6) to J3.36 `MCU_ENEXT` | SCL to the MCU |
 | R106, R107 | 2.2K to +3V3MCU | SDA and SCL pull-ups (pins rated to 5.8 V) |
 | R30, R29 | 5.1K and 1.87K to GND | **Remove**: they are CFG3/CFG4 and would load the bus |
 
-To build for I2C, fit R103–R107 and remove R29 and R30. J3.34 and J3.36 are
+To build for I2C, fit R104–R107, change R38 to 0R and remove R29 and R30. J3.34 and J3.36 are
 also the direct-enable fallback through R97 and R98 (S08): fit R97/R98 or the
 I2C option, never both. The MCU pins on J3.34/J3.36 must support I2C.
 
