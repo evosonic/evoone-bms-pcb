@@ -2417,7 +2417,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lattech Systems:Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8"
+		(symbol "Lattech Systems:Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2465,7 +2465,7 @@
 					)
 				)
 			)
-			(property "Description" "Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8"
+			(property "Description" "Transistor P-Channel MOSFET 30V DMP3007SCG-13 V-DFN3333-8 (Type B)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2476,7 +2476,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*Power{space}DI3333-8{space}B3.3{space}x{space}3.3{space}P0.65{space}Tab{space}8-Pin*"
+			(property "ki_fp_filters" "Diodes*PowerDI3333-8*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2487,7 +2487,7 @@
 					)
 				)
 			)
-			(symbol "Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8_1_0"
+			(symbol "Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8_1_0"
 				(rectangle
 					(start 2.54 3.81)
 					(end 15.24 -19.05)
@@ -2837,7 +2837,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2855,7 +2855,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2873,7 +2873,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2891,7 +2891,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "5"
 						(effects
 							(font
 								(size 0 0)
@@ -6536,7 +6536,7 @@
 		(uuid "ffd0fae5-3ef3-46ae-b8f4-297860fa460e")
 	)
 	(symbol
-		(lib_id "Lattech Systems:Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8")
+		(lib_id "Lattech Systems:Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8")
 		(at 181.61 151.13 0)
 		(mirror y)
 		(unit 1)
@@ -6557,7 +6557,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP3018SFV"
+		(property "Value" "DMP3007SCG-13"
 			(at 168.91 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6568,7 +6568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin"
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
 			(at 181.61 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6590,7 +6590,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8"
+		(property "Description" "Transistor P-Channel MOSFET 30V DMP3007SCG-13 V-DFN3333-8 (Type B)"
 			(at 181.61 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6625,7 +6625,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "V-DFN3333-8"
 			(at 172.72 168.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6635,7 +6635,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "DMP3018SFV"
+		(property "ALTIUM_VALUE" "DMP3007SCG-13"
 			(at 191.262 148.336 0)
 			(hide yes)
 			(show_name no)
@@ -6658,7 +6658,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMP3018SFV"
+		(property "MANUFACTURER_PN" "DMP3007SCG-13"
 			(at 181.102 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6679,23 +6679,11 @@
 		(pin "5"
 			(uuid "ce6ea471-e80a-455f-8c49-cf5530204347")
 		)
-		(pin "7"
-			(uuid "33801b5f-94cf-47ae-8d36-c6de8f5aaac1")
-		)
 		(pin "4"
 			(uuid "cb84d38e-0ccd-4018-bff5-cba32804a028")
 		)
 		(pin "2"
 			(uuid "b1c679e1-2195-47b6-b42d-33d53902f0cd")
-		)
-		(pin "6"
-			(uuid "6c939828-c749-4ed2-a9fa-b96664a1337d")
-		)
-		(pin "8"
-			(uuid "55ac32f6-cc5a-4a27-bfca-91ab66c7ba5b")
-		)
-		(pin "9"
-			(uuid "4afb2563-7041-44f7-b675-7397c36c0f4a")
 		)
 		(instances
 			(project "EVO2513-0_5_0"
@@ -8042,7 +8030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8")
+		(lib_id "Lattech Systems:Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8")
 		(at 193.04 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -8062,7 +8050,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP3018SFV"
+		(property "Value" "DMP3007SCG-13"
 			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8073,7 +8061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin"
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
 			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8095,7 +8083,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8"
+		(property "Description" "Transistor P-Channel MOSFET 30V DMP3007SCG-13 V-DFN3333-8 (Type B)"
 			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8130,7 +8118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "V-DFN3333-8"
 			(at 201.93 77.4698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8140,7 +8128,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "DMP3018SFV"
+		(property "ALTIUM_VALUE" "DMP3007SCG-13"
 			(at 183.388 56.896 0)
 			(hide yes)
 			(show_name no)
@@ -8163,7 +8151,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMP3018SFV"
+		(property "MANUFACTURER_PN" "DMP3007SCG-13"
 			(at 192.532 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8184,23 +8172,11 @@
 		(pin "5"
 			(uuid "761b6657-b89d-4d90-b8ec-2a1e1243f4e1")
 		)
-		(pin "7"
-			(uuid "c6b24ee8-1ea1-4d8c-ae6f-ec7f75a08899")
-		)
 		(pin "4"
 			(uuid "69ce2b45-7bfd-4e36-8b34-680139170aba")
 		)
 		(pin "2"
 			(uuid "4b561147-0aed-4afe-9038-acd9b54256b6")
-		)
-		(pin "6"
-			(uuid "50924eb5-60c6-4592-a3c8-7e8b4870055e")
-		)
-		(pin "8"
-			(uuid "2345cf26-9215-49b6-9672-b4eedbc53670")
-		)
-		(pin "9"
-			(uuid "a6c0d55a-2857-4cdc-8004-9df01c94e909")
 		)
 		(instances
 			(project "EVO2513-0_5_0"
@@ -9454,7 +9430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8")
+		(lib_id "Lattech Systems:Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8")
 		(at 182.88 59.69 0)
 		(mirror y)
 		(unit 1)
@@ -9475,7 +9451,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP3018SFV"
+		(property "Value" "DMP3007SCG-13"
 			(at 170.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9486,7 +9462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin"
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
 			(at 182.88 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9508,7 +9484,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8"
+		(property "Description" "Transistor P-Channel MOSFET 30V DMP3007SCG-13 V-DFN3333-8 (Type B)"
 			(at 182.88 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9543,7 +9519,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "V-DFN3333-8"
 			(at 173.99 77.4698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9553,7 +9529,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "DMP3018SFV"
+		(property "ALTIUM_VALUE" "DMP3007SCG-13"
 			(at 192.532 56.896 0)
 			(hide yes)
 			(show_name no)
@@ -9576,7 +9552,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMP3018SFV"
+		(property "MANUFACTURER_PN" "DMP3007SCG-13"
 			(at 182.372 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9597,23 +9573,11 @@
 		(pin "5"
 			(uuid "cd4af905-320d-4d0b-8e8f-f1157f39a81c")
 		)
-		(pin "7"
-			(uuid "69286d3b-879b-4c6e-911b-b1fa36d22532")
-		)
 		(pin "4"
 			(uuid "fedba5c6-be71-4446-96f4-e2f9291994a4")
 		)
 		(pin "2"
 			(uuid "b55f70cc-8267-46e0-85d1-26f78722aa10")
-		)
-		(pin "6"
-			(uuid "3bd61b31-2c09-40be-822a-9db64de4e065")
-		)
-		(pin "8"
-			(uuid "4792e5cf-535c-4d8e-a73a-867ab69e4cd7")
-		)
-		(pin "9"
-			(uuid "c12697da-e246-4a91-a058-2812ce0d4e0f")
 		)
 		(instances
 			(project "EVO2513-0_5_0"
@@ -9699,7 +9663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8")
+		(lib_id "Lattech Systems:Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8")
 		(at 191.77 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -9719,7 +9683,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP3018SFV"
+		(property "Value" "DMP3007SCG-13"
 			(at 204.47 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9730,7 +9694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Power DI3333-8 B3.3 x 3.3 P0.65 Tab 8-Pin"
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
 			(at 191.77 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9752,7 +9716,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8"
+		(property "Description" "Transistor P-Channel MOSFET 30V DMP3007SCG-13 V-DFN3333-8 (Type B)"
 			(at 191.77 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9787,7 +9751,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "DI3333-8"
+		(property "ALTIUM_FOOTPRINT" "V-DFN3333-8"
 			(at 200.66 168.9098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9797,7 +9761,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "DMP3018SFV"
+		(property "ALTIUM_VALUE" "DMP3007SCG-13"
 			(at 182.118 148.336 0)
 			(hide yes)
 			(show_name no)
@@ -9820,7 +9784,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMP3018SFV"
+		(property "MANUFACTURER_PN" "DMP3007SCG-13"
 			(at 191.262 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9832,9 +9796,6 @@
 				(justify left bottom)
 			)
 		)
-		(pin "6"
-			(uuid "94945c05-ca28-4274-adf1-79663e0449e6")
-		)
 		(pin "3"
 			(uuid "b651d259-9a96-4112-a0ce-d2b639c64884")
 		)
@@ -9844,20 +9805,11 @@
 		(pin "5"
 			(uuid "0774d824-9cee-4df6-bb83-d135c30223b7")
 		)
-		(pin "7"
-			(uuid "f51cd4a0-3ca5-4a3a-a39b-0445acca7fd6")
-		)
 		(pin "4"
 			(uuid "9d6c40de-e637-43bd-a88b-5f9fb8b3a285")
 		)
 		(pin "2"
 			(uuid "f01194ad-c7ec-4d8e-8c08-04d59d0841bb")
-		)
-		(pin "8"
-			(uuid "ea7ece49-1c86-47fe-a931-b8d32983dbdb")
-		)
-		(pin "9"
-			(uuid "5d219cdd-f8b8-4d81-b70e-09440e55fb14")
 		)
 		(instances
 			(project "EVO2513-0_5_0"

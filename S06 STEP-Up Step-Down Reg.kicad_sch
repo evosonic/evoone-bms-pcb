@@ -12415,7 +12415,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 182.88 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -12437,7 +12437,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 2.2R 1% 1206"
+		(property "Description" "Resistor 2.2R 1% 1/2W 1210"
 			(at 182.88 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -12508,7 +12508,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "1206"
+		(property "ALTIUM_FOOTPRINT" "1210"
 			(at 183.896 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13615,7 +13615,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 227.33 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -13637,7 +13637,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 2.2R 1% 1206"
+		(property "Description" "Resistor 2.2R 1% 1/2W 1210"
 			(at 227.33 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -13708,7 +13708,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_FOOTPRINT" "1206"
+		(property "ALTIUM_FOOTPRINT" "1210"
 			(at 228.346 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)

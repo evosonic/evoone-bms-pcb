@@ -10364,7 +10364,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8"
+	(symbol "Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10412,7 +10412,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8"
+		(property "Description" "Transistor P-Channel MOSFET 30V DMP3007SCG-13 V-DFN3333-8 (Type B)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10423,7 +10423,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "*Power{space}DI3333-8{space}B3.3{space}x{space}3.3{space}P0.65{space}Tab{space}8-Pin*"
+		(property "ki_fp_filters" "Diodes*PowerDI3333-8*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10434,7 +10434,7 @@
 				)
 			)
 		)
-		(symbol "Transistor P-Channel MOSFET  30V DMP3018SFV Power DI3333-8_1_0"
+		(symbol "Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8_1_0"
 			(rectangle
 				(start 2.54 3.81)
 				(end 15.24 -19.05)
@@ -10784,7 +10784,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10802,7 +10802,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10820,7 +10820,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10838,7 +10838,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "5"
 					(effects
 						(font
 							(size 0 0)
