@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d3e58423-85d9-4dd5-8723-e569cbcb4cf1")
+		(uuid "eb9d9af9-39a5-48d8-b390-240d700cf263")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "2ec7dc7b-e50c-432c-868c-f9a44ec4a274")
+		(uuid "3eb815d6-79bb-43a4-a273-bfce32f2d92c")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fda0f2df-b775-4222-a103-0c17c36c8b50")
+		(uuid "dc5224ec-f96e-4f4d-98c1-79bde0a57d87")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "852558c4-6c2e-4d91-8bbb-6bdaf7c45543")
+		(uuid "7ab4ee73-1cde-4fea-9878-3925562ba137")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 	)
 	(sheetname "S01 External Connectors")
 	(sheetfile "S01 External Connectors.kicad_sch")
+	(attr smd exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -0.74 -0.74)
@@ -63,14 +64,52 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f2cd6cbc-203f-4763-b64a-ae4529cda81b")
+		(uuid "0853bb3f-8dbb-48e8-acda-31f29c51e185")
 	)
 	(pad "1" smd circle
 		(at 0 0)
 		(size 1.27 1.27)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.865)
 		(thermal_bridge_angle 90)
-		(uuid "cb945e1c-2bc1-46e7-abc7-4aa2481d85e2")
+		(uuid "e4da5735-44a7-4932-a024-8c6caac0dfa3")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "8f2afd1e-aa9f-442f-8c8d-aefb69dad958")
+		(name "Fiducial clear area")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 1.607741 0) (xy 1.576849 0.313654) (xy 1.485359 0.615256) (xy 1.336788 0.893213) (xy 1.136845 1.136845)
+				(xy 0.893213 1.336788) (xy 0.615256 1.485359) (xy 0.313654 1.576849) (xy 0 1.607741) (xy -0.313654 1.576849)
+				(xy -0.615256 1.485359) (xy -0.893213 1.336788) (xy -1.136845 1.136845) (xy -1.336788 0.893213)
+				(xy -1.485359 0.615256) (xy -1.576849 0.313654) (xy -1.607741 0) (xy -1.576849 -0.313654) (xy -1.485359 -0.615256)
+				(xy -1.336788 -0.893213) (xy -1.136845 -1.136845) (xy -0.893213 -1.336788) (xy -0.615256 -1.485359)
+				(xy -0.313654 -1.576849) (xy 0 -1.607741) (xy 0.313654 -1.576849) (xy 0.615256 -1.485359) (xy 0.893213 -1.336788)
+				(xy 1.136845 -1.136845) (xy 1.336788 -0.893213) (xy 1.485359 -0.615256) (xy 1.576849 -0.313654)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
