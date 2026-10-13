@@ -9571,25 +9571,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "53cc54ad-5551-499c-9da5-04b6e5af3476")
 		(property "Reference" "R106"
-			(at 310.896 190.5 0)
+			(at 312.42 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 310.896 193.04 0)
+			(at 312.42 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -9681,13 +9684,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 310.896 195.072 0)
+			(at 312.42 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -16224,25 +16228,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "eadb27ff-8f4c-4924-8e7d-24290fce853c")
 		(property "Reference" "R107"
-			(at 310.896 210.82 0)
+			(at 312.42 208.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 310.896 213.36 0)
+			(at 312.42 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -16334,13 +16341,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 310.896 215.392 0)
+			(at 312.42 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "2"
