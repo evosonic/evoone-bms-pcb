@@ -13262,7 +13262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Mech Spacer Wurth 78614150960 Through M3"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:MECH SPACER WURTH 78614150960 THROUGH M3"
 			(at 17.78 267.97 0)
 			(hide yes)
 			(show_name no)

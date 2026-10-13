@@ -937,8 +937,7 @@
 	(pad "39" smd rect
 		(at 0 0 90)
 		(size 5.2 3.2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin -25.4)
+		(layers "F.Cu" "F.Mask")
 		(uuid "f9180ad1-5291-4938-a1e0-dc3cf330b9af")
 	)
 	(embedded_fonts no)
