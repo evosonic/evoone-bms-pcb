@@ -7982,7 +7982,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Test Pin BON 1-25mm SMD Pad (POGO-1)"
+	(symbol "Test Pin 1-25mm SMD Pad (POGO-1)"
 		(pin_numbers
 			(hide yes)
 		)
@@ -8047,7 +8047,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "*TEST{space}PIN{space}BON{space}1-25mm{space}SMD{space}Pad{space}(POGO-1)*"
+		(property "ki_fp_filters" "*TEST{space}PIN{space}1-25mm{space}SMD{space}Pad{space}(POGO-1)*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8058,7 +8058,7 @@
 				)
 			)
 		)
-		(symbol "Test Pin BON 1-25mm SMD Pad (POGO-1)_1_0"
+		(symbol "Test Pin 1-25mm SMD Pad (POGO-1)_1_0"
 			(bezier
 				(pts
 					(xy -1.27 1.016) (xy -1.27 0.8055) (xy -0.7015 0.635) (xy 0 0.635)

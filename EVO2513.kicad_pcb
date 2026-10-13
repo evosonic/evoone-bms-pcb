@@ -72613,7 +72613,7 @@
 			)
 		)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "050482bd-a53a-4c15-8560-8e4c76ab0b9e")
 		(at 133.7011 129.5036 -90)
@@ -72708,7 +72708,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/039cc1f1-33d1-4e0d-b444-f8d1f9d2d3e9")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -73230,7 +73230,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "16050630-10a2-424e-a865-2d39bd8cd501")
 		(at 152.1011 129.5036 -90)
@@ -73325,7 +73325,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/67cb7c9f-29ed-4575-b6a2-f11cd9e1a036")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -73847,7 +73847,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "1b256cf5-55de-459e-a4c7-dc834345f91b")
 		(at 139.3011 134.7036 -90)
@@ -73942,7 +73942,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/86711255-4819-42c4-a398-a432e40fdcdd")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -74464,7 +74464,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "1eefc09e-5594-4fd7-8892-eab8740a8f3b")
 		(at 133.9011 134.7036 -90)
@@ -74559,7 +74559,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/65db1c66-7a0e-485b-a3b5-4d6dbaf79541")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -75081,7 +75081,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "272f0160-cd73-4437-9fb8-e9687361540d")
 		(at 139.3011 132.1036 -90)
@@ -75176,7 +75176,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/26a86de5-c629-4c0b-b00f-9e8468835280")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -75698,7 +75698,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "308cd633-e59f-4e4b-ac3d-55084bba5600")
 		(at 154.7011 120.3036 -90)
@@ -75793,7 +75793,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/a9a4560c-b779-441c-90ea-fefbe78f4415")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -76315,7 +76315,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "3fbe63b9-75d7-48d0-8163-63927a2796c2")
 		(at 154.7011 129.5036 -90)
@@ -76410,7 +76410,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/28be6ffc-81d6-485b-baff-03d4db3242e7")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -76932,7 +76932,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "469b10b2-d15a-4d37-ba56-ef97d8a92318")
 		(at 159.7011 120.3036 -90)
@@ -77027,7 +77027,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/3abc232e-8ea1-4115-9615-be7d8e1eaa6a")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -77549,7 +77549,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "4daf7367-6ae9-468d-8357-e6b520077ea0")
 		(at 139.3011 120.3036 -90)
@@ -77644,7 +77644,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/74ffc95b-957a-47dd-94e9-79d5f99aadf6")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -78166,7 +78166,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "593f7e2f-528b-4c5b-97f1-51c053f0f5b1")
 		(at 141.8011 120.4036 -90)
@@ -78261,7 +78261,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/7b75a139-4ad5-4e0b-90fe-c3cf55725477")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -78783,7 +78783,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "7454407d-20b4-4ee2-ac2b-275d7db88193")
 		(at 154.7011 117.8036 -90)
@@ -78878,7 +78878,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/69131672-b145-4a07-84c8-80bdb463e184")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -79400,7 +79400,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "77210b61-9d16-46fc-b788-c499fe1e792b")
 		(at 152.1011 134.7036 -90)
@@ -79495,7 +79495,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/38c59352-afe7-418f-926f-b87b8524eeda")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -80017,7 +80017,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "840c15c4-ebe5-4fec-9c5e-f763b113999e")
 		(at 154.7011 131.9036 -90)
@@ -80112,7 +80112,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/2b4f74ec-3977-49cd-9c88-9e22f9824a86")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -80634,7 +80634,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "94f5244c-dc21-4b31-8dc7-abd0bdaec81c")
 		(at 154.7011 122.8036 -90)
@@ -80729,7 +80729,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/960b9f31-8392-4181-8bcc-3d94311d11b5")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -81251,7 +81251,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "95c1e85c-8357-4e06-9654-59083675c51d")
 		(at 157.2011 117.8036 -90)
@@ -81346,7 +81346,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/6752f89e-0049-49e9-abc0-17107bea94de")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -81868,7 +81868,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "992a7bf6-66fb-420b-9aae-51759554a720")
 		(at 139.3011 117.8036 -90)
@@ -81963,7 +81963,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/fa8660d0-6898-4312-8433-f23f11f214e2")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -82485,7 +82485,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "9d8108d7-f673-475c-a555-e40a44b09dfc")
 		(at 157.2011 120.3036 -90)
@@ -82580,7 +82580,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/017988a2-535d-4a08-97a5-cd6fd6365c46")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -83102,7 +83102,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "a1a8ad1f-52a9-4b09-a4ed-6671720b2b25")
 		(at 159.7011 117.8036 -90)
@@ -83197,7 +83197,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/e1b934c0-4860-4b82-a7f0-ad9fcb7adc9b")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -83719,7 +83719,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "ae46ac66-62ab-4900-a668-05f5890b3139")
 		(at 136.5011 132.1036 -90)
@@ -83814,7 +83814,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/7ce31dca-167f-413a-b57d-9d7ebac130b3")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -84336,7 +84336,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "afcce895-4fe5-4143-9780-40c5f5f7b759")
 		(at 154.7011 134.7036 -90)
@@ -84431,7 +84431,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/2d70cc39-9de4-4e1e-8eeb-695e0c6e8f28")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -84953,7 +84953,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "afead4f7-e185-4b55-a3ff-d21a890e1f14")
 		(at 159.7011 122.8036 -90)
@@ -85048,7 +85048,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/deeead7d-18f6-40b8-951a-b1eb5d282203")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -85570,7 +85570,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "c1755409-3064-420f-82fc-b4e17ebdc1ba")
 		(at 136.5011 129.5036 -90)
@@ -85665,7 +85665,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/3d6e6f15-95a2-4d1d-96d8-7a1001587efe")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -86187,7 +86187,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "c647ec28-b178-4e0d-9668-15f1e9d13371")
 		(at 133.9011 132.2036 -90)
@@ -86282,7 +86282,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/bf009ed6-ccf9-46fb-bd7a-b94b39c8e3cd")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -86804,7 +86804,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "d0fb1387-2e1f-491d-bce5-b5d827d2a28b")
 		(at 136.5011 134.7036 -90)
@@ -86899,7 +86899,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/520aaa6d-6e46-4e74-84f1-6a3bf0c25efe")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -87421,7 +87421,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "dd37e296-56c0-4c20-bc9e-347cab2b9214")
 		(at 139.3011 129.5036 -90)
@@ -87516,7 +87516,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/4ea05032-4131-469c-973c-e006d57d1e67")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")
@@ -88038,7 +88038,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+	(footprint "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 		(layer "B.Cu")
 		(uuid "ed453ba5-4212-4b62-bd3d-104478976a00")
 		(at 157.2011 122.8036 -90)
@@ -88133,7 +88133,7 @@
 				(justify mirror)
 			)
 		)
-		(property ki_fp_filters "*TEST PIN BON 1-25mm SMD Pad (POGO-1)*")
+		(property ki_fp_filters "*TEST PIN 1-25mm SMD Pad (POGO-1)*")
 		(path "/49489d81-6ed3-4223-b712-58477545f8f8/014c9cc1-cbcd-4c0b-b52e-b49c71d27b60")
 		(sheetname "/S01 External Connectors/")
 		(sheetfile "S01 External Connectors.kicad_sch")

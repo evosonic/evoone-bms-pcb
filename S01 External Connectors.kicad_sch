@@ -3503,7 +3503,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)"
+		(symbol "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3568,7 +3568,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*TEST{space}PIN{space}BON{space}1-25mm{space}SMD{space}Pad{space}(POGO-1)*"
+			(property "ki_fp_filters" "*TEST{space}PIN{space}1-25mm{space}SMD{space}Pad{space}(POGO-1)*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3579,7 +3579,7 @@
 					)
 				)
 			)
-			(symbol "Test Pin BON 1-25mm SMD Pad (POGO-1)_1_0"
+			(symbol "Test Pin 1-25mm SMD Pad (POGO-1)_1_0"
 				(bezier
 					(pts
 						(xy -1.27 1.016) (xy -1.27 0.8055) (xy -0.7015 0.635) (xy 0 0.635)
@@ -6962,7 +6962,7 @@
 		(uuid "fc49d6f3-c510-4916-a0ad-38db2d35e102")
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -6994,7 +6994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7076,7 +7076,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -7108,7 +7108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7190,7 +7190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -7222,7 +7222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7946,7 +7946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 162.56 0)
 		(unit 1)
 		(body_style 1)
@@ -7978,7 +7978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8060,7 +8060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -8092,7 +8092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8174,7 +8174,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 162.56 0)
 		(unit 1)
 		(body_style 1)
@@ -8206,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8288,7 +8288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 241.3 166.37 0)
 		(unit 1)
 		(body_style 1)
@@ -8320,7 +8320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 241.3 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8513,7 +8513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 30.48 238.76 0)
 		(unit 1)
 		(body_style 1)
@@ -8545,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 30.48 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -8776,7 +8776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -8808,7 +8808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8890,7 +8890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -8922,7 +8922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9304,7 +9304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -9336,7 +9336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9418,7 +9418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -9450,7 +9450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10017,7 +10017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -10049,7 +10049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10131,7 +10131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -10163,7 +10163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10245,7 +10245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -10277,7 +10277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10359,7 +10359,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -10391,7 +10391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10547,7 +10547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 165.1 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -10579,7 +10579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 165.1 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10772,7 +10772,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -10804,7 +10804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10886,7 +10886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -10918,7 +10918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11152,7 +11152,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 166.37 0)
 		(unit 1)
 		(body_style 1)
@@ -11184,7 +11184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -11340,7 +11340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -11372,7 +11372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12394,7 +12394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -12426,7 +12426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12718,7 +12718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 167.64 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -12750,7 +12750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 167.64 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -13490,7 +13490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -13522,7 +13522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -13604,7 +13604,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 232.41 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -13636,7 +13636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -13903,7 +13903,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Test Pin BON 1-25mm SMD Pad (POGO-1)")
+		(lib_id "Lattech Systems:Test Pin 1-25mm SMD Pad (POGO-1)")
 		(at 17.78 238.76 0)
 		(unit 1)
 		(body_style 1)
@@ -13935,7 +13935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:TEST PIN 1-25mm SMD Pad (POGO-1)"
 			(at 17.78 238.76 0)
 			(hide yes)
 			(show_name no)

@@ -1,4 +1,4 @@
-(footprint "TEST PIN BON 1-25mm SMD Pad (POGO-1)"
+(footprint "TEST PIN 1-25mm SMD Pad (POGO-1)"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
