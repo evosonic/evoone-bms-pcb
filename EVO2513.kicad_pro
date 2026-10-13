@@ -575,7 +575,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EVO2513-0_5_0.kicad_pro",
+    "filename": "EVO2513.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1020,8 +1020,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "EVO2513-0_5_0.kicad_sch",
-        "name": "EVO2513-0_5_0",
+        "filename": "EVO2513.kicad_sch",
+        "name": "EVO2513",
         "uuid": "44203427-0a3b-455b-9bb9-c1b577d179b3"
       }
     ],
@@ -1031,7 +1031,7 @@
   "sheets": [
     [
       "44203427-0a3b-455b-9bb9-c1b577d179b3",
-      "EVO2513-0_5_0"
+      "EVO2513"
     ],
     [
       "49489d81-6ed3-4223-b712-58477545f8f8",

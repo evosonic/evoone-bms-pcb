@@ -2,7 +2,8 @@
 
 KiCad project for the EvoOne battery management board, EVO2513 revision 0.6.0.
 Revision 0.6.0 is the 0.5.0 design (the boards in field test) with the W16
-review changes below. The files keep their 0_5_0 names.
+review changes below. The project, schematic and PCB files are named
+`EVO2513`; the project libraries keep their `EVO2513-0_5_0` names.
 
 The design was converted to KiCad from the Altium sources supplied by Lattech.
 The raw import needed several fixes before the schematic and PCB agreed; see
@@ -20,9 +21,9 @@ The raw import needed several fixes before the schematic and PCB agreed; see
 
 ## Schematic sheets
 
-The schematic is hierarchical: the root sheet `EVO2513-0_5_0.kicad_sch` holds
+The schematic is hierarchical: the root sheet `EVO2513.kicad_sch` holds
 one sheet symbol per sheet, and each sheet is its own file. Open it from
-`EVO2513-0_5_0.kicad_pro`.
+`EVO2513.kicad_pro`.
 
 | Sheet | Function | Key parts |
 |---|---|---|
@@ -68,10 +69,10 @@ REGTEMP channels.
 
 ## Files
 
-- `EVO2513-0_5_0.kicad_pro` — project
-- `EVO2513-0_5_0.kicad_sch` — root schematic sheet; `S0x *.kicad_sch` — the
+- `EVO2513.kicad_pro` — project
+- `EVO2513.kicad_sch` — root schematic sheet; `S0x *.kicad_sch` — the
   eight sheets
-- `EVO2513-0_5_0.kicad_pcb` — PCB layout
+- `EVO2513.kicad_pcb` — PCB layout
 - `FIRMWARE_NOTES.md` — what the MCU firmware must know about this revision:
   SPI and expander set-up, the inverted DAQ enable, load-switch thresholds and
   current-monitor scaling
@@ -280,7 +281,7 @@ Each fix is a separate commit on top of the initial import.
 | The "Lattech Systems" symbol library wasn't available, so symbols existed only as copies embedded in the schematics, some in several slightly different versions | Exported the symbols to project libraries under their original library names, and made every schematic use one definition per symbol |
 | Chip resistor and capacitor footprints had poor pads (0402s used 0.635 mm circular pads) and caused tombstoning | Replaced all 139 with KiCad standard IPC-7351 nominal footprints (`Resistor_SMD`, `Capacitor_SMD`) in place: same position, rotation and nets, zones refilled |
 | PCB footprints were linked to the imported symbols by mismatched internal IDs, and nets used Altium names | Ran Update PCB from Schematic: no errors, placement and copper unchanged, all 147 nets match the schematic |
-| KiCad design rules were defaults (0.2 mm clearance and track, 0.3 mm min hole), not the Altium rules | Set to the rules in the Altium `.PcbDoc`: 0.15 mm clearance, track and annular ring, 0.15 mm min hole, 0.3 mm hole-to-hole, and `EVO2513-0_5_0.kicad_dru` for the 0.3 mm BON pad-to-pad rule (now on test pads TP1–26) |
+| KiCad design rules were defaults (0.2 mm clearance and track, 0.3 mm min hole), not the Altium rules | Set to the rules in the Altium `.PcbDoc`: 0.15 mm clearance, track and annular ring, 0.15 mm min hole, 0.3 mm hole-to-hole, and `EVO2513.kicad_dru` for the 0.3 mm BON pad-to-pad rule (now on test pads TP1–26) |
 | FL1's ground land had no pad number, so its 38 GND vias showed as shorts | Numbered pad 4 (GND) on the board and in the project footprint library |
 | The two mounting holes had no reference designator | Named H1 and H2, board-only, excluded from BOM and position files |
 | 14 zero-length track segments | Removed |

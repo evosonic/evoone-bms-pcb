@@ -4032,7 +4032,7 @@
 			(uuid "e4a2c9b2-a26f-4c91-91e8-070391624ec7")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "FL1")
 					(unit 1)
@@ -4184,7 +4184,7 @@
 			(uuid "54451bb7-e4e7-434b-b5af-7c356d8b3cbe")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "R1")
 					(unit 1)
@@ -4358,7 +4358,7 @@
 			(uuid "c6e0d542-c889-4740-a520-f41d29aa73fa")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "C1")
 					(unit 1)
@@ -4510,7 +4510,7 @@
 			(uuid "2a1913e6-c574-4af0-9137-3d04b7b855fb")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "R2")
 					(unit 1)
@@ -4662,7 +4662,7 @@
 			(uuid "5495d204-6ee0-4976-8443-ba08cae42eea")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "R5")
 					(unit 1)
@@ -4832,7 +4832,7 @@
 			(uuid "3e8dae09-40d7-4856-b199-ed5b6d6cc884")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "U2")
 					(unit 1)
@@ -4983,7 +4983,7 @@
 			(uuid "b63b01b1-148c-4f4d-8bcd-8eeaf86db22e")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "LED1")
 					(unit 1)
@@ -5135,7 +5135,7 @@
 			(uuid "4e910dfa-1b7a-4086-ac9d-d6063912b386")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "D1")
 					(unit 1)
@@ -5305,7 +5305,7 @@
 			(uuid "1a48e154-b475-44ef-8e93-580c2fbb41a4")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "Q3")
 					(unit 1)
@@ -5457,7 +5457,7 @@
 			(uuid "baed8ddc-628b-4339-a2fc-6056646625c4")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "R7")
 					(unit 1)
@@ -5531,7 +5531,7 @@
 			(uuid "64dbd471-bdf8-414f-a92e-b9673be96e4c")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "#PWR020")
 					(unit 1)
@@ -5683,7 +5683,7 @@
 			(uuid "f0de23d6-2fae-44bd-a7cb-522448685a77")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "R6")
 					(unit 1)
@@ -5835,7 +5835,7 @@
 			(uuid "400e283c-e1a6-4de6-a6ea-850176f48caa")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "R3")
 					(unit 1)
@@ -6006,7 +6006,7 @@
 			(uuid "7960fc6b-3f51-433b-87cc-cfcbbd925f4d")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "Q1")
 					(unit 1)
@@ -6158,7 +6158,7 @@
 			(uuid "704f68b4-2cb3-4169-986b-833228c6d1b2")
 		)
 		(instances
-			(project "EVO2513-0_5_0"
+			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/8d5ba2ad-b155-424d-98b9-d2b0a3724e07"
 					(reference "R4")
 					(unit 1)
