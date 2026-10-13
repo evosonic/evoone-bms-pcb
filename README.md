@@ -12,7 +12,7 @@ The raw import needed several fixes before the schematic and PCB agreed; see
 |---|---|
 | Outline | 110 × 69 mm |
 | Layers | 8 copper (F.Cu, In1–In6.Cu, B.Cu) |
-| Thickness | 1.584 mm |
+| Thickness | 1.598 mm finished (1.59 mm laminate + ENIG); stackup as the Altium fab drawing: three 0.25 mm cores, 2116 prepregs, 1 oz copper |
 | Components | ~230 footprints |
 | Tool | KiCad 10.0 |
 

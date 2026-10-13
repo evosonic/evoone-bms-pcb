@@ -8158,7 +8158,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "PG-TDSON-8-33"
+		(property "MANUFACTURER_PN" "IAUCN04S7L028ATMA1"
 			(at 159.512 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11713,7 +11713,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Infenion"
+		(property "MANUFACTURER" "Infineon"
 			(at 249.682 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11725,7 +11725,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "PG-TDSON-8-33"
+		(property "MANUFACTURER_PN" "IAUCN04S7L019ATMA1"
 			(at 249.682 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13609,7 +13609,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Infenion"
+		(property "MANUFACTURER" "Infineon"
 			(at 159.512 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13621,7 +13621,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "PG-TDSON-8-33"
+		(property "MANUFACTURER_PN" "IAUCN04S7L019ATMA1"
 			(at 159.512 40.64 0)
 			(hide yes)
 			(show_name no)

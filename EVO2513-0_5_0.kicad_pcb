@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.583996)
+		(thickness 1.59)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -66,81 +66,91 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(thickness 0.01)
+				(thickness 0.013)
 			)
 			(layer "F.Cu"
 				(type "copper")
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
-				(type "core")
-				(thickness 0.183428)
+				(type "prepreg")
+				(thickness 0.094)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.03)
 			)
 			(layer "dielectric 2"
-				(type "prepreg")
-				(thickness 0.183428)
+				(type "core")
+				(thickness 0.25)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.03)
 			)
 			(layer "dielectric 3"
-				(type "core")
-				(thickness 0.183428)
+				(type "prepreg")
+				(thickness 0.094)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+				addsublayer
+				(thickness 0.094)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In3.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.03)
 			)
 			(layer "dielectric 4"
-				(type "prepreg")
-				(thickness 0.183428)
+				(type "core")
+				(thickness 0.25)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In4.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.03)
 			)
 			(layer "dielectric 5"
-				(type "core")
-				(thickness 0.183428)
+				(type "prepreg")
+				(thickness 0.094)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+				addsublayer
+				(thickness 0.094)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In5.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.03)
 			)
 			(layer "dielectric 6"
-				(type "prepreg")
-				(thickness 0.183428)
+				(type "core")
+				(thickness 0.25)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In6.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.03)
 			)
 			(layer "dielectric 7"
-				(type "core")
-				(thickness 0.183428)
+				(type "prepreg")
+				(thickness 0.094)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -151,7 +161,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(thickness 0.01)
+				(thickness 0.013)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
@@ -159,7 +169,7 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "None")
+			(copper_finish "ENIG")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0.05)
@@ -1924,7 +1934,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "PG-TDSON-8-33"
+		(property "MANUFACTURER_PN" "IAUCN04S7L028ATMA1"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33842,7 +33852,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Infenion"
+		(property "MANUFACTURER" "Infineon"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33855,7 +33865,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "PG-TDSON-8-33"
+		(property "MANUFACTURER_PN" "IAUCN04S7L019ATMA1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58029,7 +58039,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Infenion"
+		(property "MANUFACTURER" "Infineon"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58042,7 +58052,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "PG-TDSON-8-33"
+		(property "MANUFACTURER_PN" "IAUCN04S7L019ATMA1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71044,7 +71054,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "10144517-042802LF"
+		(property "MANUFACTURER_PN" "10144517-043802LF"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -101239,7 +101249,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "L1"
+	(gr_text "L2"
 		(at 125.03238 26.62611 0)
 		(layer "User.2")
 		(uuid "72e31487-a9e9-4373-9d4d-254d0e715645")
