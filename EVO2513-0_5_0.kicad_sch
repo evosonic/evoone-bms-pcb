@@ -5,7 +5,7 @@
 	(uuid "44203427-0a3b-455b-9bb9-c1b577d179b3")
 	(paper "A3")
 	(title_block
-		(title "EvoOne BMS (EVO2513 v0.5.0)")
+		(title "EvoOne BMS (EVO2513 v0.6.0)")
 		(rev "${SCH_REVISION}")
 		(company "${COMP_NAME}")
 		(comment 1 "Converted to KiCad from the Altium sources supplied by Lattech")

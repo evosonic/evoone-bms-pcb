@@ -1,9 +1,9 @@
-# EVO2513 v0.5.0 (final revision): notes for the MCU firmware
+# EVO2513 v0.6.0: notes for the MCU firmware
 
 What the MCU firmware has to know about this board revision. The hardware is
 described in [README.md](README.md); this file covers only what changes how
 firmware drives or reads the board. Items marked **Changed** differ from the
-boards in field test.
+0.5.0 boards in field test.
 
 ## SPI bus
 

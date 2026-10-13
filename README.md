@@ -1,6 +1,8 @@
-# EvoOne BMS PCB (EVO2513 v0.5.0)
+# EvoOne BMS PCB (EVO2513 v0.6.0)
 
-KiCad project for the EvoOne battery management board, EVO2513 revision 0.5.0.
+KiCad project for the EvoOne battery management board, EVO2513 revision 0.6.0.
+Revision 0.6.0 is the 0.5.0 design (the boards in field test) with the W16
+review changes below. The files keep their 0_5_0 names.
 
 The design was converted to KiCad from the Altium sources supplied by Lattech.
 The raw import needed several fixes before the schematic and PCB agreed; see
