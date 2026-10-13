@@ -3511,11 +3511,11 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
+			(property "Reference" "TP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6967,12 +6967,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "014c9cc1-cbcd-4c0b-b52e-b49c71d27b60")
-		(property "Reference" "BON19"
+		(property "Reference" "TP19"
 			(at 229.87 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7069,7 +7069,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON19")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -7081,12 +7081,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "017988a2-535d-4a08-97a5-cd6fd6365c46")
-		(property "Reference" "BON18"
+		(property "Reference" "TP18"
 			(at 229.87 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7183,7 +7183,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON18")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -7195,12 +7195,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "039cc1f1-33d1-4e0d-b444-f8d1f9d2d3e9")
-		(property "Reference" "BON5"
+		(property "Reference" "TP5"
 			(at 170.18 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,7 +7297,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON5")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7951,12 +7951,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "26a86de5-c629-4c0b-b00f-9e8468835280")
-		(property "Reference" "BON12"
+		(property "Reference" "TP12"
 			(at 170.18 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,7 +8053,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON12")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -8065,12 +8065,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "28be6ffc-81d6-485b-baff-03d4db3242e7")
-		(property "Reference" "BON24"
+		(property "Reference" "TP24"
 			(at 229.87 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +8167,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON24")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -8179,12 +8179,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2b4f74ec-3977-49cd-9c88-9e22f9824a86")
-		(property "Reference" "BON25"
+		(property "Reference" "TP25"
 			(at 229.87 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8281,7 +8281,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON25")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -8293,12 +8293,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2d70cc39-9de4-4e1e-8eeb-695e0c6e8f28")
-		(property "Reference" "BON26"
+		(property "Reference" "TP26"
 			(at 238.76 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8395,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON26")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -8518,12 +8518,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "38c59352-afe7-418f-926f-b87b8524eeda")
-		(property "Reference" "BON2"
+		(property "Reference" "TP2"
 			(at 33.02 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8620,7 +8620,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON2")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -8781,12 +8781,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "3abc232e-8ea1-4115-9615-be7d8e1eaa6a")
-		(property "Reference" "BON20"
+		(property "Reference" "TP20"
 			(at 229.87 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8883,7 +8883,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON20")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -8895,12 +8895,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "3d6e6f15-95a2-4d1d-96d8-7a1001587efe")
-		(property "Reference" "BON7"
+		(property "Reference" "TP7"
 			(at 170.18 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8997,7 +8997,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON7")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9309,12 +9309,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4ea05032-4131-469c-973c-e006d57d1e67")
-		(property "Reference" "BON8"
+		(property "Reference" "TP8"
 			(at 170.18 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9411,7 +9411,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON8")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -9423,12 +9423,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "520aaa6d-6e46-4e74-84f1-6a3bf0c25efe")
-		(property "Reference" "BON11"
+		(property "Reference" "TP11"
 			(at 170.18 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9525,7 +9525,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON11")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -10022,12 +10022,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "65db1c66-7a0e-485b-a3b5-4d6dbaf79541")
-		(property "Reference" "BON10"
+		(property "Reference" "TP10"
 			(at 170.18 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10124,7 +10124,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON10")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -10136,12 +10136,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "6752f89e-0049-49e9-abc0-17107bea94de")
-		(property "Reference" "BON16"
+		(property "Reference" "TP16"
 			(at 229.87 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10238,7 +10238,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON16")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -10250,12 +10250,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "67cb7c9f-29ed-4575-b6a2-f11cd9e1a036")
-		(property "Reference" "BON23"
+		(property "Reference" "TP23"
 			(at 229.87 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10352,7 +10352,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON23")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -10364,12 +10364,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "69131672-b145-4a07-84c8-80bdb463e184")
-		(property "Reference" "BON14"
+		(property "Reference" "TP14"
 			(at 229.87 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10466,7 +10466,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON14")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -10552,12 +10552,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "74ffc95b-957a-47dd-94e9-79d5f99aadf6")
-		(property "Reference" "BON3"
+		(property "Reference" "TP3"
 			(at 167.64 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10654,7 +10654,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON3")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10777,12 +10777,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7b75a139-4ad5-4e0b-90fe-c3cf55725477")
-		(property "Reference" "BON4"
+		(property "Reference" "TP4"
 			(at 170.18 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10879,7 +10879,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON4")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10891,12 +10891,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7ce31dca-167f-413a-b57d-9d7ebac130b3")
-		(property "Reference" "BON9"
+		(property "Reference" "TP9"
 			(at 170.18 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10993,7 +10993,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON9")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -11157,12 +11157,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "86711255-4819-42c4-a398-a432e40fdcdd")
-		(property "Reference" "BON13"
+		(property "Reference" "TP13"
 			(at 170.18 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11259,7 +11259,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON13")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -11345,12 +11345,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "960b9f31-8392-4181-8bcc-3d94311d11b5")
-		(property "Reference" "BON17"
+		(property "Reference" "TP17"
 			(at 229.87 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11447,7 +11447,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON17")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -12399,12 +12399,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a9a4560c-b779-441c-90ea-fefbe78f4415")
-		(property "Reference" "BON15"
+		(property "Reference" "TP15"
 			(at 229.87 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12501,7 +12501,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON15")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -12723,12 +12723,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bf009ed6-ccf9-46fb-bd7a-b94b39c8e3cd")
-		(property "Reference" "BON6"
+		(property "Reference" "TP6"
 			(at 170.18 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12825,7 +12825,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON6")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -13495,12 +13495,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "deeead7d-18f6-40b8-951a-b1eb5d282203")
-		(property "Reference" "BON22"
+		(property "Reference" "TP22"
 			(at 229.87 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13597,7 +13597,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON22")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -13609,12 +13609,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e1b934c0-4860-4b82-a7f0-ad9fcb7adc9b")
-		(property "Reference" "BON21"
+		(property "Reference" "TP21"
 			(at 229.87 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13711,7 +13711,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON21")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -13908,12 +13908,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "fa8660d0-6898-4312-8433-f23f11f214e2")
-		(property "Reference" "BON1"
+		(property "Reference" "TP1"
 			(at 20.32 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14010,7 +14010,7 @@
 		(instances
 			(project "EVO2513-0_5_0"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/49489d81-6ed3-4223-b712-58477545f8f8"
-					(reference "BON1")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

@@ -8068,7 +8068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:PG-TDSON-8-33 B6.44 x 5.15 H1.0 P1.27 8-Pin EP"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Infineon_PG-TDSON-8-33_5.48x5.15mm_P1.27mm"
 			(at 160.02 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11631,7 +11631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:PG-TDSON-8-33 B6.44 x 5.15 H1.0 P1.27 8-Pin EP"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Infineon_PG-TDSON-8-33_5.48x5.15mm_P1.27mm"
 			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13527,7 +13527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:PG-TDSON-8-33 B6.44 x 5.15 H1.0 P1.27 8-Pin EP"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Infineon_PG-TDSON-8-33_5.48x5.15mm_P1.27mm"
 			(at 160.02 46.99 0)
 			(hide yes)
 			(show_name no)
