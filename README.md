@@ -85,8 +85,6 @@ REGTEMP channels.
   symbol fields, so a value change needs no new symbol
 - `EVO2513-0_5_0-altium-import.kicad_sym` — the 4 power symbols created by the
   Altium import. Both symbol libraries are registered in `sym-lib-table`.
-- `744393580068.stp` — STEP model for part 744393580068 (not currently
-  referenced by any footprint in the PCB)
 
 ## Design changes (W16 review)
 
