@@ -54,6 +54,16 @@ nets use power symbols.
 | J4 | Molex 1053102204, 2.5 mm pitch |
 | J5, J6 | Molex 1053091102, 2-way 2.5 mm pitch |
 
+The thermistor nets on J3 pins 24 and 28 are deliberately swapped from the
+Altium design. The swap went in with `6ce5d68`, whose commit message doesn't
+mention it. Firmware written for the earlier pinout must swap its BMSTEMP and
+REGTEMP channels.
+
+| J3 pin | Altium design | Now |
+|---|---|---|
+| 24 | BMSTEMP (TH1) | REGTEMP (TH2) |
+| 28 | REGTEMP (TH2) | BMSTEMP (TH1) |
+
 ## Files
 
 - `EVO2513-0_5_0.kicad_pro` — project
