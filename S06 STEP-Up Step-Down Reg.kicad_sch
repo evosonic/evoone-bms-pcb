@@ -9570,7 +9570,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "53cc54ad-5551-499c-9da5-04b6e5af3476")
 		(property "Reference" "R106"
 			(at 310.896 190.5 0)
@@ -9582,7 +9582,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "10K"
 			(at 310.896 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9614,7 +9614,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 2.2K 1% 0402"
+		(property "Description" "Resistor 10K 1% 0402"
 			(at 309.88 190.5 90)
 			(hide yes)
 			(show_name no)
@@ -9669,7 +9669,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "2.2K"
+		(property "ALTIUM_VALUE" "10K"
 			(at 308.864 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -9866,7 +9866,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5c5f6708-612c-4f54-a95d-5ba4abc3f56e")
 		(property "Reference" "R105"
 			(at 318.77 217.424 90)
@@ -10605,7 +10605,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "774b2cf3-228c-4358-bef0-9d9443c10faf")
 		(property "Reference" "R104"
 			(at 318.77 197.104 90)
@@ -12303,7 +12303,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a0ade691-cd6e-4537-91e9-c5dd2534402a")
 		(property "Reference" "R30"
 			(at 63.246 214.63 0)
@@ -14200,7 +14200,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cdfb1f97-9717-453e-ba7d-3ab162280a21")
 		(property "Reference" "R29"
 			(at 53.086 214.63 0)
@@ -16223,7 +16223,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "eadb27ff-8f4c-4924-8e7d-24290fce853c")
 		(property "Reference" "R107"
 			(at 310.896 210.82 0)
@@ -16235,7 +16235,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "10K"
 			(at 310.896 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16267,7 +16267,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 2.2K 1% 0402"
+		(property "Description" "Resistor 10K 1% 0402"
 			(at 309.88 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -16322,7 +16322,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "2.2K"
+		(property "ALTIUM_VALUE" "10K"
 			(at 308.864 206.502 0)
 			(hide yes)
 			(show_name no)
@@ -16780,7 +16780,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "6.49K"
+		(property "Value" "0R"
 			(at 115.316 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16813,7 +16813,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 6.49K 1% 0402"
+		(property "Description" "Resistor 0R 0402"
 			(at 114.3 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -16848,7 +16848,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "?"
 			(at 113.284 210.312 0)
 			(hide yes)
 			(show_name no)
@@ -16860,7 +16860,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "?"
 			(at 113.284 210.312 0)
 			(hide yes)
 			(show_name no)
@@ -16872,7 +16872,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "6.49K"
+		(property "ALTIUM_VALUE" "0R"
 			(at 113.284 210.312 0)
 			(hide yes)
 			(show_name no)

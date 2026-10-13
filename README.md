@@ -130,22 +130,23 @@ nRST stays on DCBMS in both BIAS builds.
 | MODE (7) | R86 to GND: power-save mode (W16 review) | R87 back to VCC2/ILIMCOMP: forced PWM, as built before |
 | BIAS (40) | R89 to +12V (U5's own output): the LM51772 datasheet's standard configuration (§7.3.5). VSMART runs the VCC2 regulator from the lower of VIN and BIAS once both exceed the switch-over threshold, so on the 24 V supply it drops from 12 V instead of 24 V; at start-up or with +12V shorted it falls back to VIN | R88 to DCBMS, as built on the field units |
 
-U5 can also be configured over I2C instead of by its CFG resistors (right of
-the MODE/BIAS links on S06, all DNP as built):
+U5 is configured over I2C by default, not by its CFG resistors (parts right
+of the MODE/BIAS links on S06):
 
-| Ref | Part | Function in the I2C build |
+| Ref | Part | Function in the I2C build (default) |
 |---|---|---|
-| R38 | change 6.49K to 0R, CFG1 (ADDR/SLOPE, pin 9) to GND | Selects I2C at address 0x6A; 6.49K selects resistor configuration with slope compensation 1.0 |
+| R38 | 0R, CFG1 (ADDR/SLOPE, pin 9) to GND | Selects I2C at address 0x6A. 6.49K instead selects resistor configuration with slope compensation 1.0 |
 | R104 | 0R, SDA/CFG3 (pin 5) to J3.34 `MCU_ENDAQ` | SDA to the MCU |
 | R105 | 0R, SCL/CFG4 (pin 6) to J3.36 `MCU_ENEXT` | SCL to the MCU |
-| R106, R107 | 2.2K to +3V3MCU | SDA and SCL pull-ups (pins rated to 5.8 V) |
-| R30, R29 | 5.1K and 1.87K to GND | **Remove**: they are CFG3/CFG4 and would load the bus |
+| R106, R107 | 10K to +3V3MCU | SDA and SCL pull-ups (pins rated to 5.8 V). 10K keeps edges slow for EMC and limits the bus to 100 kHz standard mode |
+| R30, R29 | 5.1K and 1.87K to GND, **DNP** | CFG3/CFG4 for the resistor build; fitted, they would load the bus |
 
-To build for I2C, fit R104–R107, change R38 to 0R and remove R29 and R30. J3.34 and J3.36 are
-also the direct-enable fallback through R97 and R98 (S08): fit R97/R98 or the
-I2C option, never both. The MCU pins on J3.34/J3.36 must support I2C.
+To return to the resistor build, remove R104–R107, change R38 to 6.49K and fit
+R29 and R30. J3.34 and J3.36 are also the direct-enable fallback through R97
+and R98 (S08), so R97 and R98 stay unfitted while the I2C build is fitted. The
+MCU pins on J3.34/J3.36 must support I2C.
 
-In the I2C build U5 starts from its register defaults, not the resistor
+U5 starts from its register defaults, not the resistor
 settings, so firmware must write them before raising REGEN. They are latched
 for as long as DCBMS is up, since nRST is tied to DCBMS. Defaults that differ
 from the resistor build:
@@ -179,7 +180,7 @@ is `nENDAQ`, active low: high or floating (POR, expander in reset or
 unpowered) turns Q24 on and puts U6 in shutdown; low releases EN/UVLO to the
 divider. R109 100K / R110 27K bias the gate from +12V to 2.55 V (3.1 V at the
 14.7 V OVLO limit), so the channel stays off when the MCU board is
-unpowered, and the gate stays under 3.3 V, so P0_0 can stay push-pull and
+unpowered, and the gate stays under 3.3 V, so P0_1 can stay push-pull and
 the R97 fallback can drive it from a 3.3 V MCU pin. SBC and EXT have no
 UVLO. A note on S07 marks the DAQ circuit as deliberate.
 
@@ -204,8 +205,9 @@ by about 1 V. BSS138: IGSS 100 nA, IDSS 0.5 µA, VGS(th) 0.8–1.5 V.
 
 | Port | Net | Function |
 |---|---|---|
-| P0_0 (out) | nENDAQ | U6 enable through Q24, **active low** |
-| P0_1, P0_2 (out) | ENSBC, ENEXT | U7, U9 enables |
+| P0_0 (out) | ENSBC | U7 enable |
+| P0_1 (out) | nENDAQ | U6 enable through Q24, **active low** |
+| P0_2 (out) | ENEXT | U9 enable |
 | P0_4–P0_6 (in) | PGDAQ, PGSBC, PGEXT | U6, U7, U9 power good (also still drive the LEDs) |
 | P0_7 (in) | nFLT | U5 nFLT/nINT, which was unconnected |
 | P0_3, P1_0–P1_5 | — | spare, not connected |

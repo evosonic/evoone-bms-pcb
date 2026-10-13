@@ -38,8 +38,8 @@ stay off until firmware sets P0_0–P0_2 as outputs.
 
 | Port | Direction | Net | Function | Active |
 |---|---|---|---|---|
-| P0_0 | out | nENDAQ | DAQ load switch (U6) enable, through Q24 | **LOW (Changed)** |
-| P0_1 | out | ENSBC | SBC load switch (U7) enable | high |
+| P0_0 | out | ENSBC | SBC load switch (U7) enable | high |
+| P0_1 | out | nENDAQ | DAQ load switch (U6) enable, through Q24 | **LOW (Changed)** |
 | P0_2 | out | ENEXT | EXT load switch (U9) enable | high |
 | P0_3 | — | — | spare, not connected | — |
 | P0_4 | in | PGDAQ | U6 power good | high |
@@ -48,9 +48,9 @@ stay off until firmware sets P0_0–P0_2 as outputs.
 | P0_7 | in | nFLT | U5 (LM51772) fault/interrupt | low |
 | P1_0–P1_5 | — | — | spare, not connected | — |
 
-- **Changed: P0_0 is inverted.** Write 0 to enable DAQ and 1 to disable it.
+- **Changed: P0_1 is inverted.** Write 0 to enable DAQ and 1 to disable it.
   High or floating holds U6 in shutdown, including while the expander is in
-  reset. The Q24 gate sits at about 2.55 V, so P0_0 can stay push-pull.
+  reset. The Q24 gate sits at about 2.55 V, so P0_1 can stay push-pull.
 - All three enables move from MCU GPIO to SPI.
 - Output drive strength: set the used outputs to 25 % (registers 40h–43h).
   Every output drives only a 100K-class load, so fast edges add noise and
@@ -112,12 +112,18 @@ expected to rise to 1.2K or more once the final DAQ and EXT loads are known
 - REGEN (J3.12) still enables U5 directly; it doesn't go through the expander.
 - nFLT is now readable on expander P0_7.
 
-### I2C configuration build (assembly option, unfitted as built)
+### I2C configuration (default build)
 
-If R104–R107 are fitted, R38 is changed to 0R and R29/R30 are removed, U5 is configured over I2C at
-address 0x6A on SDA = J3.34 and SCL = J3.36 (the MCU pins must support
-I2C). U5 then starts from its register defaults, not the resistor settings,
-so firmware must write them before raising REGEN. The settings stay latched
+**Changed:** U5 is configured over I2C at address 0x6A on SDA = J3.34 and
+SCL = J3.36 (R104–R107 fitted, R38 0R, R29/R30 unfitted). The MCU pins must
+support I2C. U5 starts from its register defaults, not the resistor settings,
+so firmware must write them before raising REGEN.
+
+- **Run the bus at 100 kHz (standard mode) or slower.** The pull-ups are 10K
+  (R106, R107) to keep edges slow for EMC. Rise time is about
+  0.85 × 10K × C_bus: about 850 ns at 100 pF, inside standard mode's 1000 ns
+  limit, but well over fast mode's 300 ns. Don't add strong pull-ups on the
+  MCU side; they would undo the slow edges. The settings stay latched
 while DCBMS is up (nRST is tied to DCBMS). Defaults that differ from the
 resistor build:
 
@@ -130,8 +136,9 @@ resistor build:
 - constant dead time (`EN_CONST_TDEAD`) defaults off; R30 (CFG3 setting 7)
   turns it on
 
-The I2C build uses the same J3 pins as the R97/R98 direct-drive fallback.
-Fit one or the other, never both.
+The I2C build uses the same J3 pins as the R97/R98 direct-drive fallback, so
+R97 and R98 must stay unfitted. The resistor build (R104–R107 removed, R38
+6.49K, R29/R30 fitted) is still available as an assembly option.
 
 ## Battery manager (U1, LTC1960)
 

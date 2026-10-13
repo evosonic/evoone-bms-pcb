@@ -1552,7 +1552,7 @@
 		)
 		(uuid "80e36cb0-6b85-4a61-a67c-7ff474aa3bed")
 	)
-	(text "PCAL9714 SPI I/O expander, address 40h (ADDR = GND)\nShares CLOCK / MOSI / MISO with U1 (LTC1960); selected by nCSIO on J3.32, which was ENSBC\nPorts power up as inputs with pull-ups off: the enable pull-downs (R50, R69) and Q24's gate bias (DAQ) hold the rails off\nuntil firmware sets P0_0-P0_2 as outputs. P0_0 (nENDAQ) is active LOW. P0_4-P0_7 read U6/U7/U9 PG and U5 nFLT. P0_3, P1_0-P1_5 spare.\nREGEN (U5 enable) stays a direct J3.12 signal and does not pass through the expander"
+	(text "PCAL9714 SPI I/O expander, address 40h (ADDR = GND)\nShares CLOCK / MOSI / MISO with U1 (LTC1960); selected by nCSIO on J3.32, which was ENSBC\nPorts power up as inputs with pull-ups off: the enable pull-downs (R50, R69) and Q24's gate bias (DAQ) hold the rails off\nuntil firmware sets P0_0-P0_2 as outputs. P0_1 (nENDAQ) is active LOW. P0_4-P0_7 read U6/U7/U9 PG and U5 nFLT. P0_3, P1_0-P1_5 spare.\nREGEN (U5 enable) stays a direct J3.12 signal and does not pass through the expander"
 		(exclude_from_sim no)
 		(at 63.5 66.04 0)
 		(effects

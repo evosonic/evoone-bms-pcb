@@ -11739,7 +11739,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -29320,7 +29320,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "10K"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "4da8e838-83c8-4d63-b8c6-2a26a68b3ca5")
@@ -29342,7 +29342,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 2.2K 1% 0402"
+		(property "Description" "Resistor 10K 1% 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29405,7 +29405,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "2.2K"
+		(property "ALTIUM_VALUE" "10K"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29441,7 +29441,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 0.38)
@@ -39140,7 +39140,7 @@
 				)
 			)
 		)
-		(property "Value" "6.49K"
+		(property "Value" "0R"
 			(at 3.72623 29.08602 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -39164,7 +39164,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 6.49K 1% 0402"
+		(property "Description" "Resistor 0R 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -39201,7 +39201,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "?"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39214,7 +39214,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "?"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39227,7 +39227,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "6.49K"
+		(property "ALTIUM_VALUE" "0R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43296,7 +43296,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "10K"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "d55ca44a-8359-43be-9c7e-1d0cd86297b9")
@@ -43318,7 +43318,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 2.2K 1% 0402"
+		(property "Description" "Resistor 10K 1% 0402"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43381,7 +43381,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "2.2K"
+		(property "ALTIUM_VALUE" "10K"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43417,7 +43417,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 0.38)
@@ -44188,7 +44188,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -55680,7 +55680,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 0.38)
@@ -72355,7 +72355,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 0.38)
