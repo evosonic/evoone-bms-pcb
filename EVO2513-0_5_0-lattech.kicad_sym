@@ -11724,7 +11724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:HVQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:HVQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

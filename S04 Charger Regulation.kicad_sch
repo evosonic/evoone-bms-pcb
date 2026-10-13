@@ -9991,7 +9991,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e2a58cf2-8a20-4c33-8fb6-ae10c805aa23")
 		(property "Reference" "R83"
 			(at 227.33 81.534 0)

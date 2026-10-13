@@ -8764,7 +8764,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1f1f3b11-0c88-4e0a-b51a-a6980cfb0057")
 		(property "Reference" "R84"
 			(at 198.12 67.564 0)
@@ -15541,7 +15541,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e6af7f90-9d12-4860-8e8a-7b211bad662c")
 		(property "Reference" "R85"
 			(at 358.14 53.594 0)

@@ -6495,7 +6495,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "475faa26-006a-49d9-9d26-51113c29bd94")
 		(property "Reference" "R23"
 			(at 113.03 77.724 0)
@@ -8900,7 +8900,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8d703f08-c041-4433-b107-a67533506c2b")
 		(property "Reference" "R82"
 			(at 209.55 166.624 0)
