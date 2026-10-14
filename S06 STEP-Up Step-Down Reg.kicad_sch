@@ -4438,6 +4438,558 @@
 		(at 187.96 194.31)
 		(uuid "f2286dc4-ae71-43a4-acd8-8bd0f9982daa")
 	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8068764-4f05-4014-951d-9bac9d19516e")
+		(property "Reference" "R111"
+			(at 176.53 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3R"
+			(at 176.53 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 176.53 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 3R 1% 0603"
+			(at 176.53 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "Q16 gate resistor, as R7-R10 (3R) on TI LM51772EVM-HP; slows the switching edges. Fit 0R to bypass"
+			(at 176.53 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 176.53 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 176.53 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+			(at 176.53 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "545e7dd4-0b67-48f9-ad0a-c336c1a6cfa6")
+		)
+		(pin "2"
+			(uuid "d7afcac0-489f-480d-a2a5-759c934d86e6")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 168.91 58.42) (xy 172.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a99508-e228-4441-a031-50de86d4916b")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84032391-0844-4919-ac88-1b6759b72bb7")
+	)
+	(wire
+		(pts
+			(xy 222.25 59.69) (xy 229.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5abe6d8-525b-4e16-af43-764994d76acd")
+	)
+	(wire
+		(pts
+			(xy 237.49 59.69) (xy 241.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a41f4c0-8cb8-4fc9-9374-cd378ba66134")
+	)
+	(wire
+		(pts
+			(xy 266.7 96.52) (xy 273.05 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907a2742-e251-41f4-8185-1a52b5fe6c75")
+	)
+	(wire
+		(pts
+			(xy 137.16 95.25) (xy 143.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fb389a-44d0-43ca-bf6b-0f080e4376f1")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cda89e87-92c1-4076-a75a-5fb1a408414a")
+		(property "Reference" "R112"
+			(at 147.32 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3R"
+			(at 147.32 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.32 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 3R 1% 0603"
+			(at 147.32 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "Q17 gate resistor, as R7-R10 (3R) on TI LM51772EVM-HP; slows the switching edges. Fit 0R to bypass"
+			(at 147.32 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 147.32 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 147.32 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+			(at 147.32 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f679ddac-5269-41da-94b7-6ed210f7a0ba")
+		)
+		(pin "2"
+			(uuid "92f81220-ed61-46cc-9b1e-9323bddfca77")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcb0c846-feea-4be6-b621-fc4206126a58")
+		(property "Reference" "R113"
+			(at 233.68 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3R"
+			(at 233.68 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.68 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 3R 1% 0603"
+			(at 233.68 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "Q18 gate resistor, as R7-R10 (3R) on TI LM51772EVM-HP; slows the switching edges. Fit 0R to bypass"
+			(at 233.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 233.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 233.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+			(at 233.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a10b7e6-6961-49b2-b3eb-2c0ec16f30c1")
+		)
+		(pin "2"
+			(uuid "9be11c93-506c-41de-b3b2-175f5a1cae10")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "410bf3c5-a9d6-49c3-988f-6c7f0574bd97")
+		(property "Reference" "R114"
+			(at 262.89 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3R"
+			(at 262.89 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 262.89 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 3R 1% 0603"
+			(at 262.89 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "Q19 gate resistor, as R7-R10 (3R) on TI LM51772EVM-HP; slows the switching edges. Fit 0R to bypass"
+			(at 262.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 262.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 262.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+			(at 262.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "344b3ea6-2431-4068-ba1f-f0568de256d9")
+		)
+		(pin "2"
+			(uuid "02e3f927-45b3-4e57-87f8-d26302acaf6c")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(wire
 		(pts
 			(xy 364.49 59.69) (xy 372.11 59.69)
@@ -4762,16 +5314,6 @@
 			(type default)
 		)
 		(uuid "16f71662-9a16-4509-83f9-495f5e270ddb")
-	)
-	(wire
-		(pts
-			(xy 241.3 59.69) (xy 227.33 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17b36b37-56a6-4eb8-81a9-2563971caf17")
 	)
 	(wire
 		(pts
@@ -5628,16 +6170,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 95.25) (xy 151.13 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b3d3df-5308-4d34-80ba-f79c2d4685fe")
-	)
-	(wire
-		(pts
 			(xy 187.96 179.07) (xy 220.98 179.07)
 		)
 		(stroke
@@ -5829,16 +6361,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 96.52) (xy 259.08 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ff994e-67cd-4f26-921f-899bca0a2717")
-	)
-	(wire
-		(pts
 			(xy 261.62 48.26) (xy 261.62 52.07)
 		)
 		(stroke
@@ -5926,16 +6448,6 @@
 			(type default)
 		)
 		(uuid "79d7e569-5968-4c62-a0c7-c28483e30a72")
-	)
-	(wire
-		(pts
-			(xy 168.91 58.42) (xy 181.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2094ce-b7a1-436c-9f01-43cbac607a7c")
 	)
 	(wire
 		(pts
@@ -7646,7 +8158,7 @@
 		(uuid "6fef1386-d75f-4874-987c-64bb858d96d5")
 	)
 	(label "HDVR1"
-		(at 181.61 58.42 180)
+		(at 186.69 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7766,7 +8278,7 @@
 		(uuid "ebf63e17-3672-4358-a49b-01ddb1dff49d")
 	)
 	(label "HDVR2"
-		(at 227.33 59.69 0)
+		(at 222.25 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)

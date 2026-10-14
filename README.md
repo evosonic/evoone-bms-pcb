@@ -319,6 +319,11 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
 - DNP parts get no solder paste: a rule in `EVO2513.kicad_dru` gives every footprint
   marked DNP a −50 mm paste margin, so its stencil apertures drop out of F.Paste.
   Clearing a part's DNP flag restores its paste. KiCad has no plot option for this.
+- R111–R114 (3R 0603) are series gate resistors on Q16–Q19, as R7–R10 (3.0 Ω) on TI's
+  LM51772EVM-HP, to slow the switching edges for EMI. Each sits at its FET's gate pad; the
+  gate drive comes up from In6 through a via in the resistor's far pad (R112 reaches its
+  via on B.Cu, under the SW1 tracks on In6). Fit 0R to restore direct drive. Worst-case
+  dissipation is about 45 mW each at 1.157 MHz and 5 V drive.
 - D5 is a DNP alternate for the charger catch diode D2, placed where D2 sat on the
   0.5.0 board. Fit D5 instead of D2 if the new D2 position turns out worse.
 - The design relies on via-in-pad: over 700 vias sit in pads (FET tabs, QFN
