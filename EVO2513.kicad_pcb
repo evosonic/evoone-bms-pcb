@@ -71900,10 +71900,9 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R47"
-			(at -0.1285 0.001429 0)
+			(at 0 0.9 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "61ef5acf-0540-49f4-96c4-e6f74446348d")
 			(effects
 				(font
@@ -182441,37 +182440,6 @@
 		(net "GND")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30011)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 185.779128 130.391796) (xy 185.736701 130.68878) (xy 186.061712 130.810972) (xy 186.204381 130.604069)
-				(xy 186.132681 130.366541)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 186.204381 130.604069) (xy 186.061712 130.810972) (xy 185.736701 130.68878) (xy 185.779128 130.391796)
-				(xy 186.132681 130.366541)
-			)
-		)
-	)
-	(zone
-		(net "GND")
-		(layer "F.Cu")
-		(hatch none 0.1)
 		(priority 30010)
 		(attr
 			(teardrop
@@ -182496,6 +182464,37 @@
 			(pts
 				(xy 186.639195 130.4333) (xy 186.652974 130.732982) (xy 186.31016 130.823824) (xy 186.195561 130.603855)
 				(xy 186.288369 130.374349)
+			)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30011)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 185.779128 130.391796) (xy 185.736701 130.68878) (xy 186.061712 130.810972) (xy 186.204381 130.604069)
+				(xy 186.132681 130.366541)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 186.204381 130.604069) (xy 186.061712 130.810972) (xy 185.736701 130.68878) (xy 185.779128 130.391796)
+				(xy 186.132681 130.366541)
 			)
 		)
 	)
@@ -183300,6 +183299,30 @@
 		(net "/DCCHARGER")
 		(layer "F.Cu")
 		(hatch none 0.1)
+		(priority 30191)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 170.252296 121.8036) (xy 170.252296 122.0036) (xy 170.252296 122.1286) (xy 170.4561 121.9036)
+				(xy 170.252296 122.1286)
+			)
+		)
+	)
+	(zone
+		(net "/DCCHARGER")
+		(layer "F.Cu")
+		(hatch none 0.1)
 		(priority 30090)
 		(attr
 			(teardrop
@@ -183355,30 +183378,6 @@
 			(pts
 				(xy 170.212904 121.9036) (xy 170.068207 122.111467) (xy 169.9071 122.0036) (xy 169.9071 121.8036)
 				(xy 170.068207 121.695733)
-			)
-		)
-	)
-	(zone
-		(net "/DCCHARGER")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30191)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 170.252296 121.8036) (xy 170.252296 122.0036) (xy 170.252296 122.1286) (xy 170.4561 121.9036)
-				(xy 170.252296 122.1286)
 			)
 		)
 	)
@@ -186694,39 +186693,6 @@
 		(net "/DCBMS")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30006)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 150.962153 120.135658) (xy 150.949985 120.43541) (xy 151.293468 120.524416) (xy 151.406697 120.303827)
-				(xy 151.312683 120.074825)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 151.312165 120.078393) (xy 151.316251 120.083516) (xy 151.404648 120.298837) (xy 151.40462 120.307791)
-				(xy 151.404234 120.308623) (xy 151.297745 120.516083) (xy 151.290918 120.521878) (xy 151.284401 120.522066)
-				(xy 150.959122 120.437777) (xy 150.951973 120.432384) (xy 150.950367 120.425979) (xy 150.961769 120.145093)
-				(xy 150.965528 120.136969) (xy 150.971457 120.134043) (xy 151.303427 120.076431)
-			)
-		)
-	)
-	(zone
-		(net "/DCBMS")
-		(layer "B.Cu")
-		(hatch none 0.1)
 		(priority 30060)
 		(attr
 			(teardrop
@@ -186786,6 +186752,39 @@
 				(xy 151.84749 120.438339) (xy 151.841792 120.441684) (xy 151.515519 120.523101) (xy 151.506662 120.521779)
 				(xy 151.502225 120.516989) (xy 151.464502 120.441684) (xy 151.397832 120.308593) (xy 151.397192 120.299663)
 				(xy 151.397502 120.298837) (xy 151.487792 120.084278) (xy 151.494158 120.077984) (xy 151.500677 120.077308)
+			)
+		)
+	)
+	(zone
+		(net "/DCBMS")
+		(layer "B.Cu")
+		(hatch none 0.1)
+		(priority 30006)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 150.962153 120.135658) (xy 150.949985 120.43541) (xy 151.293468 120.524416) (xy 151.406697 120.303827)
+				(xy 151.312683 120.074825)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 151.312165 120.078393) (xy 151.316251 120.083516) (xy 151.404648 120.298837) (xy 151.40462 120.307791)
+				(xy 151.404234 120.308623) (xy 151.297745 120.516083) (xy 151.290918 120.521878) (xy 151.284401 120.522066)
+				(xy 150.959122 120.437777) (xy 150.951973 120.432384) (xy 150.950367 120.425979) (xy 150.961769 120.145093)
+				(xy 150.965528 120.136969) (xy 150.971457 120.134043) (xy 151.303427 120.076431)
 			)
 		)
 	)
