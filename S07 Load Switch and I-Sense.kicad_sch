@@ -2216,7 +2216,7 @@
 		)
 		(uuid "a9af0300-eb13-450b-8dbe-92b94d0bb273")
 	)
-	(text "DAQ (U6) is deliberately different from SBC and EXT; keep it.\nU6 has an 11 V undervoltage lockout: R108/R49 turn it on at\n11.2 V (10.8-11.7 V) and off at 10.2 V (9.8-10.7 V). That\ndivider must hold EN/UVLO, so the enable goes through Q24:\nnENDAQ is active LOW. High or floating (POR, expander in reset\nor unpowered) turns Q24 on and holds U6 in shutdown; low hands\nEN/UVLO to the divider. R109/R110 bias the gate from +12V, not\n+3V3MCU, so DAQ stays off when the MCU board is unpowered."
+	(text "DAQ (U6) is deliberately different from SBC and EXT; keep it.\nU6 has an 11 V undervoltage lockout: R108/R49 turn it on at\n11.2 V (10.8-11.7 V) and off at 10.2 V (9.8-10.7 V). That\ndivider must hold EN/UVLO, so the enable goes through Q24:\nnENDAQ is active LOW. High or floating (POR, expander in reset\nor unpowered) turns Q24 on and holds U6 in shutdown; low hands\nEN/UVLO to the divider. R109/R110 bias the gate from +12V, not\n+3V3MCU, so DAQ stays off when the MCU board is unpowered.\n\nBypass (assembly option): fit R115 0R and remove Q24, R108 and\nR109. nENDAQ then drives EN/UVLO directly, as on SBC and EXT:\nactive HIGH, no undervoltage lockout. R110 || R49 (8.3K) hold\nU6 off while the expander is in reset or unpowered."
 		(exclude_from_sim no)
 		(at 15.24 228.6 0)
 		(effects
@@ -19511,5 +19511,219 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "1748a39f-dbdf-40c4-a61b-8fb28a03059f")
+		(property "Reference" "R115"
+			(at 26.924 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0R"
+			(at 26.924 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 27.94 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 0R 0402"
+			(at 27.94 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 26.924 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 26.924 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "?"
+			(at 26.924 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "?"
+			(at 26.924 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 26.924 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0402"
+			(at 26.924 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "fbf89826-be8e-409a-8068-61405ff6d918")
+		)
+		(pin "1"
+			(uuid "9435f55e-af0b-45b6-92bb-7897761ef550")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/3983715d-0555-40e9-9f86-7ce2617793ce"
+					(reference "R115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 27.94 187.96) (xy 27.94 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a62ecfb-dfd7-448f-8ef8-0e7e83393517")
+	)
+	(wire
+		(pts
+			(xy 27.94 180.34) (xy 27.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c6f7b2-5d6c-4a43-8d40-a55380e5c16d")
+	)
+	(wire
+		(pts
+			(xy 27.94 177.8) (xy 43.18 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a3ae8c-bb96-4451-b702-8d692c9a6ecd")
+	)
+	(wire
+		(pts
+			(xy 43.18 177.8) (xy 43.18 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73b12db-078d-43a9-8812-51769916c36b")
+	)
+	(wire
+		(pts
+			(xy 43.18 185.42) (xy 45.72 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51477f26-69af-4aa4-83d1-bf16b30e8a6c")
+	)
+	(junction
+		(at 27.94 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02cb93b4-5ff6-43cb-aae8-2e9aad5e3b5b")
+	)
+	(junction
+		(at 45.72 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee333b7-eb10-4df5-bd42-15f2d60eeb4b")
 	)
 )

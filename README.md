@@ -185,6 +185,14 @@ unpowered, and the gate stays under 3.3 V, so P0_1 can stay push-pull and
 the R97 fallback can drive it from a 3.3 V MCU pin. SBC and EXT have no
 UVLO. A note on S07 marks the DAQ circuit as deliberate.
 
+If the UVLO causes trouble, R115 (0R, DNP) bypasses it. Fit R115 and remove
+Q24, R108 and R109: `nENDAQ` then drives EN/UVLO directly, as ENSBC and
+ENEXT drive U7 and U9, so P0_1 (or the R97 fallback) becomes active high and
+DAQ has no undervoltage lockout. R110 27K in parallel with R49 12K (8.3K) is
+the pull-down that holds U6 off while the expander is in reset or unpowered.
+Leaving R108 or R109 fitted with R115 would put a +12V divider on EN/UVLO, so
+remove both.
+
 Rail enables and faults through a PCAL9714 SPI I/O expander (U11, new sheet
 S08). It shares CLOCK/MOSI/MISO with U1 (LTC1960) and has its own chip
 select, nCSIO, on J3.32, the pin that was ENSBC. Address 40h (ADDR to GND);
@@ -335,6 +343,9 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
   positions by L2 were removed.
 - D5 is a DNP alternate for the charger catch diode D2, placed where D2 sat on the
   0.5.0 board. Fit D5 instead of D2 if the new D2 position turns out worse.
+- R115, the DNP UVLO bypass for U6, is on the bottom side under Q24: pad 2 joins
+  `nENDAQ` at its existing via west of Q24, and pad 1 reaches Q24's drain through a via
+  next to Q24 pin 3.
 - The design relies on via-in-pad: over 700 vias sit in pads (FET tabs, QFN
   exposed pads, FL1, the 2512 shunts, and 0402/0603 capacitors). Order the
   board with vias filled and capped; open vias would wick solder from the

@@ -67,6 +67,14 @@ If one is fitted to drive an enable straight from J3, leave that expander
 port an input. **R97 lands on nENDAQ, so an MCU driving DAQ directly must
 drive it low to enable** (3.3 V push-pull or open-drain both work).
 
+### DAQ UVLO bypass (assembly option)
+
+If R115 is fitted (with Q24, R108 and R109 removed), DAQ loses its
+undervoltage lockout and its enable matches SBC and EXT: **P0_1 becomes
+active high** (write 1 to enable), and so does the R97 fallback. A board built
+this way needs the DAQ polarity flipped in firmware, and the undervoltage rows
+in the table below no longer apply to DAQ.
+
 ## Load switch behaviour (TPS22811)
 
 These thresholds are set in hardware. Firmware just has to expect them.
