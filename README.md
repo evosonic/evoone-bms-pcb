@@ -343,9 +343,9 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
   positions by L2 were removed.
 - D5 is a DNP alternate for the charger catch diode D2, placed where D2 sat on the
   0.5.0 board. Fit D5 instead of D2 if the new D2 position turns out worse.
-- R115, the DNP UVLO bypass for U6, is on the bottom side under Q24: pad 2 joins
-  `nENDAQ` at its existing via west of Q24, and pad 1 reaches Q24's drain through a via
-  next to Q24 pin 3.
+- R115, the DNP UVLO bypass for U6, is on the top side east of Q24, below R108, with
+  both connections on top copper: pad 2 to Q24's gate (`nENDAQ`) and pad 1 to the
+  EN/UVLO track from R108.
 - The design relies on via-in-pad: over 700 vias sit in pads (FET tabs, QFN
   exposed pads, FL1, the 2512 shunts, and 0402/0603 capacitors). Order the
   board with vias filled and capped; open vias would wick solder from the
