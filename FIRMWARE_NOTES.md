@@ -136,6 +136,22 @@ resistor build:
 - constant dead time (`EN_CONST_TDEAD`) defaults off; R30 (CFG3 setting 7)
   turns it on
 
+**Set `DRSS_EN` = 1 (MFR_SPECIFIC_D0, register 0xD0, bit 2).** It resets to 0,
+so without this write U5 switches at a fixed 1.157 MHz. The 0.5.0 boards had
+spread spectrum on through R29 (1.87K, CFG4 setting 4). DRSS dithers the
+switching frequency between f_SW × 0.922 and f_SW × 1.078 (about 1.067 to
+1.247 MHz). That spreads the switching harmonics and the 51–81 MHz SW2 ring,
+which is retriggered every cycle in boost mode (10–11 V packs), so its
+radiated peaks drop. SYNC (U5 pin 3) is tied to GND here, so nothing
+overrides it. Use a read-modify-write:
+- MFR_SPECIFIC_D0 resets to 0x32 (EN_VCC1, IMON_LIMITER_EN and USLEEP_EN
+  set). Setting bit 2 gives 0x36.
+- Bit 0 is CONV_EN, so set DRSS_EN before or together with enabling the
+  converter.
+- CFG4 setting 4 on the 0.5.0 boards also enabled hiccup short-circuit
+  protection (`HICCUP_EN`, bit 3, reset 0). To match those boards, set bit 3
+  as well (0x3E with CONV_EN still clear).
+
 The I2C build uses the same J3 pins as the R97/R98 direct-drive fallback, so
 R97 and R98 must stay unfitted. The resistor build (R104–R107 removed, R38
 6.49K, R29/R30 fitted) is still available as an assembly option.
