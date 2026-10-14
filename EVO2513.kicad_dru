@@ -5,3 +5,15 @@
 (rule "Test pads (pogo)"
 	(condition "A.memberOfFootprint('TP*') && B.memberOfFootprint('TP*')")
 	(constraint clearance (min 0.3mm)))
+
+# Power FETs Q1, Q3-Q19 (not the SOT-23 FETs Q20-Q24): keep pours of other nets
+# 0.3 mm from every pad. With the 0.05 mm mask expansion this leaves at least a
+# 0.25 mm mask web over other-net pour next to each pad opening, 2.5x the 0.10 mm
+# fab minimum, so a pour can't wrap round a pad row to within a scrapable web of
+# the opposite terminal during rework. Works with the keepout in each FET
+# footprint, which keeps the source-drain gap bare laminate. 0.3 mm was chosen
+# over 0.5 mm: the narrowest web stops improving above 0.3 mm (tracks then set it)
+# while the copper removed nearly triples.
+(rule "Power FET pad to pour"
+	(condition "A.Type == 'Zone' && B.Type == 'Pad' && (B.memberOfFootprint('Q?') || B.memberOfFootprint('Q1?'))")
+	(constraint clearance (min 0.3mm)))

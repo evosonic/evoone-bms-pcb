@@ -116,7 +116,7 @@ connection or the board copper.
 | R90–R92, R101 | 1M | 1.07M | OVLO trip 14.0 V, so a tripped switch recovers on the 12.03 V rail; R101 shares the BOM line |
 | U6 EN/UVLO | ENDAQ from P0_0, R49 100K pull-down | R108 100K / R49 **12K** UVLO divider, Q24 shutdown FET with R109 100K / R110 27K gate bias; net `nENDAQ`, active low | DAQ 11 V undervoltage lockout (W16 handoff §4.4) |
 | R41, R45 | 2.2R 1% 1206, 1/4 W | 2.2R 1% **1210**, 1/2 W (any standard thick film) | Snubber resistors. R41 (SW1) dissipates 0.31 W at 24 V and 0.38 W at the 26.3 V OV trip, 75% of 1/2 W: fine up to about 90 °C local ambient. R45 (SW2) 0.167 W, 33%. Power is set by C·V²·f, not the load, so it is continuous at 1.157 MHz; power-save mode lowers it at light load. Same length as 1206; the pads are 0.45 mm wider each side |
-| Q4, Q5, Q12–Q15 | DMP3018SFV, PowerDI3333-8 (Type UX), imported Altium land | **DMP3007SCG-13** (Diodes, V-DFN3333-8 Type B, 6.8 mΩ max at −10 V), KiCad standard `Package_SON:Diodes_PowerDI3333-8` | PowerPath/battery FET thermal margin (W16 handoff). KiCad has no Type B footprint; the PowerDI3333-8 one matches Diodes' Type B suggested land except 0.1 mm more toe on each pad row, and adds segmented paste on the drain. Its drain is one pad, 5, so the project symbol `DMP3007SCG V-DFN3333-8` numbers D pins 5–8 and EP_D all 5. VGSS ±25 V as before. Diodes' datasheet (DS38990 rev 3-2) is still marked Advance Information |
+| Q4, Q5, Q12–Q15 | DMP3018SFV, PowerDI3333-8 (Type UX), imported Altium land | **DMP3007SCG-13** (Diodes, V-DFN3333-8 Type B, 6.8 mΩ max at −10 V), `Diodes_PowerDI3333-8`, copied from KiCad's standard `Package_SON` library into the project library so it can carry the source-drain keepout | PowerPath/battery FET thermal margin (W16 handoff). KiCad has no Type B footprint; the PowerDI3333-8 one matches Diodes' Type B suggested land except 0.1 mm more toe on each pad row, and adds segmented paste on the drain. Its drain is one pad, 5, so the project symbol `DMP3007SCG V-DFN3333-8` numbers D pins 5–8 and EP_D all 5. VGSS ±25 V as before. Diodes' datasheet (DS38990 rev 3-2) is still marked Advance Information |
 | Q18 | CSD17304Q3 | unchanged (kept) | The W16 handoff suggested a lower-RDS(on) 30 V part for the 1.83 W boost-mode loss. Kept: it works and 15 units are in field test. Its thermal margin depends on copper: 46 °C/W on 1 in² against 158 °C/W on a minimum pad, so give it the full copper area in layout |
 | R16 | 0.005R 2512 (`CRE2512-FZ-R005E-3`) | **0.003R** Bourns `CRE2512-FZ-R003E-3` | The LTC1960 latching breaker (90–115 mV for 15 ms) moves from 18–23 A to 30–38 A. 12 V peak load is about 7.5 A SBC (90 W) + 2.5 A J3 + DAQ, over the handoff's ~11 A threshold, and QE29 packs at ~21 A would sit at 105 mV, inside the trip window. Dissipation at 21 A drops from 2.2 W to 1.3 W. R16 feeds only the breaker comparator (SCP/SCN) |
 | R53, R71 | 1K | unchanged | DAQ and EXT current limits (6595/R = 6.6 A, up to 7.1 A) sit above J6/J5's single 6.5 A contact. Left at 1K: DAQ's final load isn't known (stand-in device today) and EXT is unused. A note on S07 says to raise them to 1.2K or more once the loads are known |
@@ -311,6 +311,11 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
   below KiCad's 0.8 mm minimum; 16 board-edge clearance hits from the
   layer-order markers, which cross the edge on purpose; and 11 courtyard
   overlaps where parts sit closer than IPC courtyards allow, e.g. TH1/TH2.
+- Every power FET footprint (Q1, Q3–Q19) has a top-copper keepout (no pour, tracks or
+  vias) across the gap between its source/gate row and its drain pad, so the gap is bare
+  laminate as in the manufacturers' land patterns, not just solder mask over a pour.
+  `EVO2513.kicad_dru` also keeps other nets' pours 0.3 mm from those FETs' pads. Both
+  protect the source-drain gap during rework.
 - The design relies on via-in-pad: over 700 vias sit in pads (FET tabs, QFN
   exposed pads, FL1, the 2512 shunts, and 0402/0603 capacitors). Order the
   board with vias filled and capped; open vias would wick solder from the

@@ -8101,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Diodes_PowerDI3333-8"
 			(at 260.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10175,7 +10175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Diodes_PowerDI3333-8"
 			(at 275.59 83.82 0)
 			(hide yes)
 			(show_name no)
