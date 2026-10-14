@@ -1,0 +1,74 @@
+(footprint "MountingHole_3.2mm_Pad_7.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "6b68897e-6f3d-4889-9120-ecf9de37836c")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ac30280f-3d51-4ce8-ab9a-026bb4c950d6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Value" "MountingHole_3.2mm_Pad_7.4mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fa4c165a-eb2f-44c2-9270-20e54900528a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05c0236f-0d0c-4b20-946d-6deebd3d9b81")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17daa91a-e89f-4a96-9d5b-aca2c66ef6c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.8 -3.8)
+		(end 3.8 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ab5c304b-1a52-4703-9aa3-951936050fa6")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.4 7.4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4a10abc2-b8dd-4924-9b5e-7bc0d70a8396")
+	)
+	(embedded_fonts no)
+)

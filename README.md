@@ -283,7 +283,7 @@ Each fix is a separate commit on top of the initial import.
 | PCB footprints were linked to the imported symbols by mismatched internal IDs, and nets used Altium names | Ran Update PCB from Schematic: no errors, placement and copper unchanged, all 147 nets match the schematic |
 | KiCad design rules were defaults (0.2 mm clearance and track, 0.3 mm min hole), not the Altium rules | Set to the rules in the Altium `.PcbDoc`: 0.15 mm clearance, track and annular ring, 0.15 mm min hole, 0.3 mm hole-to-hole, and `EVO2513.kicad_dru` for the 0.3 mm pad-to-pad rule on test points TP1–TP26 |
 | FL1's ground land had no pad number, so its 38 GND vias showed as shorts | Numbered pad 4 (GND) on the board and in the project footprint library |
-| The two mounting holes had no reference designator | Named H1 and H2, board-only, excluded from BOM and position files |
+| The two mounting holes and the logo existed only on the board, with no schematic symbols | H1 and H2 (`Mechanical:MountingHole_Pad`, pin 1 to GND, project footprint `MountingHole_3.2mm_Pad_7.4mm`) and LOGO01 (`EVOSONIC_LOGO`, a pinless symbol in the Lattech library) are on the root sheet, excluded from BOM and position files. Update PCB from Schematic no longer deletes them |
 | 14 zero-length track segments | Removed |
 | FL1's courtyard had a centre cross drawn on F.CrtYd, so KiCad saw an open (malformed) courtyard | Moved the cross to F.Fab on the board and in the project footprint library |
 | Two vias sat in 0402 pads (R13 pad 2, R54 pad 2), connected on F.Cu only, and could wick solder | Removed |
@@ -320,10 +320,19 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
   marked DNP a −50 mm paste margin, so its stencil apertures drop out of F.Paste.
   Clearing a part's DNP flag restores its paste. KiCad has no plot option for this.
 - R111–R114 (3R 0603) are series gate resistors on Q16–Q19, as R7–R10 (3.0 Ω) on TI's
-  LM51772EVM-HP, to slow the switching edges for EMI. Each sits at its FET's gate pad; the
-  gate drive comes up from In6 through a via in the resistor's far pad (R112 reaches its
-  via on B.Cu, under the SW1 tracks on In6). Fit 0R to restore direct drive. Worst-case
+  LM51772EVM-HP, to slow the switching edges for EMI. Each sits next to its FET's gate
+  pad, and the gate drive comes up from In6 through a via in the resistor's driver-side
+  pad. R113 and R114 sit side by side between Q19 and Q18, and R112 sits north of Q17's
+  gate between R84 and C28. Fit 0R to restore direct drive. Worst-case
   dissipation is about 45 mW each at 1.157 MHz and 5 V drive.
+- The switch-node snubbers tie in at their low-side FETs, in the same order as TI's
+  LM51772EVM-HP: switch node, then capacitor, then resistor, then GND. That way only the
+  small 0805 capacitor pad sits on the switch node. C39's SW2 pad sits on Q19's drain
+  edge, with C39 and R45 running north past L2 to R45's GND pad and two vias to In1.
+  C35's SW1 pad sits on Q17's drain leads, with C35 and R41 in the strip between Q19
+  and Q17 and two vias to In1 at R41's GND pad. The return runs on In1 directly under
+  each chain. The top-copper SW1 and SW2 pour lobes that used to reach the old
+  positions by L2 were removed.
 - D5 is a DNP alternate for the charger catch diode D2, placed where D2 sat on the
   0.5.0 board. Fit D5 instead of D2 if the new D2 position turns out worse.
 - The design relies on via-in-pad: over 700 vias sit in pads (FET tabs, QFN
