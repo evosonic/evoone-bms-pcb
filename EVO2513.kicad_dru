@@ -17,3 +17,10 @@
 (rule "Power FET pad to pour"
 	(condition "A.Type == 'Zone' && B.Type == 'Pad' && (B.memberOfFootprint('Q?') || B.memberOfFootprint('Q1?'))")
 	(constraint clearance (min 0.3mm)))
+
+# No solder paste on DNP parts. KiCad plots paste for DNP footprints by
+# default; a large negative paste margin shrinks their apertures to nothing.
+# Follows the DNP flag, so clearing DNP on a part restores its paste.
+(rule "No paste on DNP parts"
+	(condition "A.Do_not_Populate")
+	(constraint solder_paste_abs_margin (opt -50mm)))

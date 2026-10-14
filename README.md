@@ -316,6 +316,11 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
   laminate as in the manufacturers' land patterns, not just solder mask over a pour.
   `EVO2513.kicad_dru` also keeps other nets' pours 0.3 mm from those FETs' pads. Both
   protect the source-drain gap during rework.
+- DNP parts get no solder paste: a rule in `EVO2513.kicad_dru` gives every footprint
+  marked DNP a −50 mm paste margin, so its stencil apertures drop out of F.Paste.
+  Clearing a part's DNP flag restores its paste. KiCad has no plot option for this.
+- D5 is a DNP alternate for the charger catch diode D2, placed where D2 sat on the
+  0.5.0 board. Fit D5 instead of D2 if the new D2 position turns out worse.
 - The design relies on via-in-pad: over 700 vias sit in pads (FET tabs, QFN
   exposed pads, FL1, the 2512 shunts, and 0402/0603 capacitors). Order the
   board with vias filled and capped; open vias would wick solder from the
