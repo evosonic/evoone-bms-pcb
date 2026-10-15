@@ -17829,4 +17829,210 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:C")
+		(at 270.510 76.200 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0dc77adb-df58-42eb-a198-7db9afe01722")
+		(property "Reference" "C60"
+			(at 271.780 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 271.780 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 270.510 76.200 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.510 76.200 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor 100nF 50V X7R 0603"
+			(at 270.510 76.200 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 269.240 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 269.240 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 269.240 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" ""
+			(at 269.240 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 269.240 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0603"
+			(at 271.780 80.518 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MATERIAL" "X7R"
+			(at 271.780 82.550 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 271.780 85.090 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "b962f1ec-f4c5-4f80-b90f-5907f0edbbc8")
+		)
+		(pin "1"
+			(uuid "44b731e7-3146-4dee-8530-8592aab8cc6d")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 270.51 59.69) (xy 270.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee502f68-3014-4921-aa96-34104f02ebbc")
+	)
+	(wire
+		(pts
+			(xy 270.51 80.01) (xy 270.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c7d2d0-5859-47cb-92a3-118380d87ee6")
+	)
+	(junction
+		(at 270.51 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89b95edf-186b-44cd-90e1-765a9bc03497")
+	)
+	(junction
+		(at 270.51 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f2800a8-36f4-46cc-b509-98eb2fed110f")
+	)
 )
