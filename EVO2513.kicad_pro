@@ -140,6 +140,18 @@
         [
           "copper_edge_clearance|110501100|135003600|b8987a3b-495c-4484-b931-552b03c5a12d|10d8dd44-8fb3-49d0-8f47-d8cae43c8735",
           "Marker, allowed"
+        ],
+        [
+          "starved_thermal|169001100|105003600|5ca46641-8169-490a-9ca7-e0d4ac640dfa|1b292540-83a1-4c16-bd75-f09c368c0e51|In3.Cu",
+          "Mixed layers are not a concern"
+        ],
+        [
+          "starved_thermal|169001100|105003600|674b4f13-46e5-4bcb-be24-86c404493948|1b292540-83a1-4c16-bd75-f09c368c0e51|In6.Cu",
+          "Mixed layers are not a concern"
+        ],
+        [
+          "starved_thermal|169001100|105003600|df43760e-db14-4cb0-835a-27ac7283d5d4|1b292540-83a1-4c16-bd75-f09c368c0e51|In5.Cu",
+          "Mixed layers are not a concern"
         ]
       ],
       "meta": {
@@ -560,6 +572,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -1029,7 +1042,7 @@
         "uuid": "44203427-0a3b-455b-9bb9-c1b577d179b3"
       }
     ],
-    "used_designators": "M1-6,#PWR1-99",
+    "used_designators": "#PWR1-99,M1-6",
     "variants": []
   },
   "sheets": [
