@@ -10403,16 +10403,16 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e7e13115-ba3b-498e-a103-504ec4342e41")
 		(property "Reference" "D3"
-			(at 145.796 125.73 0)
+			(at 148.59 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "RB520SM-40FH"
@@ -10427,7 +10427,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Diode SOD523"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 148.59 127 0)
 			(hide yes)
 			(show_name no)
@@ -10484,7 +10484,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "On Semiconductor"
+		(property "MANUFACTURER" "Rohm Semiconductor"
 			(at 144.272 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10496,7 +10496,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "RB520SM-40FH"
+		(property "MANUFACTURER_PN" "RB520SM-40FHT2R"
 			(at 144.272 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10509,25 +10509,23 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "RB520SM-40FH"
-			(at 142.24 130.81 0)
+			(at 148.59 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SOD-523"
-			(at 145.796 132.842 0)
+			(at 148.59 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(pin "1"
