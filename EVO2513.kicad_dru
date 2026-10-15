@@ -31,3 +31,14 @@
 (rule "Spacer M6 clearance"
 	(condition "A.memberOfFootprint('M6')")
 	(constraint clearance (min 0.45mm)))
+
+# In1, In3 and In5 are the GND planes (layer type "power" in Board Setup >
+# Board Editor Layers). Warn on any track placed on them, so routing into a
+# plane shows up in DRC rather than only in the Gerbers. The original 0.5.0
+# board had only short via ties there, which are exempt by net: the 0.6 mm
+# FET-source and U1 SCH ties on In1 and the GDINPUT stub on In3/In5.
+# Vias, and the DCCHARGER/GDINPUT/FL1/DCINPUT pours on In3/In5, are unaffected.
+(rule "No tracks on GND planes"
+	(severity warning)
+	(condition "A.Type == 'Track' && (A.Layer == 'In1.Cu' || A.Layer == 'In3.Cu' || A.Layer == 'In5.Cu') && A.NetName != '/GDINPUT' && A.NetName != 'Net-(Q1-S-Pad1)' && A.NetName != 'Net-(Q4-S-Pad1)' && A.NetName != 'Net-(Q12-S-Pad1)' && A.NetName != 'Net-(Q13-S-Pad1)' && A.NetName != 'Net-(U1D-SCH1)' && A.NetName != 'Net-(U1E-SCH2)'")
+	(constraint disallow track))
