@@ -103,7 +103,7 @@ connection or the board copper.
 | R54 | 1 kΩ | 768 Ω RC0402FR-07768RL | SBC load-switch current limit (R22, R53, R71 stay 1 kΩ) |
 | C16 | 220 nF 50 V C0G 0805 | 220 nF 50 V X7R CC0805KFX7R9BB224 | No 220 nF C0G 0805 exists |
 | C39 | 470 pF | 1 nF | SW2 snubber, boost-mode ringing |
-| C3, C11, C12, C55 | 35 V | 50 V | DCFILTERED / DCBMS / DCSENSED at 26.3 V |
+| C3, C11, C12 | 35 V | 50 V | DCFILTERED / DCBMS at 26.3 V |
 | C44, C45, C48–C50, C54 | 16 V | 50 V | +12 V and the switched outputs |
 | R1 | 620K (description 619K) | 619K | Value and description now agree |
 | C2 | 100 µF (part number `35SVPF82M`) | 82 µF `35SVPF82M` | Matches the ordered part |
@@ -250,7 +250,7 @@ their BOM line.
 
 | Refs | Was | Now |
 |---|---|---|
-| C8, C9, C55 | 1 µF 50 V X5R 0402 | 1 µF 50 V X5R **0603**, as C23, C44, C45, C48–C50, C54 |
+| C8, C9 | 1 µF 50 V X5R 0402 | 1 µF 50 V X5R **0603**, as C23, C44, C45, C48–C50, C54 |
 | C7, C52, C53, C58, C59 | 100 nF 16 V X7R 0402 | 100 nF **50 V** X7R 0402 `CC0402KPX7R9BB104`, as C10 |
 | C37, C38 | 100 nF 16 V X7R 0603 | the same, **0402** (U5 bootstrap caps, ~5 V) |
 | C17, C18, C20, C21, C34 | 100 nF 50 V X7R 0402, no part number | `CC0402KPX7R9BB104` |
@@ -269,8 +269,8 @@ Three U5 (LM51772) fixes found during the review:
 | R29 | 1.9K | **1.87K** | CFG4 setting #3 accepts 1.814–1.926 kΩ (1.87K typical); 1.9K isn't a 1% value, and 1.91K can reach 1.929 kΩ |
 
 Run Update PCB from Schematic to swap the footprints. Parts that grow overlap
-their neighbours' courtyards and need moving: the 0603s for C8, C9 and C55 by
-up to 0.9 mm (C55 against C5 and C7, C8 against R8, C9 against R15 and C10),
+their neighbours' courtyards and need moving: the 0603s for C8 and C9 by up
+to 0.9 mm (C8 against R8, C9 against R15 and C10),
 the 1210s by about 0.15 mm (C11/C12/C27, C24/C26, C25 against C23), and C32
 by 0.3 mm against C38 (before C38 shrinks to 0402) and 0.1 mm against TH2.
 
