@@ -357,8 +357,6 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
   with a via in its output pad to the inner output planes and two vias in its GND
   pad to In1, which runs solid GND 0.094 mm under the top layer, so the return
   current follows the top-layer path back to Q19's source.
-- D5 is a DNP alternate for the charger catch diode D2, placed where D2 sat on the
-  0.5.0 board. Fit D5 instead of D2 if the new D2 position turns out worse.
 - R115, the DNP UVLO bypass for U6, is on the top side east of Q24, below R108, with
   both connections on top copper: pad 2 to Q24's gate (`nENDAQ`) and pad 1 to the
   EN/UVLO track from R108.
