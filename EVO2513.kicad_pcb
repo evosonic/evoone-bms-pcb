@@ -2934,11 +2934,11 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "0f74ed9e-9c7d-4460-bf97-2caa1df5b2d5")
-		(at 136.5511 89.0036 90)
+		(at 140.95109 89.0036 90)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R42"
-			(at 4.3789 0.001029 0)
+			(at 4.3789 0.020639 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f99f8a2e-2e46-4c82-b536-162506d495b1")
@@ -7387,11 +7387,11 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "20244306-de2a-42af-bea2-c70b5e4272b5")
-		(at 172.7011 117.5036 180)
+		(at 172.7011 121.9036 180)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 4.2788 0.261669 90)
+			(at 4.2788 0.011689 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1bd3a6f6-a348-45a5-b1e7-8e3908166867")
@@ -16119,11 +16119,11 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "35e70a77-bad4-4b66-a7cc-8ef3a11f9598")
-		(at 172.7011 121.9036 180)
+		(at 172.7011 117.5036 180)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R83"
-			(at 4.2788 0.011689 90)
+			(at 4.2788 0.261669 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "42629764-34c3-437b-a6be-e8c89954b389")
@@ -25073,11 +25073,11 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "544fa26b-35eb-402d-842c-0b9ddcc6a1a8")
-		(at 140.95109 89.0036 90)
+		(at 136.5511 89.0036 90)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R84"
-			(at 4.3789 0.020639 0)
+			(at 4.3789 0.001029 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "dfb60b0a-13fd-495e-b6c5-c177d921461c")
@@ -33370,11 +33370,11 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "79a9b49e-568e-4c00-bd70-53f1edce4783")
-		(at 194.9011 101.1036 -90)
+		(at 190.5011 101.1036 -90)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
-			(at 0.188311 -2.8212 90)
+			(at 0.138321 2.7788 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cbee8b86-6422-45af-9c5f-899d06db5178")
@@ -74316,11 +74316,11 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "fa9c3570-3bde-48d1-aec8-2b4b6c86ffb9")
-		(at 190.5011 101.1036 -90)
+		(at 194.9011 101.1036 -90)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0.138321 2.7788 90)
+			(at 0.188311 -2.8212 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "85bad90c-042f-4490-a53d-d062eb1ccf21")
