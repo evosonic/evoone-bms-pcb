@@ -2967,12 +2967,6 @@
 		(uuid "96f5bdb6-733c-4859-b535-186214916e0d")
 	)
 	(junction
-		(at 128.27 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9748e103-dc0c-4130-b22b-165bce8655b2")
-	)
-	(junction
 		(at 298.45 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3067,7 +3061,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 121.92) (xy 120.65 124.46)
+			(xy 120.65 121.92) (xy 120.65 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4676,16 +4670,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 137.16 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d895ef1d-d5a1-458e-badf-82f26891cb4e")
-	)
-	(wire
-		(pts
 			(xy 119.38 83.82) (xy 116.84 83.82)
 		)
 		(stroke
@@ -4736,16 +4720,6 @@
 			(type default)
 		)
 		(uuid "df8788c2-6e76-41c6-ab35-c8501da0d9d5")
-	)
-	(wire
-		(pts
-			(xy 128.27 92.71) (xy 137.16 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1c8a38d-2cd5-42d1-8272-aaf2dcb81385")
 	)
 	(wire
 		(pts
@@ -4913,7 +4887,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 132.08) (xy 120.65 149.86)
+			(xy 120.65 138.43) (xy 120.65 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5247,180 +5221,6 @@
 			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/6efa18a4-50c3-468b-8389-2f58aea00523"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 137.16 96.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e056dd5-4af1-4827-9527-cdb68660594b")
-		(property "Reference" "C55"
-			(at 138.43 96.266 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 138.43 98.806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 137.16 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitor 1uF 50V X5R 0603"
-			(at 137.16 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NOTE" ""
-			(at 135.89 92.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PL_SORT_GROUP" "2.3"
-			(at 135.89 92.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "?"
-			(at 135.89 92.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER_PN" "?"
-			(at 135.89 92.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1uF"
-			(at 135.89 92.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 138.43 100.838 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MATERIAL" "X5R"
-			(at 138.43 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "VOLTAGE" "50V"
-			(at 138.43 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "2"
-			(uuid "0e54e73c-fb8d-4993-a8f7-2d35a8b78f67")
-		)
-		(pin "1"
-			(uuid "3498ef24-b2e2-4112-adfc-908fca92a3c4")
-		)
-		(instances
-			(project "EVO2513"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/6efa18a4-50c3-468b-8389-2f58aea00523"
-					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -6322,27 +6122,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "409db197-6665-485f-a470-495b4199c186")
 		(property "Reference" "C3"
-			(at 87.63 107.696 0)
+			(at 90.17 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 87.63 110.236 0)
+			(at 90.17 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -6439,36 +6240,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "1206"
-			(at 87.63 112.268 0)
+			(at 90.17 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "MATERIAL" "X5R"
-			(at 87.63 114.3 0)
+			(at 90.17 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 87.63 116.84 0)
+			(at 90.17 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -6874,27 +6675,26 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "61015d9a-a9a7-49d2-944c-eb92ed37c451")
 		(property "Reference" "C7"
-			(at 112.776 111.76 90)
+			(at 115.57 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
 		(property "Value" "100nF"
-			(at 116.84 115.57 90)
+			(at 115.57 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -6991,36 +6791,33 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 107.95 113.03 90)
+			(at 115.57 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 118.11 113.03 90)
+			(at 115.57 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 109.22 115.57 90)
+			(at 115.57 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
 		(pin "2"
@@ -7296,27 +7093,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "70a1d934-14e9-4fa4-afd0-4345c56245cc")
 		(property "Reference" "C2"
-			(at 74.93 107.696 0)
+			(at 69.85 101.9809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "82uF"
-			(at 74.93 110.236 0)
+			(at 69.85 104.5209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "EVO2513-0_5_0-import-fps:CAP Panasonic CASE-E12"
@@ -7413,36 +7211,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "Case E12"
-			(at 74.93 112.268 0)
+			(at 69.85 107.0609 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "MATERIAL" "Alu Elect"
-			(at 74.93 114.3 0)
+			(at 69.85 109.6009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "VOLTAGE" "35V"
-			(at 74.93 116.84 0)
+			(at 69.85 112.1409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -8567,7 +8365,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 128.27 180)
+		(at 120.65 134.62 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8575,31 +8373,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "855df741-9710-49e5-b7a8-c0db591c680f")
 		(property "Reference" "C8"
-			(at 121.92 128.016 0)
+			(at 116.84 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 121.92 130.556 0)
+			(at 116.84 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 120.65 128.27 90)
+			(at 120.65 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8610,7 +8409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 128.27 90)
+			(at 120.65 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8621,7 +8420,7 @@
 			)
 		)
 		(property "Description" "Capacitor 1uF 50V X5R 0603"
-			(at 120.65 128.27 90)
+			(at 120.65 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8632,7 +8431,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 119.38 123.952 0)
+			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8644,7 +8443,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 119.38 123.952 0)
+			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8656,7 +8455,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 119.38 123.952 0)
+			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8668,7 +8467,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 119.38 123.952 0)
+			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8680,7 +8479,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1uF"
-			(at 119.38 123.952 0)
+			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,36 +8491,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 121.92 132.588 0)
+			(at 116.84 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "MATERIAL" "X5R"
-			(at 121.92 134.62 0)
+			(at 116.84 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 121.92 137.16 0)
+			(at 116.84 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -10645,27 +10444,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cbcff28d-ccfa-45b6-9f25-940e5208b64e")
 		(property "Reference" "R13"
-			(at 105.156 102.87 0)
+			(at 106.68 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "5.1K"
-			(at 105.156 105.41 0)
+			(at 106.68 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -10762,14 +10562,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 105.156 107.442 0)
+			(at 106.68 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -11156,80 +10956,6 @@
 			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/6efa18a4-50c3-468b-8389-2f58aea00523"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 137.16 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea37db1e-24a6-4a58-9399-6e47da28d6a7")
-		(property "Reference" "#PWR027"
-			(at 137.16 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "97da403f-5194-4c14-b9ab-2d3561ef33e9")
-		)
-		(instances
-			(project "EVO2513"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/6efa18a4-50c3-468b-8389-2f58aea00523"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
