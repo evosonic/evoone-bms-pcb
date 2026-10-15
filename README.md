@@ -310,15 +310,21 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
 ### Known remaining issues
 
 - The KiCad default title block is drawn over the imported Altium one.
-- The mounting spacers use two near-identical footprints: M1 uses
-  `Mech Spacer Wurth 78614150960 Through M3`, and M2–M6 use the upper-case
-  variant.
-- DRC still reports: 80 hole-clearance hits, each Molex connector's own NPTH
-  locating peg 0.18 mm from its pin pads (J1, J2, J4–J6; Altium had no
-  hole-clearance rule); 199 silkscreen texts at 0.6 mm,
-  below KiCad's 0.8 mm minimum; 16 board-edge clearance hits from the
-  layer-order markers, which cross the edge on purpose; and 11 courtyard
-  overlaps where parts sit closer than IPC courtyards allow, e.g. TH1/TH2.
+- DRC reports 23 warnings and no errors: 15 silkscreen overlaps, where the connector
+  tab labels sit on the J1, J2 and J4–J6 outlines, and 8 text-thickness warnings for
+  the LED A/C marks. 19 hits are excluded: 16 board-edge clearance hits from the
+  layer-order markers, which cross the edge on purpose, and M6's three starved
+  thermal reliefs (below).
+- The mounting spacers M1–M6 connect to GND through pad thermal reliefs set in the
+  footprint (`MECH SPACER WURTH 78614150960 THROUGH M3`, also on the board): four
+  2 mm spokes at 0/90/180/270° across a 0.4 mm gap. These replace the four keepout
+  arcs inherited from Altium, which gave about 1.43 mm spokes and left dead copper
+  stubs wherever a sector faced the board edge or another net's pour. Spokes are
+  only drawn where they reach the pour, so M1–M5 have 2–3 per layer, as many live
+  connections as before, with about 40 % more connected copper. M6 sits between
+  the DCCHARGER and DCPATH pours, so it connects through In1 and B.Cu (4 spokes
+  each) and one spoke on In3, In5 and In6, where DRC's two-spoke minimum is
+  excluded. A rule in `EVO2513.kicad_dru` keeps other nets' pours 0.45 mm from M6.
 - Every power FET footprint (Q1, Q3–Q19) has a top-copper keepout (no pour, tracks or
   vias) across the gap between its source/gate row and its drain pad, so the gap is bare
   laminate as in the manufacturers' land patterns, not just solder mask over a pour.
@@ -341,6 +347,16 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
   and Q17 and two vias to In1 at R41's GND pad. The return runs on In1 directly under
   each chain. The top-copper SW1 and SW2 pour lobes that used to reach the old
   positions by L2 were removed.
+  Each snubber resistor dissipates C × V² × f while its node switches. R41 takes
+  0.31 W at 24 V in buck mode (0.37 W at 26 V) and R45 0.17 W in boost mode, at
+  1.157 MHz, in 0.5 W 1210 parts. TI's LM51772EVM-HP uses 680 pF with 3 Ω 0.1 W
+  0603 resistors at 600 kHz, which dissipate 0.24 W at 24 V and 0.16 W in boost:
+  similar power, with a fifth of the rating.
+- C60 (100 nF 50 V X7R 0603) is the high-frequency output capacitor for the boost
+  hot loop, as C7 on TI's LM51772EVM-HP. It sits directly south of Q18's drain tab,
+  with a via in its output pad to the inner output planes and two vias in its GND
+  pad to In1, which runs solid GND 0.094 mm under the top layer, so the return
+  current follows the top-layer path back to Q19's source.
 - D5 is a DNP alternate for the charger catch diode D2, placed where D2 sat on the
   0.5.0 board. Fit D5 instead of D2 if the new D2 position turns out worse.
 - R115, the DNP UVLO bypass for U6, is on the top side east of Q24, below R108, with
