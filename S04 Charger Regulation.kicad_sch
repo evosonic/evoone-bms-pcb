@@ -3413,6 +3413,12 @@
 		(uuid "2d1583d7-31b5-42dc-aaec-e491ac3ffd5c")
 	)
 	(junction
+		(at 138.43 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ddb8a83-1e1c-4080-a36f-bde3aad04014")
+	)
+	(junction
 		(at 88.9 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3566,32 +3572,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "02b7f617-62e5-4e2c-b4a9-d8c24e21f78d")
-	)
-	(wire
-		(pts
-			(xy 138.43 95.25) (xy 138.43 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70adb049-cd87-4e4d-ab0d-7a6a276ed1c9")
-	)
-	(wire
-		(pts
-			(xy 138.43 105.41) (xy 138.43 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "633df0f5-7aa6-4be3-8218-29c1f5327c02")
-	)
-	(junction
-		(at 138.43 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ddb8a83-1e1c-4080-a36f-bde3aad04014")
 	)
 	(wire
 		(pts
@@ -4199,6 +4179,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 105.41) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633df0f5-7aa6-4be3-8218-29c1f5327c02")
+	)
+	(wire
+		(pts
 			(xy 99.06 121.92) (xy 99.06 125.73)
 		)
 		(stroke
@@ -4321,6 +4311,16 @@
 			(type default)
 		)
 		(uuid "6f7c43d9-28f3-4a84-a218-bc0bd52c8af5")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70adb049-cd87-4e4d-ab0d-7a6a276ed1c9")
 	)
 	(wire
 		(pts
@@ -7361,6 +7361,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Lattech Systems:Diode Schottky SS0540 0.5A SOD-123")
+		(at 138.43 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "6de5533c-c8a1-4141-829a-89c837ebbe63")
+		(property "Reference" "D5"
+			(at 139.7 98.806 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SS0540 40V"
+			(at 137.16 94.742 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:Diode SOD123"
+			(at 138.43 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode Schottky SS0540 0.5A SOD-123"
+			(at 138.43 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" "DNP. Alternate D2 at its original 0.5.0 position; fit instead of D2 if needed"
+			(at 137.16 94.742 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PL_SORT_GROUP" ""
+			(at 137.16 94.742 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER" "Panjit"
+			(at 137.16 94.742 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "SS0540"
+			(at 137.16 94.742 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "SS0540 40V"
+			(at 139.7 101.346 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "SOD-123"
+			(at 139.7 103.378 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "f4413063-cc59-48b4-999b-7dea037e05f9")
+		)
+		(pin "2"
+			(uuid "a23e2eb2-afcd-4567-857f-4e0c2d3780c1")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/18ff53f2-b256-4e35-9ef5-a5aab1ec179d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 247.65 144.78 180)
 		(unit 1)
@@ -9413,234 +9567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Lattech Systems:Diode Schottky SS0540 0.5A SOD-123")
-		(at 138.43 99.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "6de5533c-c8a1-4141-829a-89c837ebbe63")
-		(property "Reference" "D5"
-			(at 139.7 98.806 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SS0540 40V"
-			(at 137.16 94.742 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Diode SOD123"
-			(at 138.43 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode Schottky SS0540 0.5A SOD-123"
-			(at 138.43 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NOTE" "DNP. Alternate D2 at its original 0.5.0 position; fit instead of D2 if needed"
-			(at 137.16 94.742 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PL_SORT_GROUP" ""
-			(at 137.16 94.742 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "Panjit"
-			(at 137.16 94.742 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER_PN" "SS0540"
-			(at 137.16 94.742 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "SS0540 40V"
-			(at 139.7 101.346 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_FOOTPRINT" "SOD-123"
-			(at 139.7 103.378 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "f4413063-cc59-48b4-999b-7dea037e05f9")
-		)
-		(pin "2"
-			(uuid "a23e2eb2-afcd-4567-857f-4e0c2d3780c1")
-		)
-		(instances
-			(project "EVO2513"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/18ff53f2-b256-4e35-9ef5-a5aab1ec179d"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 138.43 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e8f3087c-fa54-43ad-b7a6-a917710053f9")
-		(property "Reference" "#PWR121"
-			(at 138.43 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "567c4c5d-b7d4-4620-888a-7759c5e1e450")
-		)
-		(instances
-			(project "EVO2513"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/18ff53f2-b256-4e35-9ef5-a5aab1ec179d"
-					(reference "#PWR121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 160.02 97.79 180)
 		(unit 1)
@@ -10614,6 +10540,80 @@
 			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/18ff53f2-b256-4e35-9ef5-a5aab1ec179d"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
+		(at 138.43 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8f3087c-fa54-43ad-b7a6-a917710053f9")
+		(property "Reference" "#PWR121"
+			(at 138.43 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "567c4c5d-b7d4-4620-888a-7759c5e1e450")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/18ff53f2-b256-4e35-9ef5-a5aab1ec179d"
+					(reference "#PWR121")
 					(unit 1)
 				)
 			)

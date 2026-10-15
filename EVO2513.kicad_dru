@@ -24,3 +24,10 @@
 (rule "No paste on DNP parts"
 	(condition "A.Do_not_Populate")
 	(constraint solder_paste_abs_margin (opt -50mm)))
+
+# Spacer M6 sits between the DCCHARGER and DCPATH pours: keep them 0.45 mm from
+# its pad. Set here rather than as a pad override so it survives a footprint
+# refresh from the library.
+(rule "Spacer M6 clearance"
+	(condition "A.memberOfFootprint('M6')")
+	(constraint clearance (min 0.45mm)))
