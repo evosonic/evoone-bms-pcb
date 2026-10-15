@@ -260,13 +260,15 @@ their BOM line.
 | C22 | 220 nF 50 V 0603, material field X5R | X7R, as its description already said |
 | R43, R44 | 10R 1% 0603 | 10R 1% **0402**, as R4, R5, R24–R27 (U5 current-sense filter, no power) |
 
-Three U5 (LM51772) fixes found during the review:
+Five U5 (LM51772) changes found during the review:
 
 | Ref | Was | Now | Why |
 |---|---|---|---|
 | C30 → **R102** | 22 µF 6.3 V 0603 on VCC1 | 10K 1% 0402 to GND, as R7 | VCC1 is disabled (R30 5.1K on CFG3); the datasheet says tie a disabled VCC1 to GND through a resistor, not leave it floating |
 | C32 | 22 µF 6.3 V X5R 0603 on VCC2 | 22 µF **16 V** X5R **0805** Murata `GRM21BR61C226ME44L` | VCC2 needs 6 µF minimum; the 0603 keeps only about 5–7 µF at 5 V |
 | R29 | 1.9K | **1.87K** | CFG4 setting #3 accepts 1.814–1.926 kΩ (1.87K typical); 1.9K isn't a 1% value, and 1.91K can reach 1.929 kΩ |
+| **C61** (new) | — | 100 nF 50 V X7R 0402 `CC0402KPX7R9BB104` (as C34), BIAS (pin 40) to GND, between R88 and R89 | BIAS had no local decoupling; TI's WEBENCH design puts 100 nF (Cbias) on it. The +12V caps are about 4.6 mm away through R89 |
+| R46 (FB top) | on the power-stage side of R48 | on **+12V**, teed into the ISNSN Kelvin trace from R48's load-side pad | +12V is regulated after the 5 mΩ shunt, so it no longer sags by R48's drop (about 55 mV at 11 A). Matches the datasheet's Figure 9-1 and §9.9.1.3 (route the top feedback resistor to the output sense point). VOUT (pin 18) stays on the power stage |
 
 Run Update PCB from Schematic to swap the footprints. Parts that grow overlap
 their neighbours' courtyards and need moving: the 0603s for C8 and C9 by up
