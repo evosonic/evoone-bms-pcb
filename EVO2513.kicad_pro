@@ -142,10 +142,6 @@
           "Marker, allowed"
         ],
         [
-          "starved_thermal|169001100|105003600|5ca46641-8169-490a-9ca7-e0d4ac640dfa|1b292540-83a1-4c16-bd75-f09c368c0e51|In3.Cu",
-          "Mixed layers are not a concern"
-        ],
-        [
           "starved_thermal|169001100|105003600|674b4f13-46e5-4bcb-be24-86c404493948|1b292540-83a1-4c16-bd75-f09c368c0e51|In6.Cu",
           "Mixed layers are not a concern"
         ],
