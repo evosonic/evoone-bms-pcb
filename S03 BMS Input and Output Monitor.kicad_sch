@@ -9718,7 +9718,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "PA2512FKF7W0R012E"
+		(property "MANUFACTURER_PN" "PA2512FKE7W0R012E"
 			(at 111.252 80.01 90)
 			(hide yes)
 			(show_name no)

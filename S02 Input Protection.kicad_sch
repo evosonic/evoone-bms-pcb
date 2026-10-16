@@ -5013,7 +5013,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SMBJ26CA"
+		(property "Value" "1.0SMBJ26CA"
 			(at 107.95 130.302 90)
 			(hide yes)
 			(show_name no)
@@ -5047,7 +5047,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS SMBJ26CA 26V SMB"
+		(property "Description" "TVS 1.0SMBJ26CA 26V SMB"
 			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5082,7 +5082,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Littelfuse Inc."
+		(property "MANUFACTURER" "Diotec Semiconductor"
 			(at 107.95 130.302 90)
 			(hide yes)
 			(show_name no)
@@ -5094,7 +5094,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "SMBJ26CA"
+		(property "MANUFACTURER_PN" "1.0SMBJ26CA"
 			(at 107.95 130.302 90)
 			(hide yes)
 			(show_name no)
@@ -5106,7 +5106,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "SMBJ26CA"
+		(property "ALTIUM_VALUE" "1.0SMBJ26CA"
 			(at 110.49 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -9878,7 +9878,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay Dale"
+		(property "MANUFACTURER" "YAGEO"
 			(at 262.89 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9889,7 +9889,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+		(property "MANUFACTURER_PN" "RC0603FR-073RL"
 			(at 262.89 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13691,7 +13691,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay Dale"
+		(property "MANUFACTURER" "YAGEO"
 			(at 176.53 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13702,7 +13702,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+		(property "MANUFACTURER_PN" "RC0603FR-073RL"
 			(at 176.53 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15237,7 +15237,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay Dale"
+		(property "MANUFACTURER" "YAGEO"
 			(at 147.32 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15248,7 +15248,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+		(property "MANUFACTURER_PN" "RC0603FR-073RL"
 			(at 147.32 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16186,7 +16186,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay Dale"
+		(property "MANUFACTURER" "YAGEO"
 			(at 233.68 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16197,7 +16197,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+		(property "MANUFACTURER_PN" "RC0603FR-073RL"
 			(at 233.68 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17658,7 +17658,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Industry"
+		(property "MANUFACTURER" "YAGEO"
 			(at 70.104 210.312 0)
 			(hide yes)
 			(show_name no)
@@ -17670,7 +17670,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "ERJ-2RKF4022X"
+		(property "MANUFACTURER_PN" "RC0402FR-1340K2L"
 			(at 70.104 210.312 0)
 			(hide yes)
 			(show_name no)

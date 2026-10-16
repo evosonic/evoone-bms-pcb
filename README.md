@@ -98,7 +98,7 @@ connection or the board copper.
 | Ref | Was | Now | Why |
 |---|---|---|---|
 | Q1, Q3 | DMT4011LFG 40 V | DMT6007LFGQ-7 60 V | Margin against D1's clamp voltage |
-| D1 | 1.5SMB27CA | SMBJ26CA (Littelfuse) | Stand-off above the 24 V supply; 42.1 V clamp |
+| D1 | 1.5SMB27CA | 1.0SMBJ26CA (Diotec) | Stand-off above the 24 V supply; 42.1 V clamp |
 | L1 | 4.7 µH SRP1265A-4R7M | 10 µH SRP1265A-100M | LTC1960's 10 µH minimum |
 | C10 | 100 nF 16 V | 100 nF 50 V CC0402KPX7R9BB104 | Sits on VPLUS at ~23 V |
 | R54 | 1 kΩ | 768 Ω RC0402FR-07768RL | SBC load-switch current limit (R22, R53, R71 stay 1 kΩ) |
@@ -111,7 +111,7 @@ connection or the board copper.
 | C46, C47, C51 | 4.7 nF 50 V X7R 0402 | 1.8 nF 50 V X7R 0402 `CC0402KRX7R9BB182` | TPS22811 DVDT caps (U6, U7, U9): shorter output ramp, as ordered for C47; the loads have little capacitance |
 | R24–R27 | 10 Ω | 0 Ω | Pack comms pass straight through; protection moves to the MCU board |
 | D9, D10 | DT1240V3-04LP fitted | DNP | Go with R24–R27: wrong clamp level for 3.3 V, and the protected MCU is on another board |
-| R14 | 0.01 Ω | 0.012 Ω Yageo `PA2512FKF7W0R012E` | Adapter limit 8.33 A, below the 9.2 A supply, so charging throttles before the supply trips |
+| R14 | 0.01 Ω | 0.012 Ω Yageo `PA2512FKE7W0R012E` | Adapter limit 8.33 A, below the 9.2 A supply, so charging throttles before the supply trips |
 | R36 | 61.9K fitted | DNP | VIN-FB goes to ground through R37, as required when PCM is unused |
 | R59, R61, R76 / R60, R62, R77 | 1M / 130K | **390K / 51K** | TPS22811 PGTH dividers: 10.38 V threshold, string current 23.5 µA at threshold to meet TI's 20× PGTH leakage rule, so pin leakage can't push it near the rail |
 | R67, R68, R81 | 2.2K | **4.7K** | PG LED (LED2–LED4) resistors from +3V3MCU: about half the current, ≈0.25 mA each instead of ≈0.55 mA, which saves ≈0.9 mA on battery with all three rails up. 4.7K is already on the BOM (R10) |
@@ -299,7 +299,9 @@ example the 390K/51K PGTH dividers take the R9 51K part). Parts with no earlier
 order keep the schematic's part number, or take a Yageo RC/CC-series part:
 `RC0402JR-070RL` (0R), `RC0402FR-07390KL`, `RC0402FR-071M07L`,
 `RC0402FR-071K87L`, `RC1210FR-072R2L`, `CC0805KRX7R9BB102`,
-`CC0603KRX7R9BB104`. D6–D8 are `B340A-13-F`. L2 is Coilcraft `XAL8080-681MEB`; its NOTE field lists the
+`CC0603KRX7R9BB104`. Resistors are standardised on Yageo (R31
+`RC0402FR-1340K2L`, R111–R114 `RC0603FR-073RL`), except the current-sense
+shunts R16, R19, R42 and R48. D6–D8 are `B340A-13-F`. L2 is Coilcraft `XAL8080-681MEB`; its NOTE field lists the
 alternate fitted on the builds, Würth `744393580068`. M1–M6 have no manufacturer
 fields; their value is the Würth part number.
 

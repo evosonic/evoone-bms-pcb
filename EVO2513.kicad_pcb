@@ -23517,7 +23517,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay Dale"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23530,7 +23530,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+		(property "MANUFACTURER_PN" "RC0603FR-073RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32859,7 +32859,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay Dale"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32872,7 +32872,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+		(property "MANUFACTURER_PN" "RC0603FR-073RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33514,7 +33514,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay Dale"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33527,7 +33527,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+		(property "MANUFACTURER_PN" "RC0603FR-073RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42401,7 +42401,7 @@
 				)
 			)
 		)
-		(property "Value" "SMBJ26CA"
+		(property "Value" "1.0SMBJ26CA"
 			(at -406.295261 -147.7262 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -42427,7 +42427,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS SMBJ26CA 26V SMB"
+		(property "Description" "TVS 1.0SMBJ26CA 26V SMB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42464,7 +42464,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Littelfuse Inc."
+		(property "MANUFACTURER" "Diotec Semiconductor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42476,7 +42476,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "SMBJ26CA"
+		(property "MANUFACTURER_PN" "1.0SMBJ26CA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42488,7 +42488,7 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "SMBJ26CA"
+		(property "ALTIUM_VALUE" "1.0SMBJ26CA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52135,7 +52135,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Industry"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52148,7 +52148,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "ERJ-2RKF4022X"
+		(property "MANUFACTURER_PN" "RC0402FR-1340K2L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57793,7 +57793,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay Dale"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57806,7 +57806,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CRCW06033R00FKEA"
+		(property "MANUFACTURER_PN" "RC0603FR-073RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73793,7 +73793,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "PA2512FKF7W0R012E"
+		(property "MANUFACTURER_PN" "PA2512FKE7W0R012E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
