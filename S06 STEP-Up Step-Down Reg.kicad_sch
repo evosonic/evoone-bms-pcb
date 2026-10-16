@@ -9088,7 +9088,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "CC0805KRX7R9BB102"
+		(property "MANUFACTURER_PN" "CC0805KPX7R9BB102"
 			(at 223.012 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9566,7 +9566,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM21BR61C226ME44L"
+		(property "MANUFACTURER_PN" "GRM219R61C226ME15L"
 			(at 96.012 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -10930,7 +10930,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 72.39 65.532 0)
 			(hide yes)
 			(show_name no)
@@ -10942,7 +10942,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 72.39 65.532 0)
 			(hide yes)
 			(show_name no)

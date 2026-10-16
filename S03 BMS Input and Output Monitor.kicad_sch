@@ -5876,7 +5876,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 220.98 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -5888,7 +5888,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 220.98 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -7782,7 +7782,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 256.54 181.102 0)
 			(hide yes)
 			(show_name no)
@@ -7794,7 +7794,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 256.54 181.102 0)
 			(hide yes)
 			(show_name no)
@@ -8454,7 +8454,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -8466,7 +8466,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -10202,7 +10202,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 269.24 181.102 0)
 			(hide yes)
 			(show_name no)
@@ -10214,7 +10214,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 269.24 181.102 0)
 			(hide yes)
 			(show_name no)

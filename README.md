@@ -266,7 +266,7 @@ their BOM line.
 | C7, C52, C53, C58, C59 | 100 nF 16 V X7R 0402 | 100 nF **50 V** X7R 0402 `CC0402KPX7R9BB104`, as C10 |
 | C37, C38 | 100 nF 16 V X7R 0603 | the same, **0402** (U5 bootstrap caps, ~5 V) |
 | C17, C18, C20, C21, C34 | 100 nF 50 V X7R 0402, no part number | `CC0402KPX7R9BB104` |
-| C11–C14, C24–C26 | 10 µF 25 V/50 V 1206 | 10 µF 50 V X7R **1210** Murata `GRM32ER71H106KA12L`, as C27 (1210 is easier to source) |
+| C11–C14, C24–C26 | 10 µF 25 V/50 V 1206 | 10 µF 50 V X7R **1210** Taiyo Yuden `UMK325AB7106KMHP`, as C27 (1210 is easier to source) |
 | C27 | 10 µF 50 V X5R 1210 | the same part, X7R |
 | C16 | 220 nF 50 V X7R 0805 | the same, **0603** Yageo `AC0603KRX7R9BB224`, as C22 (charger bootstrap cap) |
 | C22 | 220 nF 50 V 0603, material field X5R | X7R, as its description already said |
@@ -277,7 +277,7 @@ Five U5 (LM51772) changes found during the review:
 | Ref | Was | Now | Why |
 |---|---|---|---|
 | C30 → **R102** | 22 µF 6.3 V 0603 on VCC1 | 10K 1% 0402 to GND, as R7 | VCC1 is disabled (R30 5.1K on CFG3); the datasheet says tie a disabled VCC1 to GND through a resistor, not leave it floating |
-| C32 | 22 µF 6.3 V X5R 0603 on VCC2 | 22 µF **16 V** X5R **0805** Murata `GRM21BR61C226ME44L` | VCC2 needs 6 µF minimum; the 0603 keeps only about 5–7 µF at 5 V |
+| C32 | 22 µF 6.3 V X5R 0603 on VCC2 | 22 µF **16 V** X5R **0805** Murata `GRM219R61C226ME15L` | VCC2 needs 6 µF minimum; the 0603 keeps only about 5–7 µF at 5 V |
 | R29 | 1.9K | **1.87K** | CFG4 setting #3 accepts 1.814–1.926 kΩ (1.87K typical); 1.9K isn't a 1% value, and 1.91K can reach 1.929 kΩ |
 | **C61** (new) | — | 100 nF 50 V X7R 0402 `CC0402KPX7R9BB104` (as C34), BIAS (pin 40) to GND, between R88 and R89 | BIAS had no local decoupling; TI's WEBENCH design puts 100 nF (Cbias) on it. The +12V caps are about 4.6 mm away through R89 |
 | R46 (FB top) | on the power-stage side of R48 | on **+12V**, teed into the ISNSN Kelvin trace from R48's load-side pad | +12V is regulated after the 5 mΩ shunt, so it no longer sags by R48's drop (about 55 mV at 11 A). Matches the datasheet's Figure 9-1 and §9.9.1.3 (route the top feedback resistor to the output sense point). VOUT (pin 18) stays on the power stage |
@@ -298,7 +298,7 @@ changed reuse a bought part where value, package and rating match (for
 example the 390K/51K PGTH dividers take the R9 51K part). Parts with no earlier
 order keep the schematic's part number, or take a Yageo RC/CC-series part:
 `RC0402JR-070RL` (0R), `RC0402FR-07390KL`, `RC0402FR-071M07L`,
-`RC0402FR-071K87L`, `RC1210FR-072R2L`, `CC0805KRX7R9BB102`,
+`RC0402FR-071K87L`, `RC1210FR-072R2L`, `CC0805KPX7R9BB102`,
 `CC0603KRX7R9BB104`. Resistors are standardised on Yageo (R31
 `RC0402FR-1340K2L`, R111–R114 `RC0603FR-073RL`), except the current-sense
 shunts R16, R19, R42 and R48. D6–D8 are `B340A-13-F`. L2 is Coilcraft `XAL8080-681MEB`; its NOTE field lists the

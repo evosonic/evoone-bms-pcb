@@ -3732,7 +3732,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3745,7 +3745,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5877,7 +5877,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5890,7 +5890,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6130,7 +6130,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6143,7 +6143,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6948,7 +6948,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6961,7 +6961,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11069,7 +11069,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11082,7 +11082,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13896,7 +13896,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13909,7 +13909,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14146,7 +14146,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14159,7 +14159,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16248,7 +16248,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16261,7 +16261,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36279,7 +36279,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36292,7 +36292,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41216,7 +41216,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CC0805KRX7R9BB102"
+		(property "MANUFACTURER_PN" "CC0805KPX7R9BB102"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44895,7 +44895,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44908,7 +44908,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46140,7 +46140,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46153,7 +46153,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52359,7 +52359,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52372,7 +52372,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM32ER71H106KA12L"
+		(property "MANUFACTURER_PN" "UMK325AB7106KMHP"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55137,7 +55137,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55150,7 +55150,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56415,7 +56415,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56428,7 +56428,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59969,7 +59969,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59982,7 +59982,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66824,7 +66824,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66837,7 +66837,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70774,7 +70774,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70787,7 +70787,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
+		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72769,7 +72769,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM21BR61C226ME44L"
+		(property "MANUFACTURER_PN" "GRM219R61C226ME15L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
