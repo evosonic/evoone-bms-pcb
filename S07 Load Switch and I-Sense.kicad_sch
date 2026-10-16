@@ -1294,7 +1294,7 @@
 				(pin passive line
 					(at -12.7 -22.86 0)
 					(length 2.54)
-					(name "nEN/UVLO"
+					(name "nEN/OVLO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1998,7 +1998,7 @@
 		)
 		(uuid "11588ee8-6e35-4b31-a1d6-6b079abc6237")
 	)
-	(text "Overvoltage lockout: R90/R91/R92 1.07M with R51/R52/R70 100K on nEN/OVLO.\nOff above 14.0 V (13.4-14.7 V), back on below 12.75 V (12.2-13.4 V),\nso a tripped switch always recovers on the 12.03 V rail.\nPGTH dividers R59/R61/R76 100K over R60/R62/R77 13K: PG at 10.43 V\n(10.93 V worst case); the low impedance keeps the PGTH pin leakage small."
+	(text "Overvoltage lockout: R90/R91/R92 1.07M with R51/R52/R70 100K on nEN/OVLO.\nOff above 14.0 V (13.4-14.7 V), back on below 12.75 V (12.2-13.4 V),\nso a tripped switch always recovers on the 12.03 V rail.\nPGTH dividers R59/R61/R76 390K over R60/R62/R77 51K: PG at 10.38 V\n(11.17 V worst case); 23.5 uA at threshold, over TI's 20x PGTH leakage."
 		(exclude_from_sim no)
 		(at 170.18 97.79 0)
 		(effects
@@ -2216,7 +2216,7 @@
 		)
 		(uuid "a9af0300-eb13-450b-8dbe-92b94d0bb273")
 	)
-	(text "DAQ (U6) is deliberately different from SBC and EXT; keep it.\nU6 has an 11 V undervoltage lockout: R108/R49 turn it on at\n11.2 V (10.8-11.7 V) and off at 10.2 V (9.8-10.7 V). That\ndivider must hold EN/UVLO, so the enable goes through Q24:\nnENDAQ is active LOW. High or floating (POR, expander in reset\nor unpowered) turns Q24 on and holds U6 in shutdown; low hands\nEN/UVLO to the divider. R109/R110 bias the gate from +12V, not\n+3V3MCU, so DAQ stays off when the MCU board is unpowered.\n\nBypass (assembly option): fit R115 0R and remove Q24, R108 and\nR109. nENDAQ then drives EN/UVLO directly, as on SBC and EXT:\nactive HIGH, no undervoltage lockout. R110 || R49 (8.3K) hold\nU6 off while the expander is in reset or unpowered."
+	(text "DAQ (U6) is deliberately different from SBC and EXT.\nU6 has an 11 V undervoltage lockout: R108/R49 turn it on at\n11.1 V (10.6-11.9 V) and off at 10.1 V (9.7-10.9 V). That\ndivider must hold EN/UVLO, so the enable goes through Q24:\nnENDAQ is active LOW. High or floating (POR, expander in reset\nor unpowered) turns Q24 on and holds U6 in shutdown; low hands\nEN/UVLO to the divider. R109/R110 bias the gate from +12V, not\n+3V3MCU, so DAQ stays off when the MCU board is unpowered.\n\nBypass (assembly option): fit R115 0R and remove Q24, R108 and\nR109. nENDAQ then drives EN/UVLO directly, as on SBC and EXT:\nactive HIGH, no undervoltage lockout. R110 || R49 (62.9K) hold\nU6 off while the expander is in reset or unpowered."
 		(exclude_from_sim no)
 		(at 15.24 228.6 0)
 		(effects
@@ -2834,7 +2834,7 @@
 		(uuid "cb0a479d-fe5e-4a2c-b3f5-76e77c27a5ae")
 	)
 	(junction
-		(at 50.8 185.42)
+		(at 49.53 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc837c70-53c6-49b4-ab27-e9659a5ba99e")
@@ -3759,6 +3759,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 170.18) (xy 49.53 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba5a506-2b2d-4287-b203-98116a2c150d")
+	)
+	(wire
+		(pts
 			(xy 350.52 60.96) (xy 350.52 57.15)
 		)
 		(stroke
@@ -4290,6 +4300,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "7714b702-4ce3-4398-981d-bfe6ea00dfa4")
+	)
+	(wire
+		(pts
+			(xy 49.53 180.34) (xy 49.53 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774275f5-090e-4c3d-9513-fa459a72156d")
 	)
 	(wire
 		(pts
@@ -5708,7 +5728,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 185.42) (xy 45.72 185.42)
+			(xy 45.72 185.42) (xy 64.77 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6080,16 +6100,17 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "01bea4fa-6db8-4558-bdc5-1d189c0bd7eb")
 		(property "Reference" "D7"
-			(at 182.88 54.356 90)
+			(at 184.15 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "B340A"
@@ -6104,7 +6125,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Diode DO-214AC SMA"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 181.61 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6186,25 +6207,25 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "B340A"
-			(at 182.88 56.896 90)
+			(at 184.15 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMA"
-			(at 182.88 58.928 90)
+			(at 184.15 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -6330,7 +6351,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:LED 0603 H0-7 (C)"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 325.12 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7403,7 +7424,7 @@
 		(dnp no)
 		(uuid "106cadf3-fa4a-49cb-9d36-9d637ddf9f79")
 		(property "Reference" "U9"
-			(at 280.67 40.64 0)
+			(at 280.67 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7598,7 +7619,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:LED 0603 H0-7 (C)"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 153.67 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -7727,7 +7748,7 @@
 		(dnp no)
 		(uuid "15e5a71d-8e47-41e6-9586-a131bf5f30e0")
 		(property "Reference" "U7"
-			(at 111.76 41.91 0)
+			(at 111.76 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7898,16 +7919,17 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "15ea9b0b-e4fd-4a93-a03d-ce81a01a0f73")
 		(property "Reference" "D8"
-			(at 351.79 53.086 90)
+			(at 353.06 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "B340A"
@@ -7922,7 +7944,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Diode DO-214AC SMA"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 350.52 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8004,25 +8026,25 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "B340A"
-			(at 351.79 55.626 90)
+			(at 353.06 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMA"
-			(at 351.79 57.658 90)
+			(at 353.06 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -8824,27 +8846,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "20d06ed5-394e-41cf-8c62-e90eabbfe588")
 		(property "Reference" "R51"
-			(at 74.676 212.09 0)
+			(at 76.2 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "100K"
-			(at 74.676 214.63 0)
+			(at 76.2 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -8941,14 +8964,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 74.676 216.662 0)
+			(at 76.2 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -9272,7 +9295,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 181.61 180)
+		(at 49.53 176.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9282,7 +9305,7 @@
 		(dnp no)
 		(uuid "26cdbcbc-f110-4329-b18d-4f0ba0892714")
 		(property "Reference" "R108"
-			(at 49.784 177.8 0)
+			(at 48.514 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9292,8 +9315,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100K"
-			(at 49.784 180.34 0)
+		(property "Value" "619K"
+			(at 48.514 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9304,7 +9327,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 50.8 181.61 90)
+			(at 49.53 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9315,7 +9338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 181.61 90)
+			(at 49.53 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9325,8 +9348,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 100K 1% 0402"
-			(at 50.8 181.61 90)
+		(property "Description" "Resistor 619K 1% 0402"
+			(at 49.53 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9337,7 +9360,7 @@
 			)
 		)
 		(property "NOTE" ""
-			(at 49.784 177.292 0)
+			(at 48.514 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9349,7 +9372,7 @@
 			)
 		)
 		(property "PL_SORT_GROUP" "2.3"
-			(at 49.784 177.292 0)
+			(at 48.514 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9361,7 +9384,7 @@
 			)
 		)
 		(property "MANUFACTURER" "?"
-			(at 49.784 177.292 0)
+			(at 48.514 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9373,7 +9396,7 @@
 			)
 		)
 		(property "MANUFACTURER_PN" "?"
-			(at 49.784 177.292 0)
+			(at 48.514 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9384,8 +9407,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100K"
-			(at 49.784 177.292 0)
+		(property "ALTIUM_VALUE" "619K"
+			(at 48.514 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9397,7 +9420,7 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 49.784 182.88 0)
+			(at 48.514 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9432,27 +9455,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "26e51ef6-a608-4b86-9c7b-c4db42aaa23e")
 		(property "Reference" "C44"
-			(at 55.88 211.836 0)
+			(at 58.42 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "1uF"
-			(at 55.88 214.376 0)
+			(at 58.42 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -9549,36 +9573,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 55.88 216.408 0)
+			(at 58.42 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "MATERIAL" "X5R"
-			(at 55.88 218.44 0)
+			(at 58.42 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 55.88 220.98 0)
+			(at 58.42 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -9913,16 +9937,17 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2faa723c-2356-4c42-afbd-23841cb47c47")
 		(property "Reference" "Q22"
-			(at 326.39 85.09 0)
+			(at 327.66 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "BSS138"
@@ -10019,25 +10044,25 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SOT-23"
-			(at 326.39 85.09 0)
+			(at 327.66 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "ALTIUM_VALUE" "BSS138"
-			(at 326.39 87.63 0)
+			(at 327.66 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -10060,7 +10085,7 @@
 	)
 	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:+12V_BAR")
-		(at 50.8 177.8 180)
+		(at 49.53 170.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10070,7 +10095,7 @@
 		(dnp no)
 		(uuid "30a66c1c-6a4e-45e8-8edf-1fa7206cca7f")
 		(property "Reference" "#PWR117"
-			(at 50.8 177.8 0)
+			(at 49.53 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10081,7 +10106,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 50.8 173.99 0)
+			(at 49.53 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10091,7 +10116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 177.8 0)
+			(at 49.53 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10101,7 +10126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 177.8 0)
+			(at 49.53 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10111,7 +10136,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 177.8 0)
+			(at 49.53 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11294,16 +11319,17 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4bf5d603-f798-4570-852d-5eb141052938")
 		(property "Reference" "D6"
-			(at 180.34 181.356 90)
+			(at 181.61 179.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "B340A"
@@ -11318,7 +11344,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:Diode DO-214AC SMA"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 179.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -11400,25 +11426,25 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "B340A"
-			(at 180.34 183.896 90)
+			(at 181.61 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SMA"
-			(at 180.34 185.928 90)
+			(at 181.61 184.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -12006,7 +12032,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "390K"
 			(at 131.826 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12039,7 +12065,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 100K 1% 0402"
+		(property "Description" "Resistor 390K 1% 0402"
 			(at 130.81 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -12098,7 +12124,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100K"
+		(property "ALTIUM_VALUE" "390K"
 			(at 129.794 49.022 0)
 			(hide yes)
 			(show_name no)
@@ -12298,27 +12324,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "61031cb3-0e42-4a35-8f0d-bc39f307e4b3")
 		(property "Reference" "C49"
-			(at 173.99 54.356 0)
+			(at 168.91 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 173.99 56.896 0)
+			(at 168.91 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -12415,36 +12442,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 173.99 58.928 0)
+			(at 168.91 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "MATERIAL" "X5R"
-			(at 173.99 60.96 0)
+			(at 168.91 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 173.99 63.5 0)
+			(at 168.91 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -12472,16 +12499,17 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "646f1b6c-77be-4545-aa19-94f8d3b3e687")
 		(property "Reference" "Q21"
-			(at 157.48 86.36 0)
+			(at 158.75 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "BSS138"
@@ -12578,25 +12606,25 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SOT-23"
-			(at 157.48 86.36 0)
+			(at 158.75 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "ALTIUM_VALUE" "BSS138"
-			(at 157.48 88.9 0)
+			(at 158.75 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -12639,7 +12667,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "4.7K"
 			(at 326.136 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12672,7 +12700,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 2.2K 1% 0402"
+		(property "Description" "Resistor 4.7K 1% 0402"
 			(at 325.12 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -12731,7 +12759,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "2.2K"
+		(property "ALTIUM_VALUE" "4.7K"
 			(at 324.104 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -12853,27 +12881,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6d84f2b8-5d71-4e34-acb6-02255d963d93")
 		(property "Reference" "C52"
-			(at 279.4 234.696 0)
+			(at 281.94 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 279.4 237.236 0)
+			(at 281.94 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -12970,36 +12999,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 279.4 239.268 0)
+			(at 281.94 234.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 279.4 241.3 0)
+			(at 281.94 237.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 279.4 243.84 0)
+			(at 281.94 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -13191,7 +13220,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "13K"
+		(property "Value" "51K"
 			(at 300.736 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13224,7 +13253,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 13K 1% 0402"
+		(property "Description" "Resistor 51K 1% 0402"
 			(at 299.72 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -13283,7 +13312,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "13K"
+		(property "ALTIUM_VALUE" "51K"
 			(at 298.704 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -13857,27 +13886,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "96c3d56a-e64d-49c5-bdd7-0c691ddef5eb")
 		(property "Reference" "C56"
-			(at 356.87 234.696 0)
+			(at 359.41 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "10uF"
-			(at 356.87 237.236 0)
+			(at 359.41 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -13974,36 +14004,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 356.87 239.268 0)
+			(at 359.41 234.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "MATERIAL" "X5R"
-			(at 356.87 241.3 0)
+			(at 359.41 237.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "VOLTAGE" "10V"
-			(at 356.87 243.84 0)
+			(at 359.41 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -14195,7 +14225,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "1.07M"
 			(at 34.036 188.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14228,7 +14258,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 100K 1% 0402"
+		(property "Description" "Resistor 1.07M 1% 0402"
 			(at 33.02 189.23 90)
 			(hide yes)
 			(show_name no)
@@ -14287,7 +14317,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100K"
+		(property "ALTIUM_VALUE" "1.07M"
 			(at 32.004 184.912 0)
 			(hide yes)
 			(show_name no)
@@ -14335,27 +14365,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a1d3fa4e-ae8c-4112-89bb-53a48d18a31b")
 		(property "Reference" "R49"
-			(at 65.786 212.09 0)
+			(at 67.31 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
-		(property "Value" "12K"
-			(at 65.786 214.63 0)
+		(property "Value" "75K"
+			(at 67.31 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -14380,7 +14411,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 12K 1% 0402"
+		(property "Description" "Resistor 75K 1% 0402"
 			(at 64.77 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -14439,7 +14470,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "12K"
+		(property "ALTIUM_VALUE" "75K"
 			(at 63.754 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -14452,14 +14483,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 65.786 216.662 0)
+			(at 67.31 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -14817,7 +14848,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "4.7K"
 			(at 157.226 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14850,7 +14881,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 2.2K 1% 0402"
+		(property "Description" "Resistor 4.7K 1% 0402"
 			(at 156.21 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -14909,7 +14940,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "2.2K"
+		(property "ALTIUM_VALUE" "4.7K"
 			(at 155.194 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -15109,27 +15140,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ad1f40bf-0dd6-42c7-82f7-90e0a960c81e")
 		(property "Reference" "C48"
-			(at 171.45 181.356 0)
+			(at 166.37 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 171.45 183.896 0)
+			(at 166.37 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -15226,36 +15258,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 171.45 185.928 0)
+			(at 166.37 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "MATERIAL" "X5R"
-			(at 171.45 187.96 0)
+			(at 166.37 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 171.45 190.5 0)
+			(at 166.37 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -15295,7 +15327,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "27K"
+		(property "Value" "390K"
 			(at 34.036 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15328,7 +15360,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 27K 1% 0402"
+		(property "Description" "Resistor 390K 1% 0402"
 			(at 33.02 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -15387,7 +15419,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "27K"
+		(property "ALTIUM_VALUE" "390K"
 			(at 32.004 192.532 0)
 			(hide yes)
 			(show_name no)
@@ -15599,7 +15631,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "390K"
 			(at 129.286 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15632,7 +15664,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 100K 1% 0402"
+		(property "Description" "Resistor 390K 1% 0402"
 			(at 128.27 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -15691,7 +15723,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100K"
+		(property "ALTIUM_VALUE" "390K"
 			(at 127.254 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -15903,7 +15935,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "13K"
+		(property "Value" "51K"
 			(at 129.286 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15936,7 +15968,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 13K 1% 0402"
+		(property "Description" "Resistor 51K 1% 0402"
 			(at 128.27 190.5 90)
 			(hide yes)
 			(show_name no)
@@ -15995,7 +16027,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "13K"
+		(property "ALTIUM_VALUE" "51K"
 			(at 127.254 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -16203,7 +16235,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "13K"
+		(property "Value" "51K"
 			(at 131.826 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16236,7 +16268,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 13K 1% 0402"
+		(property "Description" "Resistor 51K 1% 0402"
 			(at 130.81 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -16295,7 +16327,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "13K"
+		(property "ALTIUM_VALUE" "51K"
 			(at 129.794 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -16419,7 +16451,7 @@
 		(dnp no)
 		(uuid "cee9b0aa-f2dc-4853-a534-7421a10fb56a")
 		(property "Reference" "U6"
-			(at 109.22 168.91 0)
+			(at 109.22 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16590,27 +16622,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d1787950-8043-4db5-b2a4-fdc8d0718285")
 		(property "Reference" "C53"
-			(at 327.66 234.696 0)
+			(at 330.2 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 327.66 237.236 0)
+			(at 330.2 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -16707,36 +16740,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 327.66 239.268 0)
+			(at 330.2 234.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 327.66 241.3 0)
+			(at 330.2 237.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 327.66 243.84 0)
+			(at 330.2 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -17800,27 +17833,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e66b45e5-3e6e-47c9-93d1-8f8f7e9cf571")
 		(property "Reference" "R73"
-			(at 275.336 198.12 0)
+			(at 276.86 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 275.336 200.66 0)
+			(at 276.86 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -17917,14 +17951,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 275.336 202.692 0)
+			(at 276.86 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -17952,16 +17986,17 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e8d3b73c-47c4-4b44-a8ed-2cddca912d05")
 		(property "Reference" "Q20"
-			(at 154.94 213.36 0)
+			(at 156.21 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "BSS138"
@@ -18058,25 +18093,25 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SOT-23"
-			(at 154.94 213.36 0)
+			(at 156.21 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "ALTIUM_VALUE" "BSS138"
-			(at 154.94 215.9 0)
+			(at 156.21 215.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -18407,27 +18442,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ed1426d1-bc5c-4142-98c9-544cc46187fb")
 		(property "Reference" "C54"
-			(at 342.9 53.086 0)
+			(at 337.82 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 342.9 55.626 0)
+			(at 337.82 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -18524,36 +18560,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0603"
-			(at 342.9 57.658 0)
+			(at 337.82 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "MATERIAL" "X5R"
-			(at 342.9 59.69 0)
+			(at 337.82 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 342.9 62.23 0)
+			(at 337.82 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -18581,27 +18617,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f06277d6-3c4f-4b61-a382-00a93b3673b2")
 		(property "Reference" "C46"
-			(at 83.82 211.836 0)
+			(at 86.36 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "1.8nF"
-			(at 83.82 214.376 0)
+			(at 86.36 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -18698,36 +18735,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 83.82 216.408 0)
+			(at 86.36 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 83.82 218.44 0)
+			(at 86.36 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 83.82 220.98 0)
+			(at 86.36 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -18915,7 +18952,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "390K"
 			(at 300.736 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18948,7 +18985,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 100K 1% 0402"
+		(property "Description" "Resistor 390K 1% 0402"
 			(at 299.72 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -19007,7 +19044,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "100K"
+		(property "ALTIUM_VALUE" "390K"
 			(at 298.704 47.752 0)
 			(hide yes)
 			(show_name no)
@@ -19055,27 +19092,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f3134b9f-68ad-46df-b436-269ab7ef8eae")
 		(property "Reference" "R90"
-			(at 74.676 179.07 0)
+			(at 76.2 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1.07M"
-			(at 74.676 181.61 0)
+			(at 76.2 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -19172,14 +19210,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 74.676 183.642 0)
+			(at 76.2 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -19457,7 +19495,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:LED 0603 H0-7 (C)"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 156.21 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19596,7 +19634,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "4.7K"
 			(at 154.686 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19629,7 +19667,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor 2.2K 1% 0402"
+		(property "Description" "Resistor 4.7K 1% 0402"
 			(at 153.67 190.5 90)
 			(hide yes)
 			(show_name no)
@@ -19688,7 +19726,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "2.2K"
+		(property "ALTIUM_VALUE" "4.7K"
 			(at 152.654 186.182 0)
 			(hide yes)
 			(show_name no)

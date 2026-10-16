@@ -992,12 +992,78 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PN",
+          "name": "MANUFACTURER_PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MATERIAL",
+          "name": "MATERIAL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NOTE",
+          "name": "NOTE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PL_SORT_GROUP",
+          "name": "PL_SORT_GROUP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE",
+          "name": "VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ITEM_QTY",
+          "name": "ITEM_QTY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_FOOTPRINT",
+          "name": "ALTIUM_FOOTPRINT",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -1042,7 +1108,7 @@
         "uuid": "44203427-0a3b-455b-9bb9-c1b577d179b3"
       }
     ],
-    "used_designators": "#PWR1-99,M1-6",
+    "used_designators": "#FLG2,#PWR1-99,M1-6",
     "variants": []
   },
   "sheets": [

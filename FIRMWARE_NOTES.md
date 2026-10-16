@@ -50,10 +50,11 @@ stay off until firmware sets P0_0–P0_2 as outputs.
 
 - **Changed: P0_1 is inverted.** Write 0 to enable DAQ and 1 to disable it.
   High or floating holds U6 in shutdown, including while the expander is in
-  reset. The Q24 gate sits at about 2.55 V, so P0_1 can stay push-pull.
+  reset. The Q24 gate is biased to about 3.2 V through 286K, so P0_1 can stay
+  push-pull: driving it high to 3.3 V sinks under 3 µA and still disables DAQ.
 - All three enables move from MCU GPIO to SPI.
 - Output drive strength: set the used outputs to 25 % (registers 40h–43h).
-  Every output drives only a 100K-class load, so fast edges add noise and
+  Every output drives only a 100K-class load or lighter, so fast edges add noise and
   give nothing back.
 - INT has a 10K pull-up (R94) but isn't routed off the board. Poll the input
   port for PG and nFLT changes.
@@ -81,11 +82,11 @@ These thresholds are set in hardware. Firmware just has to expect them.
 
 | | DAQ (U6) | SBC (U7) | EXT (U9) |
 |---|---|---|---|
-| Turns on above (undervoltage) | **11.2 V** (10.8–11.7 V), **Changed** | — | — |
-| Turns off below (undervoltage) | **10.2 V** (9.8–10.7 V), **Changed** | — | — |
+| Turns on above (undervoltage) | **11.1 V** (10.6–11.9 V), **Changed** | — | — |
+| Turns off below (undervoltage) | **10.1 V** (9.7–10.9 V), **Changed** | — | — |
 | Turns off above (overvoltage) | 14.0 V (13.4–14.7 V), **Changed** | same | same |
 | Back on below (overvoltage) | 12.75 V (12.2–13.4 V) | same | same |
-| PG asserts above | 10.43 V (at most 10.93 V) | same | same |
+| PG asserts above | 10.38 V (at most 11.17 V), **Changed** | same | same |
 | Current limit (6595 / R_IMON) | 6.6 A (R53 = 1K) | 8.6 A (R54 = 768R) | 6.6 A (R71 = 1K) |
 
 An enabled switch can therefore be off with PG low for reasons other than a

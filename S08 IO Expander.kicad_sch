@@ -2243,27 +2243,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "004cb6ce-a1be-4b5b-af96-69f39425d7d5")
 		(property "Reference" "R101"
-			(at 122.936 109.22 0)
+			(at 124.46 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "1.07M"
-			(at 122.936 111.76 0)
+			(at 124.46 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -2360,14 +2361,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 122.936 113.792 0)
+			(at 124.46 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -2620,27 +2621,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0d48b040-5218-44dd-877c-e6cc8334f7fb")
 		(property "Reference" "R99"
-			(at 122.936 97.79 0)
+			(at 124.46 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "100K"
-			(at 122.936 100.33 0)
+			(at 124.46 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -2737,14 +2739,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 122.936 102.362 0)
+			(at 124.46 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -2772,27 +2774,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "17ba83c2-c616-4311-b9bd-6f6701d80cd3")
 		(property "Reference" "R93"
-			(at 141.986 162.56 0)
+			(at 143.51 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 141.986 165.1 0)
+			(at 143.51 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -2889,14 +2892,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 141.986 167.132 0)
+			(at 143.51 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -3072,27 +3075,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "37672ef0-c3b0-48c3-847a-cbaf5a9bc9c0")
 		(property "Reference" "R100"
-			(at 140.716 123.19 0)
+			(at 142.24 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "100K"
-			(at 140.716 125.73 0)
+			(at 142.24 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -3189,14 +3193,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 140.716 127.762 0)
+			(at 142.24 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -3372,27 +3376,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "66353e86-2e07-4cc6-bda2-2ee6ccf0e9b0")
 		(property "Reference" "C59"
-			(at 196.85 162.306 0)
+			(at 199.39 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 196.85 164.846 0)
+			(at 199.39 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -3489,36 +3494,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 196.85 166.878 0)
+			(at 199.39 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 196.85 168.91 0)
+			(at 199.39 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 196.85 171.45 0)
+			(at 199.39 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -3546,27 +3551,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6b52cf1a-6748-405f-b8ac-0acd4603406c")
 		(property "Reference" "C58"
-			(at 184.15 162.306 0)
+			(at 186.69 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 184.15 164.846 0)
+			(at 186.69 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -3663,36 +3669,36 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 184.15 166.878 0)
+			(at 186.69 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "MATERIAL" "X7R"
-			(at 184.15 168.91 0)
+			(at 186.69 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "VOLTAGE" "50V"
-			(at 184.15 171.45 0)
+			(at 186.69 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -4019,16 +4025,17 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8e7a8faa-d67a-49d0-852e-fcefb2d449bb")
 		(property "Reference" "Q23"
-			(at 140.97 105.41 0)
+			(at 142.24 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "BSS138"
@@ -4125,25 +4132,25 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "SOT-23"
-			(at 140.97 105.41 0)
+			(at 142.24 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "ALTIUM_VALUE" "BSS138"
-			(at 140.97 107.95 0)
+			(at 142.24 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -4248,27 +4255,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ae30a7a5-bc27-4f30-a590-819546c5a246")
 		(property "Reference" "R94"
-			(at 159.766 162.56 0)
+			(at 161.29 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 159.766 165.1 0)
+			(at 161.29 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -4365,14 +4373,14 @@
 			)
 		)
 		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 159.766 167.132 0)
+			(at 161.29 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 			)
 		)
 		(pin "2"

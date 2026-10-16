@@ -3378,6 +3378,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "1"
 		(exclude_from_sim no)
@@ -3966,42 +4081,6 @@
 		)
 		(uuid "bb32f842-4b30-4969-9c67-24815202b930")
 	)
-	(wire
-		(pts
-			(xy 361.95 62.23) (xy 361.95 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f60ce76-3ae6-4b74-b52b-fa19ec96d944")
-	)
-	(wire
-		(pts
-			(xy 290.83 63.5) (xy 290.83 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78a837f3-df78-4cf1-a7f1-4090c192bdd6")
-	)
-	(wire
-		(pts
-			(xy 290.83 62.23) (xy 361.95 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d892a844-8e48-4c5a-a9c5-66f5a2315ae2")
-	)
-	(junction
-		(at 361.95 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4664c1df-9de0-4cab-bd7e-970aea78dc65")
-	)
 	(junction
 		(at 144.78 233.68)
 		(diameter 0)
@@ -4081,12 +4160,6 @@
 		(uuid "22c886dc-7a57-4ee0-a67b-3fb5698eebfc")
 	)
 	(junction
-		(at 274.32 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9f452e7-5daf-4f5b-bde0-60621333929f")
-	)
-	(junction
 		(at 279.4 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4145,6 +4218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44ffcb11-ce66-4f93-9531-f579842bb334")
+	)
+	(junction
+		(at 361.95 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4664c1df-9de0-4cab-bd7e-970aea78dc65")
 	)
 	(junction
 		(at 317.5 92.71)
@@ -4235,6 +4314,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76f14599-3ebe-4c22-87c4-3475c071bffb")
+	)
+	(junction
+		(at 372.11 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bdb3344-f264-4e8e-b1af-5968a1e3d45f")
 	)
 	(junction
 		(at 106.68 233.68)
@@ -4398,7 +4483,6 @@
 		(color 0 0 0 0)
 		(uuid "b93907f9-9944-49b9-8aed-f8ca8db26db1")
 	)
-
 	(junction
 		(at 346.71 92.71)
 		(diameter 0)
@@ -4464,6 +4548,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f79ba8d5-0adf-4376-8072-70a920868988")
+	)
+	(junction
+		(at 274.32 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9f452e7-5daf-4f5b-bde0-60621333929f")
 	)
 	(junction
 		(at 73.66 91.44)
@@ -5513,6 +5603,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 57.15) (xy 372.11 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539548fd-60da-4227-a831-5c647dcf8e27")
+	)
+	(wire
+		(pts
 			(xy 147.32 160.02) (xy 142.24 160.02)
 		)
 		(stroke
@@ -5938,6 +6038,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 63.5) (xy 290.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a837f3-df78-4cf1-a7f1-4090c192bdd6")
+	)
+	(wire
+		(pts
 			(xy 187.96 163.83) (xy 220.98 163.83)
 		)
 		(stroke
@@ -5956,7 +6066,6 @@
 		)
 		(uuid "799f6c78-0d2c-417f-94ab-3f183c059798")
 	)
-
 	(wire
 		(pts
 			(xy 290.83 81.28) (xy 290.83 76.2)
@@ -6220,6 +6329,16 @@
 			(type default)
 		)
 		(uuid "8e97e515-aff4-466f-bc97-f6aeed462d91")
+	)
+	(wire
+		(pts
+			(xy 361.95 62.23) (xy 361.95 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f60ce76-3ae6-4b74-b52b-fa19ec96d944")
 	)
 	(wire
 		(pts
@@ -6791,7 +6910,6 @@
 		)
 		(uuid "b805d9cb-8056-4353-a74f-795e2409ff6d")
 	)
-
 	(polyline
 		(pts
 			(xy 391.16 17.78) (xy 2.54 17.78)
@@ -6884,17 +7002,7 @@
 			(type default)
 		)
 		(uuid "c06a6a6d-55e2-4836-abe3-8d953906d7cc")
-	)	(wire
-		(pts
-			(xy 274.32 214.63) (xy 279.4 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f04b30da-b726-4d67-9e60-74981fb545bf")
 	)
-
 	(wire
 		(pts
 			(xy 60.96 58.42) (xy 73.66 58.42)
@@ -7203,6 +7311,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 62.23) (xy 361.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d892a844-8e48-4c5a-a9c5-66f5a2315ae2")
+	)
+	(wire
+		(pts
 			(xy 147.32 144.78) (xy 92.71 144.78)
 		)
 		(stroke
@@ -7275,7 +7393,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 59.69) (xy 372.11 54.61)
+			(xy 372.11 59.69) (xy 372.11 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7464,6 +7582,16 @@
 			(type default)
 		)
 		(uuid "efa6df54-8eda-462b-b07e-5f9cc2b42f0a")
+	)
+	(wire
+		(pts
+			(xy 274.32 214.63) (xy 279.4 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04b30da-b726-4d67-9e60-74981fb545bf")
 	)
 	(wire
 		(pts
@@ -8679,6 +8807,180 @@
 			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 274.32 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1457b5f4-c0f1-455d-83c1-edcac0ece1d0")
+		(property "Reference" "C61"
+			(at 271.272 216.535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 271.272 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 274.32 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor 100nF 50V X7R 0402"
+			(at 274.32 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "NOTE" ""
+			(at 274.32 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "PL_SORT_GROUP" "2.3"
+			(at 274.32 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 274.32 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
+			(at 274.32 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 274.32 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "ALTIUM_FOOTPRINT" "0402"
+			(at 271.272 220.345 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "MATERIAL" "X7R"
+			(at 271.272 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 271.272 224.155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "53e3e4c1-9c22-46d3-9245-a7bfc9b56c90")
+		)
+		(pin "1"
+			(uuid "8c53fd44-3580-4d0b-b338-bcc404a01678")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -11126,6 +11428,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 372.11 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77c8cd81-5e81-4db6-9183-0d015fca38ab")
+		(property "Reference" "#FLG02"
+			(at 374.015 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 375.92 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 372.11 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "946b72f1-c5bb-4e70-9c63-23d69fab29e9")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 360.68 59.69 270)
 		(unit 1)
@@ -13003,254 +13384,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 274.32 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1457b5f4-c0f1-455d-83c1-edcac0ece1d0")
-		(property "Reference" "C61"
-			(at 271.272 216.535 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 271.272 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 274.32 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitor 100nF 50V X7R 0402"
-			(at 274.32 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NOTE" ""
-			(at 274.32 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "PL_SORT_GROUP" "2.3"
-			(at 274.32 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "MANUFACTURER" "Yageo"
-			(at 274.32 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "MANUFACTURER_PN" "CC0402KPX7R9BB104"
-			(at 274.32 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 274.32 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "ALTIUM_FOOTPRINT" "0402"
-			(at 271.272 220.345 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "MATERIAL" "X7R"
-			(at 271.272 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "VOLTAGE" "50V"
-			(at 271.272 224.155 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "53e3e4c1-9c22-46d3-9245-a7bfc9b56c90")
-		)
-		(pin "1"
-			(uuid "8c53fd44-3580-4d0b-b338-bcc404a01678")
-		)
-		(instances
-			(project "EVO2513"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "C61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
-		(at 274.32 222.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a55a7663-5062-4d44-b8a7-17132357ab64")
-		(property "Reference" "#PWR124"
-			(at 274.32 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 274.32 228.60 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "c8c0fc46-3ccf-41c9-ba8b-882e240828ef")
-		)
-		(instances
-			(project "EVO2513"
-				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
-					(reference "#PWR124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
 		(at 346.71 92.71 0)
 		(unit 1)
@@ -13319,6 +13452,80 @@
 			(project "EVO2513"
 				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVO2513-0_5_0-altium-import:GND_SIGNAL_GROUND")
+		(at 274.32 222.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a55a7663-5062-4d44-b8a7-17132357ab64")
+		(property "Reference" "#PWR124"
+			(at 274.32 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c8c0fc46-3ccf-41c9-ba8b-882e240828ef")
+		)
+		(instances
+			(project "EVO2513"
+				(path "/44203427-0a3b-455b-9bb9-c1b577d179b3/7e883a06-f690-476b-966b-7e93c32ca0bb"
+					(reference "#PWR124")
 					(unit 1)
 				)
 			)

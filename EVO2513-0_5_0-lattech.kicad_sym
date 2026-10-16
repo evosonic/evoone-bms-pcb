@@ -1,5 +1,5 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
 	(symbol "Connector Amphenol BergStak 10144517-043802LF 40-Pin Receptical"
@@ -3496,6 +3496,88 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "EVOSONIC_LOGO"
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "LOGO"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVOSONIC_LOGO"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:EVOSONIC_DNA_LOGO_390X600_MASK"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Evosonic DNA logo artwork (board only, not assembled)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "EVOSONIC_LOGO_0_1"
+			(rectangle
+				(start -7.62 3.81)
+				(end 7.62 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "LOGO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Fiducial"
 		(pin_numbers
 			(hide yes)
@@ -5859,6 +5941,551 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "IC PCAL9714 HVQFN-24"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCAL9714"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EVO2513-0_5_0-import-fps:HVQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCAL9714.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC PCAL9714 HVQFN-24"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*HVQFN*24*4x4mm*P0.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "IC PCAL9714 HVQFN-24_1_0"
+			(rectangle
+				(start -12.7 15.24)
+				(end 12.7 -27.94)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type color)
+					(color 240 255 255 1)
+				)
+			)
+			(text "${VALUE}"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 12.7 180)
+				(length 2.54)
+				(name "P0_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 10.16 180)
+				(length 2.54)
+				(name "P0_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 7.62 180)
+				(length 2.54)
+				(name "P0_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 5.08 180)
+				(length 2.54)
+				(name "P0_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 2.54 180)
+				(length 2.54)
+				(name "P0_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "P0_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "P0_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -5.08 180)
+				(length 2.54)
+				(name "P0_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 -22.86 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "P1_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -12.7 180)
+				(length 2.54)
+				(name "P1_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -15.24 180)
+				(length 2.54)
+				(name "P1_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -17.78 180)
+				(length 2.54)
+				(name "P1_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -20.32 180)
+				(length 2.54)
+				(name "P1_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -22.86 180)
+				(length 2.54)
+				(name "P1_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "SDOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -17.78 0)
+				(length 2.54)
+				(name "ADDR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -2.54 0)
+				(length 2.54)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -5.08 0)
+				(length 2.54)
+				(name "SDIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 10.16 0)
+				(length 2.54)
+				(name "VDD(P)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at -15.24 -12.7 0)
+				(length 2.54)
+				(name "INT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 12.7 0)
+				(length 2.54)
+				(name "VDD(SPI)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 5.08 0)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -25.4 0)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "IC TLV9002IDSG Op-Amp WSON-8"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6275,7 +6902,7 @@
 			(pin passive line
 				(at -12.7 -22.86 0)
 				(length 2.54)
-				(name "nEN/UVLO"
+				(name "nEN/OVLO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6514,6 +7141,187 @@
 			)
 		)
 		(symbol "Inductor Shielded Power 0.68uH XAL8080_1_0"
+			(polyline
+				(pts
+					(xy -2.032 -0.508) (xy 2.032 -0.508)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 0)
+				(mid -1.27 0.635)
+				(end -0.635 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.635 0)
+				(mid 0 0.635)
+				(end 0.635 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.635 0)
+				(mid 1.27 0.635)
+				(end 1.905 0)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.54 1.016)
+				(end -2.54 -1.016)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type color)
+					(color 240 255 255 1)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Inductor Shielded Power 10uH SRP1265A"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor Shielded Power 10uH SRP1265A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*IND{space}Bourns{space}SRRP1265A*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Inductor Shielded Power 10uH SRP1265A_1_0"
 			(polyline
 				(pts
 					(xy -2.032 -0.508) (xy 2.032 -0.508)
@@ -7608,6 +8416,189 @@
 					)
 				)
 				(number "[5,6]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TVS SMBJ26CA 26V SMB"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS SMBJ26CA 26V SMB"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*Diode{space}DO-214AA{space}SMB{space}Not-Pol*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TVS SMBJ26CA 26V SMB_1_0"
+			(polyline
+				(pts
+					(xy -2.54 1.016) (xy -2.54 -1.016) (xy 0 0) (xy -2.54 1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type color)
+					(color 240 255 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.016) (xy -0.508 1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.016) (xy 0 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.016) (xy 0.508 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.016) (xy 2.54 1.016) (xy 0 0) (xy 2.54 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type color)
+					(color 240 255 255 1)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9684,7 +10675,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8"
+	(symbol "Transistor N-Channel MOSFET 50V BSS138 SOT-23"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9732,7 +10729,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor P-Channel MOSFET 30V DMP3007SCG-13 V-DFN3333-8 (Type B)"
+		(property "Description" "Transistor N-Channel MOSFET 50V BSS138 SOT-23"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9743,7 +10740,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Diodes*PowerDI3333-8*"
+		(property "ki_fp_filters" "SOT?23*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9754,10 +10751,114 @@
 				)
 			)
 		)
-		(symbol "Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8_1_0"
-			(rectangle
-				(start 2.54 3.81)
-				(end 15.24 -19.05)
+		(symbol "Transistor N-Channel MOSFET 50V BSS138 SOT-23_1_0"
+			(polyline
+				(pts
+					(xy -1.524 1.524) (xy -1.524 -1.524)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.016) (xy -1.27 1.524)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.254) (xy -1.27 0.254)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.524) (xy -1.27 -1.016)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 0) (xy 0 0)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0.254) (xy -0.508 -0.254) (xy -1.016 0) (xy -0.508 0.254)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 2.54)
 				(stroke
 					(width 0)
 					(type solid)
@@ -9770,7 +10871,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.604 -3.81) (xy 5.08 -3.81)
+					(xy 0 -1.27) (xy 0 0)
 				)
 				(stroke
 					(width 0.0254)
@@ -9783,7 +10884,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.112 -3.81) (xy 8.382 -3.81)
+					(xy 0.762 0.508) (xy 1.778 0.508)
 				)
 				(stroke
 					(width 0.0254)
@@ -9796,7 +10897,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.366 -6.604) (xy 10.414 -6.604)
+					(xy 0.762 -0.508) (xy 1.778 -0.508) (xy 1.27 0.508) (xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.0254)
@@ -9809,7 +10910,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -6.096) (xy 7.62 -3.81)
+					(xy 1.27 1.778) (xy 1.27 0.508)
 				)
 				(stroke
 					(width 0.0254)
@@ -9822,7 +10923,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.874 -6.35) (xy 7.366 -6.35)
+					(xy 1.27 -1.778) (xy 1.27 -0.508)
 				)
 				(stroke
 					(width 0.0254)
@@ -9831,183 +10932,12 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.382 -4.318) (xy 8.382 -3.302)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -5.08) (xy 7.62 -5.08)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 8.89 -5.08)
-				(radius 2.54)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -6.096) (xy 8.89 -5.08)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -7.62) (xy 8.89 -11.43) (xy 5.08 -11.43)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.144 -5.588) (xy 8.89 -5.08) (xy 8.636 -5.588) (xy 9.144 -5.588)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.144 -6.35) (xy 8.636 -6.35)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.398 -4.318) (xy 9.398 -3.302) (xy 8.382 -3.81) (xy 9.398 -4.318)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 -6.096) (xy 10.16 -3.81)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.414 -6.35) (xy 9.906 -6.35)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.668 -3.81) (xy 9.398 -3.81)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 11.176 -3.81) (xy 12.7 -3.81)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "P-Channel"
-				(at 8.89 2.54 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(text "${VALUE}"
-				(at 8.89 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
-				(length 2.54)
-				(name "S"
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10023,8 +10953,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 0)
-				(length 2.54)
+				(at 1.27 -3.81 90)
+				(length 1.27)
 				(name "S"
 					(effects
 						(font
@@ -10041,9 +10971,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
-				(length 2.54)
-				(name "S"
+				(at 1.27 3.81 270)
+				(length 1.27)
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10054,114 +10984,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -11.43 0)
-				(length 2.54)
-				(name "G"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 -11.43 180)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 -7.62 180)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 -3.81 180)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 0 180)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 -15.24 180)
-				(length 2.54)
-				(name "EP_D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0 0)
 						)
 					)
 				)
@@ -10654,13 +11476,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TVS SMBJ26CA 26V SMB"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(hide yes)
-		)
+	(symbol "Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10708,7 +11524,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS SMBJ26CA 26V SMB"
+		(property "Description" "Transistor P-Channel MOSFET 30V DMP3007SCG-13 V-DFN3333-8 (Type B)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10719,7 +11535,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "*Diode{space}DO-214AA{space}SMB{space}Not-Pol*"
+		(property "ki_fp_filters" "Diodes*PowerDI3333-8*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10730,245 +11546,10 @@
 				)
 			)
 		)
-		(symbol "TVS SMBJ26CA 26V SMB_1_0"
-			(polyline
-				(pts
-					(xy -2.54 1.016) (xy -2.54 -1.016) (xy 0 0) (xy -2.54 1.016)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type color)
-					(color 240 255 255 1)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.016) (xy -0.508 1.016)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.016) (xy 0 -1.016)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.016) (xy 0.508 -1.016)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.016) (xy 2.54 1.016) (xy 0 0) (xy 2.54 -1.016)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type color)
-					(color 240 255 255 1)
-				)
-			)
-			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Inductor Shielded Power 10uH SRP1265A"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor Shielded Power 10uH SRP1265A"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "*IND{space}Bourns{space}SRRP1265A*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "Inductor Shielded Power 10uH SRP1265A_1_0"
-			(polyline
-				(pts
-					(xy -2.032 -0.508) (xy 2.032 -0.508)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.905 0)
-				(mid -1.27 0.635)
-				(end -0.635 0)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -0.635 0)
-				(mid 0 0.635)
-				(end 0.635 0)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.635 0)
-				(mid 1.27 0.635)
-				(end 1.905 0)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
+		(symbol "Transistor P-Channel MOSFET 30V DMP3007SCG V-DFN3333-8_1_0"
 			(rectangle
-				(start 2.54 1.016)
-				(end -2.54 -1.016)
+				(start 2.54 3.81)
+				(end 15.24 -19.05)
 				(stroke
 					(width 0)
 					(type solid)
@@ -10979,670 +11560,9 @@
 					(color 240 255 255 1)
 				)
 			)
-			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "IC PCAL9714 HVQFN-24"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PCAL9714"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:HVQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCAL9714.pdf"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "IC PCAL9714 HVQFN-24"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "*HVQFN*24*4x4mm*P0.5mm*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "IC PCAL9714 HVQFN-24_1_0"
-			(rectangle
-				(start -12.7 15.24)
-				(end 12.7 -27.94)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type color)
-					(color 240 255 255 1)
-				)
-			)
-			(text "${VALUE}"
-				(at 0 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin power_in line
-				(at -15.24 12.7 0)
-				(length 2.54)
-				(name "VDD(SPI)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -15.24 10.16 0)
-				(length 2.54)
-				(name "VDD(P)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 5.08 0)
-				(length 2.54)
-				(name "RESET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -2.54 0)
-				(length 2.54)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -5.08 0)
-				(length 2.54)
-				(name "SDIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin tri_state line
-				(at -15.24 -7.62 0)
-				(length 2.54)
-				(name "SDOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at -15.24 -12.7 0)
-				(length 2.54)
-				(name "INT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -17.78 0)
-				(length 2.54)
-				(name "ADDR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -15.24 -22.86 0)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -15.24 -25.4 0)
-				(length 2.54)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 12.7 180)
-				(length 2.54)
-				(name "P0_0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 10.16 180)
-				(length 2.54)
-				(name "P0_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 7.62 180)
-				(length 2.54)
-				(name "P0_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 5.08 180)
-				(length 2.54)
-				(name "P0_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 2.54 180)
-				(length 2.54)
-				(name "P0_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "P0_5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -2.54 180)
-				(length 2.54)
-				(name "P0_6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -5.08 180)
-				(length 2.54)
-				(name "P0_7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -10.16 180)
-				(length 2.54)
-				(name "P1_0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -12.7 180)
-				(length 2.54)
-				(name "P1_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -15.24 180)
-				(length 2.54)
-				(name "P1_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -17.78 180)
-				(length 2.54)
-				(name "P1_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -20.32 180)
-				(length 2.54)
-				(name "P1_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -22.86 180)
-				(length 2.54)
-				(name "P1_5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Transistor N-Channel MOSFET 50V BSS138 SOT-23"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Transistor N-Channel MOSFET 50V BSS138 SOT-23"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "SOT?23*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "Transistor N-Channel MOSFET 50V BSS138 SOT-23_1_0"
 			(polyline
 				(pts
-					(xy -1.524 1.524) (xy -1.524 -1.524)
+					(xy 6.604 -3.81) (xy 5.08 -3.81)
 				)
 				(stroke
 					(width 0.0254)
@@ -11655,7 +11575,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.016) (xy -1.27 1.524)
+					(xy 7.112 -3.81) (xy 8.382 -3.81)
 				)
 				(stroke
 					(width 0.0254)
@@ -11668,7 +11588,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -0.254) (xy -1.27 0.254)
+					(xy 7.366 -6.604) (xy 10.414 -6.604)
 				)
 				(stroke
 					(width 0.0254)
@@ -11681,7 +11601,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.524) (xy -1.27 -1.016)
+					(xy 7.62 -6.096) (xy 7.62 -3.81)
 				)
 				(stroke
 					(width 0.0254)
@@ -11694,7 +11614,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 1.27) (xy 1.27 1.27)
+					(xy 7.874 -6.35) (xy 7.366 -6.35)
 				)
 				(stroke
 					(width 0.0254)
@@ -11707,7 +11627,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 0) (xy 0 0)
+					(xy 8.382 -4.318) (xy 8.382 -3.302)
 				)
 				(stroke
 					(width 0.0254)
@@ -11720,20 +11640,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -1.27) (xy 1.27 -1.27)
-				)
-				(stroke
-					(width 0.0254)
-					(type solid)
-					(color 0 128 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.508 0.254) (xy -0.508 -0.254) (xy -1.016 0) (xy -0.508 0.254)
+					(xy 8.89 -5.08) (xy 7.62 -5.08)
 				)
 				(stroke
 					(width 0.0254)
@@ -11745,21 +11652,20 @@
 				)
 			)
 			(circle
-				(center 0 0)
+				(center 8.89 -5.08)
 				(radius 2.54)
 				(stroke
-					(width 0)
+					(width 0.0254)
 					(type solid)
 					(color 0 128 0 1)
 				)
 				(fill
-					(type color)
-					(color 240 255 255 1)
+					(type none)
 				)
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 0)
+					(xy 8.89 -6.096) (xy 8.89 -5.08)
 				)
 				(stroke
 					(width 0.0254)
@@ -11772,7 +11678,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 1.778 0.508)
+					(xy 8.89 -7.62) (xy 8.89 -11.43) (xy 5.08 -11.43)
 				)
 				(stroke
 					(width 0.0254)
@@ -11785,7 +11691,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -0.508) (xy 1.778 -0.508) (xy 1.27 0.508) (xy 0.762 -0.508)
+					(xy 9.144 -5.588) (xy 8.89 -5.08) (xy 8.636 -5.588) (xy 9.144 -5.588)
 				)
 				(stroke
 					(width 0.0254)
@@ -11798,7 +11704,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.778) (xy 1.27 0.508)
+					(xy 9.144 -6.35) (xy 8.636 -6.35)
 				)
 				(stroke
 					(width 0.0254)
@@ -11811,7 +11717,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.778) (xy 1.27 -0.508)
+					(xy 9.398 -4.318) (xy 9.398 -3.302) (xy 8.382 -3.81) (xy 9.398 -4.318)
 				)
 				(stroke
 					(width 0.0254)
@@ -11820,12 +11726,80 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -6.096) (xy 10.16 -3.81)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.414 -6.35) (xy 9.906 -6.35)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.668 -3.81) (xy 9.398 -3.81)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.176 -3.81) (xy 12.7 -3.81)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 0 128 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "P-Channel"
+				(at 8.89 2.54 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(text "${VALUE}"
+				(at 8.89 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
-				(name "G"
+				(at 0 0 0)
+				(length 2.54)
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11841,8 +11815,8 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -3.81 90)
-				(length 1.27)
+				(at 0 -3.81 0)
+				(length 2.54)
 				(name "S"
 					(effects
 						(font
@@ -11859,9 +11833,9 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 3.81 270)
-				(length 1.27)
-				(name "D"
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11876,85 +11850,111 @@
 					)
 				)
 			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "EVOSONIC_LOGO"
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "LOGO"
-			(at 0 5.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(pin passive line
+				(at 0 -11.43 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
-		)
-		(property "Value" "EVOSONIC_LOGO"
-			(at 0 -5.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(pin passive line
+				(at 17.78 0 180)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
-		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:EVOSONIC_DNA_LOGO_390X600_MASK"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(pin passive line
+				(at 17.78 -3.81 180)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(pin passive line
+				(at 17.78 -7.62 180)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
-		)
-		(property "Description" "Evosonic DNA logo artwork (board only, not assembled)"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(pin passive line
+				(at 17.78 -11.43 180)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
-		)
-		(symbol "EVOSONIC_LOGO_0_1"
-			(rectangle
-				(start -7.62 3.81)
-				(end 7.62 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
+			(pin passive line
+				(at 17.78 -15.24 180)
+				(length 2.54)
+				(name "EP_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type background)
-				)
-			)
-			(text "LOGO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.905 1.905)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
 					)
 				)
 			)

@@ -3333,7 +3333,7 @@
 		)
 		(uuid "d9bf01f1-14fe-46c3-ac8d-46adfc88cd5e")
 	)
-	(text "R22 = 1K is the D4 battery-presence pull-up:\nan empty battery slot sits at about 5 V. Expected.\nKeep R22 at 1K (R54 is 768R; they don't share a value)."
+	(text "R22 = 1K is the D4 battery-presence pull-up:\nan empty battery slot sits at about 5 V. Expected.\nKeep R22 at 1K"
 		(exclude_from_sim no)
 		(at 68.58 116.84 0)
 		(effects
@@ -6909,7 +6909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:U-DFN2510-10 DIODE INC"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm"
 			(at 323.85 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7219,7 +7219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:U-DFN2510-10 DIODE INC"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm"
 			(at 323.85 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9162,7 +9162,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "EVO2513-0_5_0-import-fps:SOT-23 3-Pin"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 52.07 123.19 0)
 			(hide yes)
 			(show_name no)

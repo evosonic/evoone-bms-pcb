@@ -78,8 +78,9 @@ REGTEMP channels.
   current-monitor scaling
 - `EVO2513-0_5_0-import-fps.pretty/` — project footprint library (footprints
   extracted by the Altium import), registered in `fp-lib-table`. Chip resistors
-  and capacitors instead use KiCad's standard `Resistor_SMD` and
-  `Capacitor_SMD` libraries
+  and capacitors, the small diodes and the LEDs instead use KiCad's
+  standard libraries (`Resistor_SMD`, `Capacitor_SMD`, `Diode_SMD`, `LED_SMD`,
+  `Package_TO_SOT_SMD`, `Package_DFN_QFN`)
 - `EVO2513-0_5_0-lattech.kicad_sym` — project symbol library (nickname
   `Lattech Systems`): the Lattech symbols used by the board, extracted from
   the schematics, plus the PCAL9714 added for the W16 changes. It is not the complete Lattech library, which was not supplied.
@@ -112,9 +113,10 @@ connection or the board copper.
 | D9, D10 | DT1240V3-04LP fitted | DNP | Go with R24–R27: wrong clamp level for 3.3 V, and the protected MCU is on another board |
 | R14 | 0.01 Ω | 0.012 Ω Yageo `PA2512FKF7W0R012E` | Adapter limit 8.33 A, below the 9.2 A supply, so charging throttles before the supply trips |
 | R36 | 61.9K fitted | DNP | VIN-FB goes to ground through R37, as required when PCM is unused |
-| R59, R61, R76 / R60, R62, R77 | 1M / 130K | 100K / 13K | TPS22811 PGTH dividers: same 10.43 V threshold, 10× lower impedance so pin leakage can't push it near the rail |
+| R59, R61, R76 / R60, R62, R77 | 1M / 130K | **390K / 51K** | TPS22811 PGTH dividers: 10.38 V threshold, string current 23.5 µA at threshold to meet TI's 20× PGTH leakage rule, so pin leakage can't push it near the rail |
+| R67, R68, R81 | 2.2K | **4.7K** | PG LED (LED2–LED4) resistors from +3V3MCU: about half the current, ≈0.25 mA each instead of ≈0.55 mA, which saves ≈0.9 mA on battery with all three rails up. 4.7K is already on the BOM (R10) |
 | R90–R92, R101 | 1M | 1.07M | OVLO trip 14.0 V, so a tripped switch recovers on the 12.03 V rail; R101 shares the BOM line |
-| U6 EN/UVLO | ENDAQ from P0_0, R49 100K pull-down | R108 100K / R49 **12K** UVLO divider, Q24 shutdown FET with R109 100K / R110 27K gate bias; net `nENDAQ`, active low | DAQ 11 V undervoltage lockout (W16 handoff §4.4) |
+| U6 EN/UVLO | ENDAQ from P0_0, R49 100K pull-down | R108 **619K** / R49 **75K** UVLO divider, Q24 shutdown FET with R109 **1.07M** / R110 **390K** gate bias; net `nENDAQ`, active low | DAQ 11 V undervoltage lockout (W16 handoff §4.4) |
 | R41, R45 | 2.2R 1% 1206, 1/4 W | 2.2R 1% **1210**, 1/2 W (any standard thick film) | Snubber resistors. R41 (SW1) dissipates 0.31 W at 24 V and 0.38 W at the 26.3 V OV trip, 75% of 1/2 W: fine up to about 90 °C local ambient. R45 (SW2) 0.167 W, 33%. Power is set by C·V²·f, not the load, so it is continuous at 1.157 MHz; power-save mode lowers it at light load. Same length as 1206; the pads are 0.45 mm wider each side |
 | Q4, Q5, Q12–Q15 | DMP3018SFV, PowerDI3333-8 (Type UX), imported Altium land | **DMP3007SCG-13** (Diodes, V-DFN3333-8 Type B, 6.8 mΩ max at −10 V), `Diodes_PowerDI3333-8`, copied from KiCad's standard `Package_SON` library into the project library so it can carry the source-drain keepout | PowerPath/battery FET thermal margin (W16 handoff). KiCad has no Type B footprint; the PowerDI3333-8 one matches Diodes' Type B suggested land except 0.1 mm more toe on each pad row, and adds segmented paste on the drain. Its drain is one pad, 5, so the project symbol `DMP3007SCG V-DFN3333-8` numbers D pins 5–8 and EP_D all 5. VGSS ±25 V as before. Diodes' datasheet (DS38990 rev 3-2) is still marked Advance Information |
 | Q18 | CSD17304Q3 | unchanged (kept) | The W16 handoff suggested a lower-RDS(on) 30 V part for the 1.83 W boost-mode loss. Kept: it works and 15 units are in field test. Its thermal margin depends on copper: 46 °C/W on 1 in² against 158 °C/W on a minimum pad, so give it the full copper area in layout |
@@ -167,28 +169,38 @@ existing 100K 1% pull-downs R51, R52 and R70. Each switch turns off above
 leakage) and turns back on below 12.75 V (12.23–13.41 V), so a tripped switch
 always recovers on U5's 12.03 V output. (1 MΩ gave 13.2 V, recovering at
 11.50–12.60 V, which might not.) To revert, leave R90–R92 unfitted.
-The power-good dividers on PGTH are R59, R61 and R76 (100K) over R60, R62 and
-R77 (13K): PG rises at 10.43 V (10.93 V worst case) and falls at 9.47 V
-(at least 9.05 V). They were 1M over 130K, the same ratio, but the ±1 µA PGTH
-leakage across 1M could put the threshold at 11.84 V, within 0.2 V of the rail.
-Undervoltage lockout on the DAQ switch U6 only: R108 100K from +12V over R49
-12K on EN/UVLO (pin 1) turns U6 on at 11.2 V (10.77–11.69 V, including
-±0.1 µA pin and 0.5 µA FET leakage) and off at 10.17 V (9.83–10.66 V). The
+The power-good dividers on PGTH are R59, R61 and R76 (390K) over R60, R62 and
+R77 (51K): PG rises at 10.38 V (9.62–11.17 V worst case) and falls at 9.43 V
+(8.71–10.22 V). They were 1M over 130K, but the ±1 µA PGTH leakage across 1M
+could put the threshold at 11.84 V, within 0.2 V of the rail. TI sizes the
+string for at least 20× the PGTH leakage (20 µA); 390K/51K carries 23.5 µA at
+the threshold and 27 µA at 12 V, and only while the switch is on, because the
+dividers hang off the switch outputs. 51K is already on the BOM.
+Undervoltage lockout on the DAQ switch U6 only: R108 619K from +12V over R49
+75K on EN/UVLO (pin 1) turns U6 on at 11.10 V (10.63–11.91 V, including
+1% resistors, ±0.1 µA pin and 0.5 µA FET leakage) and off at 10.09 V
+(9.69–10.89 V). TI asks for a pull-up of at least 350 kΩ on supplies above
+5 V. 1M/120K would keep the 11.2 V point, but leakage across 1M puts the
+worst-case turn-on at 12.24 V, above the rail; 619K and 75K are already on
+the BOM and keep it under 12 V. The
 TPS22811's fixed hysteresis makes the turn-off point about 9% below turn-on,
 so 11 V has to be the turn-on point. Because the divider now holds EN/UVLO,
 the enable goes through Q24 (BSS138) from EN/UVLO to GND, and the expander net
 is `nENDAQ`, active low: high or floating (POR, expander in reset or
 unpowered) turns Q24 on and puts U6 in shutdown; low releases EN/UVLO to the
-divider. R109 100K / R110 27K bias the gate from +12V to 2.55 V (3.1 V at the
-14.7 V OVLO limit), so the channel stays off when the MCU board is
-unpowered, and the gate stays under 3.3 V, so P0_1 can stay push-pull and
-the R97 fallback can drive it from a 3.3 V MCU pin. SBC and EXT have no
+divider. R109 1.07M / R110 390K bias the gate from +12V to 3.21 V (2.83 V at
+10.6 V, 4.0 V worst case at the 14.7 V OVLO limit), so the channel stays off
+when the MCU board is unpowered, and the gate stays under 5 V. The divider
+draws 8.2 µA from +12V (it was 94 µA with 100K/27K), and both values are
+shared with other BOM lines. The gate's source impedance is 286K, so P0_1 can
+stay push-pull: driven high to 3.3 V it still holds Q24 on and sinks at most
+2.4 µA, and the R97 fallback can drive it from a 3.3 V MCU pin. SBC and EXT have no
 UVLO. A note on S07 marks the DAQ circuit as deliberate.
 
 If the UVLO causes trouble, R115 (0R, DNP) bypasses it. Fit R115 and remove
 Q24, R108 and R109: `nENDAQ` then drives EN/UVLO directly, as ENSBC and
 ENEXT drive U7 and U9, so P0_1 (or the R97 fallback) becomes active high and
-DAQ has no undervoltage lockout. R110 27K in parallel with R49 12K (8.3K) is
+DAQ has no undervoltage lockout. R110 390K in parallel with R49 75K (62.9K) is
 the pull-down that holds U6 off while the expander is in reset or unpowered.
 Leaving R108 or R109 fitted with R115 would put a +12V divider on EN/UVLO, so
 remove both.
@@ -290,8 +302,10 @@ Each fix is a separate commit on top of the initial import.
 | All 99 power symbols were unannotated (`#PWR?`) | Annotated `#PWR1`–`#PWR99` |
 | The "Lattech Systems" symbol library wasn't available, so symbols existed only as copies embedded in the schematics, some in several slightly different versions | Exported the symbols to project libraries under their original library names, and made every schematic use one definition per symbol |
 | Chip resistor and capacitor footprints had poor pads (0402s used 0.635 mm circular pads) and caused tombstoning | Replaced all 139 with KiCad standard IPC-7351 nominal footprints (`Resistor_SMD`, `Capacitor_SMD`) in place: same position, rotation and nets, zones refilled |
+| Diodes and LEDs used imported Altium lands where KiCad has a standard IPC-7351 footprint; the LED land carried A/C silk text below the minimum thickness (8 DRC warnings) | Swapped to KiCad standard footprints in place (same position, side and nets; pad centres within 0.33 mm): D1 `Diode_SMD:D_SMB`, D6–D8 `Diode_SMD:D_SMA`, D4 `Package_TO_SOT_SMD:SOT-23` (as Q20–Q24), D9/D10 `Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm` (identical pads), LED1–LED4 `LED_SMD:LED_0603_1608Metric`, turned 180° because its pad 1 (cathode) is on the other side. The SMA/SMB pads are 0.6–0.7 mm longer towards the body. The power FETs keep their imported lands: they match the manufacturers' suggested layouts, KiCad's equivalents number the whole drain as one pad, and Q18's land is proven on the field units. The five unused imported footprints are removed from the project library |
 | PCB footprints were linked to the imported symbols by mismatched internal IDs, and nets used Altium names | Ran Update PCB from Schematic: no errors, placement and copper unchanged, all 147 nets match the schematic |
 | KiCad design rules were defaults (0.2 mm clearance and track, 0.3 mm min hole), not the Altium rules | Set to the rules in the Altium `.PcbDoc`: 0.15 mm clearance, track and annular ring, 0.15 mm min hole, 0.3 mm hole-to-hole, and `EVO2513.kicad_dru` for the 0.3 mm pad-to-pad rule on test points TP1–TP26 |
+| The import turned 347 Altium copper regions into board graphic polygons (`gr_poly`) on B.Cu and In1–In6: a 1.2 × 1.8 mm octagon over each six-via block, on every layer. As drawings they bypass zone clearance and fill rules, and on the GND layers most were net islands in the GND pour, including the charger switch node (Net-(D2-C)) | Removed all of them. None carried current: each only joined its own vias, which every same-net pour already connects solid, and DRC finds 0 unconnected without them. GND gains about 26 mm² on In1, 21 mm² on In3 and In5, 18 mm² on In6 and 27 mm² on B.Cu |
 | FL1's ground land had no pad number, so its 38 GND vias showed as shorts | Numbered pad 4 (GND) on the board and in the project footprint library |
 | The two mounting holes and the logo existed only on the board, with no schematic symbols | H1 and H2 (`Mechanical:MountingHole_Pad`, pin 1 to GND, project footprint `MountingHole_3.2mm_Pad_7.4mm`) and LOGO01 (`EVOSONIC_LOGO`, a pinless symbol in the Lattech library) are on the root sheet, excluded from BOM and position files. Update PCB from Schematic no longer deletes them |
 | 14 zero-length track segments | Removed |
@@ -312,9 +326,8 @@ Symbols still carry their imported Altium fields (`ALTIUM_VALUE`,
 ### Known remaining issues
 
 - The KiCad default title block is drawn over the imported Altium one.
-- DRC reports 23 warnings and no errors: 15 silkscreen overlaps, where the connector
-  tab labels sit on the J1, J2 and J4–J6 outlines, and 8 text-thickness warnings for
-  the LED A/C marks. 19 hits are excluded: 16 board-edge clearance hits from the
+- DRC reports 15 warnings and no errors: silkscreen overlaps, where the connector
+  tab labels sit on the J1, J2 and J4–J6 outlines. 19 hits are excluded: 16 board-edge clearance hits from the
   layer-order markers, which cross the edge on purpose, and M6's three starved
   thermal reliefs (below).
 - The mounting spacers M1–M6 connect to GND through pad thermal reliefs set in the
