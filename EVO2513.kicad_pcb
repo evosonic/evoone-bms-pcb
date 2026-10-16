@@ -5314,7 +5314,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Würth Elektronik 744393580068"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

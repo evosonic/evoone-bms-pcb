@@ -299,7 +299,8 @@ example the 390K/51K PGTH dividers take the R9 51K part). Parts with no earlier
 order keep the schematic's part number, or take a Yageo RC/CC-series part:
 `RC0402JR-070RL` (0R), `RC0402FR-07390KL`, `RC0402FR-071M07L`,
 `RC0402FR-071K87L`, `RC1210FR-072R2L`, `CC0805KRX7R9BB102`,
-`CC0603KRX7R9BB104`. D6–D8 are `B340A-13-F`. M1–M6 have no manufacturer
+`CC0603KRX7R9BB104`. D6–D8 are `B340A-13-F`. L2 is Coilcraft `XAL8080-681MEB`; its NOTE field lists the
+alternate fitted on the builds, Würth `744393580068`. M1–M6 have no manufacturer
 fields; their value is the Würth part number.
 
 ## Fixes after import

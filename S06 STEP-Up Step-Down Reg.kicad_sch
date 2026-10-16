@@ -8727,7 +8727,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Würth Elektronik 744393580068"
 			(at 215.392 72.136 0)
 			(hide yes)
 			(show_name no)
