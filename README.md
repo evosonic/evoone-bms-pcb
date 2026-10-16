@@ -268,7 +268,7 @@ their BOM line.
 | C17, C18, C20, C21, C34 | 100 nF 50 V X7R 0402, no part number | `CC0402KPX7R9BB104` |
 | C11–C14, C24–C26 | 10 µF 25 V/50 V 1206 | 10 µF 50 V X7R **1210** Murata `GRM32ER71H106KA12L`, as C27 (1210 is easier to source) |
 | C27 | 10 µF 50 V X5R 1210 | the same part, X7R |
-| C16 | 220 nF 50 V X7R 0805 | the same, **0603** Yageo `CC0603KRX7R9BB224`, as C22 (charger bootstrap cap) |
+| C16 | 220 nF 50 V X7R 0805 | the same, **0603** Yageo `AC0603KRX7R9BB224`, as C22 (charger bootstrap cap) |
 | C22 | 220 nF 50 V 0603, material field X5R | X7R, as its description already said |
 | R43, R44 | 10R 1% 0603 | 10R 1% **0402**, as R4, R5, R24–R27 (U5 current-sense filter, no power) |
 
@@ -287,6 +287,20 @@ their neighbours' courtyards and need moving: the 0603s for C8 and C9 by up
 to 0.9 mm (C8 against R8, C9 against R15 and C10),
 the 1210s by about 0.15 mm (C11/C12/C27, C24/C26, C25 against C23), and C32
 by 0.3 mm against C38 (before C38 shrinks to 0402) and 0.1 mm against TH2.
+
+### Manufacturer part numbers
+
+`MANUFACTURER` and `MANUFACTURER_PN` are filled on every fitted part, in the
+schematic and on the board. Parts unchanged since 0.5.0 carry the exact part
+numbers bought for the 0.5.0 backup build (DigiKey list for 20 boards, plus a
+Mouser order for LM51772RHAR, DMT6007LFGQ-7 and DMT4011LFG-7). Parts that
+changed reuse a bought part where value, package and rating match (for
+example the 390K/51K PGTH dividers take the R9 51K part). Parts with no earlier
+order keep the schematic's part number, or take a Yageo RC/CC-series part:
+`RC0402JR-070RL` (0R), `RC0402FR-07390KL`, `RC0402FR-071M07L`,
+`RC0402FR-071K87L`, `RC1210FR-072R2L`, `CC0805KRX7R9BB102`,
+`CC0603KRX7R9BB104`. D6–D8 are `B340A-13-F`. M1–M6 have no manufacturer
+fields; their value is the Würth part number.
 
 ## Fixes after import
 

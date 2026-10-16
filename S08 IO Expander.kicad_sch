@@ -2324,7 +2324,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 120.904 104.902 0)
 			(hide yes)
 			(show_name no)
@@ -2336,7 +2336,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 120.904 104.902 0)
 			(hide yes)
 			(show_name no)
@@ -2550,7 +2550,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 83.312 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -2562,7 +2562,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 83.312 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -2702,7 +2702,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 120.904 93.472 0)
 			(hide yes)
 			(show_name no)
@@ -2714,7 +2714,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 120.904 93.472 0)
 			(hide yes)
 			(show_name no)
@@ -2855,7 +2855,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 139.954 158.242 0)
 			(hide yes)
 			(show_name no)
@@ -2867,7 +2867,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 139.954 158.242 0)
 			(hide yes)
 			(show_name no)
@@ -3156,7 +3156,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 138.684 118.872 0)
 			(hide yes)
 			(show_name no)
@@ -3168,7 +3168,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 138.684 118.872 0)
 			(hide yes)
 			(show_name no)
@@ -3457,7 +3457,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 194.31 158.242 0)
 			(hide yes)
 			(show_name no)
@@ -3632,7 +3632,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 181.61 158.242 0)
 			(hide yes)
 			(show_name no)
@@ -3880,7 +3880,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 83.312 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -3892,7 +3892,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 83.312 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -4336,7 +4336,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 157.734 158.242 0)
 			(hide yes)
 			(show_name no)
@@ -4348,7 +4348,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 157.734 158.242 0)
 			(hide yes)
 			(show_name no)
@@ -4508,7 +4508,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "NXP"
+		(property "MANUFACTURER" "NXP USA Inc."
 			(at 181.102 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5002,7 +5002,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 83.312 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -5014,7 +5014,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 83.312 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -5153,7 +5153,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 83.312 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -5165,7 +5165,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 83.312 128.27 90)
 			(hide yes)
 			(show_name no)

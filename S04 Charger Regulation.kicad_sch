@@ -5413,7 +5413,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 220.98 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -5425,7 +5425,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CC0402JRNPO9BN101"
 			(at 220.98 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -5809,7 +5809,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 246.634 127.762 0)
 			(hide yes)
 			(show_name no)
@@ -5821,7 +5821,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 246.634 127.762 0)
 			(hide yes)
 			(show_name no)
@@ -6035,7 +6035,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 148.59 168.402 0)
 			(hide yes)
 			(show_name no)
@@ -6047,7 +6047,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "GRM219R61A475KE34J"
 			(at 148.59 168.402 0)
 			(hide yes)
 			(show_name no)
@@ -6378,7 +6378,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 125.222 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6390,7 +6390,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 125.222 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6603,7 +6603,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Bourns"
+		(property "MANUFACTURER" "Bourns Inc."
 			(at 178.562 86.614 0)
 			(hide yes)
 			(show_name no)
@@ -6754,7 +6754,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 295.91 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -6928,7 +6928,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 76.2 93.472 0)
 			(hide yes)
 			(show_name no)
@@ -7176,7 +7176,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 269.24 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -7188,7 +7188,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 269.24 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -7424,7 +7424,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 246.38 140.462 0)
 			(hide yes)
 			(show_name no)
@@ -7618,7 +7618,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 107.442 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7630,7 +7630,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 107.442 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7842,7 +7842,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 283.21 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -8016,7 +8016,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 231.394 165.862 0)
 			(hide yes)
 			(show_name no)
@@ -8028,7 +8028,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-073K6L"
 			(at 231.394 165.862 0)
 			(hide yes)
 			(show_name no)
@@ -8262,7 +8262,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Analog Devices"
+		(property "MANUFACTURER" "Analog Devices Inc."
 			(at 176.022 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8274,7 +8274,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "LTC1960CUHF"
+		(property "MANUFACTURER_PN" "LTC1960CUHF#PBF"
 			(at 176.022 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8502,7 +8502,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Bourns Inc."
 			(at 225.552 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -8654,7 +8654,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 308.61 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -8828,7 +8828,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 246.38 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -8840,7 +8840,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "CC0603KRX7R9BB224"
+		(property "MANUFACTURER_PN" "AC0603KRX7R9BB224"
 			(at 246.38 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -9076,7 +9076,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 158.75 168.402 0)
 			(hide yes)
 			(show_name no)
@@ -9325,7 +9325,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Panjit"
+		(property "MANUFACTURER" "Panjit International Inc."
 			(at 142.24 94.742 90)
 			(hide yes)
 			(show_name no)
@@ -9337,7 +9337,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "SS0540"
+		(property "MANUFACTURER_PN" "SS0540_R1_00001"
 			(at 142.24 94.742 90)
 			(hide yes)
 			(show_name no)
@@ -9476,7 +9476,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 158.75 93.472 0)
 			(hide yes)
 			(show_name no)
@@ -9488,7 +9488,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "CC0603KRX7R9BB224"
+		(property "MANUFACTURER_PN" "AC0603KRX7R9BB224"
 			(at 158.75 93.472 0)
 			(hide yes)
 			(show_name no)
@@ -9650,7 +9650,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 87.63 93.472 0)
 			(hide yes)
 			(show_name no)
@@ -9824,7 +9824,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 231.14 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -10453,7 +10453,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 210.82 176.022 0)
 			(hide yes)
 			(show_name no)

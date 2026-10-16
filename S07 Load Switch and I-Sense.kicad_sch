@@ -6042,7 +6042,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "TLV9002IDSG"
+		(property "MANUFACTURER_PN" "TLV9002IDSGR"
 			(at 297.942 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -6194,7 +6194,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "B340A"
+		(property "MANUFACTURER_PN" "B340A-13-F"
 			(at 180.34 50.292 90)
 			(hide yes)
 			(show_name no)
@@ -6396,7 +6396,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Everlight"
+		(property "MANUFACTURER" "Everlight Electronics Co Ltd"
 			(at 323.85 68.072 90)
 			(hide yes)
 			(show_name no)
@@ -6408,7 +6408,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "QTLP600C-4"
+		(property "MANUFACTURER_PN" "QTLP600C4TR"
 			(at 323.85 68.072 90)
 			(hide yes)
 			(show_name no)
@@ -6558,7 +6558,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 249.682 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6912,7 +6912,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "TLV9002IDSG"
+		(property "MANUFACTURER_PN" "TLV9002IDSGR"
 			(at 249.682 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -7198,7 +7198,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 101.854 139.192 0)
 			(hide yes)
 			(show_name no)
@@ -7210,7 +7210,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 101.854 139.192 0)
 			(hide yes)
 			(show_name no)
@@ -7350,7 +7350,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 75.184 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -7362,7 +7362,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 75.184 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -7664,7 +7664,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Everlight"
+		(property "MANUFACTURER" "Everlight Electronics Co Ltd"
 			(at 152.4 196.342 90)
 			(hide yes)
 			(show_name no)
@@ -7676,7 +7676,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "QTLP600C-4"
+		(property "MANUFACTURER_PN" "QTLP600C4TR"
 			(at 152.4 196.342 90)
 			(hide yes)
 			(show_name no)
@@ -8013,7 +8013,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "B340A"
+		(property "MANUFACTURER_PN" "B340A-13-F"
 			(at 349.25 49.022 90)
 			(hide yes)
 			(show_name no)
@@ -8152,7 +8152,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 26.924 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -8164,7 +8164,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 26.924 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -8304,7 +8304,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 235.204 79.502 0)
 			(hide yes)
 			(show_name no)
@@ -8316,7 +8316,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 235.204 79.502 0)
 			(hide yes)
 			(show_name no)
@@ -8678,7 +8678,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 55.88 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -8690,7 +8690,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 55.88 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -8927,7 +8927,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 72.644 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -8939,7 +8939,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 72.644 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -9079,7 +9079,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 113.792 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -9091,7 +9091,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0721K5L"
 			(at 113.792 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -9231,7 +9231,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 141.732 243.84 90)
 			(hide yes)
 			(show_name no)
@@ -9243,7 +9243,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 141.732 243.84 90)
 			(hide yes)
 			(show_name no)
@@ -9383,7 +9383,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 48.514 172.212 0)
 			(hide yes)
 			(show_name no)
@@ -9395,7 +9395,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07619KL"
 			(at 48.514 172.212 0)
 			(hide yes)
 			(show_name no)
@@ -9536,7 +9536,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 53.34 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -9548,7 +9548,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 53.34 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -9865,7 +9865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 75.184 47.752 0)
 			(hide yes)
 			(show_name no)
@@ -9877,7 +9877,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 75.184 47.752 0)
 			(hide yes)
 			(show_name no)
@@ -10247,7 +10247,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 92.964 139.192 0)
 			(hide yes)
 			(show_name no)
@@ -10473,7 +10473,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 224.79 79.502 0)
 			(hide yes)
 			(show_name no)
@@ -10485,7 +10485,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 224.79 79.502 0)
 			(hide yes)
 			(show_name no)
@@ -10721,7 +10721,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 315.722 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10733,7 +10733,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 315.722 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10873,7 +10873,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 270.764 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -10885,7 +10885,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 270.764 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -11099,7 +11099,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 287.782 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -11111,7 +11111,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 287.782 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -11413,7 +11413,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "B340A"
+		(property "MANUFACTURER_PN" "B340A-13-F"
 			(at 177.8 177.292 90)
 			(hide yes)
 			(show_name no)
@@ -11584,7 +11584,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "TLV9002IDSG"
+		(property "MANUFACTURER_PN" "TLV9002IDSGR"
 			(at 109.982 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -11722,7 +11722,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 144.272 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -11734,7 +11734,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 144.272 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -11948,7 +11948,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 244.094 79.502 0)
 			(hide yes)
 			(show_name no)
@@ -11960,7 +11960,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 244.094 79.502 0)
 			(hide yes)
 			(show_name no)
@@ -12100,7 +12100,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 129.794 49.022 0)
 			(hide yes)
 			(show_name no)
@@ -12112,7 +12112,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07390KL"
 			(at 129.794 49.022 0)
 			(hide yes)
 			(show_name no)
@@ -12252,7 +12252,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 141.224 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -12264,7 +12264,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 141.224 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -12405,7 +12405,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 171.45 50.292 0)
 			(hide yes)
 			(show_name no)
@@ -12417,7 +12417,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 171.45 50.292 0)
 			(hide yes)
 			(show_name no)
@@ -12735,7 +12735,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 324.104 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -12747,7 +12747,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
 			(at 324.104 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -12962,7 +12962,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 276.86 230.632 0)
 			(hide yes)
 			(show_name no)
@@ -13136,7 +13136,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 313.182 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -13148,7 +13148,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 313.182 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -13288,7 +13288,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 298.704 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -13300,7 +13300,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0751KL"
 			(at 298.704 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -13514,7 +13514,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 244.094 46.482 0)
 			(hide yes)
 			(show_name no)
@@ -13526,7 +13526,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 244.094 46.482 0)
 			(hide yes)
 			(show_name no)
@@ -13666,7 +13666,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 99.314 266.192 0)
 			(hide yes)
 			(show_name no)
@@ -13678,7 +13678,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 99.314 266.192 0)
 			(hide yes)
 			(show_name no)
@@ -13967,7 +13967,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "??"
+		(property "MANUFACTURER" "YAGEO"
 			(at 354.33 230.632 0)
 			(hide yes)
 			(show_name no)
@@ -13979,7 +13979,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "??"
+		(property "MANUFACTURER_PN" "CC0603KRX5R6BB106"
 			(at 354.33 230.632 0)
 			(hide yes)
 			(show_name no)
@@ -14141,7 +14141,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 261.874 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -14153,7 +14153,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071KL"
 			(at 261.874 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -14293,7 +14293,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 32.004 184.912 0)
 			(hide yes)
 			(show_name no)
@@ -14305,7 +14305,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 32.004 184.912 0)
 			(hide yes)
 			(show_name no)
@@ -14446,7 +14446,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 63.754 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -14458,7 +14458,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0775KL"
 			(at 63.754 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -14778,7 +14778,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "TLV9002IDSG"
+		(property "MANUFACTURER_PN" "TLV9002IDSGR"
 			(at 112.522 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14916,7 +14916,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 155.194 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -14928,7 +14928,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
 			(at 155.194 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -15068,7 +15068,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 143.764 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -15080,7 +15080,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 143.764 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -15221,7 +15221,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 168.91 177.292 0)
 			(hide yes)
 			(show_name no)
@@ -15233,7 +15233,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 168.91 177.292 0)
 			(hide yes)
 			(show_name no)
@@ -15395,7 +15395,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 32.004 192.532 0)
 			(hide yes)
 			(show_name no)
@@ -15407,7 +15407,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07390KL"
 			(at 32.004 192.532 0)
 			(hide yes)
 			(show_name no)
@@ -15547,7 +15547,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 285.242 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -15559,7 +15559,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0721K5L"
 			(at 285.242 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -15699,7 +15699,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 127.254 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -15711,7 +15711,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07390KL"
 			(at 127.254 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -15851,7 +15851,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 66.294 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -15863,7 +15863,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 66.294 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -16003,7 +16003,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 127.254 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -16015,7 +16015,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0751KL"
 			(at 127.254 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -16303,7 +16303,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 129.794 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -16315,7 +16315,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0751KL"
 			(at 129.794 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -16703,7 +16703,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 325.12 230.632 0)
 			(hide yes)
 			(show_name no)
@@ -16909,7 +16909,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "TLV9002IDSG"
+		(property "MANUFACTURER_PN" "TLV9002IDSGR"
 			(at 283.972 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17047,7 +17047,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 80.772 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17327,7 +17327,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "TLV9002IDSG"
+		(property "MANUFACTURER_PN" "TLV9002IDSGR"
 			(at 281.432 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17613,7 +17613,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 116.332 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -17625,7 +17625,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0721K5L"
 			(at 116.332 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -17914,7 +17914,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 273.304 193.802 0)
 			(hide yes)
 			(show_name no)
@@ -17926,7 +17926,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 273.304 193.802 0)
 			(hide yes)
 			(show_name no)
@@ -18222,7 +18222,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 90.424 266.192 0)
 			(hide yes)
 			(show_name no)
@@ -18234,7 +18234,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071KL"
 			(at 90.424 266.192 0)
 			(hide yes)
 			(show_name no)
@@ -18523,7 +18523,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 340.36 49.022 0)
 			(hide yes)
 			(show_name no)
@@ -18535,7 +18535,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 340.36 49.022 0)
 			(hide yes)
 			(show_name no)
@@ -18698,7 +18698,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 78.232 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -19020,7 +19020,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 298.704 47.752 0)
 			(hide yes)
 			(show_name no)
@@ -19032,7 +19032,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07390KL"
 			(at 298.704 47.752 0)
 			(hide yes)
 			(show_name no)
@@ -19173,7 +19173,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 72.644 174.752 0)
 			(hide yes)
 			(show_name no)
@@ -19185,7 +19185,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 72.644 174.752 0)
 			(hide yes)
 			(show_name no)
@@ -19399,7 +19399,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 312.674 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -19411,7 +19411,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 312.674 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -19540,7 +19540,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Everlight"
+		(property "MANUFACTURER" "Everlight Electronics Co Ltd"
 			(at 154.94 69.342 90)
 			(hide yes)
 			(show_name no)
@@ -19552,7 +19552,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "QTLP600C-4"
+		(property "MANUFACTURER_PN" "QTLP600C4TR"
 			(at 154.94 69.342 90)
 			(hide yes)
 			(show_name no)
@@ -19702,7 +19702,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 152.654 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -19714,7 +19714,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
 			(at 152.654 186.182 0)
 			(hide yes)
 			(show_name no)

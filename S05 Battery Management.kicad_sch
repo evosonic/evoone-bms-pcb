@@ -6817,7 +6817,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 116.332 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6829,7 +6829,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 116.332 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6987,7 +6987,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Diodes"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 314.452 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -6999,7 +6999,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DT1240V3-04LP"
+		(property "MANUFACTURER_PN" "DT1240V3-04LP-7"
 			(at 314.452 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -7125,7 +7125,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 261.112 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -7137,7 +7137,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 261.112 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -7297,7 +7297,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Diodes"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 314.452 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7309,7 +7309,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DT1240V3-04LP"
+		(property "MANUFACTURER_PN" "DT1240V3-04LP-7"
 			(at 314.452 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7435,7 +7435,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 261.112 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -7447,7 +7447,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 261.112 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -7735,7 +7735,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 261.112 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -7747,7 +7747,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 261.112 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -7982,7 +7982,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 96.012 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7994,7 +7994,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 96.012 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8322,7 +8322,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 115.062 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8334,7 +8334,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 115.062 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8472,7 +8472,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 51.054 108.712 0)
 			(hide yes)
 			(show_name no)
@@ -8484,7 +8484,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071KL"
 			(at 51.054 108.712 0)
 			(hide yes)
 			(show_name no)
@@ -8718,7 +8718,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Analog Devices"
+		(property "MANUFACTURER" "Analog Devices Inc."
 			(at 154.432 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8730,7 +8730,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "LTC1960CUHF"
+		(property "MANUFACTURER_PN" "LTC1960CUHF#PBF"
 			(at 154.432 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8978,7 +8978,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Analog Devices"
+		(property "MANUFACTURER" "Analog Devices Inc."
 			(at 153.162 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8990,7 +8990,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "LTC1960CUHF"
+		(property "MANUFACTURER_PN" "LTC1960CUHF#PBF"
 			(at 153.162 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -9219,7 +9219,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Vishay"
+		(property "MANUFACTURER" "Panjit International Inc."
 			(at 45.212 120.142 90)
 			(hide yes)
 			(show_name no)
@@ -9231,7 +9231,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "BAT54A"
+		(property "MANUFACTURER_PN" "BAT54A_R1_00001"
 			(at 45.212 120.142 90)
 			(hide yes)
 			(show_name no)
@@ -9394,7 +9394,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 94.742 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9406,7 +9406,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 94.742 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9959,7 +9959,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 261.112 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -9971,7 +9971,7 @@
 				(justify right top)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 261.112 176.53 90)
 			(hide yes)
 			(show_name no)

@@ -7143,7 +7143,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Amphenol"
+		(property "MANUFACTURER" "Amphenol ICC (FCI)"
 			(at 184.912 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9240,7 +9240,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 230.124 168.402 0)
 			(hide yes)
 			(show_name no)
@@ -9252,7 +9252,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 230.124 168.402 0)
 			(hide yes)
 			(show_name no)

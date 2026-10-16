@@ -326,7 +326,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -339,7 +339,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-07680KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -553,7 +553,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -566,7 +566,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -780,7 +780,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -793,7 +793,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1005,7 +1005,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Everlight"
+		(property "MANUFACTURER" "Everlight Electronics Co Ltd"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1017,7 +1017,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "QTLP600C-4"
+		(property "MANUFACTURER_PN" "QTLP600C4TR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1280,7 +1280,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1293,7 +1293,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1505,7 +1505,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1518,7 +1518,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1756,7 +1756,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1769,7 +1769,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2310,7 +2310,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Infineon"
+		(property "MANUFACTURER" "Infineon Technologies"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3283,7 +3283,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Littelfuse Inc."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3508,7 +3508,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3521,7 +3521,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3732,7 +3732,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3985,7 +3985,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3998,7 +3998,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07619KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4210,7 +4210,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4223,7 +4223,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4437,7 +4437,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4450,7 +4450,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4661,7 +4661,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4674,7 +4674,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07619KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4888,7 +4888,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4901,7 +4901,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0712KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5115,7 +5115,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5128,7 +5128,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5653,7 +5653,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5666,7 +5666,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5877,7 +5877,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6130,7 +6130,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6143,7 +6143,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6383,7 +6383,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6396,7 +6396,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0751KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6695,7 +6695,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6708,7 +6708,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CC0402JRNPO9BN101"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6948,7 +6948,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6961,7 +6961,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7201,7 +7201,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7214,7 +7214,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7425,7 +7425,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7438,7 +7438,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07390KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7736,7 +7736,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Bourns Inc."
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7960,7 +7960,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8211,7 +8211,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8224,7 +8224,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8957,7 +8957,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9428,7 +9428,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9441,7 +9441,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10144,7 +10144,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10157,7 +10157,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-073K6L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10368,7 +10368,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10381,7 +10381,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10595,7 +10595,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10845,7 +10845,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10858,7 +10858,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11069,7 +11069,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11319,7 +11319,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11332,7 +11332,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11546,7 +11546,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11559,7 +11559,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12002,7 +12002,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12015,7 +12015,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CC0603KRX7R9BB224"
+		(property "MANUFACTURER_PN" "AC0603KRX7R9BB224"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12252,7 +12252,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12265,7 +12265,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12479,7 +12479,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12492,7 +12492,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-075K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12706,7 +12706,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12719,7 +12719,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12930,7 +12930,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12943,7 +12943,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13896,7 +13896,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14146,7 +14146,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14397,7 +14397,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Bourns"
+		(property "MANUFACTURER" "Bourns Inc."
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14761,7 +14761,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14774,7 +14774,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14988,7 +14988,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15001,7 +15001,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM155R71C103K"
+		(property "MANUFACTURER_PN" "GRM155R71C103KA01D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15239,7 +15239,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
+		(property "MANUFACTURER" "Panasonic Industry"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16024,7 +16024,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16037,7 +16037,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0751KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16248,7 +16248,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16499,7 +16499,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Everlight"
+		(property "MANUFACTURER" "Everlight Electronics Co Ltd"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16511,7 +16511,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "QTLP600C-4"
+		(property "MANUFACTURER_PN" "QTLP600C4TR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16798,7 +16798,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17337,7 +17337,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17349,7 +17349,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DT1240V3-04LP"
+		(property "MANUFACTURER_PN" "DT1240V3-04LP-7"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17713,7 +17713,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17726,7 +17726,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17938,7 +17938,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panjit"
+		(property "MANUFACTURER" "Panjit International Inc."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17951,7 +17951,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "SS0540"
+		(property "MANUFACTURER_PN" "SS0540_R1_00001"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18305,7 +18305,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18318,7 +18318,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0805KRX7R9BB471"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18558,7 +18558,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18571,7 +18571,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18785,7 +18785,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18798,7 +18798,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0762KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19012,7 +19012,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "??"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19025,7 +19025,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "??"
+		(property "MANUFACTURER_PN" "CC0603KRX5R6BB106"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19265,7 +19265,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19278,7 +19278,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19950,7 +19950,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20203,7 +20203,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20216,7 +20216,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0751KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20440,7 +20440,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay"
+		(property "MANUFACTURER" "Panjit International Inc."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20452,7 +20452,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "BAT54A"
+		(property "MANUFACTURER_PN" "BAT54A_R1_00001"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20874,7 +20874,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20887,7 +20887,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07390KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21101,7 +21101,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21114,7 +21114,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0751KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21328,7 +21328,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21581,7 +21581,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21594,7 +21594,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CC0402JRNPO9BN101"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22555,7 +22555,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
+		(property "MANUFACTURER" "Panasonic Industry"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23137,7 +23137,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "TLV9002IDSG"
+		(property "MANUFACTURER_PN" "TLV9002IDSGR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23517,7 +23517,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay"
+		(property "MANUFACTURER" "Vishay Dale"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23718,7 +23718,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23731,7 +23731,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23968,7 +23968,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "NXP"
+		(property "MANUFACTURER" "NXP USA Inc."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24825,7 +24825,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24838,7 +24838,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-075K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25076,7 +25076,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Analog Devices"
+		(property "MANUFACTURER" "Analog Devices Inc."
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25089,7 +25089,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "LTC4365IDDB"
+		(property "MANUFACTURER_PN" "LTC4365IDDB#TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25672,7 +25672,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25925,7 +25925,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Bourns"
+		(property "MANUFACTURER" "Bourns Inc."
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26152,7 +26152,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26165,7 +26165,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0727KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26377,7 +26377,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26390,7 +26390,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC1210FR-072R2L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26604,7 +26604,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26857,7 +26857,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26870,7 +26870,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27808,7 +27808,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27821,7 +27821,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0721K5L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28035,7 +28035,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28048,7 +28048,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CL32A226KAJNNWE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28312,7 +28312,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28325,7 +28325,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28824,7 +28824,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28837,7 +28837,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-074K22L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29048,7 +29048,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30035,7 +30035,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30048,7 +30048,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-075K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30262,7 +30262,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30275,7 +30275,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0603KRX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30597,7 +30597,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30610,7 +30610,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30941,7 +30941,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30954,7 +30954,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31168,7 +31168,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31181,7 +31181,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0775KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31395,7 +31395,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31408,7 +31408,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "GRM219R61A475KE34J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31648,7 +31648,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31661,7 +31661,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0402JRNPO9BN111"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31901,7 +31901,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32154,7 +32154,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32167,7 +32167,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0710RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32381,7 +32381,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32634,7 +32634,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32647,7 +32647,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32859,7 +32859,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay"
+		(property "MANUFACTURER" "Vishay Dale"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33060,7 +33060,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33073,7 +33073,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33514,7 +33514,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay"
+		(property "MANUFACTURER" "Vishay Dale"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33715,7 +33715,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33728,7 +33728,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07390KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33966,7 +33966,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34490,7 +34490,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34503,7 +34503,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC1206KKX5R9BB225"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34743,7 +34743,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34996,7 +34996,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35009,7 +35009,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-072K7L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35247,7 +35247,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Infineon"
+		(property "MANUFACTURER" "Infineon Technologies"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35755,7 +35755,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35768,7 +35768,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36279,7 +36279,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36292,7 +36292,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36532,7 +36532,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36545,7 +36545,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37207,7 +37207,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37220,7 +37220,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37431,7 +37431,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37444,7 +37444,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37658,7 +37658,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Bourns Inc."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37909,7 +37909,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37922,7 +37922,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38437,7 +38437,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38450,7 +38450,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38664,7 +38664,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38677,7 +38677,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0402KRX7R9BB153"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38914,7 +38914,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38927,7 +38927,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39138,7 +39138,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39151,7 +39151,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39365,7 +39365,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39378,7 +39378,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39616,7 +39616,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Analog Devices"
+		(property "MANUFACTURER" "Analog Devices Inc."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39629,7 +39629,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "LTC1960CUHF"
+		(property "MANUFACTURER_PN" "LTC1960CUHF#PBF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40749,7 +40749,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40762,7 +40762,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40976,7 +40976,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40989,7 +40989,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41203,7 +41203,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41216,7 +41216,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0805KRX7R9BB102"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41456,7 +41456,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41469,7 +41469,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41681,7 +41681,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Everlight"
+		(property "MANUFACTURER" "Everlight Electronics Co Ltd"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41693,7 +41693,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "QTLP600C-4"
+		(property "MANUFACTURER_PN" "QTLP600C4TR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41982,7 +41982,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "KEMET"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41995,7 +41995,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "C0402C182K4RACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42209,7 +42209,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42464,7 +42464,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "LittelFuse"
+		(property "MANUFACTURER" "Littelfuse Inc."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42806,7 +42806,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42819,7 +42819,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43033,7 +43033,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43046,7 +43046,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0721K5L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43260,7 +43260,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43273,7 +43273,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43942,7 +43942,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43955,7 +43955,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44895,7 +44895,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45145,7 +45145,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45158,7 +45158,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45370,7 +45370,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
+		(property "MANUFACTURER" "Panasonic Industry"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45916,7 +45916,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45929,7 +45929,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-071K87L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46140,7 +46140,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46153,7 +46153,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46393,7 +46393,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46643,7 +46643,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46656,7 +46656,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46868,7 +46868,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
+		(property "MANUFACTURER" "Panasonic Industry"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47428,7 +47428,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47441,7 +47441,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-075K62L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48010,7 +48010,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48023,7 +48023,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48235,7 +48235,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Everlight"
+		(property "MANUFACTURER" "Everlight Electronics Co Ltd"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48247,7 +48247,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "QTLP600C-4"
+		(property "MANUFACTURER_PN" "QTLP600C4TR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48507,7 +48507,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48520,7 +48520,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48731,7 +48731,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48981,7 +48981,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48994,7 +48994,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49205,7 +49205,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49218,7 +49218,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49432,7 +49432,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49445,7 +49445,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49659,7 +49659,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49672,7 +49672,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50358,7 +50358,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50371,7 +50371,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51535,7 +51535,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51547,7 +51547,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DT1240V3-04LP"
+		(property "MANUFACTURER_PN" "DT1240V3-04LP-7"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51908,7 +51908,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51921,7 +51921,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52135,7 +52135,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Panasonic Industry"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52148,7 +52148,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "ERJ-2RKF4022X"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52359,7 +52359,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53105,7 +53105,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
+		(property "MANUFACTURER" "Panasonic Industry"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54098,7 +54098,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54111,7 +54111,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0402KRX7R9BB472"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54910,7 +54910,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54923,7 +54923,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC1210FR-072R2L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55137,7 +55137,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55150,7 +55150,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56415,7 +56415,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56428,7 +56428,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57116,7 +57116,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57129,7 +57129,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0713KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57343,7 +57343,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57356,7 +57356,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0721K5L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57568,7 +57568,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57581,7 +57581,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57793,7 +57793,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Vishay"
+		(property "MANUFACTURER" "Vishay Dale"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57991,7 +57991,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58004,7 +58004,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "CC0603KRX7R9BB224"
+		(property "MANUFACTURER_PN" "AC0603KRX7R9BB224"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58258,7 +58258,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "B340A"
+		(property "MANUFACTURER_PN" "B340A-13-F"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -58776,7 +58776,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58789,7 +58789,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0710RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59003,7 +59003,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59016,7 +59016,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0751KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59969,7 +59969,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59982,7 +59982,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60236,7 +60236,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "B340A"
+		(property "MANUFACTURER_PN" "B340A-13-F"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -60590,7 +60590,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Infineon"
+		(property "MANUFACTURER" "Infineon Technologies"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61074,7 +61074,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61657,7 +61657,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61670,7 +61670,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62150,7 +62150,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "TLV9002IDSG"
+		(property "MANUFACTURER_PN" "TLV9002IDSGR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62536,7 +62536,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62549,7 +62549,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-0761K9L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62763,7 +62763,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62776,7 +62776,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "AC0402JRNPO9BN102"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64406,7 +64406,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64419,7 +64419,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071M07L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64633,7 +64633,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64646,7 +64646,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64874,7 +64874,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "B340A"
+		(property "MANUFACTURER_PN" "B340A-13-F"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -65204,7 +65204,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66370,7 +66370,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66383,7 +66383,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07100KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66597,7 +66597,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66610,7 +66610,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-07619KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66824,7 +66824,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66837,7 +66837,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67569,7 +67569,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67819,7 +67819,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67832,7 +67832,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68046,7 +68046,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68059,7 +68059,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0402KRX7R8BB683"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69947,7 +69947,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70200,7 +70200,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70213,7 +70213,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70427,7 +70427,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70440,7 +70440,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-071KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70774,7 +70774,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70787,7 +70787,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71051,7 +71051,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Diodes Inc"
+		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71064,7 +71064,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG"
+		(property "MANUFACTURER_PN" "DMT4011LFG-13"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71575,7 +71575,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71588,7 +71588,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "RC0402FR-075K62L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71802,7 +71802,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71815,7 +71815,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0775KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72029,7 +72029,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72042,7 +72042,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" ""
+		(property "MANUFACTURER_PN" "CC0402JRNPO9BN181"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72279,7 +72279,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72292,7 +72292,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72506,7 +72506,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72756,7 +72756,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73033,7 +73033,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Amphenol"
+		(property "MANUFACTURER" "Amphenol ICC (FCI)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73780,7 +73780,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74007,7 +74007,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74020,7 +74020,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74234,7 +74234,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74247,7 +74247,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402FR-07390KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74459,7 +74459,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "?"
+		(property "MANUFACTURER" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74472,7 +74472,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PN" "?"
+		(property "MANUFACTURER_PN" "RC0402JR-070RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
