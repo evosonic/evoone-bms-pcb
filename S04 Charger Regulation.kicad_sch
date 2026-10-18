@@ -6011,7 +6011,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRM219R61A475KE34J"
 			(at 148.59 168.402 0)
 			(hide yes)
 			(show_name no)
@@ -6035,7 +6035,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "KEMET"
 			(at 148.59 168.402 0)
 			(hide yes)
 			(show_name no)
@@ -6047,7 +6047,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRM219R61A475KE34J"
+		(property "MANUFACTURER_PN" "C0805C475K8PACTU"
 			(at 148.59 168.402 0)
 			(hide yes)
 			(show_name no)
@@ -7152,7 +7152,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRT188R61H105KE13D"
 			(at 269.24 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -7176,7 +7176,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 269.24 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -7188,7 +7188,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 269.24 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -9256,7 +9256,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "SS0540 40V"
+		(property "Value" "MBR0540 40V"
 			(at 142.24 94.742 90)
 			(hide yes)
 			(show_name no)
@@ -9290,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode Schottky SS0540 0.5A SOD-123"
+		(property "Description" "Diode Schottky MBR0540 0.5A SOD-123"
 			(at 143.51 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9301,7 +9301,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Panjit International Inc. SS0540_R1_00001"
 			(at 142.24 94.742 90)
 			(hide yes)
 			(show_name no)
@@ -9325,7 +9325,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Panjit International Inc."
+		(property "MANUFACTURER" "MCC (Micro Commercial Components)"
 			(at 142.24 94.742 90)
 			(hide yes)
 			(show_name no)
@@ -9337,7 +9337,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "SS0540_R1_00001"
+		(property "MANUFACTURER_PN" "MBR0540-TP"
 			(at 142.24 94.742 90)
 			(hide yes)
 			(show_name no)

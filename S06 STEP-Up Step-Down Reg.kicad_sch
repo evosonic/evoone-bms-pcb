@@ -8716,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor Shielded Power 0.68uH XAL8080"
+		(property "Description" "Inductor Shielded Power 0.68uH 20A"
 			(at 215.9 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8727,7 +8727,7 @@
 				)
 			)
 		)
-		(property "NOTE" "Alternate: Würth Elektronik 744393580068"
+		(property "NOTE" "Alternate: Coilcraft XAL8080-681MEB"
 			(at 215.392 72.136 0)
 			(hide yes)
 			(show_name no)
@@ -8751,7 +8751,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER" "Coilcraft"
+		(property "MANUFACTURER" "Würth Elektronik"
 			(at 211.582 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8763,7 +8763,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "XAL8080-681MEB"
+		(property "MANUFACTURER_PN" "744393580068"
 			(at 211.582 69.85 0)
 			(hide yes)
 			(show_name no)

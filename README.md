@@ -301,9 +301,19 @@ order keep the schematic's part number, or take a Yageo RC/CC-series part:
 `RC0402FR-071K87L`, `RC1210FR-072R2L`, `CC0805KPX7R9BB102`,
 `CC0603KRX7R9BB104`. Resistors are standardised on Yageo (R31
 `RC0402FR-1340K2L`, R111–R114 `RC0603FR-073RL`), except the current-sense
-shunts R16, R19, R42 and R48. D6–D8 are `B340A-13-F`. L2 is Coilcraft `XAL8080-681MEB`; its NOTE field lists the
-alternate fitted on the builds, Würth `744393580068`. M1–M6 have no manufacturer
+shunts R16, R19, R42 and R48. D6–D8 are `B340A-13-F`. M1–M6 have no manufacturer
 fields; their value is the Würth part number.
+
+Five lines use parts held in stock from the 0.5.0 orders, with the earlier
+schematic part kept in the NOTE field as `Alternate: <manufacturer> <part number>`:
+
+| Ref | Fitted part | Alternate (NOTE) |
+|---|---|---|
+| C6 | Yageo `CC0402KRX7R9BB182` 1.8 nF 50 V X7R, as C46, C47, C51 | KEMET `C0402C182K4RACTU` |
+| C8, C9, C23, C44, C45, C48–C50, C54 | Samsung `CL10A105KB8NNNC` 1 µF 50 V X5R 0603 | Murata `GRT188R61H105KE13D` (AEC-Q200) |
+| C15 | KEMET `C0805C475K8PACTU` 4.7 µF 10 V X5R 0805 | Murata `GRM219R61A475KE34J` |
+| D2 | MCC `MBR0540-TP` | Panjit `SS0540_R1_00001` |
+| L2 | Würth `744393580068` 0.68 µH, on the XAL8080 footprint | Coilcraft `XAL8080-681MEB` |
 
 ## Fixes after import
 

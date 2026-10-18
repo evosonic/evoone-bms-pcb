@@ -8654,7 +8654,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRT188R61H105KE13D"
 			(at 55.88 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -8678,7 +8678,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 55.88 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -8690,7 +8690,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 55.88 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -9512,7 +9512,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRT188R61H105KE13D"
 			(at 53.34 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -9536,7 +9536,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 53.34 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -9548,7 +9548,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 53.34 207.772 0)
 			(hide yes)
 			(show_name no)
@@ -10449,7 +10449,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRT188R61H105KE13D"
 			(at 224.79 79.502 0)
 			(hide yes)
 			(show_name no)
@@ -10473,7 +10473,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 224.79 79.502 0)
 			(hide yes)
 			(show_name no)
@@ -10485,7 +10485,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 224.79 79.502 0)
 			(hide yes)
 			(show_name no)
@@ -12381,7 +12381,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRT188R61H105KE13D"
 			(at 171.45 50.292 0)
 			(hide yes)
 			(show_name no)
@@ -12405,7 +12405,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 171.45 50.292 0)
 			(hide yes)
 			(show_name no)
@@ -12417,7 +12417,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 171.45 50.292 0)
 			(hide yes)
 			(show_name no)
@@ -15197,7 +15197,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRT188R61H105KE13D"
 			(at 168.91 177.292 0)
 			(hide yes)
 			(show_name no)
@@ -15221,7 +15221,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 168.91 177.292 0)
 			(hide yes)
 			(show_name no)
@@ -15233,7 +15233,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 168.91 177.292 0)
 			(hide yes)
 			(show_name no)
@@ -18499,7 +18499,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRT188R61H105KE13D"
 			(at 340.36 49.022 0)
 			(hide yes)
 			(show_name no)
@@ -18523,7 +18523,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 340.36 49.022 0)
 			(hide yes)
 			(show_name no)
@@ -18535,7 +18535,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 340.36 49.022 0)
 			(hide yes)
 			(show_name no)

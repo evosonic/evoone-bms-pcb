@@ -5852,7 +5852,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRT188R61H105KE13D"
 			(at 220.98 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -5876,7 +5876,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 220.98 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -5888,7 +5888,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 220.98 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -6964,7 +6964,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor 1.8nF 16V X7R 0402"
+		(property "Description" "Capacitor 1.8nF 50V X7R 0402"
 			(at 166.37 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -6975,7 +6975,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: KEMET C0402C182K4RACTU"
 			(at 165.1 137.922 0)
 			(hide yes)
 			(show_name no)
@@ -7022,7 +7022,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "KEMET"
+		(property "MANUFACTURER" "YAGEO"
 			(at 162.052 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7034,7 +7034,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "C0402C182K4RACTU"
+		(property "MANUFACTURER_PN" "CC0402KRX7R9BB182"
 			(at 162.052 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8430,7 +8430,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Murata Electronics GRT188R61H105KE13D"
 			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -8454,7 +8454,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -8466,7 +8466,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "GRT188R61H105KE13D"
+		(property "MANUFACTURER_PN" "CL10A105KB8NNNC"
 			(at 119.38 130.302 0)
 			(hide yes)
 			(show_name no)
