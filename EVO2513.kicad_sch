@@ -2521,6 +2521,30 @@
 				(justify left bottom)
 			)
 		)
+		(property "MANUFACTURER_PN" "78614150960"
+			(at 29.914 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 29.914 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(property "ALTIUM_VALUE" "78614150960"
 			(at 33.02 196.85 0)
 			(hide yes)
@@ -2708,6 +2732,30 @@
 				(justify left bottom)
 			)
 		)
+		(property "MANUFACTURER_PN" "78614150960"
+			(at 74.364 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 74.364 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 76.2 191.7698 0)
 			(show_name no)
@@ -2882,6 +2930,30 @@
 			)
 		)
 		(property "NOTE" ""
+			(at 139.134 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "78614150960"
+			(at 139.134 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
 			(at 139.134 193.167 0)
 			(hide yes)
 			(show_name no)
@@ -3226,6 +3298,30 @@
 				(justify left bottom)
 			)
 		)
+		(property "MANUFACTURER_PN" "78614150960"
+			(at 95.954 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 95.954 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(property "ALTIUM_FOOTPRINT" "THP Through M3 15mm"
 			(at 97.79 191.7698 0)
 			(show_name no)
@@ -3399,6 +3495,30 @@
 			)
 		)
 		(property "NOTE" ""
+			(at 52.774 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "78614150960"
+			(at 52.774 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
 			(at 52.774 193.167 0)
 			(hide yes)
 			(show_name no)
@@ -3658,6 +3778,30 @@
 			)
 		)
 		(property "NOTE" ""
+			(at 117.544 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PN" "78614150960"
+			(at 117.544 193.167 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
 			(at 117.544 193.167 0)
 			(hide yes)
 			(show_name no)

@@ -6772,7 +6772,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Diodes Incorporated DMT4011LFG-13"
 			(at 116.332 36.449 0)
 			(hide yes)
 			(show_name no)
@@ -6829,7 +6829,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG-13"
+		(property "MANUFACTURER_PN" "DMT4011LFG-7"
 			(at 116.332 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7937,7 +7937,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Diodes Incorporated DMT4011LFG-13"
 			(at 96.012 36.449 0)
 			(hide yes)
 			(show_name no)
@@ -7994,7 +7994,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG-13"
+		(property "MANUFACTURER_PN" "DMT4011LFG-7"
 			(at 96.012 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8277,7 +8277,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Diodes Incorporated DMT4011LFG-13"
 			(at 115.062 127.889 0)
 			(hide yes)
 			(show_name no)
@@ -8334,7 +8334,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG-13"
+		(property "MANUFACTURER_PN" "DMT4011LFG-7"
 			(at 115.062 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9349,7 +9349,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: Diodes Incorporated DMT4011LFG-13"
 			(at 94.742 127.889 0)
 			(hide yes)
 			(show_name no)
@@ -9406,7 +9406,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "DMT4011LFG-13"
+		(property "MANUFACTURER_PN" "DMT4011LFG-7"
 			(at 94.742 144.78 0)
 			(hide yes)
 			(show_name no)

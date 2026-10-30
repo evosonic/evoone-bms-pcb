@@ -12971,7 +12971,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: YAGEO RC1210FR-072R2L"
 			(at 181.864 84.582 0)
 			(hide yes)
 			(show_name no)
@@ -13007,7 +13007,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "RC1210FR-072R2L"
+		(property "MANUFACTURER_PN" "AC1210FR-072R2L"
 			(at 181.864 84.582 0)
 			(hide yes)
 			(show_name no)
@@ -14368,7 +14368,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: YAGEO RC1210FR-072R2L"
 			(at 226.314 84.582 0)
 			(hide yes)
 			(show_name no)
@@ -14404,7 +14404,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "RC1210FR-072R2L"
+		(property "MANUFACTURER_PN" "AC1210FR-072R2L"
 			(at 226.314 84.582 0)
 			(hide yes)
 			(show_name no)

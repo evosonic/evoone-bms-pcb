@@ -12711,7 +12711,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: YAGEO RC0402FR-074K7L"
 			(at 324.104 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -12747,7 +12747,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
+		(property "MANUFACTURER_PN" "RC0402FR-134K7L"
 			(at 324.104 57.912 0)
 			(hide yes)
 			(show_name no)
@@ -14892,7 +14892,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: YAGEO RC0402FR-074K7L"
 			(at 155.194 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -14928,7 +14928,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
+		(property "MANUFACTURER_PN" "RC0402FR-134K7L"
 			(at 155.194 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -19678,7 +19678,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: YAGEO RC0402FR-074K7L"
 			(at 152.654 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -19714,7 +19714,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
+		(property "MANUFACTURER_PN" "RC0402FR-134K7L"
 			(at 152.654 186.182 0)
 			(hide yes)
 			(show_name no)

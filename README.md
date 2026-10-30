@@ -301,8 +301,8 @@ order keep the schematic's part number, or take a Yageo RC/CC-series part:
 `RC0402FR-071K87L`, `RC1210FR-072R2L`, `CC0805KPX7R9BB102`,
 `CC0603KRX7R9BB104`. Resistors are standardised on Yageo (R31
 `RC0402FR-1340K2L`, R111–R114 `RC0603FR-073RL`), except the current-sense
-shunts R16, R19, R42 and R48. D6–D8 are `B340A-13-F`. M1–M6 have no manufacturer
-fields; their value is the Würth part number.
+shunts R16, R19, R42 and R48. D6–D8 are `B340A-13-F`. M1–M6 are Würth
+`78614150960`.
 
 Five lines use parts held in stock from the 0.5.0 orders, with the earlier
 schematic part kept in the NOTE field as `Alternate: <manufacturer> <part number>`:
@@ -314,6 +314,17 @@ schematic part kept in the NOTE field as `Alternate: <manufacturer> <part number
 | C15 | KEMET `C0805C475K8PACTU` 4.7 µF 10 V X5R 0805 | Murata `GRM219R61A475KE34J` |
 | D2 | MCC `MBR0540-TP` | Panjit `SS0540_R1_00001` |
 | L2 | Würth `744393580068` 0.68 µH, on the XAL8080 footprint | Coilcraft `XAL8080-681MEB` |
+
+Four lines carry the part numbers actually bought (DigiKey order 102349469 for
+the 15-board build, and the 0.5.0 Mouser order for Q6–Q11), with the earlier
+part kept in the NOTE field the same way:
+
+| Ref | Fitted part | Alternate (NOTE) |
+|---|---|---|
+| Q1, Q3 | Diodes `DMT6007LFG-7` (commercial grade) | Diodes `DMT6007LFGQ-7` (AEC-Q101) |
+| Q6–Q11 | Diodes `DMT4011LFG-7` (7″ reel) | Diodes `DMT4011LFG-13` (13″ reel) |
+| R10, R67, R68, R81 | Yageo `RC0402FR-134K7L` (13″ reel) | Yageo `RC0402FR-074K7L` (7″ reel) |
+| R41, R45 | Yageo `AC1210FR-072R2L` (AEC-Q200) | Yageo `RC1210FR-072R2L` |
 
 ## Fixes after import
 

@@ -6579,7 +6579,7 @@
 				)
 			)
 		)
-		(property "NOTE" ""
+		(property "NOTE" "Alternate: YAGEO RC0402FR-074K7L"
 			(at 112.014 193.802 0)
 			(hide yes)
 			(show_name no)
@@ -6615,7 +6615,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PN" "RC0402FR-074K7L"
+		(property "MANUFACTURER_PN" "RC0402FR-134K7L"
 			(at 112.014 193.802 0)
 			(hide yes)
 			(show_name no)
