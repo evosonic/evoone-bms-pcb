@@ -18,6 +18,14 @@
 	(condition "A.Type == 'Zone' && B.Type == 'Pad' && (B.memberOfFootprint('Q?') || B.memberOfFootprint('Q1?'))")
 	(constraint clearance (min 0.3mm)))
 
+# U1 (LTC1960) and U5 (LM51772): keep pours 0.3 mm from the non-GND pins, twice
+# the 0.15 mm board clearance. GND pins and the exposed pads still join the pour.
+# On U1 the 0.475 mm lead-to-exposed-pad gap then leaves a strip narrower than the
+# zone's 0.25 mm minimum width, so the pour stops at the exposed pad.
+(rule "U1/U5 pour to signal pins"
+	(condition "A.Type == 'Zone' && B.Type == 'Pad' && (B.memberOfFootprint('U1') || B.memberOfFootprint('U5')) && B.NetName != 'GND'")
+	(constraint clearance (min 0.3mm)))
+
 # No solder paste on DNP parts. KiCad plots paste for DNP footprints by
 # default; a large negative paste margin shrinks their apertures to nothing.
 # Follows the DNP flag, so clearing DNP on a part restores its paste.
