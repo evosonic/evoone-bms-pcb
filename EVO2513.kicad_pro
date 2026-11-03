@@ -1150,7 +1150,7 @@
     ]
   ],
   "text_variables": {
-    "BOARD_NUMBER": "EVO2513-0.6.0",
+    "BOARD_NUMBER": "EVO2513-0.6.1",
     "COMP_NAME": "evoSonic",
     "COMP_WEBSITE": "",
     "CONFIGURATIONPARAMETERS": "",
@@ -1160,8 +1160,8 @@
     "MODULE_NAME": "=Filename",
     "PAGESETUP": "Record=PageOptions¦CenterHorizontal=True¦CenterVertical=True¦PrintScale=0.70¦XCorrection=1.00¦YCorrection=1.00¦PrintKind=0¦BorderSize=5000000¦LeftOffset=0¦BottomOffset=0¦Orientation=2¦PaperLength=1000¦PaperWidth=1000¦Scale=100¦PaperSource=7¦PrintQuality=-4¦MediaType=1¦DitherType=10¦PaperKind=Letter¦PrintScaleMode=1",
     "PRODUCT_NAME": "EVOLUTION ONE",
-    "SCH_REVISION": "0.6.0",
-    "SCH_VERSION": "0.6.0",
+    "SCH_REVISION": "0.6.1",
+    "SCH_VERSION": "0.6.1",
     "SHEETSYMBOLDESIGNATOR": "",
     "SHEETTOTAL": "7",
     "SPICEMODELCACHE": "",
