@@ -997,7 +997,7 @@
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1015,7 +1015,7 @@
           "group_by": false,
           "label": "NOTE",
           "name": "NOTE",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1065,7 +1065,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1108,7 +1108,7 @@
         "uuid": "44203427-0a3b-455b-9bb9-c1b577d179b3"
       }
     ],
-    "used_designators": "#FLG2,#PWR1-99,M1-6",
+    "used_designators": "#FLG2,#PWR1-99,#PWR116,C30,C55,M1-6,R103,R116-118",
     "variants": []
   },
   "sheets": [
