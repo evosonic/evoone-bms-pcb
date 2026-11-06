@@ -130,7 +130,9 @@ nRST stays on DCBMS in both BIAS builds.
 
 | Pin | Fitted | DNP (alternative) |
 |---|---|---|
-| MODE (7) | R86 to GND: power-save mode (W16 review) | R87 back to VCC2/ILIMCOMP: forced PWM, as built before |
+| MODE (7) | R86 to GND: power-save mode (W16 review) | R87 back to VCC2: forced PWM, as built before |
+| ILIMCOMP/ISET (16) | R116 13K and C55 100 pF to GND: average current limit and current monitor enabled | R103 to VCC2: current limit disabled, as built before |
+| FB/SEL_intFB (14) | R117 to VCC2: internal feedback divider, output voltage set over I2C | R46 62K / R47 5.62K external divider, as built before |
 | BIAS (40) | R89 to +12V (U5's own output): the LM51772 datasheet's standard configuration (§7.3.5). VSMART runs the VCC2 regulator from the lower of VIN and BIAS once both exceed the switch-over threshold, so on the 24 V supply it drops from 12 V instead of 24 V; at start-up or with +12V shorted it falls back to VIN | R88 to DCBMS, as built on the field units |
 
 U5 is configured over I2C by default, not by its CFG resistors (parts right
@@ -157,8 +159,10 @@ from the resistor build:
 - VCC1, DRSS, hiccup mode and the current-limit options come from registers
   instead of R30 and R29
 - the internal DAC becomes the current-limit reference (`ILIM_THRESHOLD`);
-  ILIMCOMP is tied to VCC2, so confirm the average current limit stays
-  disabled
+  ILIMCOMP/ISET now has R116 13K and C55 100 pF to GND, so the average
+  current limit is active: set `ILIM_THRESHOLD` to the intended limit
+- R117 selects the internal feedback divider (R46/R47 DNP), so the +12V
+  output voltage comes from U5's registers, not a resistor divider
 - constant dead time (`EN_CONST_TDEAD`) defaults off; R30 (CFG3 setting 7)
   turns it on
 
@@ -280,7 +284,7 @@ Five U5 (LM51772) changes found during the review:
 | C32 | 22 µF 6.3 V X5R 0603 on VCC2 | 22 µF **16 V** X5R **0805** Murata `GRM219R61C226ME15L` | VCC2 needs 6 µF minimum; the 0603 keeps only about 5–7 µF at 5 V |
 | R29 | 1.9K | **1.87K** | CFG4 setting #3 accepts 1.814–1.926 kΩ (1.87K typical); 1.9K isn't a 1% value, and 1.91K can reach 1.929 kΩ |
 | **C61** (new) | — | 100 nF 50 V X7R 0402 `CC0402KPX7R9BB104` (as C34), BIAS (pin 40) to GND, between R88 and R89 | BIAS had no local decoupling; TI's WEBENCH design puts 100 nF (Cbias) on it. The +12V caps are about 4.6 mm away through R89 |
-| R46 (FB top) | on the power-stage side of R48 | on **+12V**, teed into the ISNSN Kelvin trace from R48's load-side pad | +12V is regulated after the 5 mΩ shunt, so it no longer sags by R48's drop (about 55 mV at 11 A). Matches the datasheet's Figure 9-1 and §9.9.1.3 (route the top feedback resistor to the output sense point). VOUT (pin 18) stays on the power stage |
+| R46 (FB top) | on the power-stage side of R48 | on **+12V**, teed into the ISNSN Kelvin trace from R48's load-side pad | +12V is regulated after the 5 mΩ shunt, so it no longer sags by R48's drop (about 55 mV at 11 A). Matches the datasheet's Figure 9-1 and §9.9.1.3 (route the top feedback resistor to the output sense point). VOUT (pin 18) stays on the power stage. Since superseded: R46/R47 are DNP and R117 selects the internal feedback divider |
 
 Run Update PCB from Schematic to swap the footprints. Parts that grow overlap
 their neighbours' courtyards and need moving: the 0603s for C8 and C9 by up

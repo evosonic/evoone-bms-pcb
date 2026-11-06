@@ -140,8 +140,13 @@ resistor build:
 - VCC1, DRSS, hiccup mode and the current-limit options come from registers
   instead of R30 and R29
 - the internal DAC becomes the current-limit reference (`ILIM_THRESHOLD`);
-  ILIMCOMP is tied to VCC2, so confirm the average current limit stays
-  disabled
+  ILIMCOMP/ISET now has R116 13K and C55 100 pF to GND, so the average
+  current limit is active: set `ILIM_THRESHOLD` to the intended limit.
+  Fitting R103 (0R to VCC2, DNP) disables it again
+- **Changed:** FB/SEL_intFB is tied to VCC2 through R117, selecting the
+  internal feedback divider (R46/R47 DNP). The +12V output voltage comes
+  from U5's registers, so firmware must set it; there is no resistor
+  divider to fall back on
 - constant dead time (`EN_CONST_TDEAD`) defaults off; R30 (CFG3 setting 7)
   turns it on
 
